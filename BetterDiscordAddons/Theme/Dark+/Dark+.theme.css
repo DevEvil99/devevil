@@ -901,3 +901,7 @@ button[aria-label="Send a gift"] {
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
+::selection {
+    background-color: #212121;
+    color:  #cdaef3;
+}
