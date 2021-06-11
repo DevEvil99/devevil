@@ -4,6 +4,10 @@ body {
 }
 h1 {
   color: #643DA7;
+  text-align: center;
+}
+h3 {
+    text-align: center;
 }
 a {
   text-decoration: none;
