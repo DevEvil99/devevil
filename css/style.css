@@ -16,3 +16,7 @@ a {
 b {
   color: #643DA7;
 }
+
+ul {
+  list-style: none;
+}
