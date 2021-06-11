@@ -259,6 +259,44 @@
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN {
   background-color: var(--darkplus-links);
 }
+.stageSection-3mAD8V {
+    background-color: var(--darkplus-bg);
+}
+
+.featuredTag-3pT1Rf {
+    background-color:var(--darkplus-bg2);
+}
+.colorHeaderPrimary-26Jzh- {
+    color: var(--darkplus-sec);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-color: var(--darkplus-bg2);
+    color: var(--darkplus-sec);
+}
+.scroller-1IIF0A {
+    background-color: var(--darkplus-bg);
+}
+.header-39GIC8 {
+    background-color: var(--darkplus-bg);
+    border-bottom: none;
+}
+.headerCellContent-1pLtOr {
+    color: var(--darkplus-sec);
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: var(--darkplus-bg2);
+    color: var(--darkplus-sec);
+}
+.theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover, .theme-light .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
+    background-color: var(--darkplus-sec);
+    color: var(--darkplus-bg2);
+}
+.nameCellText-1mpqtF {
+    color: var(--darkplus-sec);
+}
+.scroller-2XE8rp {
+    background-color: var(--darkplus-bg);
+}
 .anchor-3Z-8Bb {
   color: var(--darkplus-sec);
 }
