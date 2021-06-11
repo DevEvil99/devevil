@@ -16,10 +16,7 @@ a {
 b {
   color: #643DA7;
 }
-
-ul {
-  list-style: none;
-}
-ul li a {
+.themes a{
   text-align: center;
 }
+  
