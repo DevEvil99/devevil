@@ -890,6 +890,10 @@ button[aria-label="Send a gift"] {
 .iconBadge-3qSJIw.participating-1NvRVd {
   background-color: var(--darkplus-sec);
 }
+.botTagRegular-2HEhHi{
+    color: #bb86fc;
+    background-color: #302f2f;
+}
 
 .field-1HUseB > div > div > div {
   filter: blur(5px);
