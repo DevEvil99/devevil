@@ -16,6 +16,10 @@ a {
 b {
   color: #643DA7;
 }
+p {
+  color: #643DA7;
+  text-align: center;
+}
 .themes {
   text-align: center;
 }
