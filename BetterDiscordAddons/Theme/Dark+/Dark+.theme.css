@@ -1005,6 +1005,10 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkplus-sec);
 }
 
+.hasBanner-2SrLR3 .header-2V-4Sw, .hasBanner-2SrLR3 .header-2V-4Sw:hover {
+  background-color: var(--darkplus-bg);
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
