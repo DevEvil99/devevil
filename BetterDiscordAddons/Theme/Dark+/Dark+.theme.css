@@ -1,3 +1,14 @@
+/**
+  *	@name Dark+-test
+  *	@author DevEvil#8745
+  *	@version Dark+1
+  *	@description Highly customized dark and purple theme for Discord
+  * @authorId 468132563714703390
+  * @source https://github.com/DevEvil99/DarkPlus-Discord-Theme
+  * @website https://devevil.xyz
+  * @invite jsQ9UP7kCA
+*/
+
 :root {
   --darkplus-bg: #212121;
   --darkplus-bg2: #302f2f;
@@ -213,13 +224,13 @@
   border-radius: 50px;
   pointer-events: fill;
 }
-.winButtonClose-1HsbF- {
+.winButton-iRh8-Z {
   margin-right: 3px;
 }
-.winButtonClose-1HsbF-::after {
+.winButton-iRh8-Z::after {
   background-color: var(--darkplus-sec);
 }
-.winButtonClose-1HsbF-:hover::after {
+.winButton-iRh8-Z:hover::after {
   background-color: #ce0000;
 }
 .winButtonMinMax-PBQ2gm[aria-label="Maximize"]::after {
