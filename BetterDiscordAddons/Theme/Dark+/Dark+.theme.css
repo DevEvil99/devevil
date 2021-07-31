@@ -1010,10 +1010,10 @@ button[aria-label="Send a gift"] {
 }
 
 .replyBar-1YLQ2F {
-  background-color: var(--darkplus-sec);
+  background-color: var(--darkplus-bg1);
 }
 .closeIcon-HLoKft {
-  color: var(--darkplus-bg);
+  color: var(--darkplus-sec);
 }
 .colorHeaderSecondary-3Sp3Ft {
   color: var(--darkplus-bg);
@@ -1090,6 +1090,68 @@ button[aria-label="Send a gift"] {
 }
 .subtitle-1KdHaN {
   color: var(--darkplus-sec);
+}
+.size14-e6ZScH {
+  color: var(--darkplus-sec);
+}
+.activity-2INFPu {
+  background-color: var(--darkplus-bg);
+}
+.rolesList-1geHY1 {
+  background-color: var(--darkplus-bg);
+}
+.base-1x0h_U.muted-3-7c5L {
+  background-color: var(--darkplus-bg);
+  color: var(--darkplus-sec);
+}
+.body-3HBlXn {
+  background-color: var(--darkplus-bg);
+}
+.theme-dark .root-1gCeng {
+  background-color: var(--darkplus-bg);
+}
+.size12-3cLvbJ {
+  color: var(--darkplus-sec);
+}
+.icons-2E-yxr {
+  color: var(--darkplus-sec);
+}
+.selectedIcon-3uS11H {
+  color: var(--darkplus-sec);
+}
+.card-2Mz_4z {
+  background-color: var(--darkplus-bg2);
+}
+.radioBar-bMNUI- {
+  background-color: var(--darkplus-bg2);
+}
+.channelInfo-2OWB9j {
+  color: var(--darkplus-sec);
+}
+.channelIcon-2xPHJh {
+  color: var(--darkplus-sec);
+}
+.radioIconForeground-XwlXQN {
+  color: var(--darkplus-sec);
+}
+.selectedIcon-DE5J2w {
+  color: var(--darkplus-sec);
+}
+.ellipsisText-2EszCb {
+  color: var(--darkplus-sec);
+}
+.selectorButtonSelected-t5V9On {
+  background-color: var(--darkplus-bg);
+}
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+  background-color: var(--darkplus-bg);
+}
+
+.textContent-3N7xXx {
+  color: var(--darkplus-bg);
+}
+.cozy-12kSNU.wrapper-1F5TKx {
+  background-color: var(--darkplus-bg);
 }
 
 ::-webkit-scrollbar-thumb {
