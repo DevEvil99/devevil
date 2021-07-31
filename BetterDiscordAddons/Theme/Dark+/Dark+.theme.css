@@ -1242,7 +1242,11 @@ button[aria-label="Send a gift"] {
 }
 
 .emptyTierImage-UTgz1t, .unlockTierCtaHeading-3Q9aZn {
+  color: var(--darkplus-sec);
+}
 
+.css-19bqh2r{
+  color: var(--darkplus-sec);
 }
 
 ::-webkit-scrollbar-thumb {
