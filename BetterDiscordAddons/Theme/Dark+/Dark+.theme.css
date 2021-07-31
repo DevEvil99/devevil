@@ -98,7 +98,7 @@
   background-color: var(--darkplus-bg);
 }
 .wrapper-3D2qGf .section-2gLsgF {
-  background-color: transparent;
+  background-color: var(--darkplus-links);
 }
 .header-2V-4Sw {
   background-color: var(--darkplus-bg);
@@ -1070,7 +1070,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkplus-bg2)
 }
 .section-2gLsgF {
-  background-color: var(--darkplus-bg2)
+  color: var(--darkplus-links)
 }
 .colorStandard-2KCXvj {
   color: var(--darkplus-bg);
