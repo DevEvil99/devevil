@@ -1171,6 +1171,10 @@ button[aria-label="Send a gift"] {
 .header-ywPcAE {
   background-color: var(--darkplus-bg);
 }
+.size16-1P40sf {
+  color: var(--darkplus-sec);
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
