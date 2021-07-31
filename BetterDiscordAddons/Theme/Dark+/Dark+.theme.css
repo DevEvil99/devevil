@@ -1193,7 +1193,30 @@ button[aria-label="Send a gift"] {
 .headerTop-3vNv-a {
   background-color: var(--darkplus-bg);
 }
-
+.memberCountContainer-1BJFU2 {
+  color: var(--darkplus-sec);
+}
+.icon-1S6UIr {
+  color: var(--darkplus-sec);
+}
+.input-3Xdcic::placeholder {
+  color: var(--darkplus-sec);
+}
+.emptyRoles-23F3oy {
+  color: var(--darkplus-sec);
+}
+.emptyRolesText-gurxgN {
+  color: var(--darkplus-sec);
+}
+.icon-3_8HGa {
+  color: var(--darkplus-sec);
+}
+.label-2gpUAV {
+  color: var(--darkplus-sec);
+}
+.arrow-2aE8q8 {
+  color: var(--darkplus-sec);
+}
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
