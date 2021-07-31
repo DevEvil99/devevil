@@ -405,6 +405,7 @@
 .membersWrap-2h-GB4,
 .hiddenMembers-2dcs_q,
 .members-1998pB {
+  background-color: var(--darkplus-bg);
   border-radius: 25px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -1179,6 +1180,18 @@ button[aria-label="Send a gift"] {
 }
 .icon-3jQD8H {
   color: var(--darkplus-sec);
+}
+.bodyInnerWrapper-26fQXj {
+  background-color: var(--darkplus-bg);
+}
+.footer-3UKYOU {
+  background-color: var(--darkplus-bg);
+}
+.headerTopWithCustomStatus-1DHAjX {
+  background-color: var(--darkplus-bg);
+}
+.headerTop-3vNv-a {
+  background-color: var(--darkplus-bg);
 }
 
 ::-webkit-scrollbar-thumb {
