@@ -1171,7 +1171,13 @@ button[aria-label="Send a gift"] {
 .header-ywPcAE {
   background-color: var(--darkplus-bg);
 }
-.size16-1P40sf {
+.titlePrimary-1jHRGm, .titleSecondary-3Dh_RZ {
+  color: var(--darkplus-sec);
+}
+.inspector-3LQtX9 {
+  background-color: var(--darkplus-bg);
+}
+.icon-3jQD8H {
   color: var(--darkplus-sec);
 }
 
