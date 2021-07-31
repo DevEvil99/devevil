@@ -1158,6 +1158,14 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-sec);
 }
 
+.acronym-2mOFsV {
+  background-color: var(--darkplus-bg);
+  color: var(--darkplus-sec);
+}
+.expandedFolderBackground-1cujaW {
+  background-color: var(--darkplus-bg2);
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
