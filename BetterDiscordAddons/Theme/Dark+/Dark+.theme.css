@@ -1217,6 +1217,34 @@ button[aria-label="Send a gift"] {
 .arrow-2aE8q8 {
   color: var(--darkplus-sec);
 }
+.icon-3CsuzN {
+  color: var(--darkplus-sec);
+}
+
+.tierLock-3nsR0q {
+  color: var(--darkplus-sec);
+}
+.tierRequirement-UAxC-l {
+  color: var(--darkplus-sec);
+}
+.size16-1P40sf {
+  color: var(--darkplus-sec);
+}
+.theme-dark .tierBody-3aUxuc {
+  background-color: var(--darkplus-bg2);
+}
+.wrapper-18yWki {
+  background-color: var(--darkplus-bg2);
+}
+
+.emptyTierImage-UTgz1t {
+  color: var(--darkplus-sec);
+}
+
+.emptyTierImage-UTgz1t, .unlockTierCtaHeading-3Q9aZn {
+
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
