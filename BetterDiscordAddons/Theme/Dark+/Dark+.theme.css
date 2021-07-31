@@ -1009,10 +1009,74 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkplus-bg);
 }
 
+.replyBar-1YLQ2F {
+  background-color: var(--darkplus-sec);
+}
+.closeIcon-HLoKft {
+  color: var(--darkplus-bg);
+}
+.colorHeaderSecondary-3Sp3Ft {
+  color: var(--darkplus-bg);
+}
+
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
+  background-color: var(--darkplus-bg2)
+}
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
+  color: var(--darkplus-sec);
+}
+.messages-3G3erD {
+  background-color: var(--darkplus-bg2);
+}
+.channelHeader-3Gd2xq {
+  background-color: var(--darkplus-bg2);
+}
+.tertiary-aMXF0g {
+  background-color: var(--darkplus-bg);
+  color: var(--darkplus-sec);
+}
+.tertiary-aMXF0g:hover:not(.disabled-3Njyym) {
+  background-color: var(--darkplus-bg);
+  color: var(--darkplus-sec);
+}
+.tutorialIcon-3f1miQ {
+  background-color: var(--darkplus-bg);
+  color: var(--darkplus-sec);
+}
+.secondary-dIudih {
+  background-color: var(--darkplus-bg2);
+  color: var(--darkplus-sec);
+}
+.secondary-dIudih:hover:not(.disabled-3Njyym) {
+  background-color: var(--darkplus-bg2);
+  color: var(--darkplus-sec);
+}
+.messageContainer-gbhlwo {
+  background-color: var(--darkplus-bg2);
+}
+.wrapper-3vR61M {
+  background-color: var(--darkplus-bg);
+}
+.scroller-1Bvpku {
+  background-color: var(--darkplus-bg) !important;
+}
+.tab-2j5AEF {
+  color: var(--darkplus-sec);
+}
+.theme-dark .tab-2j5AEF.selected-2LAck8 {
+  background-color: var(--darkplus-bg2)
+}
+.message-1Ng5AR {
+  background-color: var(--darkplus-bg2)
+}
+.section-2gLsgF {
+  background-color: var(--darkplus-bg2)
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
 ::selection {
-  background-color: #212121;
-  color: #cdaef3;
+  background-color: var(--darkplus-bg);
+  color: var(--darkplus-links);
 }
