@@ -1,3 +1,15 @@
+/**
+  *	@name Dark+-test
+  *	@author DevEvil#8745
+  *	@version Dark+1
+  *	@description Highly customized dark and purple theme for Discord
+  * @authorId 468132563714703390
+  * @authorLink https://dsc.bio/devevil
+  * @source https://github.com/DevEvil99/DarkPlus-Discord-Theme
+  * @website https://devevil.xyz
+  * @invite jsQ9UP7kCA
+*/
+
 :root {
   --darkplus-bg: #212121;
   --darkplus-bg2: #302f2f;
@@ -1113,6 +1125,7 @@ button[aria-label="Send a gift"] {
 }
 .size12-3cLvbJ {
   color: var(--darkplus-sec);
+  width: 30%;
 }
 .icons-2E-yxr {
   color: var(--darkplus-sec);
