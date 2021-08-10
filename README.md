@@ -3,6 +3,6 @@
 # Main Website
 **[DevEvil.xyz](https://devevil.xyz)**
 # Discord Theme
-**[Dark+](https://devevil.xyz/darkplus)** <br>
+**[Dark+](https://betterdiscord.app/theme/Dark%2B)** <br>
 **[Preview](https://devevil.xyz/preview/dark+/dark+-preview)** <br>
 **Highly customized dark and purple theme for Discord**
