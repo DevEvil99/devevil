@@ -453,6 +453,12 @@ button[aria-label="Send a gift"] {
 .theme-dark .option-96V44q:after {
   background: transparent;
 }
+#app-mount .container-3ayLPN .option-96V44q .plusIcon-v0BTrL {
+  color: var(--ocean-color1);
+}
+#app-mount .container-3ayLPN .option-96V44q.selected-rZcOL- {
+  background: var(--ocean-color2);
+}
 .overflow-WK9Ogt {
   color: var(--ocean-color1);
 }
