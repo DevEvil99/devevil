@@ -22,6 +22,7 @@
   --ocean-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/874999698426068992/ocean-home-icon.png);
   --ocean-color1: #00d5ce;
   --ocean-color2: #0a173a;
+  --ocean-color3: #1487b1;
   --window-padding: 20px;
   --window-roundness: 20px;
 }
@@ -146,7 +147,7 @@ body {
 }
 
 .scrollableContainer-2NUZem {
-  background: linear-gradient(-45deg, #1487b1, #00d5ce);
+  background: linear-gradient(-45deg, var(--ocean-color3), var(--ocean-color1));
 }
 
 .container-3baos1 .button-14-BFJ:nth-child(1) .contents-18-Yxp path {
@@ -254,35 +255,35 @@ body {
   color: var(--ocean-color2);
 }
 .miscContainer-2ptJ_C {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .colorStandard-2KCXvj {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .anchor-3Z-8Bb {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .username-2hHyRL {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .icon-22AiRD {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .actionButton-uPB8Fs {
-  background-color: #00d5ce;
-  color: #0a173a;
+  background-color: var(--ocean-color1);
+  color: var(--ocean-color2);
 }
 
 .actionButton-uPB8Fs:hover {
-  background-color: #00d5ce;
-  color: #0a173a;
+  background-color: var(--ocean-color1);
+  color: var(--ocean-color2);
 }
 .actionButton-uPB8Fs.highlight-Lf97TE {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 
 .username-31C1TQ {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 
 .wrapper-3D2qGf {
@@ -300,8 +301,8 @@ body {
   background-color: transparent;
 }
 .numberBadge-2s8kKX {
-  background-color: #00d5ce !important;
-  color: #0a173a;
+  background-color: var(--ocean-color1) !important;
+  color: var(--ocean-color2);
 }
 .expandedFolderBackground-1cujaW {
   background-color: transparent;
@@ -310,54 +311,54 @@ body {
   background-color: #96e6e3;
 }
 .item-2hkk8m {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 .acronym-2mOFsV {
-  background-color: #00d5ce;
-  color: #0a173a;
+  background-color: var(--ocean-color1);
+  color: var(--ocean-color2);
 }
 .circleIconButton-1QV--U {
-  color: #0a173a;
-  background-color: #00d5ce;
+  color: var(--ocean-color2);
+  background-color: var(--ocean-color1);
 }
 .circleIconButton-1QV--U.selected-1JjBPm {
-  color: #00d5ce;
-  background-color: #0a173a;
+  color: var(--ocean-color1);
+  background-color: var(--ocean-color2);
 }
 .mention-1f5kbO {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 .mentioned-xhSam7 {
-  background-color: rgba(#00d5ce, 0.1) !important;
+  background-color: rgba(var(--ocean-color1), 0.1) !important;
 }
 .mentioned-xhSam7:before {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 .mentioned-xhSam7:hover {
-  background-color: rgba(#00d5ce, 0.2) !important;
+  background-color: rgba(var(--ocean-color1), 0.2) !important;
 }
 .discriminator-22Okc1 {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .scroller-3BxosC {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 .label-22pbtT {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .colorDefault-2K3EoJ.focused-3afm-j {
-  background-color: #1487b1;
-  color: #00d5ce;
+  background-color: var(--ocean-color3);
+  color: var(--ocean-color1);
 }
 
 .header-2SF4Nh {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 
 .icon-3cZ1F_ {
   height: 24px;
   width: 24px;
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .iconContainer-O4O2CN {
   bottom: 5px;
@@ -371,7 +372,7 @@ body {
 }
 
 .membersGroup-v9BXpm {
-  color: #00d5ce;
+  color: var(--ocean-color1);
   text-align: center;
 }
 button[aria-label="Send a gift"] {
@@ -392,7 +393,7 @@ button[aria-label="Send a gift"] {
   font-size: 14px;
   font-weight: 600;
   font-family: "Lato";
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .wordmark-2iDDfm > svg {
   display: none;
@@ -403,73 +404,73 @@ button[aria-label="Send a gift"] {
 
 .channelName-2YrOjO,
 .subtitle-3V1p2E {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 
 .categoryIcon-1SvUHG {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .header-19cWci {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .iconBadge-3qSJIw.participating-1NvRVd {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 .botTagRegular-2HEhHi {
-  color: #0a173a;
-  background-color: #00d5ce;
+  color: var(--ocean-color2);
+  background-color: var(--ocean-color1);
 }
 .unread-2lAfLh {
-  background-color: #0a173a;
+  background-color: var(--ocean-color2);
 }
 .icon-1DeIlz {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .modeSelected-346R90 .icon-1DeIlz,
 .modeSelected-346R90:hover .icon-1DeIlz,
 .modeUnread-1qO3K1 .icon-1DeIlz,
 .modeUnread-1qO3K1:hover .icon-1DeIlz {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 
 .iconBadge-qZ4Ksk {
-  background-color: #0a173a;
+  background-color: var(--ocean-color2);
 }
 
 .resultsGroup-r_nuzN {
-  background-color: #0a173a;
-  color: #00d5ce;
+  background-color: var(--ocean-color2);
+  color: var(--ocean-color1);
 }
 .barButtonMain-3K-jeJ {
-  background-color: #0a173a;
-  color: #00d5ce;
+  background-color: var(--ocean-color2);
+  color: var(--ocean-color1);
 }
 .barButtonAlt-mYL1lj {
-  background-color: #0a173a;
-  color: #00d5ce;
+  background-color: var(--ocean-color2);
+  color: var(--ocean-color1);
 }
 .overflow-WK9Ogt {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 
 .icon-2yIBmh {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .actionIcon-PgcMM2 {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 
 .icon-LYJorE {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 
 .accountProfileCard-1XCH88 {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 
 .background-1QDuV2 {
   padding: 0;
-  background-color: #0a173a;
+  background-color: var(--ocean-color2);
   border-radius: 30px;
 }
 .background-1QDuV2 .profile-1eT9hT {
@@ -484,7 +485,7 @@ button[aria-label="Send a gift"] {
 }
 
 .defaultColor-1_ajX0 {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .field-1HUseB > div > div > div {
   filter: blur(5px);
@@ -494,62 +495,62 @@ button[aria-label="Send a gift"] {
 }
 
 .colorHeaderPrimary-26Jzh- {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 
 .username-2b1r56,
 .discriminator-2C3qJO,
 .overflowMenuIcon-1h7e8s {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
-  color: #0a173a;
-  background-color: #00d5ce;
+  color: var(--ocean-color2);
+  background-color: var(--ocean-color1);
 }
 .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 .size16-1P40sf {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
-  color: #00d5ce;
-  background-color: #0a173a;
+  color: var(--ocean-color1);
+  background-color: var(--ocean-color2);
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-  color: #00d5ce;
-  background-color: #0a173a;
+  color: var(--ocean-color1);
+  background-color: var(--ocean-color2);
 }
 
 .description-3_Ncsb,
 .labelDescriptor-1PqHgD {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
 .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb),
 .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb) {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .item-PXvHYJ.themed-OHr7kt {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 
 .header-2RyJ0Y {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 
 .theme-dark .closeButton-1tv5uR {
-  border-color: #00d5ce;
+  border-color: var(--ocean-color1);
 }
 
 .winButton-iRh8-Z > svg {
@@ -570,41 +571,41 @@ button[aria-label="Send a gift"] {
   margin-right: 3px;
 }
 .winButton-iRh8-Z::after {
-  background-color: #0a173a;
+  background-color: var(--ocean-color2);
 }
 .winButton-iRh8-Z:hover::after {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 .winButtonMinMax-PBQ2gm[aria-label="Maximize"]::after {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 .winButtonMinMax-PBQ2gm[aria-label="Maximize"]:hover::after {
   background-color: #cfaa01;
 }
 .winButtonMinMax-PBQ2gm[aria-label="Minimize"]::after {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 .winButtonMinMax-PBQ2gm[aria-label="Minimize"]:hover::after {
   background-color: #2fda20;
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-  background-color: #0a173a;
-  color: #00d5ce;
+  background-color: var(--ocean-color2);
+  color: var(--ocean-color1);
 }
 #bd-pub-button {
-  background-color: #0a173a;
-  color: #00d5ce;
+  background-color: var(--ocean-color2);
+  color: var(--ocean-color1);
   font-weight: bold;
 }
 #bd-pub-button:hover {
-  background-color: #00d5ce;
-  color: #0a173a;
+  background-color: var(--ocean-color1);
+  color: var(--ocean-color2);
   font-weight: bold;
 }
 .button-Jt-tIg {
-  background-color: #0a173a;
-  color: #00d5ce;
+  background-color: var(--ocean-color2);
+  color: var(--ocean-color1);
   font-weight: bold;
 }
 
@@ -613,36 +614,36 @@ button[aria-label="Send a gift"] {
   color: #1a2a55;
 }
 .interactive:hover {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 
 .button-1w5pas {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .emptyCard-1RJw8n {
   background-color: transparent;
 }
 .emptyText-2zjpZr {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .header-1-dBpZ {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .description-1EvxpH {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .theme-dark .text-GwUZgS,
 .theme-dark .title-2BxgL2 {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .markup-2BOw-j code.inline {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .markup-2BOw-j a {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .topic-TCb_qw.expandable-9fI_e3 {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 #private-channels [href="/discovery"] {
   display: none;
@@ -663,23 +664,23 @@ button[aria-label="Send a gift"] {
 .note-1oo11U,
 .bodyInnerWrapper-26fQXj,
 .footer-3UKYOU {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 
 .input-cIJ7To:hover {
-  background-color: #0a173a;
+  background-color: var(--ocean-color2);
 }
 
 .input-2_SIlA {
-  background-color: #0a173a;
+  background-color: var(--ocean-color2);
 }
 .bodyTitle-1ySSKn {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 
 .base-1x0h_U.muted-3-7c5L,
 .discrimBase-24vY8o {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .body-r6_QPy,
 .topSection-y3p-_D {
@@ -687,7 +688,7 @@ button[aria-label="Send a gift"] {
 }
 
 .top-28JiJ- .item-PXvHYJ {
-  border-bottom-color: #00d5ce;
+  border-bottom-color: var(--ocean-color1);
 }
 
 .connectedAccountName-E1KzaT,
@@ -695,39 +696,39 @@ button[aria-label="Send a gift"] {
 .userInfoSectionHeader-3TYk6R,
 .discriminator-1swucG,
 .additionalActionsIcon-365LnQ {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY {
-  background-color: #00d5ce;
-  color: #0a173a;
+  background-color: var(--ocean-color1);
+  color: var(--ocean-color2);
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 
 .attachment-33OFj0 {
-  background-color: #00d5ce;
-  border-color: #00d5ce;
+  background-color: var(--ocean-color1);
+  border-color: var(--ocean-color1);
   border-radius: 20px;
 }
 .downloadButton-23tKQp {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 
 .cozy-3raOZG .timestamp-3ZCmNB,
 .content-1o0f9g,
 .label-2gpUAV {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .button-1ZiXG9,
 .button-1ZiXG9:hover,
 .button-1ZiXG9.selected-LCBEAU {
-  color: #0a173a;
-  background-color: #00d5ce;
+  color: var(--ocean-color2);
+  background-color: var(--ocean-color1);
 }
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
-  color: #0a173a;
-  border-color: #0a173a;
+  color: var(--ocean-color2);
+  border-color: var(--ocean-color2);
   border-radius: 50px;
 }
 
@@ -739,29 +740,29 @@ button[aria-label="Send a gift"] {
 .arrow-2aE8q8,
 .description-2lbkbS,
 .helpText-2stV3Z {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .circleButton-3RB01i + .circleButton-3RB01i,
 .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .editButton-1V012_,
 .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i {
-  background-color: #0a173a;
-  color: #00d5ce;
+  background-color: var(--ocean-color2);
+  color: var(--ocean-color1);
 }
 .icon-1S6UIr {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .container-_phMUq {
   background-color: transparent;
 }
 
 .icon-3_8HGa {
-  color: #00d5ce;
-  background-color: #0a173a;
+  color: var(--ocean-color1);
+  background-color: var(--ocean-color2);
 }
 
 .input-3Xdcic,
 .medium-1LLV3p.iconLayout-3OgqU3 {
-  background-color: #0a173a;
+  background-color: var(--ocean-color2);
 }
 
 .contentWrapper-SvZHNd,
@@ -773,33 +774,33 @@ button[aria-label="Send a gift"] {
 }
 .titlePrimary-1jHRGm,
 .titleSecondary-3Dh_RZ {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .inspector-3LQtX9 {
   background-color: transparent;
 }
 .icon-3jQD8H {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 .unicodeShortcut-15J8Ck {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .categoryItemDefaultCategorySelected-_HCKoz,
 .categoryItemDefaultCategorySelected-_HCKoz:hover {
-  background-color: #0a173a;
-  color: #00d5ce;
+  background-color: var(--ocean-color2);
+  color: var(--ocean-color1);
 }
 
 .navButtonActive-1MkytQ,
 .stickerCategoryRecentIcon-16VgYU {
-  background-color: #0a173a;
-  color: #00d5ce;
+  background-color: var(--ocean-color2);
+  color: var(--ocean-color1);
 }
 .navButton-2gQCx- {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 .navButton-2gQCx-:hover {
-  color: #1487b1;
+  color: var(--ocean-color3);
 }
 .packHeader-NLJ7S5,
 .inspector-S2gM3e,
@@ -820,12 +821,12 @@ button[aria-label="Send a gift"] {
 .ellipsisText-2EszCb,
 .channelIcon-2xPHJh,
 .channelName-3_Vb6f {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 
 .theme-dark .selected-P8xTeN {
-  color: #00d5ce;
-  border-bottom: #00d5ce;
+  color: var(--ocean-color1);
+  border-bottom: var(--ocean-color1);
 }
 
 .card-2Mz_4z,
@@ -834,13 +835,13 @@ button[aria-label="Send a gift"] {
 .option-3KoAJB.focused-1T6PE5,
 .option-3KoAJB:focus,
 .option-3KoAJB:hover {
-  background-color: #0a173a;
+  background-color: var(--ocean-color2);
 }
 
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookFilled-22uAsw.select-2fjwPw {
-  background-color: #00d5ce;
-  color: #0a173a;
+  background-color: var(--ocean-color1);
+  color: var(--ocean-color2);
 }
 
 .header-3msK0M {
@@ -849,7 +850,7 @@ button[aria-label="Send a gift"] {
 
 .container-UC8Ug1,
 .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
-  background-color: #0a173a;
+  background-color: var(--ocean-color2);
 }
 
 .arrow-hynWUl,
@@ -860,7 +861,7 @@ button[aria-label="Send a gift"] {
 .clear-1pMieT .icon-3cZ1F_,
 .tab-2j5AEF,
 .roundButton-CEHyUp {
-  color: #00d5ce;
+  color: var(--ocean-color1);
 }
 
 .searchHeader-2XoQg7,
@@ -872,7 +873,7 @@ button[aria-label="Send a gift"] {
   background-image: var(--ocean-bg);
 }
 .message-1Ng5AR {
-  background-color: #0a173a;
+  background-color: var(--ocean-color2);
 }
 
 .channelName-1JRO3C {
@@ -884,15 +885,15 @@ button[aria-label="Send a gift"] {
 .theme-light .activeButton-rvKcqq,
 .theme-light .activeButton-rvKcqq:hover,
 .endButton-m5h5Sr:last-child {
-  background-color: #0a173a;
-  color: #00d5ce;
+  background-color: var(--ocean-color2);
+  color: var(--ocean-color1);
 }
 
 .messageGroupWrapper-o-Zw7G .messageGroupCozy-2iY6cT,
 .theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa,
 .messageContainer-gbhlwo,
 .channelHeader-3Gd2xq {
-  background-color: #0a173a;
+  background-color: var(--ocean-color2);
 }
 
 .title-29uC1r,
@@ -904,12 +905,12 @@ button[aria-label="Send a gift"] {
 .status-1fhblQ,
 .description-2L932D,
 .customText-tY5LJn {
-  color: #0a173a;
+  color: var(--ocean-color2);
 }
 
 .full-motion .button-1-5Aqk {
-  background-color: #00d5ce;
-  color: #0a173a;
+  background-color: var(--ocean-color1);
+  color: var(--ocean-color2);
 }
 
 .theme-dark .footer-3mqk7D {
@@ -932,7 +933,7 @@ button[aria-label="Send a gift"] {
   border-radius: 10px !important;
   border: none !important;
   background-clip: content-box !important;
-  background: #00d5ce !important;
+  background: var(--ocean-color1) !important;
 }
 
 ::-webkit-scrollbar-corner {
@@ -950,6 +951,6 @@ button[aria-label="Send a gift"] {
 }
 
 ::selection {
-  background-color: #0a173a;
-  color: #00d5ce;
+  background-color: var(--ocean-color2);
+  color: var(--ocean-color1);
 }
