@@ -1,4 +1,3 @@
-
 :root {
   --darkplus-bg: #212121;
   --darkplus-bg2: #302f2f;
@@ -200,41 +199,8 @@
 .data-slate-string path {
   color: var(--darkplus-sec);
 }
-
-.winButton-iRh8-Z > svg {
-  display: none;
-}
-
-.winButton-iRh8-Z:hover {
-  background-color: transparent;
-}
-
-.winButton-iRh8-Z::after {
-  content: "";
-  padding: 6px;
-  border-radius: 50px;
-  pointer-events: fill;
-}
 .winButton-iRh8-Z {
-  margin-right: 3px;
-}
-.winButton-iRh8-Z::after {
-  background-color: var(--darkplus-sec);
-}
-.winButton-iRh8-Z:hover::after {
-  background-color: #ce0000;
-}
-.winButtonMinMax-PBQ2gm[aria-label="Maximize"]::after {
-  background-color: var(--darkplus-sec);
-}
-.winButtonMinMax-PBQ2gm[aria-label="Maximize"]:hover::after {
-  background-color: #cfaa01;
-}
-.winButtonMinMax-PBQ2gm[aria-label="Minimize"]::after {
-  background-color: var(--darkplus-sec);
-}
-.winButtonMinMax-PBQ2gm[aria-label="Minimize"]:hover::after {
-  background-color: #2fda20;
+  color: var(--darkplus-sec);
 }
 .VoiceChatNotifications-button-icon {
   color: var(--darkplus-sec);
