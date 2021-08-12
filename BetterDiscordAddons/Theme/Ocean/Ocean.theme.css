@@ -439,7 +439,7 @@ button[aria-label="Send a gift"] {
 }
 
 .resultsGroup-r_nuzN {
-  background-color: var(--ocean-color2);
+  background-image: var(--ocean-bg);
   color: var(--ocean-color1);
 }
 .barButtonMain-3K-jeJ {
@@ -449,6 +449,9 @@ button[aria-label="Send a gift"] {
 .barButtonAlt-mYL1lj {
   background-color: var(--ocean-color2);
   color: var(--ocean-color1);
+}
+.theme-dark .option-96V44q:after {
+  background: transparent;
 }
 .overflow-WK9Ogt {
   color: var(--ocean-color1);
