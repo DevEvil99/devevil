@@ -894,9 +894,21 @@ button[aria-label="Send a gift"] {
 }
 
 .popoutInfo-pKbpvG {
-  background-color: #00d5ce;
+  background-color: var(--ocean-color1);
 }
 
+.unreadPill-2HyYtt {
+  background-color: var(--ocean-color1);
+}
+
+.unreadPillCapStroke-7rkHbg {
+  color: var(--ocean-color1);
+  fill: var(--ocean-color1);
+}
+
+.divider-JfaTT5 {
+  border-color: var(--ocean-color1);
+}
 #permissions-modal-wrapper .header, #permissions-modal-wrapper .perm-side, #permissions-modal-wrapper .role-side {
   background-image: var(--ocean-bg);
 }
