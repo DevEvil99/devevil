@@ -361,16 +361,16 @@
 
 
 .members-1998pB, .members-1998pB>div {
-  background-color: #212121;
+  background-color: var(--darkplus-bg);
 }
 .membersWrap-2h-GB4, .hiddenMembers-2dcs_q, .members-1998pB{
-  background-color: #212121;
+  background-color: var(--darkplus-bg);
 }
 .hiddenMembers-2dcs_q{
   transition:margin-right;
   margin-right:-190px;
   transition-duration:0.6s;
-  background-color: #212121;
+  background-color: var(--darkplus-bg);
 }
 .hiddenMembers-2dcs_q:hover{
   margin-right:10px;
@@ -1206,8 +1206,9 @@ button[aria-label="Send a gift"] {
 }
 
 .textContent-3N7xXx {
-  color: #212121;
+  color: var(--darkplus-bg);
 }
+
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
