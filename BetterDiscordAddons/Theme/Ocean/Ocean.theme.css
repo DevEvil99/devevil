@@ -1,3 +1,4 @@
+
 /*
  ________  ________  _______   ________  ________                                                        
 |\   __  \|\   ____\|\  ___ \ |\   __  \|\   ___  \                                                      
@@ -915,6 +916,10 @@ button[aria-label="Send a gift"] {
 
 .theme-dark .footer-3mqk7D {
   background-color: transparent;
+}
+
+.popoutInfo-pKbpvG {
+  background-color: #00d5ce;
 }
 
 ::-webkit-scrollbar {
