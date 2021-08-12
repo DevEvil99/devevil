@@ -1,3 +1,4 @@
+
 :root {
   --darkplus-bg: #212121;
   --darkplus-bg2: #302f2f;
@@ -1249,7 +1250,9 @@ button[aria-label="Send a gift"] {
 .css-19bqh2r{
   color: var(--darkplus-sec);
 }
-
+.theme-dark .option-96V44q:after {
+  background: transparent;
+}
 
 .textContent-3N7xXx {
   color: #212121;
