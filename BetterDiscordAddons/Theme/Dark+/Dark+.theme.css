@@ -359,40 +359,32 @@
   transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
 }
 
-.members-1998pB,
-.members-1998pB > div {
-  background-color: var(--darkplus-bg);
+/* Thanks to Xyhlo#9766 */
+.membersWrap-2h-GB4 {
+  min-width: unset;
 }
-
-.member-3-YXUe:hover .layout-2DM8Md,
-.member-3-YXUe.selected-aXhQR6 .layout-2DM8Md {
-  background-color: var(--darkplus-bg2);
+.membersWrap-2h-GB4 .members-1998pB {
+  max-width: 65px;
+  min-width: 65px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
-
-.membersWrap-2h-GB4,
-.hiddenMembers-2dcs_q,
-.members-1998pB {
-  background-color: var(--darkplus-bg);
-  border-radius: 25px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  margin-left: 5px;
+.membersWrap-2h-GB4 .members-1998pB:hover {
+  max-width: 240px;
+  min-width: 240px;
 }
-.hiddenMembers-2dcs_q {
-  transition: margin-right;
-  margin-right: -190px;
-  transition-duration: 0.6s;
+.membersWrap-2h-GB4 .members-1998pB .content-3YMskv:not(:hover) {
+  padding-top: 10px;
+  background-color: #212121;
 }
-.hiddenMembers-2dcs_q:hover {
-  margin-right: 10px;
+.membersWrap-2h-GB4 .members-1998pB .content-3YMskv:hover {
+  background-color: #212121;
 }
-.membersGroup-v9BXpm {
-  margin-left: 60px;
+.membersWrap-2h-GB4 .members-1998pB .content-3YMskv:not(:hover) .membersGroup-v9BXpm {
+  height: 0px;
+  padding: 0%;
 }
-.membersWrap-2h-GB4.hiddenMembers-2dcs_q.hasCounter {
-  background-color: var(--darkplus-bg);
-}
+/* Thanks to Xyhlo#9766 */
 
 .container-3baos1 {
   height: 85px;
