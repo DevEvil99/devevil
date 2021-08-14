@@ -23,8 +23,6 @@
   --ocean-color1: #00d5ce;
   --ocean-color2: #0a173a;
   --ocean-color3: #1487b1;
-  --window-padding: 20px;
-  --window-roundness: 20px;
 }
 
 #app-mount .container-1D34oG,
@@ -119,19 +117,6 @@ body {
   left: 0;
   pointer-events: none;
   z-index: -1;
-}
-
-#app-mount:before {
-  content: "";
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#app-mount .layers-3iHuyZ {
-  margin: var(--window-padding);
-  overflow: hidden;
-  border-radius: var(--window-roundness);
 }
 
 .searchBar-6Kv8R2 {
