@@ -1,3 +1,4 @@
+
 /*
  ________  ________  _______   ________  ________                                                        
 |\   __  \|\   ____\|\  ___ \ |\   __  \|\   ___  \                                                      
@@ -898,6 +899,12 @@ button[aria-label="Send a gift"] {
   background-image: var(--ocean-bg);
 }
 
+.replyBar-1YLQ2F {
+  background-color: var(--ocean-color1);
+}
+.replyLabel-27F26o, .closeIcon-HLoKft {
+  color: var(--ocean-color2);
+}
 ::-webkit-scrollbar {
   width: 3px !important;
   height: 8px !important;
