@@ -3,7 +3,7 @@
   --darkplus-bg2: #302f2f;
   --darkplus-sec: #bb86fc;
   --darkplus-links: #cdaef3;
-  --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png)
+  --darkplus-home-icon:   url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png)
 }
 
 .bg-h5JY_x,
@@ -964,7 +964,7 @@ button[aria-label="Send a gift"] {
 }
 
 .replyBar-1YLQ2F {
-  background-color: var(--darkplus-bg1);
+  background-color: var(--darkplus-bg);
 }
 .closeIcon-HLoKft {
   color: var(--darkplus-sec);
@@ -1208,6 +1208,41 @@ button[aria-label="Send a gift"] {
 
 .textContent-3N7xXx {
   color: var(--darkplus-bg);
+}
+
+.categoryItemDefaultCategorySelected-_HCKoz .categoryIcon-1SvUHG, .categoryItemDefaultCategorySelected-_HCKoz:hover .categoryIcon-1SvUHG, .categoryItemDefaultCategory-aBZ6nJ:hover .categoryIcon-1SvUHG {
+  color: var(--darkplus-sec);
+}
+
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
+  border-color: var(--darkplus-sec);
+  color: var(--darkplus-sec);
+  border-radius: 25px;
+}
+
+.css-4h5swf-singleValue {
+  color: var(--darkplus-sec);
+}
+
+.theme-dark .message-2qRu38 {
+  background-color: var(--darkplus-bg2);
+}
+
+.keybindShortcut-1BD6Z1 span {
+  background-color: var(--darkplus-sec);
+  border: var(--darkplus-sec);
+}
+
+.bottomInformationTextContainer-2lvA_a, .stickerResults-3HacYG {
+  background-color: var(--darkplus-bg2);
+}
+
+.avatar-AvHqJA {
+  margin-left: 200px;
+}
+
+.badgeList-1R1WgZ {
+  margin-left: -150px;
 }
 
 
