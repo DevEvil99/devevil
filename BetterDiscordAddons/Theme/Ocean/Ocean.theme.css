@@ -1,4 +1,3 @@
-
 /*
  ________  ________  _______   ________  ________                                                        
 |\   __  \|\   ____\|\  ___ \ |\   __  \|\   ___  \                                                      
@@ -626,7 +625,11 @@ button[aria-label="Send a gift"] {
 .note-1oo11U,
 .bodyInnerWrapper-26fQXj,
 .footer-3UKYOU {
-  background-color: var(--ocean-color1);
+  background-image: var(--ocean-bg);
+}
+
+.grid-1nZz7S {
+  background-color: var(--ocean-color3);
 }
 
 .input-cIJ7To:hover {
@@ -905,6 +908,11 @@ button[aria-label="Send a gift"] {
 .replyLabel-27F26o, .closeIcon-HLoKft {
   color: var(--ocean-color2);
 }
+
+.theme-dark .searchOption-zQ-1l6 .filter-3Y_im-, .theme-dark .searchOption-zQ-1l6 .answer-1n6g43, .resultsGroup-r_nuzN .header-2N-gMV {
+  color: var(--ocean-color1);
+}
+
 ::-webkit-scrollbar {
   width: 3px !important;
   height: 8px !important;
