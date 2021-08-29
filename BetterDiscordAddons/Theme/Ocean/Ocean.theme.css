@@ -886,6 +886,19 @@ button[aria-label="Send a gift"] {
   background-image: var(--ocean-bg);
 }
 
+.wrapper-2tAnRe {
+  color: var(--ocean-color1);
+}
+
+.users-3kndPl , .total-i6us2n {
+  background-color: var(--ocean-color2);
+}
+
+.unread-1xRYoj {
+  background-color: var(--ocean-color1);
+  color: var(--ocean-color2);
+}
+
 .unreadPill-2HyYtt {
   background-color: var(--ocean-color1);
 }
