@@ -1282,6 +1282,16 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-bg);
 }
 
+.overflowMenuIcon-1h7e8s {
+  color: var(--darkplus-sec);
+}
+
+.username-2b1r56, .discriminator-2C3qJO, .headerTagDiscriminatorNoNickname-D-AYUN {
+  color: var(--darkplus-sec);
+}
+
+
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
