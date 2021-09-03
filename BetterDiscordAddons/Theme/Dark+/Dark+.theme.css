@@ -1278,6 +1278,10 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-sec);
 }
 
+.text-1FOLJS {
+  color: var(--darkplus-bg);
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
