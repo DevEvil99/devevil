@@ -692,5 +692,9 @@ header .circle {
   justify-content: center;
 }
 
+::selection {
+  background-color: #784cfb;
+  color: #212121;
+}
 
-
+/* DevEvil */
