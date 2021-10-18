@@ -1237,6 +1237,10 @@ button[aria-label="Send a gift"] {
   background-color: var(--amethyst-main-color);
 }
 
+.titleName-3-Lp3Z {
+  color: var(--amethyst-main-color)
+}
+
 ::-webkit-scrollbar {
   width: 4px !important;
   height: 8px !important;
