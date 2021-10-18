@@ -125,6 +125,10 @@
   border-radius: 5px;
 }
 
+.header-2-Imhb, .header-2-Imhb .tab-ck0077 {
+  background-color: var(--charoite-main-bg)
+}
+
 .textarea-2r0oV8::placeholder {
   color: var(--charoite-main-bg);
   font-weight: bold;
