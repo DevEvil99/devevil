@@ -926,6 +926,10 @@ button[aria-label="Send a gift"] {
   color: var(--ocean-color1);
 }
 
+.container-2wlB3z {
+  background-color: transparent !important;
+}
+
 ::-webkit-scrollbar {
   width: 3px !important;
   height: 8px !important;
