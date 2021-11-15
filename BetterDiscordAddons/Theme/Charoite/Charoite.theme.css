@@ -1249,7 +1249,7 @@ button[aria-label="Send a gift"] {
 }
 
 .thin-1ybCId, .thin-1ybCId.fade-2kXiP2:hover, .thin-1ybCId.scrolling-1Cdwk- {
-  background-color: var(--charoite-main-color)
+  background-color: var(--charoite-main-bg)
 }
 
 .circleIconButton-hZmpE8 {
@@ -1266,6 +1266,20 @@ button[aria-label="Send a gift"] {
 
 .expandedFolderBackground-3ZDF05, .expandedFolderIconWrapper-3fmTfW, .unread-2lAfLh, .newMessagesBar-265mhP {
   background-color: var(--charoite-main-color)
+}
+
+.container-2wlB3z, .members-1998pB, .scroller-RmtA4e {
+  background-color: var(--charoite-main-bg)
+}
+
+.label-22pbtT {
+  color: var(--charoite-main-color);
+}
+
+#bd-pub-button, #bd-pub-button:hover {
+  background-color: var(--charoite-main-color);
+  color: var(--charoite-main-bg);
+  font-weight: bold;
 }
 
 ::-webkit-scrollbar {
