@@ -1282,6 +1282,10 @@ button[aria-label="Send a gift"] {
   font-weight: bold;
 }
 
+.status-1fhblQ, .size14-e6ZScH {
+  color: var(--charoite-main-color);
+}
+
 ::-webkit-scrollbar {
   width: 4px !important;
   height: 8px !important;
