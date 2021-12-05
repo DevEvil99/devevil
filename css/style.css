@@ -149,7 +149,7 @@ img {
   content: attr(data-title);
   display: block;
   margin-bottom: 0.4rem;
-  color: #784cfb;
+  color: #9900FF;
   font-size: 1.15rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -162,7 +162,7 @@ img {
   width: 90px;
   height: 5px;
   border-radius: 3px;
-  background-color: #784cfb;
+  background-color: #9900FF;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -186,7 +186,7 @@ img {
 .btn {
   display: inline-block;
   padding: 0.85rem 2rem;
-  background-color: #784cfb;
+  background-color: #9900FF;
   color: #212121;
   border-radius: 2rem;
   font-size: 1.05rem;
@@ -196,7 +196,7 @@ img {
 }
 
 .btn:hover {
-  background-color: #6b44e0;
+  background-color: #9900FF;
 }
 
 .btn.small {
@@ -238,7 +238,7 @@ nav .container {
 .links a {
   display: inline-block;
   padding: 0.9rem 1.2rem;
-  color: #784cfb;
+  color: #9900FF;
   font-size: 1.05rem;
   text-transform: uppercase;
   font-weight: 500;
@@ -247,7 +247,7 @@ nav .container {
 }
 
 .links a.active {
-  background-color: #784cfb;
+  background-color: #9900FF;
   color: #212121;
   border-radius: 2rem;
   font-size: 1rem;
@@ -256,12 +256,12 @@ nav .container {
 }
 
 .links a:hover {
-  color: #784cfb;
+  color: #9900FF;
 }
 
 .links a.active:hover {
   color: #212121;
-  background-color: #6b44e0;
+  background-color: #9900FF;
 }
 
 .hamburger-menu {
@@ -279,7 +279,7 @@ nav .container {
   width: 2.1rem;
   height: 3px;
   border-radius: 3px;
-  background-color: #784cfb;
+  background-color: #9900FF;
   transition: 0.5s;
 }
 
@@ -290,7 +290,7 @@ nav .container {
   width: 2.1rem;
   height: 3px;
   border-radius: 3px;
-  background-color: #784cfb;
+  background-color: #9900FF;
   transition: 0.5s;
 }
 
@@ -331,7 +331,7 @@ nav.open .links {
 .header-title {
   font-size: 3.8rem;
   line-height: 0.8;
-  color: #784cfb;
+  color: #9900FF;
 }
 
 .header-content .text {
@@ -438,7 +438,7 @@ header .circle {
   font-size: 6rem;
   font-weight: 800;
   line-height: 1;
-  color: #784cfb;
+  color: #9900FF;
   opacity: 0.025;
 }
 
@@ -449,7 +449,7 @@ header .circle {
   height: 0px;
   bottom: 0;
   left: 0;
-  background-color: #784cfb;
+  background-color: #9900FF;
   transition: 0.3s;
 }
 
@@ -473,7 +473,7 @@ header .circle {
 .card .text {
   font-size: 1.15rem;
   margin: 1.8rem 0;
-  color: #784cfb;
+  color: #9900FF;
 }
 .services {
   background-color: #212121;
@@ -506,7 +506,7 @@ header .circle {
   height: 520px;
   top: 0;
   left: 0;
-  background-color: #784cfb;
+  background-color: #9900FF;
 }
 
 .portfolio .title,
@@ -544,7 +544,7 @@ header .circle {
 
 .filter-btn.active {
   background-color: #212121;
-  color: #784cfb;
+  color: #9900FF;
 }
 
 .portfolio .square {
@@ -693,7 +693,7 @@ header .circle {
 }
 
 ::selection {
-  background-color: #784cfb;
+  background-color: #9900FF;
   color: #212121;
 }
 
