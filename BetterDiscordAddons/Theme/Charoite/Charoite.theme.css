@@ -1268,7 +1268,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--charoite-main-color)
 }
 
-.container-2wlB3z, .members-1998pB, .scroller-RmtA4e {
+.container-2wlB3z, .members-1998pB, .scroller-RmtA4e, .messages-3G3erD {
   background-color: var(--charoite-main-bg)
 }
 
@@ -1284,6 +1284,10 @@ button[aria-label="Send a gift"] {
 
 .status-1fhblQ, .size14-e6ZScH {
   color: var(--charoite-main-color);
+}
+
+.replyLabel-27F26o {
+  color: var(--charoite-main-bg);
 }
 
 ::-webkit-scrollbar {
