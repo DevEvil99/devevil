@@ -1,9 +1,23 @@
+/**
+  * @name Dark+-Defualt-Member-List
+  * @author DevEvil#8745
+  * @version Dark+1
+  * @description Highly customized dark and purple theme for Discord
+  * @authorId 468132563714703390
+  * @authorLink https://devevil.xyz
+  * @source https://github.com/DevEvil99/DarkPlus-Discord-Theme
+  * @website https://devevil.xyz
+  * @invite jsQ9UP7kCA
+*/
+
+@import url('https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/Dark%2B-Defualt-Member-List/Dark%2B-Default-Member-List.css');
+
 :root {
   --darkplus-bg: #212121;
   --darkplus-bg2: #302f2f;
   --darkplus-sec: #bb86fc;
   --darkplus-links: #cdaef3;
-  --darkplus-home-icon:   url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png)
+  --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png)
 }
 
 .bg-h5JY_x,
@@ -189,6 +203,13 @@
   color: var(--darkplus-sec);
 }
 
+.wrapper-2jXpOf.modeUnread-1qO3K1
+  .content-1x5b-n
+  .mainContent-u_9PKf
+  .channelName-2YrOjO {
+    color: var(--darkplus-links);
+}
+
 .metadataIcon-2FyCKU path {
   fill: var(--darkplus-sec);
 }
@@ -320,15 +341,13 @@
   color: var(--darkplus-sec);
 }
 
-.homeIcon-FuNwkv path {
-  fill: transparent;
+.homeIcon-AaowEC path {fill: transparent}
+.homeIcon-AaowEC {
+background: var(--darkplus-home-icon) center/cover no-repeat;
+min-width: 50px;
+min-height: 50px;
 }
-.homeIcon-FuNwkv {
-  background: var(--darkplus-home-icon)
-    center/contain no-repeat;
-  min-width: 50px;
-  min-height: 50px;
-}
+
 
 .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
   color: var(--darkplus-links);
@@ -360,15 +379,6 @@
   transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
 }
 
-
-.membersWrap-2h-GB4 .members-1998pB .content-3YMskv:not(:hover) {
-  background-color: var(--darkplus-bg);
-}
-
-.membersGroup-v9BXpm {
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-sec);
-}
 
 .members-1998pB, .members-1998pB>div {
   background-color: var(--darkplus-bg);
