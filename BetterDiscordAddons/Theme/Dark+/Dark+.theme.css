@@ -346,15 +346,13 @@
   color: var(--darkplus-sec);
 }
 
-.homeIcon-FuNwkv path {
-  fill: transparent;
+.homeIcon-AaowEC path {fill: transparent}
+.homeIcon-AaowEC {
+background: var(--darkplus-home-icon) center/cover no-repeat;
+min-width: 50px;
+min-height: 50px;
 }
-.homeIcon-FuNwkv {
-  background: var(--darkplus-home-icon)
-    center/contain no-repeat;
-  min-width: 50px;
-  min-height: 50px;
-}
+
 
 .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
   color: var(--darkplus-links);
