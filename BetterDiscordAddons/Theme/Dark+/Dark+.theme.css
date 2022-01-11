@@ -918,7 +918,7 @@ button[aria-label="Send a gift"] {
 }
 .botTagRegular-kpctgU {
   color: var(--darkplus-sec);
-  background-color: #302f2f;
+  background-color: var(--darkplus-bg2);
 }
 
 .field-21XZwa > div > div > div {
@@ -1320,11 +1320,11 @@ button[aria-label="Send a gift"] {
 .activityPanel-9icbyU,
 .container-YkUktl,
 .scroller-kQBbkU {
-  background-color: #212121;
+  background-color: var(--darkplus-bg);
 }
 
 .theme-dark .children-3xh0VB:after {
-  background: #212121;
+  background: var(--darkplus-bg);
 }
 
 .icon-2xnN2Y,
@@ -1345,46 +1345,50 @@ button[aria-label="Send a gift"] {
 .title-338goq,
 .hovered-20u3oh,
 .customStatus-1UAQAK {
-  color: #bb86fc;
+  color: var(--darkplus-sec);
 }
 
 .input-2m5SfJ,
 .medium-2NClDM.iconLayout-3Bjizv {
-  background-color: #bb86fc;
+  background-color: var(--darkplus-sec);
   border-radius: 10px;
 }
 
 .input-2m5SfJ::placeholder {
-  color: #212121;
+  color: var(--darkplus-bg);
 }
 
 .icon-3CDcPB.visible-CwPfRb {
-  color: #212121;
+  color: var(--darkplus-bg);
 }
 
 .actionButton-3-B2x- {
-  color: #bb86fc;
-  background-color: #212121;
+  color: var(--darkplus-sec);
+  background-color: var(--darkplus-bg);
 }
 
 .actionButton-3-B2x-:hover {
-  color: #212121;
-  background-color: #bb86fc;
+  color: var(--darkplus-bg);
+  background-color: var(--darkplus-sec);
 }
 
 .selected-1-Z6gm .layout-1qmrhw {
-  background-color: #302f2f;
+  background-color: var(--darkplus-bg2);
 }
 
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
-  background-color: #bb86fc;
-  color: #212121;
+  background-color: var(--darkplus-sec);
+  color: var(--darkplus-bg);
   border-radius: 10px;
 }
 
 .members-3WRCEx,
 .members-3WRCEx > div {
   background-color: var(--darkplus-bg);
+}
+
+.button-2fCJ0o {
+  color: var(--darkplus-sec);
 }
 
 ::-webkit-scrollbar-thumb {
