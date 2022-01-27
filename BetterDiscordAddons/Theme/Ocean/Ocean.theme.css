@@ -937,6 +937,16 @@ button[aria-label="Send a gift"] {
   fill: var(--ocean-color2);
 }
 
+.wrapper-1gVUIN.minimum-fXpVNc {
+  background-color: transparent;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX,
+.button-1EGGcP.buttonColor-3bP3fX:hover, .button-1EGGcP .buttonColor-3bP3fX:hover, .colorable-3rVGna.primaryDark-2UJt1G, .colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, .colorable-3rVGna.primaryDark-2UJt1G:hover {
+  background-color: var(--ocean-color1);
+  color: var(--ocean-color2);
+}
+
 ::-webkit-scrollbar {
   width: 3px !important;
   height: 8px !important;
