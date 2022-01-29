@@ -1,7 +1,7 @@
 :root {
   --neptune-main-bg: #1a2035;
   --neptune-main-color: #228bd1;
-  --neptune-sec-color: #76e0e7;
+  --neptune-sec-color: #84adf8;
   --neptune-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/934118888071909406/home-icon.jpg);
 }
 
@@ -1388,8 +1388,14 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-main-color);
 }
 
-
-.theme-dark .tierBody-1d3UiS, .tierHeaderContent-2SPBAA, .tierTitle-kGI87L, .theme-dark .tierBody-3ju-rc, .theme-dark .tierHeaderLocked-3ItHYn, .theme-dark .perk-19D_HN, .theme-dark .tierMarkerBackground-G8FoN4,.progressBar-20NUv9 {
+.theme-dark .tierBody-1d3UiS,
+.tierHeaderContent-2SPBAA,
+.tierTitle-kGI87L,
+.theme-dark .tierBody-3ju-rc,
+.theme-dark .tierHeaderLocked-3ItHYn,
+.theme-dark .perk-19D_HN,
+.theme-dark .tierMarkerBackground-G8FoN4,
+.progressBar-20NUv9 {
   background-color: var(--neptune-main-color);
   color: var(--neptune-main-bg);
 }
@@ -1415,7 +1421,9 @@ button[aria-label="Send a gift"] {
   border: var(--neptune-main-bg);
 }
 
-.pageButton-1GMGeJ, .clear-2KQ7l1 .icon-18rqoe, .clear-2KQ7l1.iconLayout-SqV3nb:hover .icon-18rqoe {
+.pageButton-1GMGeJ,
+.clear-2KQ7l1 .icon-18rqoe,
+.clear-2KQ7l1.iconLayout-SqV3nb:hover .icon-18rqoe {
   color: var(--neptune-main-color);
 }
 
@@ -1425,6 +1433,20 @@ button[aria-label="Send a gift"] {
 
 .theme-dark .notches-2w7UZJ.gray-3wP137 {
   background: var(--neptune-main-bg);
+}
+
+.toast-q3Y4wI,
+.footer-3naVBw {
+  background-color: var(--neptune-main-bg);
+}
+
+.size16-rrJ6ag {
+  color: var(--neptune-main-color);
+}
+
+.avatarWrapper.StatusEverywhere-avatar-userPopout {
+  background: var(--neptune-main-bg);
+  border: 6px solid var(--neptune-main-bg);
 }
 
 ::-webkit-scrollbar {
