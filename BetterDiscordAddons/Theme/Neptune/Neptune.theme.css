@@ -1,7 +1,7 @@
 :root {
   --neptune-main-bg: #1a2035;
-  --neptune-main-color: #3254c4;
-  --neptune-sec-color: #5b7ef1;
+  --neptune-main-color: #228bd1;
+  --neptune-sec-color: #76e0e7;
   --neptune-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/934118888071909406/home-icon.jpg);
 }
 
@@ -565,7 +565,6 @@ button[aria-label="Send a gift"] {
 }
 
 .text-3bXy2L,
-.modeDefault-2fEh7a,
 .formNoticeTitle-2qYdGw,
 .subEnabledTitle-2MHkAH,
 .connectionHeader-2rV1ze .connectionAccountValue-3gVX0m,
@@ -601,7 +600,7 @@ button[aria-label="Send a gift"] {
 }
 
 .connectionOptionsWrapper-1ipqUo {
-  background-color: var(--neptune-sec-color);
+  background-color: var(--neptune-main-color);
   border-radius: 3px;
 }
 
@@ -1290,6 +1289,142 @@ button[aria-label="Send a gift"] {
 
 .emptyChannelIcon-1YdEz2 {
   background-color: var(--neptune-main-color);
+}
+
+.scroller-29cQFV {
+  background-color: var(--neptune-main-bg);
+}
+
+.lookInverted-2mDUMi.colorBrand-I6CyqQ,
+.lookInverted-2mDUMi.colorBrand-I6CyqQ:hover,
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+  background-color: var(--neptune-main-bg);
+  color: var(--neptune-main-color);
+}
+
+.base-21yXnu,
+.featureDescription-3U0QB3,
+.marketingRefreshTitle-UaHKpk,
+.marketingRefreshSubtitle-17I8Dd,
+.marketingRefreshTier1Logo-38ksW_,
+.marketingRefreshDescription-2_tCTt,
+.size14-3fJ-ot,
+.accountCreditDescription-1lEaJI,
+.cardText-3dmnX6,
+.sectionDescription-2ealM1,
+.disabledIcon-1rpL82 {
+  color: var(--neptune-sec-color);
+}
+
+.accountList-305sx3,
+.accountBtn-1YkMgV .accountBtnInner-3XK70s,
+.noItemsCard-2V85P5,
+.noItemsCard-5EOcCl,
+.theme-dark .noItemsIcon-1rZlXZ,
+.theme-dark .noItemsIcon-2OeOld,
+.theme-dark .feature-2IUcBI,
+.option-1QI4c9 {
+  background-color: var(--neptune-main-color);
+}
+
+.preview-rua1rr,
+.previewMessage-2uxBrA {
+  background-color: var(--neptune-main-bg);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker {
+  background-color: var(--neptune-main-bg);
+}
+.react-datepicker__day {
+  background-color: var(--neptune-main-color);
+}
+.theme-dark .calendarPicker-sDhzdi .react-datepicker {
+  background-color: var(--neptune-main-bg);
+}
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__header {
+  background-color: var(--neptune-main-bg);
+  border-color: rgba(24, 25, 28, 0.2);
+}
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__current-month {
+  border-bottom-color: rgba(24, 25, 28, 0.3);
+  color: var(--neptune-main-color);
+}
+.theme-dark
+  .calendarPicker-sDhzdi
+  .react-datepicker__navigation.react-datepicker__navigation--next,
+.theme-dark
+  .calendarPicker-sDhzdi
+  .react-datepicker__navigation.react-datepicker__navigation--previous {
+  border-color: var(--neptune-main-color);
+}
+.theme-dark
+  .calendarPicker-sDhzdi
+  .react-datepicker__week:last-of-type
+  .react-datepicker__day {
+  border-bottom-color: var(--neptune-main-bg);
+}
+.theme-dark
+  .calendarPicker-sDhzdi
+  .react-datepicker__week
+  .react-datepicker__day:last-of-type {
+  border-right-color: var(--neptune-main-bg);
+}
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day-name {
+  color: var(--neptune-main-color);
+}
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day {
+  color: var(--neptune-sec-color);
+}
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--disabled,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month,
+.theme-dark
+  .calendarPicker-sDhzdi
+  .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark
+  .calendarPicker-sDhzdi
+  .react-datepicker__day.react-datepicker__day--disabled:hover {
+  background-color: var(--neptune-main-bg);
+  color: var(--neptune-main-color);
+}
+
+
+.theme-dark .tierBody-1d3UiS, .tierHeaderContent-2SPBAA, .tierTitle-kGI87L, .theme-dark .tierBody-3ju-rc, .theme-dark .tierHeaderLocked-3ItHYn, .theme-dark .perk-19D_HN, .theme-dark .tierMarkerBackground-G8FoN4,.progressBar-20NUv9 {
+  background-color: var(--neptune-main-color);
+  color: var(--neptune-main-bg);
+}
+
+.perksModalContentWrapper-3RHugb {
+  background-color: var(--neptune-main-bg);
+}
+
+.theme-dark .ctaBar-Nhk8yY {
+  background-color: var(--neptune-main-color);
+}
+
+.input-2z42oC {
+  background-color: var(--neptune-main-color);
+}
+
+.input-2z42oC::placeholder {
+  color: var(--neptune-main-bg);
+}
+
+.avatar-3QF_VA {
+  background: var(--neptune-main-bg);
+  border: var(--neptune-main-bg);
+}
+
+.pageButton-1GMGeJ, .clear-2KQ7l1 .icon-18rqoe, .clear-2KQ7l1.iconLayout-SqV3nb:hover .icon-18rqoe {
+  color: var(--neptune-main-color);
+}
+
+.datePicker-70cO23 {
+  background-color: var(--neptune-main-bg);
+}
+
+.theme-dark .notches-2w7UZJ.gray-3wP137 {
+  background: var(--neptune-main-bg);
 }
 
 ::-webkit-scrollbar {
