@@ -1217,9 +1217,6 @@ button[aria-label="Send a gift"] {
 .icon-1GbPE7 {
   color: var(--darkplus-sec);
 }
-.container-2o3qEW {
-  background-color: var(--darkplus-bg);
-}
 
 .tierLock-1eabw6 {
   color: var(--darkplus-sec);
@@ -1394,8 +1391,16 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-sec);
 }
 
+.container-2o3qEW {
+  background-color: var(--darkplus-bg);
+}
+
 .attachButtonPlus-3IYelE {
   fill: var(--darkplus-sec);
+}
+
+.menu-1QACrS, .colorDefault-CDqZdO { 
+  border-radius: 15px; 
 }
 
 ::-webkit-scrollbar-thumb {
