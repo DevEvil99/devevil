@@ -8,3 +8,5 @@
 **Highly customized dark and purple theme for Discord**
 ## **[Ocean](https://betterdiscord.app/theme?id=468)**
 **Highly customized and customizable theme for Discord**
+## **[Neptune](https://betterdiscord.app/theme/Neptune)**
+**A dark, blue and customizable theme for Discord**
