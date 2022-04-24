@@ -955,6 +955,11 @@ button[aria-label="Send a gift"] {
   color: var(--ocean-color2);
 }
 
+.item-1OdjEX {
+  color: var(--ocean-color1);
+}
+
+
 ::-webkit-scrollbar {
   width: 3px !important;
   height: 8px !important;
