@@ -1411,6 +1411,10 @@ button[aria-label="Send a gift"] {
   border-radius: 15px; 
 }
 
+.item-1OdjEX {
+  color: var(--darkplus-sec);
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
