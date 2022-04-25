@@ -388,7 +388,7 @@
 .avatar-2e8lTP:hover.clickable-31pE3P:hover {
   filter: drop-shadow(0 0 8px);
   color: var(--darkplus-sec);
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.2) rotate(360deg); 
   transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
 }
 
@@ -592,11 +592,11 @@
 .activityHeader-2shpl0 {
   color: var(--darkplus-sec);
 }
-.circleIconButton-1QV--U {
+.circleIconButton-1VxDrg {
   color: var(--darkplus-sec);
   background-color: var(--darkplus-bg2);
 }
-.circleIconButton-1QV--U.selected-1JjBPm {
+.circleIconButton-1VxDrg.selected-2r1Hvo {
   color: var(--darkplus-bg2);
   background-color: var(--darkplus-sec);
 }
