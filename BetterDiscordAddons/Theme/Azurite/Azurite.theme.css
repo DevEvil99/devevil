@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
 :root {
 	--azurite-bg: #040429;
 	--azurite-bg2: #121236;
@@ -963,7 +966,7 @@ margin-left: 3px;
 }
 
 .sidebar-nqHbhN {
-  background-color: var(--azurite-sec);
+  background-color: var(--azurite-bg);
 }
 
 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
@@ -1352,7 +1355,7 @@ height: 16px;
 }
 
 .sidebarRegionScroller-FXiQOh {
-  background-color: var(--azurite-sec);
+  background-color: var(--azurite-bg);
 }
 
 
