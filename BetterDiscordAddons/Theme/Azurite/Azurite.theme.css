@@ -743,6 +743,12 @@ margin-left: 3px;
   color: var(--azurite-sec);
 }
 
+.field-21XZwa > div > div > div {
+  filter: blur(5px);
+}
+.field-21XZwa > div > div > div:hover {
+  filter: blur(0);
+}
 
 .closeButton-PCZcma, .keybind-13vtq8 {
   color: var(--azurite-sec);
@@ -770,6 +776,7 @@ margin-left: 3px;
   border-radius: 5px;
   background-color: var(--azurite-bg);
 }
+
 
 .message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy, .mouse-mode.full-motion .mentioned-Tre-dv:hover, .mentioned-Tre-dv {
   background-color: var(--azurite-bg2);
