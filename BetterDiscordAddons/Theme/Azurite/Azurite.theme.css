@@ -1331,6 +1331,6 @@ display: none;
 }
 
 ::selection {
-	background-color: var(--azurite-sec);
+	background-color: var(--azurite-links);
 	color: var(--azurite-bg);
 }
