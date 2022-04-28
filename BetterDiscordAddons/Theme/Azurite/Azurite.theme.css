@@ -253,8 +253,8 @@ body {
 }
 
 .theme-dark .wrapper-1ZcZW- {
-  background: var(--azurite-bg);
-  color: var(--azurite-sec);
+  background: var(--azurite-sec);
+  color: var(--azurite-bg);
 }
 
 .panel-2ZFCRb {
@@ -870,6 +870,10 @@ margin-left: 3px;
 
 .role-2TIOKu {
 	background-color: var(--azurite-bg2);
+}
+
+.textarea-_59yqs:focus {
+	background-color: var(--azurite-sec);
 }
 
 .roleName-2ZJJYR {
