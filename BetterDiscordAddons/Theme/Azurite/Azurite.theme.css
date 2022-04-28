@@ -1112,6 +1112,10 @@ border-radius: var(--server-radius);
 	color: var(--azurite-links);
 }
 
+.slateTextArea-27tjG0 span {
+	color: var(--azurite-sec);
+}
+
 .scroller-3j5xK2, .sidebar-1tnWFu {
   background-color: var(--azurite-sec);
 }
