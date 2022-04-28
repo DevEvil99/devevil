@@ -744,11 +744,9 @@ margin-left: 3px;
 }
 
 
-
 .closeButton-PCZcma, .keybind-13vtq8 {
   color: var(--azurite-sec);
   border-color: var(--azurite-sec);
-  margin-left: 220px;
 }
 
 .bd-sidebar-header .bd-icon:hover, .bd-sidebar-header .bd-icon {
@@ -771,7 +769,6 @@ margin-left: 3px;
 .accountProfileCard-lbN7n- {
   border-radius: 5px;
   background-color: var(--azurite-bg);
-  width: 950px;
 }
 
 .message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy, .mouse-mode.full-motion .mentioned-Tre-dv:hover, .mentioned-Tre-dv {
