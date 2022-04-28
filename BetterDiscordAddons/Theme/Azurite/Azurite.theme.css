@@ -1104,6 +1104,14 @@ display: none;
 border-radius: var(--server-radius);
 }
 
+.attachButton-_ACFSu:hover .attachButtonPlus-3IYelE {
+	fill: var(--azurite-links);
+}
+
+.button-2fCJ0o:hover {
+	color: var(--azurite-links);
+}
+
 .scroller-3j5xK2, .sidebar-1tnWFu {
   background-color: var(--azurite-sec);
 }
