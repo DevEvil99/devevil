@@ -392,7 +392,72 @@
   transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
 }
 
-.membersWrap-3NUR2t {
+.membersGroup-2eiWxl {
+  color: var(--darkplus-sec);
+}
+
+.members-3WRCEx {
+height: auto;
+max-height: 100vh;
+}
+.layout-1qmrhw {
+justify-content: unset;
+}
+.chatContent-3KubbW:not(:last-child) {
+margin-right: 65px;
+}
+:not(.ChannelDms-channelmembers-wrap) .membersWrap-3NUR2t {
+position: absolute;
+right: 0;
+width: unset;
+min-width: unset;
+height: 100%;
+}
+:not(.ChannelDms-channelmembers-wrap) .members-3WRCEx {
+width: 65px;
+transition: width 0.5s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+}
+.ChannelDms-channelmembers-wrap {
+width: 65px;
+position: absolute;
+right: 0;
+height: 100%;
+transition: width 0.5s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+}
+:not(.ChannelDms-channelmembers-wrap) .membersWrap-3NUR2t:hover .members-3WRCEx,
+.ChannelDms-channelmembers-wrap:hover {
+width: 240px;
+transition: width 0.5s 0s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+}
+.ChannelDms-channelmembers-wrap :is(.membersWrap-3NUR2t, .members-3WRCEx, .privateChannels-oVe7HL),
+html #MemberCount {
+width: 100%;
+}
+.ChannelDms-channelmembers-wrap .item-3XjbnG {
+margin: 0;
+transition: margin 0.5s ease;
+}
+.ChannelDms-channelmembers-wrap:hover .item-3XjbnG {
+margin: 0 8px;
+transition-delay: 1.25s;
+}
+.ChannelDms-channelmembers-wrap .privateChannels-oVe7HL .closeButton-mupH76 {
+width: 0;
+margin: 0;
+padding-right: 0;
+}
+.ChannelDms-channelmembers-wrap:hover .privateChannels-oVe7HL .closeButton-mupH76 {
+animation: floatChannelDmsPrivateChannelsCloseButton 1s 1s forwards;
+}
+@keyframes floatChannelDmsPrivateChannelsCloseButton {
+to {
+width: 16px;
+margin: 2px;
+padding-right: 8px;
+}
+}
+
+/*.membersWrap-3NUR2t {
   min-width: unset;
 }
 .membersWrap-3NUR2t .members-3WRCEx {
@@ -420,6 +485,7 @@
 .members-3WRCEx > div {
   background-color: var(--darkplus-bg);
 }
+*/
 
 .container-YkUktl {
   height: 85px;
