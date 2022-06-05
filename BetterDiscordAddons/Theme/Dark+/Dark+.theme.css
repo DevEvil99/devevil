@@ -1485,6 +1485,10 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-sec);
 }
 
+.usernameContainer-3PPkWq, .activityText-1rR-8O, .activity-icon {
+  color: var(--darkplus-sec);
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
