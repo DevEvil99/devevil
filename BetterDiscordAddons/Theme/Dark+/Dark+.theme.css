@@ -396,6 +396,10 @@
   color: var(--darkplus-sec);
 }
 
+.sidebar-1tnWFu + div {
+  background-color: var(--darkplus-bg);
+}
+
 .members-3WRCEx {
 height: auto;
 max-height: 100vh;
