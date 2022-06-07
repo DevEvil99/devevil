@@ -83,7 +83,7 @@ body {
 }
 
 .descriptionRow-1UPN0d, .title-3hptVQ {
-  color: var(--azurite-bg);
+  color: var(--azurite-sec);
 }
 
 .input-2g-os5, .input-2QVoG3, .layout-S0zsk1, .input-2g-os5::placeholder, .placeholder-2XdCpg, .option-2eIyOn {
@@ -1024,7 +1024,11 @@ margin-left: 3px;
 }
 
 .radioBar-3w9XY- {
-  background-color: var(--azurite-sec);
+  background-color: var(--azurite-bg2);
+}
+
+.text-sm-normal-3Zj3Iv, .sectionTitle-3j2YI1 {
+  color: var(--azurite-sec);
 }
 
 .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
