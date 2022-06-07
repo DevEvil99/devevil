@@ -50,7 +50,15 @@ body {
 }
 
 .header-JUTO-g {
-  background-color: var(--azurite-sec);
+  background-color: var(--azurite-bg);
+}
+
+.titleBlurb-2kLrFO, .theme-dark .subscriberCount-3iRh_w, .theme-dark .subscriberCount-3iRh_w strong,.perkTitle-1GQnag,.perkDescription--074QX, .defaultColor-HXu-5n, .text-md-medium-2avxhQ, .text-md-normal-304U3g, .text-2iTkaw, .person-2z4Mcy, .itemLabel-27pirQ, .colorDescription-2_VpwN, .description-2Gvwjw, .description-30xx7u, .labelDescriptor-34wZ-z {
+  color: var(--azurite-sec);
+}
+
+.theme-dark .elevationBorderLow-3_3rXL {
+  background-color: var(--azurite-bg);
 }
 
 .bodyInnerWrapper-2bQs1k, .footer-3naVBw {
