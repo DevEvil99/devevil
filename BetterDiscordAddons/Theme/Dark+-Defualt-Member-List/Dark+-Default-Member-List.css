@@ -385,11 +385,7 @@ min-height: 50px;
   position: absolute;
   bottom: 45px;
 }
-.container-YkUktl .nameTag-sc-gpq {
-  position: absolute;
-  bottom: 45px;
-  left: 50px;
-}
+
 .container-YkUktl > .noWrap-hBpHBz {
   width: 224px;
   bottom: 5px;
@@ -399,6 +395,7 @@ min-height: 50px;
   width: 100%;
   justify-content: space-evenly;
 }
+
 
 .layers-OrUESM .layer-86YKbF[style*="scale(0)"]:first-of-type,
 .baseLayer-W6S8cY {
