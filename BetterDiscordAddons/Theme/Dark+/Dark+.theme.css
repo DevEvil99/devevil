@@ -491,6 +491,7 @@ padding-right: 8px;
 }
 */
 
+/* old userarea
 .container-YkUktl {
   height: 85px;
 }
@@ -508,6 +509,7 @@ padding-right: 8px;
   width: 100%;
   justify-content: space-evenly;
 }
+*/
 
 .layers-OrUESM .layer-86YKbF[style*="scale(0)"]:first-of-type,
 .baseLayer-W6S8cY {
@@ -1484,6 +1486,10 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-sec);
 }
 
+.markup-eYLPri code {
+  width: 650px;
+  height: auto;
+}
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
