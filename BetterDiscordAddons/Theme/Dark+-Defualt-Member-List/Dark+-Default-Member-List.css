@@ -1285,11 +1285,6 @@ button[aria-label="Send a gift"] {
 }
 
 
-.markup-eYLPri code {
-  width: 650px;
-  height: auto;
-}
-
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
