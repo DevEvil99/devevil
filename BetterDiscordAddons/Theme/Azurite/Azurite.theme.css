@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+
 :root {
 	--azurite-bg: #040429;
 	--azurite-bg2: #121236;
@@ -418,7 +419,7 @@ body {
 .form-3gdLxP .channelTextArea-1FufC0 .textArea-2CLwUE .placeholder-1_mJY1 {
   color: var(--azurite-sec);
 }
-.form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h, .title-31SJ6t {
+.form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h {
   background-color: var(--azurite-bg);
   border-radius: 5px;
   border-top: 3px solid var(--azurite-sec);
@@ -431,6 +432,13 @@ body {
 }
 .form-3gdLxP:before {
   display: none;
+}
+
+.title-31SJ6t {
+  border-top: 1px solid var(--azurite-sec);
+  border-right: 1px solid var(--azurite-sec);
+  border-left: 1px solid var(--azurite-sec);
+  border-bottom: 1px solid var(--azurite-sec);
 }
 
 .replyLabel-WWnhHi,
