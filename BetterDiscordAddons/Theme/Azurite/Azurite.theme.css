@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-
 :root {
 	--azurite-bg: #040429;
 	--azurite-bg2: #121236;
@@ -419,8 +418,7 @@ body {
 .form-3gdLxP .channelTextArea-1FufC0 .textArea-2CLwUE .placeholder-1_mJY1 {
   color: var(--azurite-sec);
 }
-.form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h {
-  max-height: 45vh;
+.form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h, .title-31SJ6t {
   background-color: var(--azurite-bg);
   border-radius: 5px;
   border-top: 3px solid var(--azurite-sec);
