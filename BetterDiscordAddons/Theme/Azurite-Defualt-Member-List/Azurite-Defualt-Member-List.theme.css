@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+
 :root {
 	--azurite-bg: #040429;
 	--azurite-bg2: #121236;
@@ -111,7 +112,7 @@ body {
 }
 
 .textArea-2CLwUE .fakeLink-1wGafz {
-  color: var(--azurite-bg);
+  color: var(--azurite-sec);
 }
 
 .theme-dark .focused-2FU0YH {
