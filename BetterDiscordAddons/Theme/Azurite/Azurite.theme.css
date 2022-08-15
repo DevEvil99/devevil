@@ -362,7 +362,11 @@ body {
 
 .wrapper-2RrXDg, .theme-dark .outer-2JOHae.active-1W_Gl9,
 .theme-dark .outer-2JOHae.interactive-2zD88a:hover {
-  background-color: var(--azurite-links);
+  background-color: var(--azurite-sec);
+  border-top: 3px solid var(--azurite-bg);
+	border-right: 3px solid var(--azurite-bg);
+	border-left: 3px solid var(--azurite-bg);
+  border-bottom: 3px solid var(--azurite-bg);
 }
 
 .unreadRelevant-2f-VSK {
