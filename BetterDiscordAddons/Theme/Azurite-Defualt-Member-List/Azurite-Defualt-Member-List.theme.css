@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-
 :root {
 	--azurite-bg: #040429;
 	--azurite-bg2: #121236;
@@ -797,7 +796,29 @@ margin-left: 3px;
   color: var(--azurite-sec);
 }
 
-.actionButton-3-B2x-, .actionButton-3-B2x-:hover {
+.scroller-2XLwLg, .header-2EadGG {
+  background-color: var(--azurite-bg);
+}
+
+.input-2m5SfJ::placeholder {
+  color: var(--azurite-bg);
+}
+
+.customStatus-3XAoF9, .UserDetails-connections-header{
+  color: var(--azurite-sec);
+}
+
+
+
+.scroller-1TOeMq {
+  background-color: var(--azurite-bg);
+}
+
+.discriminator-WV5K5s, .subtext-xfubwR, .nameCellText-2i43C0,.textCell-sKsLUQ {
+  color: var(--azurite-sec);
+}
+
+.actionButton-3-B2x-, .actionButton-3-B2x-:hover, .actionButton-3-B2x-.highlight-3DSi7b {
   background-color: var(--azurite-sec);
   color: var(--azurite-bg);
 }
@@ -975,7 +996,7 @@ margin-left: 3px;
   background-color: var(--azurite-bg2);
 }
 
-.text-sm-normal-3Zj3Iv, .sectionTitle-3j2YI1 {
+.text-sm-normal-3Zj3Iv, .sectionTitle-3j2YI1,.name-3DDHNY, .closeIcon-1bRhE8, .mentionButton-3C5YMI {
   color: var(--azurite-sec);
 }
 
