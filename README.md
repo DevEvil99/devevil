@@ -12,3 +12,5 @@
 ## **[Neptune](https://betterdiscord.app/theme/Neptune)** <br>
 **[Preview](https://devevil.com/theme-preview/neptune)** <br>
 **A dark, blue and customizable theme for Discord**
+## **[Azurite](https://betterdiscord.app/theme/Azurite)** <br>
+**Bring a new look to your Discord with Azurite, A dark and customizable theme**
