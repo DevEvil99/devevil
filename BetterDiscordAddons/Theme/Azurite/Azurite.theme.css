@@ -1327,7 +1327,15 @@ display: none;
 	}
 }
 
+.scroller-WSmht3 {
+	border-right: 1px solid var(--azurite-sec);
+	border-left: 1px solid var(--azurite-sec);
+}
 
+.searchBar-3TnChZ {
+  border-right: 1px solid var(--azurite-sec);
+	border-left: 1px solid var(--azurite-sec);
+}
 
 ::-webkit-scrollbar {
   width: 4px !important;
