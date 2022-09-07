@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-
 :root {
 	--azurite-bg: #040429;
 	--azurite-bg2: #121236;
@@ -1265,6 +1264,14 @@ display: none;
 		left: calc(56px * 0.2);
 		width: calc(56px * 0.625);
 	}
+}
+
+.defaultColor-24IHKz, .text-md-normal-304U3g, .sampleLink-5BWNy9 {
+  color: var(--azurite-sec) !important;
+}
+
+.rowContainer-3t7486 {
+  background-color: var(--azurite-bg);
 }
 
 .scroller-WSmht3 {
