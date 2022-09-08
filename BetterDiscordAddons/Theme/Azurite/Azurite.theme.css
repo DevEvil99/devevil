@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+
 :root {
 	--azurite-bg: #040429;
 	--azurite-bg2: #121236;
@@ -240,6 +241,11 @@ body {
   padding: 8px;
   border-radius: var(--msg-bg-radius);
 }
+
+.markup-eYLPri blockquote, .markup-eYLPri pre {
+  max-width: 100%;
+}
+
 
 .newMessagesBar-1hF-9G {
   background-color: var(--azurite-sec);
