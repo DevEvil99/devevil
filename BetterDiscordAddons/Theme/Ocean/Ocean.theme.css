@@ -183,6 +183,11 @@ body {
   border-radius: 15px;
 }
 
+.markup-eYLPri blockquote, .markup-eYLPri pre {
+  max-width: 100%;
+}
+
+
 
 .homeIcon-r0w4ny path {fill: transparent}
 .homeIcon-r0w4ny {
