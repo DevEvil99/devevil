@@ -171,7 +171,7 @@
 .attachButton-_ACFSu:hover .attachButtonPlus-3IYelE {
   fill: var(--darkplus-links);
 }
-.button-f2h6uQ .contents-3ca1mk path, .name-3Uvkvr {
+.button-f2h6uQ .contents-3ca1mk path {
   color: var(--darkplus-sec);
 }
 
@@ -369,7 +369,7 @@
   background-color: var(--darkplus-bg2);
 }
 
-.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty) {
+.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
   background-color: var(--darkplus-bg2);
   display: inline-block;
   max-width: 650px;
@@ -379,6 +379,10 @@
   margin: 0;
   padding: 8px;
   border-radius: 15px;
+}
+
+.markup-eYLPri blockquote, .markup-eYLPri pre {
+  max-width: 100%;
 }
 
 .avatar-2e8lTP.clickable-31pE3P {
