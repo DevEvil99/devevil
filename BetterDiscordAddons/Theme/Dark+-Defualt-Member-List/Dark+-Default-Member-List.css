@@ -1276,10 +1276,9 @@ button[aria-label="Send a gift"] {
   border-radius: 15px; 
 }
 
-.item-1OdjEX {
+.item-1OdjEX, .icon-Lupfh-, .userTagDiscriminatorNoNickname-2HLaIE {
   color: var(--darkplus-sec);
 }
-
 
 .sidebar-1tnWFu + div {
   background-color: var(--darkplus-bg);
@@ -1287,6 +1286,10 @@ button[aria-label="Send a gift"] {
 
 .usernameContainer-3PPkWq, .activityText-1rR-8O, .activity-icon {
   color: var(--darkplus-sec);
+}
+
+.member-48YF_l, .members-3WRCEx {
+  background-color: var(--darkplus-bg);
 }
 
 
