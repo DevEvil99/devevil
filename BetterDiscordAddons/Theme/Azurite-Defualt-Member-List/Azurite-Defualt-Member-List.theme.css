@@ -764,6 +764,14 @@ margin-left: 3px;
   background-color: var(--azurite-bg);
 }
 
+.wrapper-3HVHpV {
+  display: none;
+}
+
+.theme-dark .scroller-3X7KbA {
+  background-color: var(--azurite-bg);
+}
+
 .jumpButton-1ITAeq {
   background-color: var(--azurite-sec);
 }
