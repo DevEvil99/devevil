@@ -756,6 +756,10 @@ margin-left: 3px;
   border-color: var(--azurite-sec);
 }
 
+.theme-dark .container-YkUktl, .layout-1qmrhw {
+  background-color: var(--azurite-bg);
+}
+
 .base-21yXnu.muted-eZM05q, .activityText-ev7Z1T, .embedAuthorName-pGyUPR, .embedFieldName-9LYSyR, .embedTitle-2n1pEb, .embedDescription-1DrJxZ, .embedFieldValue-3EHtvR, .embedFooterText-2Mc7H9 {
   color: var(--azurite-sec);
 }
