@@ -828,6 +828,10 @@ margin-left: 3px;
   display: none;
 }
 
+.theme-dark .container-YkUktl, .layout-1qmrhw {
+  background-color: var(--azurite-bg);
+}
+
 .theme-dark .scroller-3X7KbA {
   background-color: var(--azurite-bg);
 }
