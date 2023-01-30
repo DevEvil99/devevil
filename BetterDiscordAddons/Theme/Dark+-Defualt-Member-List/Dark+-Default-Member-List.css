@@ -1292,11 +1292,9 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkplus-bg);
 }
 
-.scroller-1jBQYo {
+.scroller-1jBQYo, .infoScroller-3MqKC5 {
   background-color: transparent !important;
 }
-
-
 .theme-dark .container-YkUktl {
   background-color: var(--darkplus-bg);
 }
