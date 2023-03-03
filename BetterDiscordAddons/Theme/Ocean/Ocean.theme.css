@@ -1,22 +1,3 @@
-/*
- ________  ________  _______   ________  ________                                                        
-|\   __  \|\   ____\|\  ___ \ |\   __  \|\   ___  \                                                      
-\ \  \|\  \ \  \___|\ \   __/|\ \  \|\  \ \  \\ \  \                                                     
- \ \  \\\  \ \  \    \ \  \_|/_\ \   __  \ \  \\ \  \                                                    
-  \ \  \\\  \ \  \____\ \  \_|\ \ \  \ \  \ \  \\ \  \                                                   
-   \ \_______\ \_______\ \_______\ \__\ \__\ \__\\ \__\                                                  
-    \|_______|\|_______|\|_______|\|__|\|__|\|__| \|__|                                                  
-                                                                                                                                                                                                        
- ________      ___    ___      ________  _______   ___      ___ _______   ___      ___ ___  ___          
-|\   __  \    |\  \  /  /|    |\   ___ \|\  ___ \ |\  \    /  /|\  ___ \ |\  \    /  /|\  \|\  \         
-\ \  \|\ /_   \ \  \/  / /    \ \  \_|\ \ \   __/|\ \  \  /  / | \   __/|\ \  \  /  / | \  \ \  \        
- \ \   __  \   \ \    / /      \ \  \ \\ \ \  \_|/_\ \  \/  / / \ \  \_|/_\ \  \/  / / \ \  \ \  \       
-  \ \  \|\  \   \/  /  /        \ \  \_\\ \ \  \_|\ \ \    / /   \ \  \_|\ \ \    / /   \ \  \ \  \____  
-   \ \_______\__/  / /           \ \_______\ \_______\ \__/ /     \ \_______\ \__/ /     \ \__\ \_______\
-    \|_______|\___/ /             \|_______|\|_______|\|__|/       \|_______|\|__|/       \|__|\|_______|
-             \|___|/                                                                                                                                                                                                                                                                                               
-*/
-
 :root {
   --ocean-bg: url(https://cdn.discordapp.com/attachments/468141324906921984/874986058562043984/background.png);
   --ocean-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/874999698426068992/ocean-home-icon.png);
@@ -32,98 +13,77 @@
   --ocean-emoji-picker-color: 150deg;
 }
 
+.app-2CXKsg {
+  background-image: var(--ocean-bg);
+  background-size: cover;
+}
+
+.bg-1QIAus {
+  background-color: transparent;
+}
+
+#app-mount .layer-86YKbF {
+  background-color: transparent;
+}
+
+body,
+#app-mount,
+#app-mount .app-3xd6d0,
+#app-mount .app-2CXKsg,
+#app-mount .container-2RRFHK.fixClipping-3GOd_d,
+#app-mount .wrapper-3AZUiP,
+#app-mount .bg-1QIAus,
+#app-mount .layer-86YKbF,
+#app-mount .container-1NXEtd,
+#app-mount .privateChannels-oVe7HL,
+#app-mount .panels-3wFtMD > *,
+#app-mount .chat-2ZfjoI,
+#app-mount .container-3XgAHv,
+#app-mount .wrapper-3HVHpV,
+#app-mount .noChat-sb1z07,
+#app-mount .members-3WRCEx,
+#app-mount .members-3WRCEx > div,
 #app-mount .container-2cd8Mz,
-.app-2CXKsg,
-.bg-1QIAus,
-.chat-2ZfjoI,
-.content-3spvdd,
-.contentRegionScroller-2_GT_N,
-.layer-86YKbF,
-.members-3WRCEx > div,
-.scroller-WSmht3,
-.applicationStore-2nk7Lo,
-.scroller-3_YDR2,
-.sidebar-1tnWFu,
-.standardSidebarView-E9Pc3j,
-.wrapper-15CKyy,
-.wrapper-1_HaEi,
-.wrapper-22ayhK,
-body {
-  background: 0 0;
-}
-.container-1NXEtd,
-.members-3WRCEx,
-.nowPlayingColumn-1eCBCN,
-.privateChannels-oVe7HL,
-.sidebar-1tnWFu > .scrollerBase-_bVAAt,
-.sidebarRegionScroller-FXiQOh {
-  background: rgba(47, 49, 54, var(--sides-transp));
-}
-.panels-3wFtMD {
-  background: rgba(41, 43, 47, var(--sides-transp));
-}
-.scroller-3X7KbA,
-.withFrame-2dL45i {
-  background: rgba(32, 34, 37, var(--sides-transp));
-}
-.scroller-29cQFV,
+#app-mount .applicationStore-2nk7Lo,
 #app-mount .pageWrapper-2PwDoS,
-.chatContent-3KubbW,
-.contentRegion-3HkfJJ,
-.header-6h98Y_::after,
-.peopleColumn-1wMU14,
-.stickyHeader-hH_ZLl::after,
-.titleContainer-3fPic2::after {
-  background: rgba(54, 57, 63, var(--chat-transp));
+#app-mount .scrollerBase-_bVAAt,
+#app-mount .standardSidebarView-E9Pc3j,
+#app-mount .contentRegion-3HkfJJ {
+	background-color: transparent;
 }
-.container-ZMc96U.themed-Hp1KC_ {
-  background: rgba(54, 57, 63, var(--sides-transp));
+#app-mount .children-3xh0VB:after {
+	display: none;
 }
-.container-ZMc96U.themed-Hp1KC_,
-.members-3WRCEx,
-.nowPlayingColumn-1eCBCN,
-.scroller-3X7KbA,
-.sidebar-1tnWFu,
-.sidebarRegionScroller-FXiQOh,
-.withFrame-2dL45i {
-  backdrop-filter: blur(var(--sides-blur));
+#app-mount .wrapper-1_HaEi {
+	background-color: transparent;
 }
-#app-mount .children-3xh0VB:after,
-#app-mount .form-3gdLxP:before {
-  display: none;
+#app-mount .container-ZMc96U.themed-Hp1KC_,
+#app-mount .sidebarRegion-1VBisG,
+#app-mount .sidebar-1tnWFu,
+#app-mount .panels-3wFtMD,
+#app-mount .membersWrap-3NUR2t,
+#app-mount .nowPlayingColumn-1eCBCN {
+	background-color: transparent;
 }
-.appMount-2yBXZl {
-  background: var(--ocean-bg) center/cover no-repeat;
+
+.theme-dark .scroller-3X7KbA {
+	background: transparent;
 }
-.withFrame-2dL45i {
-  padding-top: 4px;
-  margin-top: 0;
+
+.chatContent-3KubbW {
+  background-color: transparent;
 }
-#app-mount .sidebar-1tnWFu {
-  border-radius: 0;
+
+.theme-dark .scroller-WSmht3 {
+  background-color: transparent;
 }
-.content-3spvdd {
-  backdrop-filter: blur(5px);
+
+.titleBar-1it3bQ {
+  background-image: var(--ocean-bg);
 }
-.header-6h98Y_::before,
-.stickyHeader-hH_ZLl::before,
-.titleContainer-3fPic2::before {
-  background: var(--ocean-bg) center/cover fixed;
-}
-.header-6h98Y_::after,
-.header-6h98Y_::before,
-.stickyHeader-hH_ZLl::after,
-.stickyHeader-hH_ZLl::before,
-.titleContainer-3fPic2::after,
-.titleContainer-3fPic2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: -1;
+
+.sidebarRegionScroller-FXiQOh, .contentRegionShownSidebar-fHXkEg {
+  background-color: transparent;
 }
 
 .searchBar-3TnChZ {
