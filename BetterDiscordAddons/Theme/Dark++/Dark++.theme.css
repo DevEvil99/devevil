@@ -1313,6 +1313,37 @@ html #MemberCount {
   color: var(--darkplus-bg) !important;
 }
 
+.newMessagesBar-1hF-9G {
+  background-color: var(--darkplus-main);
+}
+
+.barButtonMain-2GIx4o, .span-3lFnWr, .barButtonAlt-TQoCdZ {
+  color: var(--darkplus-bg);
+}
+
+.scroller-nxCRu_ {
+  background-color: var(--darkplus-bg2);
+}
+
+.label-3CEiKJ, .icon-3XHs8t {
+  color: var(--darkplus-main);
+}
+
+.iconBadge-3Mmg92 {
+  background-color: var(--darkplus-main2);
+}
+
+.colorDefault-2_rLdz.focused-3LIdPu {
+  background-color: var(--darkplus-bg);
+}
+
+.attachment-1PZZB2.newMosaicStyle-35X6XO {
+  background-color: var(--darkplus-bg2);
+}
+
+.anchor-1X4H4q {
+  color: var(--darkplus-main2);
+}
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-main) !important;
