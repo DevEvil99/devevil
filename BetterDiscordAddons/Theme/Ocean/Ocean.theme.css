@@ -1,3 +1,22 @@
+/*
+ ________  ________  _______   ________  ________                                                        
+|\   __  \|\   ____\|\  ___ \ |\   __  \|\   ___  \                                                      
+\ \  \|\  \ \  \___|\ \   __/|\ \  \|\  \ \  \\ \  \                                                     
+ \ \  \\\  \ \  \    \ \  \_|/_\ \   __  \ \  \\ \  \                                                    
+  \ \  \\\  \ \  \____\ \  \_|\ \ \  \ \  \ \  \\ \  \                                                   
+   \ \_______\ \_______\ \_______\ \__\ \__\ \__\\ \__\                                                  
+    \|_______|\|_______|\|_______|\|__|\|__|\|__| \|__|                                                  
+                                                                                                                                                                                                        
+ ________      ___    ___      ________  _______   ___      ___ _______   ___      ___ ___  ___          
+|\   __  \    |\  \  /  /|    |\   ___ \|\  ___ \ |\  \    /  /|\  ___ \ |\  \    /  /|\  \|\  \         
+\ \  \|\ /_   \ \  \/  / /    \ \  \_|\ \ \   __/|\ \  \  /  / | \   __/|\ \  \  /  / | \  \ \  \        
+ \ \   __  \   \ \    / /      \ \  \ \\ \ \  \_|/_\ \  \/  / / \ \  \_|/_\ \  \/  / / \ \  \ \  \       
+  \ \  \|\  \   \/  /  /        \ \  \_\\ \ \  \_|\ \ \    / /   \ \  \_|\ \ \    / /   \ \  \ \  \____  
+   \ \_______\__/  / /           \ \_______\ \_______\ \__/ /     \ \_______\ \__/ /     \ \__\ \_______\
+    \|_______|\___/ /             \|_______|\|_______|\|__|/       \|_______|\|__|/       \|__|\|_______|
+             \|___|/                                                                                                                                                                                                                                                                                               
+*/
+
 :root {
   --ocean-bg: url(https://cdn.discordapp.com/attachments/468141324906921984/874986058562043984/background.png);
   --ocean-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/874999698426068992/ocean-home-icon.png);
@@ -932,6 +951,29 @@ button[aria-label="Send a gift"] {
   background-color: transparent;
 }
 
+.container-3wLKDe {
+  background-color: transparent;
+}
+
+.mainCard-3KBsBI,.mainCard-3KBsBI:hover {
+  background-color: var(--ocean-color1);
+}
+
+.postTitleText-2ARr84,.messageContent-1SOr75 {
+  color: var(--ocean-color2) !important;
+}
+
+.container-3YcgdM {
+  background-color: transparent;
+}
+
+.divider-AZrXIA {
+  background-color: transparent;
+}
+
+.headerText-10ez_d, .sidebar-nqHbhN .side-1lrxIh .item-2GWPIy, .bd-sidebar-header h2 {
+  color: var(--ocean-color1);
+}
 
 ::-webkit-scrollbar {
   width: 3px !important;
