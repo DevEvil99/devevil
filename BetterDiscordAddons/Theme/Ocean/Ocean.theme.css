@@ -959,6 +959,10 @@ button[aria-label="Send a gift"] {
   background-color: var(--ocean-color1);
 }
 
+.theme-dark .form-3gdLxP:before {
+    background: transparent !important;
+}
+
 .postTitleText-2ARr84,.messageContent-1SOr75 {
   color: var(--ocean-color2) !important;
 }
