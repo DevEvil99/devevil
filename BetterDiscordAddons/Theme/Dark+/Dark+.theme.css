@@ -1046,11 +1046,15 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkplus-bg);
 }
 
-.animatedContainer-2laTjx,
-.content-2a4AW9 [style="height: 84px;"],
-.bannerImage-ubW8K- {
-  display: none;
+
+.icon-2W8DHg {
+  color: var(--darkplus-sec);
 }
+
+.modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe .name-28HaxV, .modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg, .modeConnected-NrO4cP .name-28HaxV, .modeConnected-NrO4cP:hover .name-28HaxV, .modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH:hover .name-28HaxV, .modeUnread-3Cxepe .name-28HaxV, .modeUnread-3Cxepe:hover .name-28HaxV {
+  color: var(--darkplus-links);
+}
+
 .hasBanner-2IrYih .header-3OsQeK,
 .hasBanner-2IrYih .header-3OsQeK:hover {
   color: var(--header-primary);
