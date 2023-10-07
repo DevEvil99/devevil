@@ -1,3 +1,15 @@
+/**
+  *	@name Dark+-test
+  *	@author DevEvil#8745
+  *	@version Dark+1
+  *	@description Highly customized dark and purple theme for Discord
+  * @authorId 468132563714703390
+  * @authorLink https://dsc.bio/devevil
+  * @source https://github.com/DevEvil99/DarkPlus-Discord-Theme
+  * @website https://devevil.xyz
+  * @invite jsQ9UP7kCA
+*/
+
 /*
  ________  ________  ________  ___  __    ________  ___       ___  ___  ________                         
 |\   ___ \|\   __  \|\   __  \|\  \|\  \ |\   __  \|\  \     |\  \|\  \|\   ____\                        
@@ -66,6 +78,7 @@
   background-color: var(--darkplus-bg);
 }
 .form-3gdLxP {
+  z-index: 1;
   background-color: var(--darkplus-bg);
 }
 .form-3gdLxP .channelTextArea-1FufC0 .textArea-2CLwUE .placeholder-1_mJY1 {
