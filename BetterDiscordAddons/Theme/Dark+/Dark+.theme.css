@@ -103,7 +103,7 @@
 }
 
 .topSection-13QKHs {
-  background-color: var(--darkplus-bg);
+  background-color: transparent;
 }
 .container-1oAagU {
   background-color: var(--darkplus-bg);
@@ -665,6 +665,10 @@ justify-content: unset;
 }
 .tabBar-2hXqzU {
   background-color: transparent;
+}
+
+button.button-12Fmur {
+  color: var(--darkplus-sec);
 }
 
 .activeButtonChild-2hgLAO, .theme-dark .button-y6hemj:hover .activeButtonChild-2hgLAO {
@@ -1529,4 +1533,3 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkplus-bg);
   color: var(--darkplus-links);
 }
- 
