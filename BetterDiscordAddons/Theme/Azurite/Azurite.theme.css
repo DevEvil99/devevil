@@ -458,7 +458,7 @@ body {
 .content-yjf30S,
 .members-2y1nVj,
 .scroller-1ox3I2,
-.messages-23can0, .header-3OsQeK, .members-2y1nVj, .members-2y1nVj>div {
+.messages-23can0, .header-3OsQeK, .members-2y1nVj, .members-2y1nVj>div, .membersWrap-3GwLFp {
   background-color: var(--azurite-bg);
 }
 
@@ -476,7 +476,7 @@ justify-content: unset;
 .chatContent-2O4SXb:not(:last-child) {
 margin-right: 65px;
 }
-:not(.ChannelDms-channelmembers-wrap) .membersWrap-3GwLFp {
+:not(.ChannelDms-channelmembers-wrap) .membersWrap-3GwLFp, .container-2vWgD2 {
 right: 0;
 width: unset;
 min-width: unset;
