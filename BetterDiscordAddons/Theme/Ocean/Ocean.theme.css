@@ -32,27 +32,27 @@
   --ocean-emoji-picker-color: 150deg;
 }
 
-.app__00c92 {
+.app_de4237 {
   background-image: var(--ocean-bg);
   background-size: cover;
 }
 
-.bg__7adbf {
+.bg__12180 {
   background-color: transparent;
 }
 
-#app-mount .layer_e552e0 {
+#app-mount .layer__2efaa  {
   background-color: transparent;
 }
 
 body,
 #app-mount,
 #app-mount .app_b1f720,
-#app-mount .app__00c92,
+#app-mount .app_de4237,
 #app-mount .container__4bde3.fixClipping-3GOd_d,
 #app-mount .wrapper__246a1,
-#app-mount .bg__7adbf,
-#app-mount .layer_e552e0,
+#app-mount .bg__12180,
+#app-mount .layer__2efaa ,
 #app-mount .container__590e2,
 #app-mount .privateChannels__93473,
 #app-mount .panels__58331 > *,
@@ -955,7 +955,7 @@ button[aria-label="Send a gift"] {
   background-color: transparent;
 }
 
-.mainCard-3KBsBI,.mainCard-3KBsBI:hover {
+.mainCard__8a660,.mainCard__8a660:hover {
   background-color: var(--ocean-color1);
 }
 
