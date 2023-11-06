@@ -424,12 +424,18 @@
 	z-index: 11;
 }
 
+.mainCard__8a660 {
+  width: 97%;
+}
+
+.content__1a4fe:before {
+  box-shadow: none !important;
+}
+
 .members__9f47b,
-.membersWrap__90226, .container_b2ce9c {
-	border-radius: 20px 0 0 20px !important;
+.membersWrap__90226 {
 	min-width: 60px;
 	transition-duration: 500ms;
-	transition-property: box-shadow, min-width, width;
 	width: 60px;
 	z-index: 10;
 }
@@ -446,8 +452,8 @@
 	right: 0;
 }
 
-.membersWrap__90226:hover {
-	box-shadow: 0 0 20px 10px #00000044;
+.container__93316 {
+  position: absolute;
 }
 
 .membersGroup__85843 {
@@ -1069,8 +1075,8 @@ button[aria-label="Send a gift"] {
 
 .hasBanner_e78601 .header__104ca,
 .hasBanner_e78601 .header__104ca:hover {
-  color: var(--header-primary);
-  box-shadow: var(--elevation-low);
+  color: var(--darkplus-links);
+  box-shadow: none;
 }
 .iconTierOne-s_oiRb,
 .iconTierTwo-1JOWNK {
