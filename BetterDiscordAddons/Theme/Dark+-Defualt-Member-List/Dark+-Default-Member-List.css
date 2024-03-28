@@ -518,18 +518,6 @@ justify-content: unset;
 }
 */
 
-.layers__1c917 .layer_f7d46a [style*="scale(0)"]:first-of-type,
-.baseLayer__2b890 {
-  transform: none !important;
-}
-.layers__1c917 .layer_f7d46a :first-of-type[aria-hidden="true"] {
-  transform: none !important;
-  opacity: 1 !important;
-  filter: brightness(0.25);
-  pointer-events: none !important;
-  transition: 100ms;
-}
-
 .sidebarRegionScroller__8113e {
   background-color: var(--darkplus-bg);
 }
