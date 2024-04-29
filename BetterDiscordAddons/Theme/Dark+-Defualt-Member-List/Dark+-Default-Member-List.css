@@ -1510,12 +1510,8 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkplus-bg);
 }
 
-.content__690c5 {
-  background-color: var(--darkplus-bg);
-}
-
-.scroller__1f498 {
-  background-color: var(--darkplus-bg);
+.container__7e23c {
+  background-color: var(--darkplus-bg) !important;
 }
 
 .container__68e43 {
