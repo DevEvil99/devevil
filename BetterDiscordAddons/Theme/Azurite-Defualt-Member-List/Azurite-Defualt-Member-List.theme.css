@@ -1,384 +1,249 @@
-/*
- ________  ________  ________  ___  __    ________  ___       ___  ___  ________                         
-|\   ___ \|\   __  \|\   __  \|\  \|\  \ |\   __  \|\  \     |\  \|\  \|\   ____\                        
-\ \  \_|\ \ \  \|\  \ \  \|\  \ \  \/  /|\ \  \|\  \ \  \    \ \  \\\  \ \  \___|_                       
- \ \  \ \\ \ \   __  \ \   _  _\ \   ___  \ \   ____\ \  \    \ \  \\\  \ \_____  \                      
-  \ \  \_\\ \ \  \ \  \ \  \\  \\ \  \\ \  \ \  \___|\ \  \____\ \  \\\  \|____|\  \                     
-   \ \_______\ \__\ \__\ \__\\ _\\ \__\\ \__\ \__\    \ \_______\ \_______\____\_\  \                    
-    \|_______|\|__|\|__|\|__|\|__|\|__| \|__|\|__|     \|_______|\|_______|\_________\                   
-                                                                          \|_________|                                                                                                                    
- ________      ___    ___      ________  _______   ___      ___ _______   ___      ___ ___  ___          
-|\   __  \    |\  \  /  /|    |\   ___ \|\  ___ \ |\  \    /  /|\  ___ \ |\  \    /  /|\  \|\  \         
-\ \  \|\ /_   \ \  \/  / /    \ \  \_|\ \ \   __/|\ \  \  /  / | \   __/|\ \  \  /  / | \  \ \  \        
- \ \   __  \   \ \    / /      \ \  \ \\ \ \  \_|/_\ \  \/  / / \ \  \_|/_\ \  \/  / / \ \  \ \  \       
-  \ \  \|\  \   \/  /  /        \ \  \_\\ \ \  \_|\ \ \    / /   \ \  \_|\ \ \    / /   \ \  \ \  \____  
-   \ \_______\__/  / /           \ \_______\ \_______\ \__/ /     \ \_______\ \__/ /     \ \__\ \_______\
-    \|_______|\___/ /             \|_______|\|_______|\|__|/       \|_______|\|__|/       \|__|\|_______|
-             \|___|/                                                                                     
+/**
+  * @name Azurite-Defualt-Member-List
+  * @author DevEvil#8745
+  * @version 1.0
+  * @description Bring a new look to your Discord with Azurite, A dark and customizable theme
+  * @authorId 468132563714703390
+  * @authorLink https://devevil.com
+  * @source https://github.com/DevEvil99/Azurite-Discord-Theme
+  * @website https://devevil.com
+  * @invite jsQ9UP7kCA
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
 :root {
-  --darkplus-bg: #212121;
-  --darkplus-bg2: #302f2f;
-  --darkplus-sec: #bb86fc;
-  --darkplus-links: #cdaef3;
-  --darkplus-home-icon: url(https://devevil.com/betterdiscord/dark%2b-logo.png);
-  --watermark-filter-invert: 0%;
-  --watermark-filter-sepia: 50%;
-  --watermark-filter-saturate: 3000%;
-  --watermark-filter-hue-rotate: 210deg;
-  --watermark-filter-brightness: 70%;
-  --watermark-filter-contrast: 200%;
-  --darkplus-emoji-picker-color: 210deg;
+	--azurite-bg: #040429;
+	--azurite-bg2: #121236;
+	--azurite-sec: #24CC89;
+	--azurite-links: #8bffcf;
+	--azurite-home-icon: url('https://devevil.com/betterdiscord/azurite-logo.png');
+	--watermark-filter-invert: 0%;
+	--watermark-filter-sepia: 50%;
+	--watermark-filter-saturate: 3000%;
+	--watermark-filter-hue-rotate: 100deg;
+	--watermark-filter-brightness: 100%;
+	--watermark-filter-contrast: 70%;
+	--azurite-emoji-picker-color: 100deg;
+	--avatar-radius: 5px;
+	--server-radius: 5px;
+  --msg-bg-radius: 5px;
+	--font: 'Righteous', cursive;
 }
 
-.bg_d4b6c5,
-.container_e40c16 {
-  background-color: var(--darkplus-bg);
-}
-.bg_d4b6c5 {
-  background-color: var(--darkplus-bg);
-}
-.scrollerInner_e2e187 {
-  background-color: var(--darkplus-bg);
-}
-.container_e44302.themed_e44302 {
-  background: var(--darkplus-bg);
-}
-.content-2a4AW9 {
-  background-color: var(--darkplus-bg);
+body {
+	font-family: var(--font);
 }
 
-.searchBar_f0963d {
-  background-color: var(--darkplus-bg);
-}
-.searchBar_f0963d .searchBarComponent_f0963d {
-  background-color: var(--darkplus-bg2);
-  border-radius: 20px;
-}
-.scroller_c47fa9.thin_eed6a8.scrollerBase-_bVAAt.fade-1R6FHN {
-  background-color: var(--darkplus-bg);
-}
-.panel_bf1a22.activityPanel_a4d4d9 {
-  background-color: var(--darkplus-bg);
-}
-.container_b2ca13 {
-  background-color: var(--darkplus-bg);
-}
-.form_a7d72e {
-  background-color: var(--darkplus-bg);
-}
-.form_a7d72e .channelTextArea_a7d72e .textArea_d0696b .placeholder__443e5 {
-  color: var(--darkplus-sec);
-}
-.form_a7d72e .channelTextArea_a7d72e .scrollableContainer_d0696b {
-  max-height: 45vh;
-  background-color: var(--darkplus-bg2);
-  border-radius: 22px;
-}
-.form_a7d72e .channelTextArea_a7d72e {
-  background-color: transparent;
-}
-.form_a7d72e:before {
-  display: none;
-}
-.scroller_e2e187 {
-  background-color: var(--darkplus-bg);
-}
-.peopleList_e0840f.auto-2K3UW5.scrollerBase-_bVAAt {
-  background-color: var(--darkplus-bg);
-}
-.children_e44302:after {
-  display: none;
-}
-.nowPlayingSidebar-2OFn0o {
-  min-width: 300px;
-  max-width: 300px;
-}
-.customStatusActivity-WKWGD- {
-  background-color: var(--darkplus-bg);
-}
-.nameTagWithCustomStatus-5c-v3-.nameTag-2Nlmsy.nameTag_be84f0 {
-  background-color: var(--darkplus-bg);
+.headerTop-3GPUSF {
+  background-color: var(--azurite-bg);
 }
 
-.member_cbd271 {
-  background-color: var(--darkplus-bg);
+.clamped-2ZePhX, .tabBar_c69589 {
+  color: var(--azurite-sec);
 }
 
-.membersGroup_cbd271 {
-  color: var(--darkplus-links);
+.container_cc7b67 {
+  background-color: var(--azurite-bg2);
+  color: var(--azurite-sec);
 }
 
-.topSection-13QKHs {
-  background-color: transparent;
-}
-.container_bf550a {
-  background-color: var(--darkplus-bg);
-}
-.container_bf550a .scroller_bf550a {
-  margin-left: 0;
-  border-left: none;
+.content_e62b38, .timestamp_ec86aa {
+  color: var(--azurite-links);
 }
 
-.wrapper_cd82a7 {
-  background-color: var(--darkplus-sec);
-  border: none;
-}
-.wrapper_cd82a7:hover,
-.wrapper_cd82a7.active_c0f6a6 {
-  background-color: var(--darkplus-links) !important;
-}
-.wrapper_cd82a7 .inset_c0f6a6 {
-  background-color: var(--darkplus-bg);
-}
-.wrapper_cd82a7 .section_cd82a7 {
-  background-color: var(--darkplus-links);
-}
-.header_fd6364 {
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-sec);
-}
-.mention_c10249 {
-  background-color: var(--darkplus-sec);
-}
-.mentioned_d5deea {
-  background-color: rgba(var(--darkplus-sec), 0.1) !important;
-}
-.mentioned_d5deea:before {
-  background-color: var(--darkplus-sec);
-}
-.mentioned_d5deea:hover {
-  background-color: rgba(var(--darkplus-sec), 0.2) !important;
+.roleRow_a930f1:hover:not(.roleRowDisableHover_a930f1) .circleButton_a930f1 {
+  background-color: var(--azurite-sec);
 }
 
-.iconBadge_e44302 {
-  background-color: var(--darkplus-sec);
-}
-.container_b2ca13 .button_f67531:nth-child(1) .contents-3ca1mk path {
-  fill: var(--darkplus-sec);
+.titleContainer_e87574, .customScroller_c25c6d {
+  background-color: var(--azurite-bg);
 }
 
-.container_b2ca13 .button_f67531:nth-child(2) .contents-3ca1mk path {
-  fill: var(--darkplus-sec);
+.header_bd05f1 {
+  background-color: var(--azurite-bg);
 }
 
-.container_b2ca13 .button_f67531:nth-child(3) .contents-3ca1mk path {
-  fill: var(--darkplus-sec);
+.titleBlurb_f1f3b4, .theme-dark .subscriberCount_da77bd, .theme-dark .subscriberCount_da77bd strong,.perkTitle_da77bd,.perkDescription_da77bd, .defaultColor-HXu-5n, .text-md-medium-2avxhQ, .text-md-normal-304U3g, .text_f20685, .person_a930f1, .itemLabel-27pirQ, .colorDescription_da1bd9, .description_bdfce3, .description-30xx7u, .labelDescriptor-34wZ-z {
+  color: var(--azurite-sec);
 }
 
-.container_b2ca13 .button_f67531:nth-child(4) .contents-3ca1mk path {
-  fill: var(--darkplus-sec);
-}
-.sprite_af14ca {
-  filter: hue-rotate(var(--darkplus-emoji-picker-color)) !important;
-}
-.attachButton_f298d4 .contents-3ca1mk path {
-  fill: var(--darkplus-sec);
-}
-.attachButton_f298d4:hover .attachButtonPlus_f298d4 {
-  fill: var(--darkplus-links);
-}
-.button_dd4f85 .contents-3ca1mk path {
-  color: var(--darkplus-sec);
+.theme-dark .elevationBorderLow_ff8688 {
+  background-color: var(--azurite-bg);
 }
 
-.button_ef319f path {
-  fill: var(--darkplus-sec);
+.bodyInnerWrapper-2bQs1k, .footer-3naVBw {
+  background-color: var(--azurite-bg);
 }
 
-.item-1OdjEX path {
-  fill: var(--darkplus-sec);
+.theme-dark .tierHeaderUnlocked_da77bd, .wrapper_d864ab, .wrapper_d864ab:hover, .tierHeaderContent_da77bd, .theme-dark .tierBody_da77bd {
+  background-color: var(--azurite-bg2);
 }
 
-.iconWrapper_e44302 path {
-  color: var(--darkplus-sec);
+.header_c6ee36, .list_a3bc57 {
+  background-color: var(--azurite-sec);
 }
 
-.linkButtonIcon_c91bad path {
-  color: var(--darkplus-sec);
+.action_d864ab {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
 }
 
-.actionButton_e01b91 path {
-  color: var(--darkplus-sec);
-}
-.buttonIcon_adcaac path {
-  fill: var(--darkplus-sec);
+.descriptionBox_c38f8d {
+  background-color: var(--azurite-sec);
 }
 
-.icon_effbe2 path {
-  fill: var(--darkplus-sec);
+.descriptionRow_c38f8d, .title-3hptVQ {
+  color: var(--azurite-sec);
 }
 
-.actionIcon_f6f816 path {
-  fill: var(--darkplus-sec);
-}
-.wrapper_d8bfb3.modeUnreadImportant_d8bfb3
-  .wrapper_d8bfb3
-  .mainContent-20q_Hp
-  .icon_d8bfb3 {
-  color: var(--darkplus-links);
-}
-.wrapper_d8bfb3 .wrapper_d8bfb3 .mainContent-20q_Hp .icon_d8bfb3 {
-  color: var(--darkplus-sec);
+.input-2g-os5, .input__9fba8, .layout__799c9, .input-2g-os5::placeholder, .placeholder-2XdCpg, .option-2eIyOn {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
 }
 
-.wrapper_d8bfb3.modeUnreadImportant_d8bfb3
-  .wrapper_d8bfb3
-  .mainContent-20q_Hp
-  .channelName-3KPsGw {
-  color: var(--darkplus-links);
+.welcomeTitle_dcd39d.size24-17l95E {
+  color: var(--azurite-sec);
 }
 
-.metadataIcon_f316dd path {
-  fill: var(--darkplus-sec);
+.preview_c31d36, .previewContainer_dcd39d, .enableContainer-2MEsKV, .exampleContainer-2O-nVK {
+  background-color: var(--azurite-bg2);
 }
 
-.controlIcon_f316dd path {
-  color: var(--darkplus-sec);
+.previewMessage_c31d36, .welcomeChannel_dcd39d {
+  background-color: var(--azurite-bg);
 }
 
-.data-slate-string path {
-  color: var(--darkplus-sec);
-}
-.winButton_a934d8 {
-  color: var(--darkplus-sec);
-}
-.VoiceChatNotifications-button-icon {
-  color: var(--darkplus-sec);
-}
-.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
-.topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
-  background: var(--darkplus-sec);
-  color: var(--darkplus-bg);
-}
-.side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP),
-.topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
-  background: var(--darkplus-sec);
-  color: var(--darkplus-bg);
-}
-.progressBar-1T6LYX,
-.mediaBarWrapper_f7877e .mediaBarGrabber_f7877e,
-.mediaBarProgress_f7877e,
-.mediaBarProgress_f7877e::after,
-.mediaBarProgress_f7877e::before {
-  background-color: var(--darkplus-sec);
-}
-.mediaBarInteraction_f7877e:hover .mediaBarGrabber_f7877e {
-  background-color: var(--darkplus-links);
-}
-.stageSection-3mAD8V {
-  background-color: var(--darkplus-bg);
+.featureCard_b1a8d5, .checklistHeader-3liG7E, .checklistItem_bd2368 {
+  background-color: var(--azurite-sec);
 }
 
-.featuredTag-3pT1Rf {
-  background-color: var(--darkplus-bg2);
+.scrollableContainer_d0696b {
+  background-color: var(--azurite-bg2);
 }
-.colorHeaderPrimary-jN_yGr {
-  color: var(--darkplus-sec);
+
+.textArea_d0696b .fakeLink_cdb578 {
+  color: var(--azurite-sec);
 }
-.lookFilled-yCfaCM.colorGreen-3y-Z79 {
-  background-color: var(--darkplus-bg2);
-  color: var(--darkplus-sec);
+
+.theme-dark .focused_eedf95 {
+  background-color: var(--azurite-bg);
+  color: var(--azurite-sec);
 }
-.scroller_ad8f79 {
-  background-color: var(--darkplus-bg);
+
+.input_df4dd0, .input_df4dd0:hover{
+  background-color: var(--azurite-sec);
 }
-.header_f1629a {
-  background-color: var(--darkplus-bg);
-  border-bottom: none;
+
+.inner_effbe2 {
+  background-color: var(--azurite-bg);
 }
-.headerCellContent_b4bea4 {
-  color: var(--darkplus-sec);
+
+.header_e06857 {
+  color: var(--azurite-bg);
 }
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
-  background-color: var(--darkplus-bg2);
-  color: var(--darkplus-sec);
-}
-.theme-dark .lookFilled-yCfaCM.hoverGreen-1KfT6K.hasHover-26V98q:hover,
-.theme-light .lookFilled-yCfaCM.hoverGreen-1KfT6K.hasHover-26V98q:hover {
-  background-color: var(--darkplus-sec);
-  color: var(--darkplus-bg2);
-}
-.nameCellText_f1629a {
-  color: var(--darkplus-sec);
-}
-.scroller_c100ff {
-  background-color: var(--darkplus-bg);
-}
-.anchor-1MIwyf {
-  color: var(--darkplus-sec);
-}
+
 .icon_effbe2 {
-  height: 24px;
-  width: 24px;
-  color: var(--darkplus-sec);
-}
-.iconContainer_effbe2 {
-  bottom: 5px;
-}
-.search_ff5f90 {
-  margin-left: 0px;
+  color: var(--azurite-bg);
 }
 
-.search_ff5f90 {
-  order: -1;
-}
-.searchBar-zdmu7v {
-  width: 28px;
-  transition: width 0.5s ease-in-out;
-}
-.focused-8aNhVB .searchBar-zdmu7v,
-.open-3y3yI_ .searchBar-zdmu7v,
-.searchBar-zdmu7v:hover {
-  width: 150px;
-}
-.downloadButton__3fb6d {
-  color: var(--darkplus-sec);
-}
-.downloadButton__3fb6d:hover {
-  color: var(--darkplus-links);
-}
-.name_e9f61e {
-  color: var(--darkplus-sec);
-}
-.title_e44302 {
-  color: var(--darkplus-sec);
-}
-.children_e9f61e {
-  color: var(--darkplus-sec);
-}
-.headerText_c47fa9 {
-  color: var(--darkplus-sec);
-}
-.clickable_e44302 .icon_e44302 {
-  color: var(--darkplus-sec);
-}
-.clickable_e44302:hover .icon_e44302 {
-  color: var(--darkplus-links);
-}
-.item_c2739c.item-3XjbnG.themed-2-lozF {
-  color: var(--darkplus-sec);
+.slateTextArea_e52116 {
+  color: var(--azurite-sec);
 }
 
-.childWrapper_a6ce15 path {
-  fill: transparent;
-}
-.childWrapper_a6ce15 {
-  background: var(--darkplus-home-icon) center/cover no-repeat;
-  min-width: 50px;
-  min-height: 50px;
+.profileBioInput_d0696b span{
+	color: var(--azurite-bg2);
 }
 
-.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
-  color: var(--darkplus-links);
-}
-.grid_ad0b71 {
-  background-color: var(--darkplus-bg2);
+.searchBar_a46bef, .search_a46bef .DraftEditor-root .public-DraftEditorPlaceholder-root {
+	color: var(--azurite-bg);
 }
 
-.cozyMessage_d5deea .contents_ec86aa > .markup_d6076c:not(:empty, code) {
-  background-color: var(--darkplus-bg2);
+.tabBarItemContainer_e7c031 {
+	color: red;
+}
+
+
+.contentWrapper_af5dbb, .wrapper_e06857, .list-obNEuP,.inspector_c3120f, .unicodeShortcut_dfa278 {
+  background-color: var(--azurite-sec);
+}
+
+.userPopout-2j1gM4 {
+  background-color: var(--azurite-bg);
+}
+
+.content_a7d72e, .scroller_c47fa9 {
+	background-color: var(--azurite-bg);
+}
+
+.container_b2ca13 {
+	order: -1;
+} 
+
+.scroller_bf550a, .section_cd82a7 {
+  background-color: var(--azurite-sec);
+}
+
+.base-21yXnu {
+  color: var(--azurite-bg);
+}
+
+.colorHeaderSecondary-g5teka {
+  color: var(--azurite-links);
+}
+
+.panels_a4d4d9 {
+	background-color: var(--azurite-bg);
+	border-top: 1px solid var(--azurite-sec);
+	border-right: 1px solid var(--azurite-sec);
+	border-left: 1px solid var(--azurite-sec);
+	border-bottom: 1px solid var(--azurite-sec);
+	border-radius: 5px;
+}
+
+.typeWindows_a934d8 .winButton_a934d8 > svg {
+  display: none;
+}
+
+.typeWindows_a934d8 .winButton_a934d8 {
+  background: none;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  margin: 4px 12px 0px 0px;
+}
+
+.typeWindows_a934d8 .winButton_a934d8:nth-child(2) {
+  margin-right: 12px;
+}
+
+.typeWindows_a934d8 .winButton_a934d8::after {
+  content: "";
+  height: 12px;
+  width: 12px;
+  border-radius: 12px;
+  transition: 0.1s;
+}
+
+.typeWindows_a934d8 .winButtonClose_a934d8::after {
+  background-color: hsl(0, 50%, 50%) !important;
+}
+
+.typeWindows_a934d8 .winButtonMinMax_a934d8:nth-child(3)::after {
+  background-color: hsl(120, 50%, 50%) !important;
+}
+
+.typeWindows_a934d8 .winButtonMinMax_a934d8:nth-child(4)::after {
+  background-color: hsl(50, 50%, 50%) !important;
+}
+
+.typeWindows_a934d8 > div:hover::after {
+  transform: scale(1.1);
+}
+
+.cozyMessage_d5deea .contents_ec86aa > .markup_d6076c:not(:empty) {
+  background-color: var(--azurite-bg2);
   display: inline-block;
   max-width: 650px;
   width: -webkit-fit-content;
@@ -386,622 +251,467 @@
   width: fit-content;
   margin: 0;
   padding: 8px;
-  border-radius: 15px;
+  border-radius: var(--msg-bg-radius);
 }
 
 .markup_d6076c blockquote, .markup_d6076c pre {
   max-width: 100%;
 }
 
-.avatar_ec86aa.clickable_ec86aa {
-  filter: drop-shadow(0 0 5px);
-  color: var(--darkplus-sec);
+
+.newMessagesBar_cf58b5 {
+  background-color: var(--azurite-sec);
 }
-.avatar_ec86aa:hover.clickable_ec86aa:hover {
-  filter: drop-shadow(0 0 8px);
-  color: var(--darkplus-sec);
-  transform: scale(1.2) rotate(360deg); 
-  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+.barButtonBase_cf58b5 {
+  color: var(--azurite-bg);
+}
+.unreadPill_fc5f50 {
+  background-color: var(--azurite-sec);
 }
 
-.membersGroup_cbd271 {
-  color: var(--darkplus-sec);
+.messageContent_ec86aa {
+  color: var(--azurite-sec);
 }
 
-.sidebar_a4d4d9 + div {
-  background-color: var(--darkplus-bg);
+.repliedMessage_ec86aa {
+  color: var(--azurite-links);
 }
 
-.theme-dark .container_b2ca13 {
-  background-color: var(--darkplus-bg);
+.theme-dark .wrapper_d4fa29 {
+  background: var(--azurite-sec);
+  color: var(--azurite-bg);
 }
 
-/*.members_cbd271 {
-height: auto;
-max-height: 100vh;
-}
-.layout_e9f61e {
-justify-content: unset;
+.panel_bf1a22 {
+	border-top: 1px solid var(--azurite-sec);
 }
 
-.chatContent_a7d72e:not([aria-label^="༺⟅💬⟆༻public-chat (channel)"]) {
-	max-width: calc(100% - 60px);
+.container_b2ca13 {
+	border-width: 10px;
+	border-top: 1px solid var(--azurite-sec);
+}
+
+.container_e44302.themed_e44302, .theme-dark .children_e44302:after {
+	background: var(--azurite-bg);
+}
+
+
+.layers_d4b6c5 {
+	border-top: 1px solid var(--azurite-sec);
+	border-right: 1px solid var(--azurite-sec);
+	border-left: 1px solid var(--azurite-sec);
+	border-bottom: 1px solid var(--azurite-sec);
+}
+
+.inner__999f6, .icon_fb52f0 {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg2);
+}
+
+.themed-2-lozF .item-3XjbnG {
+  color: var(--azurite-sec);
+}
+
+.panels_a4d4d9>.container_b2ca13>.flex_bba380 {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+  height: 150px;
+	width: 72px;
+	z-index: 1;
+	padding: 20px 0 10px 0;
+	flex-direction: column;
+	border-top: 1px solid var(--azurite-sec);
+	border-right: 1px solid var(--azurite-sec);
+	border-left: 1px solid var(--azurite-sec);
+	border-bottom: 1px solid var(--azurite-sec);
+	border-radius: 5px;
+	background: var(--azurite-bg);
+}
+
+
+.panels_a4d4d9>.container_b2ca13>.flex_bba380>.button_f67531 {
+	margin: 8px auto 0 auto;
+}
+
+.panels_a4d4d9>.container_b2ca13>.flex_bba380 {
+	pointer-events: none;
+}
+
+.panels_a4d4d9>.container_b2ca13>.flex_bba380>.button_f67531{
+	pointer-events: auto;
+	border-radius: 50%;
+}
+
+.content-2a4AW9, .container_b2ca13 {
+  background-color: var(--azurite-bg) !important;
+}
+
+.guilds_a4d4d9 {
+	margin-bottom: 180px;
+}
+
+.scroller_fea3ef {
+	background-color: var(--azurite-bg);
+	border-radius: 5px;
+	border-top: 3px solid var(--azurite-bg);
+	border-right: 3px solid var(--azurite-bg);
+	border-left: 3px solid var(--azurite-bg);
+}
+
+.guilds_a4d4d9 {
+	width: 74px;
+}
+
+.iconWrapper_e44302[aria-label="Help"] {
+  display: none;
+}
+
+.topic_bf3bbb {
+  color: var(--azurite-links);
+}
+
+.peopleList_e0840f,
+.peopleColumn_c2739c {
+  background-color: var(--azurite-bg);
+}
+
+.wrapper_cd82a7, .theme-dark .outer_c0f6a6.active_c0f6a6,
+.theme-dark .outer_c0f6a6.interactive_c0f6a6:hover {
+  background-color: var(--azurite-sec);
+  border-top: 3px solid var(--azurite-bg);
+	border-right: 3px solid var(--azurite-bg);
+	border-left: 3px solid var(--azurite-bg);
+  border-bottom: 3px solid var(--azurite-bg);
+}
+
+.unreadImportant_d8bfb3 {
+	background-color: var(--azurite-links);
+}
+
+.membersWrap_cbd271.hasCounter .members_cbd271 {
+	background-color: var(--azurite-bg);
+	color: var(--azurite-sec);
+}
+
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header, #MemberCount {
+	border-right: 1px solid var(--azurite-sec);
+	border-left: 1px solid var(--azurite-sec);
+}
+
+.button_f67531.enabled_f67531 {
+	color: var(--azurite-sec);
+}
+
+.button_f67531.enabled_f67531:hover {
+	color: var(--azurite-sec);
+	background-color: var(--azurite-bg);
+}
+
+.searchBar_f0963d {
+  background-color: var(--azurite-bg);
+}
+.searchBar_f0963d .searchBarComponent_f0963d {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
+  border-radius: 20px;
+}
+
+.scroller_e2e187,
+.quickswitcher_f4e139,
+.scroller_f4e139 {
+  background-color: var(--azurite-bg);
+}
+
+.input_f4e139 {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
+  border-radius: 15px;
+}
+
+.input_f4e139::placeholder {
+  color: var(--azurite-bg);
+}
+
+.form_a7d72e {
+  background-color: var(--azurite-bg);
+}
+.form_a7d72e .channelTextArea_a7d72e .textArea_d0696b .placeholder__443e5 {
+  color: var(--azurite-sec);
+}
+.form_a7d72e .channelTextArea_a7d72e .scrollableContainer_d0696b {
+  background-color: var(--azurite-bg);
+  border-radius: 5px;
+  border-top: 3px solid var(--azurite-sec);
+  border-right: 3px solid var(--azurite-sec);
+  border-left: 3px solid var(--azurite-sec);
+  border-bottom: 3px solid var(--azurite-sec);
+}
+.form_a7d72e .channelTextArea_a7d72e {
+  background-color: transparent;
+}
+.form_a7d72e:before {
+  display: none;
 }
 
 .title_a7d72e {
-	z-index: 11;
+  border-bottom: 1px solid var(--azurite-sec);
 }
 
+.replyLabel_b11c5e,
+.button_cecf00 {
+  color: var(--azurite-sec);
+}
+
+.attachButtonPlus_f298d4 {
+	fill: var(--azurite-sec);
+}
+
+.content_eed6a8,
 .members_cbd271,
-.membersWrap_cbd271, .container_cbd271 {
-	border-radius: 20px 0 0 20px !important;
-	min-width: 60px;
-	transition-duration: 500ms;
-	transition-property: box-shadow, min-width, width;
-	width: 60px;
-	z-index: 10;
+.scroller_c43953,
+.messages_c06487, .header_fd6364, .members_cbd271, .members_cbd271>div {
+  background-color: var(--azurite-bg);
 }
 
-.members_cbd271:hover,
-.membersWrap_cbd271:hover {
-	min-width: 240px;
-	width: 240px;
+.members_cbd271, .members_cbd271>div  {
+	border-left: 1px solid var(--azurite-sec);
 }
 
-.membersWrap_cbd271 {
-	height: 100%;
-	position: absolute;
-	right: 0;
+.topSection-13QKHs {
+  background-color: var(--azurite-bg);
 }
 
-.membersWrap_cbd271:hover {
-	box-shadow: 0 0 20px 10px #00000044;
+.wrapper_b9fe76 {
+  background-color: var(--azurite-sec);
 }
 
-.membersGroup-2YoqY {
-	height: 0;
-	transition-duration: 500ms;
-	transition-property: height;
+.infoScroller-1QMpon, .listScroller_e4be58 {
+  background-color: var(--azurite-bg);
 }
 
-.members_cbd271:hover .membersGroup-2YoqY {
-	height: 40px;
-}*/
-
-/*.membersWrap_cbd271 {
-  min-width: unset;
-}
-.membersWrap_cbd271 .members_cbd271 {
-  max-width: 65px;
-  min-width: 65px;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-}
-.membersWrap_cbd271 .members_cbd271:hover {
-  max-width: 240px;
-  min-width: 240px;
-}
-.membersWrap_cbd271 .members_cbd271 .content-2a4AW9:not(:hover) {
-  padding-top: 10px;
-  background-color: var(--darkplus-bg);
+.scroller_bea0d0 {
+  background-color: var(--azurite-bg);
 }
 
-.membersGroup_cbd271 {
-  margin-left: 60px;
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-sec);
+.contentTitle_f23da8, .theme-dark .selected-2xa993, .segmentControlOption-3MnJdT, .closeIcon-11LhXr {
+  color: var(--azurite-sec);
 }
 
-.members_cbd271,
-.members_cbd271 > div {
-  background-color: var(--darkplus-bg);
-}
-*/
-
-/* old userarea
-.container_b2ca13 {
-  height: 85px;
-}
-.container_b2ca13 .avatarWrapper_b2ca13 {
-  position: absolute;
-  bottom: 45px;
+.theme-dark .root_f9a4c9, .theme-dark .footerSeparator-VzAYwb {
+  background-color: var(--azurite-bg);
 }
 
-.container_b2ca13 > .noWrap_ec1a20 {
-  width: 224px;
-  bottom: 5px;
-  position: absolute;
-}
-.container_b2ca13 > .noWrap_ec1a20 button {
-  width: 100%;
-  justify-content: space-evenly;
-}
-*/
-
-.sidebarRegionScroller_c25c6d {
-  background-color: var(--darkplus-bg);
+.container-q97qHp, .discriminator-1bqsd3, .theme-dark .contentTitle_f23da8 strong {
+	color: var(--azurite-links);
 }
 
-.contentRegion_c25c6d {
-  background-color: var(--darkplus-bg);
+.scroller-1bVxF5 {
+  background-color: var(--azurite-sec);
+  border-radius: 5px;
 }
-.contentRegion_c25c6d .contentRegionScroller_c25c6d {
+
+.button_ef319f, .button_ef319f:hover {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
+}
+
+.item-1OdjEX {
+  color: var(--azurite-bg);
+}
+
+.colorDefault-CDqZdO.focused-3qFvc8 {
   background-color: transparent;
+  color: var(--azurite-bg);
+}
+
+.linkButtonIcon_c91bad, .name_f9647d {
+	color: var(--azurite-sec);
+}
+
+.label-2gNW3x {
+  color: var(--azurite-bg);
+}
+
+.numberBadge__40d6f,
+.mention_c10249,
+.theme-dark .elevationHigh__08882 {
+	background-color: var(--azurite-sec) !important;
+	color: var(--azurite-bg);
+}
+
+.item_fd07a3 {
+	background-color: var(--azurite-sec);
+}
+
+.scroller_c43953 {
+	border-top: 1px solid var(--azurite-sec);
+	border-right: 1px solid var(--azurite-sec);
+	border-left: 1px solid var(--azurite-sec);
+}
+
+.headerText_ec86aa > span::before {
+content: ''; 
+width: calc(100% + 7px); 
+height: 100%;
+border-radius: 5px;
+background-color: currentColor; 
+opacity: 0.3; 
+position: absolute; 
+margin-top: 0px; 
+z-index: -1;
+margin-left: -3px;
+}
+.headerText_ec86aa > span {
+margin-left: 3px;
+}
+
+.emojiItem_fbfedd.emojiItemSelected_fbfedd {
+	background-color: var(--azurite-bg);
+}
+
+.interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover, .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .tabBar_c2739c .item_c2739c, .tabBody_c2739c, .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP), .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
+  background-color: var(--azurite-bg2);
+  color: var(--azurite-sec);
+}
+
+.discrimBase-1VOoau, .theme-dark .newPopoutActivityStyles .activityName_d5089b, .theme-dark .newPopoutActivityStyles .content_d5089b, .theme-dark .newPopoutActivityStyles .details_d5089b, .theme-dark .newPopoutActivityStyles .name_d5089b, .theme-dark .newPopoutActivityStyles .nameNormal_d5089b, .theme-dark .newPopoutActivityStyles .nameWrap_d5089b, .theme-dark .newProfileActivityStyles .activityName_d5089b, .theme-dark .newProfileActivityStyles .content_d5089b, .theme-dark .newProfileActivityStyles .details_d5089b, .theme-dark .newProfileActivityStyles .name_d5089b, .theme-dark .newProfileActivityStyles .nameNormal_d5089b, .theme-dark .newProfileActivityStyles .nameWrap_d5089b, .theme-light .newPopoutActivityStyles .activityName_d5089b, .theme-light .newPopoutActivityStyles .content_d5089b, .theme-light .newPopoutActivityStyles .details_d5089b, .theme-light .newPopoutActivityStyles .name_d5089b, .theme-light .newPopoutActivityStyles .nameNormal_d5089b, .theme-light .newPopoutActivityStyles .nameWrap_d5089b, .theme-light .newProfileActivityStyles .activityName_d5089b, .theme-light .newProfileActivityStyles .content_d5089b, .theme-light .newProfileActivityStyles .details_d5089b, .theme-light .newProfileActivityStyles .name_d5089b, .theme-light .newProfileActivityStyles .nameNormal_d5089b, .theme-light .newProfileActivityStyles .nameWrap_d5089b {
+  color: var(--azurite-links);
+}
+
+.profileBannerPreview-3mLIdO {
+  border-left: 1px solid var(--azurite-sec);
+  border-bottom: 1px solid var(--azurite-sec);
+  border-right: 1px solid var(--azurite-sec);
+  border-top: 1px solid var(--azurite-sec);
+}
+
+.popoutInfo-16MuYF {
+  background-color: var(--azurite-bg);
+}
+
+.iconWrapper_e44302, .title-3aDrFs, .headerCellContent_b4bea4, .title-2dsDLn {
+  color: var(--azurite-sec);
+}
+
+.resultsGroup_b0286e {
+  background-color: var(--azurite-bg2);
+  color: var(--azurite-sec);
+}
+.theme-dark .option_b0286e:after {
+  background: transparent;
+}
+.theme-dark .searchOption-3u1yGrT .filter_b0286e,
+.theme-dark .searchOption-3u1yGrT .answer_b0286e,
+.resultsGroup_b0286e .header_b0286e{
+  color: var(--azurite-sec);
+  font-weight: bold;
+}
+
+.theme-dark .option_b0286e .filter_b0286e,
+.theme-dark .option_b0286e .answer_b0286e,
+.theme-dark .option_b0286e .nonText_b0286e {
+  color: var(--azurite-sec);
+  font-weight: bold;
+}
+
+#SEARCH_OPTIONS-header.header_b0286e,
+#HISTORY-header.header_b0286e{
+  color: var(--azurite-sec);
+}
+
+#app-mount .container_eedf95 .option_b0286e.selected-rZcOL- {
+  background-color: var(--azurite-bg);
+}
+
+.option_b0286e strong {
+  color: var(--azurite-sec);
+}
+
+.message_ddc613 .messageContent_ec86aa, .username_ec86aa {
+  color: var(--azurite-sec);
+}
+
+.cozy_ec86aa .timestamp_ec86aa {
+  color: var(--azurite-links);
+}
+
+.searchBar_a46bef {
+  background-color: var(--azurite-sec);
+}
+
+.secondary__45d4f, .secondary__45d4f:hover:not(.disabled__4d064), .closeButton_ddb5b4, .lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover, .unread_c10249 {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
+}
+
+.header_ac90a2, .messagesPopout_ac90a2, .header_e664f3 {
+  background-color: var(--azurite-sec);
+}
+
+.list_c6aa12 {
+  background-color: var(--azurite-sec);
+}
+
+.messageGroupWrapper_ac90a2 .messageGroupCozy_ac90a2 {
+  background-color: var(--azurite-bg);
+}
+.messageGroupWrapper_ac90a2 .messageContent_ec86aa, .filename_a4623d, .size_a4623d, .cancelButton_a4623d, .downloadButton__3fb6d {
+  color: var(--azurite-sec);
+}
+
+.closeIcon_e664f3, .threadIcon_e664f3 {
+  color: var(--azurite-bg);
+}
+
+.content_fc5f50, .isUnread_fc5f50 .content_fc5f50 {
+  background-color: var(--azurite-bg);
+  color: var(--azurite-sec);
+}
+
+.unreadPillCapStroke_fc5f50 {
+  color: var(--azurite-sec);
+  fill: var(--azurite-sec);
+}
+
+.wrapper_d8bfb3.modeUnreadImportant_d8bfb3
+  .wrapper_d8bfb3
+  .mainContent-20q_Hp
+  .icon_d8bfb3 {
+  color: var(--azurite-links);
+}
+
+.contentRegionScroller_c25c6d {
+  background-color: var(--azurite-bg);
+}
+
+.sidebar_c25c6d {
+  background-color: var(--azurite-bg);
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+  background-color: var(--azurite-bg2);
+  color: var(--azurite-sec);
+}
+
+.background_b69b77, .fieldList_b69b77 {
+  background-color: var(--azurite-bg);
 }
 
 .background_b69b77 {
-  padding: 0;
-  background-color: var(--darkplus-bg2);
-  border-radius: 30px;
-}
-.background_b69b77 .profile_d6fbe8 {
-  padding: 16px;
-}
-.background_b69b77 .fieldList_b69b77 {
-  padding: 16px;
-  background-color: transparent;
-}
-.background_b69b77 .constrainedRow_b69b77 .button_dd4f85 {
-  margin-left: 8px;
-}
-.layer_d4b6c5  {
-  background-color: var(--darkplus-bg);
-}
-.item-3XjbnG.themed-2-lozF {
-  color: var(--darkplus-sec);
-}
-.header-2Kx1US {
-  color: var(--darkplus-sec);
-}
-.theme-dark .foreground-2hyALB {
-  fill: var(--darkplus-sec);
-}
-.theme-dark .bd-social-logo path {
-  fill: var(--darkplus-sec);
-}
-.feature-2IUcBI {
-  background-color: var(--darkplus-bg2) !important;
-}
-.theme-dark .closeButton_df5532 {
-  border-color: var(--darkplus-sec);
-}
-.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {
-  color: var(--darkplus-bg);
-  background-color: var(--darkplus-sec);
-}
-.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
-  background-color: var(--darkplus-links);
-}
-.defaultColor-2cKwKo {
-  color: var(--darkplus-sec);
-}
-.menu_c8834f {
-  margin-right: 16px;
-  color: var(--darkplus-sec);
-  cursor: pointer;
-}
-.lookFilled-yCfaCM.colorBrand-I6CyqQ {
-  color: var(--darkplus-bg);
-  background-color: var(--darkplus-sec);
-}
-.description-30xx7u,
-.labelDescriptor-34wZ-z {
-  color: var(--darkplus-links);
-}
-.h5-2RwDNl {
-  color: var(--darkplus-sec);
-}
-.lookFilled-yCfaCM.colorRed-rQXKgM {
-  color: var(--darkplus-bg);
-}
-.lookLink-15mFoz.colorLink-1Md3RZ {
-  color: var(--darkplus-links);
-}
-.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
-  color: var(--darkplus-sec);
-}
-.title-2dsDLn {
-  color: var(--darkplus-sec);
-}
-.unread_d8bfb3 {
-  background-color: var(--darkplus-sec);
-}
-.overflow_c74e70 {
-  color: var(--darkplus-links);
-}
-.arrow_d64d50.icon_a08117 {
-  color: var(--darkplus-sec);
-}
-.jumpToPresentBar_cf58b5 {
-  background-color: var(--darkplus-sec);
-  border-radius: 20px;
-}
-.barButtonBase_cf58b5 {
-  color: var(--darkplus-bg);
-}
-.numberBadge__40d6f {
-  background-color: var(--darkplus-sec) !important;
-  color: var(--darkplus-bg);
-}
-.item_fd07a3 {
-  background-color: var(--darkplus-sec);
-}
-.container_adcaac {
-  background-color: var(--darkplus-bg);
-}
-.button_adcaac.buttonColor_adcaac,
-.button_adcaac .buttonColor_adcaac {
-  background-color: var(--darkplus-bg2);
-  color: var(--darkplus-sec);
-}
-.subtext_e06aad {
-  color: var(--darkplus-links);
-}
-.addButtonIcon_a08117 {
-  color: var(--darkplus-sec);
-}
-.addButtonIcon_a08117:hover {
-  color: var(--darkplus-links);
-}
-.header-S26rhB {
-  background-color: var(--darkplus-bg);
-}
-.activity-2M3PRB {
-  background-color: var(--darkplus-bg);
-}
-.infoScroller-1QMpon.thin_eed6a8.scrollerBase-_bVAAt.fade-1R6FHN {
-  background-color: var(--darkplus-bg2);
-}
-.activityHeader-2shpl0 {
-  color: var(--darkplus-sec);
-}
-.circleIconButton_db6521 {
-  color: var(--darkplus-sec);
-  background-color: var(--darkplus-bg2);
-}
-.circleIconButton_db6521.selected_db6521 {
-  color: var(--darkplus-bg2);
-  background-color: var(--darkplus-sec);
-}
-.tabBar-2hXqzU {
-  background-color: transparent;
+	border-top: 1px solid var(--azurite-sec);
+	border-right: 1px solid var(--azurite-sec);
+	border-left: 1px solid var(--azurite-sec);
+	border-bottom: 1px solid var(--azurite-sec);
 }
 
-button.button_f67531 {
-  color: var(--darkplus-sec);
+
+.changePasswordButton_ad4a7c {
+  color: var(--azurite-links);
 }
 
-.activeButtonChild_a06035, .theme-dark .button_a06035:hover .activeButtonChild_a06035 {
-  color: var(--darkplus-sec);
-}
-
-.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,
-.top-K_jibn .themed-2-lozF.item-3XjbnG:active {
-  border-bottom-color: var(--darkplus-sec);
-}
-.top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
-  border-bottom-color: var(--darkplus-links);
-}
-.additionalActionsIcon-3Cy8UU {
-  color: var(--darkplus-sec);
-}
-.colorDefault-CDqZdO.focused-3qFvc8 {
-  background-color: var(--darkplus-bg2);
-  color: var(--darkplus-sec);
-}
-.newMessagesBar_cf58b5 {
-  background-color: var(--darkplus-sec);
-}
-.unreadPill_fc5f50 {
-  background-color: var(--darkplus-sec);
-}
-#app-mount .divider_fc5f50.isUnread_fc5f50 {
-  border-top: 1px solid var(--darkplus-sec);
-}
-.unreadPillCapStroke_fc5f50 {
-  color: var(--darkplus-sec);
-  fill: var(--darkplus-sec);
-}
-.label-2gNW3x {
-  color: var(--darkplus-sec);
-}
-#permissions-modal-wrapper #permissions-modal {
-  height: 80%;
-}
-#permissions-modal-wrapper .modal-body .perm-side {
-  width: 400px;
-}
-#permissions-modal-wrapper .perm-scroller .perm-item {
-  height: unset;
-}
-#permissions-modal-wrapper .perm-scroller {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: repeat(auto-fill, calc(100% / 17));
-}
-#permissions-modal-wrapper .perm-scroller .perm-name {
-  margin-left: 5px;
-}
-#permissions-modal-wrapper .perm-scroller svg {
-  height: 20px !important;
-  width: 20px !important;
-}
-
-#permissions-modal-wrapper .header {
-  background: var(--darkplus-bg) !important;
-}
-#permissions-modal-wrapper .role-side {
-  background: var(--darkplus-bg) !important;
-}
-#permissions-modal-wrapper .perm-side {
-  background: var(--darkplus-bg) !important;
-}
-#permissions-modal-wrapper .perm-scroller .perm-name {
-  color: var(--darkplus-sec);
-}
-.title {
-  color: var(--darkplus-sec);
-}
-.editingContainer-1_nnqZ,
-.modalContent-317Xyq {
-  background-color: var(--darkplus-bg);
-}
-.header-1zd7se {
-  background-color: var(--darkplus-bg);
-}
-.theme-dark .footer-31IekZ {
-  background-color: var(--darkplus-bg);
-}
-.icon-3CEl7H {
-  color: var(--darkplus-sec);
-}
-.grabber-2GQyvM {
-  background-color: var(--darkplus-sec);
-  border: var(--darkplus-sec);
-}
-.avatarUploaderIndicator-2G-aIZ {
-  display: none;
-}
-.item_c2739c[aria-label="Add Friend"] {
-  color: var(--darkplus-bg) !important;
-  background-color: var(--darkplus-sec) !important;
-}
-.addInputWrapper-1BOZ3d {
-  background-color: var(--darkplus-bg);
-}
-.colorStandard-21JIj7 {
-  color: black;
-}
-.wrapper-1cBijl {
-  background-color: var(--darkplus-bg2);
-}
-.addFriendInput_de812f::placeholder {
-  color: var(--darkplus-sec);
-}
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
-  background-color: var(--darkplus-links);
-}
-.header_c96274 {
-  color: var(--darkplus-sec);
-}
-.description-1EvxpH {
-  color: var(--darkplus-links);
-}
-.friendsEmpty_a62993 {
-  background-color: var(--darkplus-bg);
-}
-.button-Jt-tIg {
-  background-color: var(--darkplus-sec);
-  color: var(--darkplus-bg);
-  font-weight: bold;
-}
-.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
-.wrapper__8436d:hover .childWrapper_a6ce15 {
-  background-color: var(--darkplus-links);
-  color: var(--darkplus-bg);
-}
-#bd-pub-button {
-  background-color: var(--darkplus-sec);
-  color: var(--darkplus-bg);
-  font-weight: bold;
-}
-#bd-pub-button:hover {
-  background-color: var(--darkplus-links);
-  color: var(--darkplus-bg);
-  font-weight: bold;
-}
-.iconBadge-3qSJIw {
-  background-color: var(--darkplus-sec);
-  color: var(--darkplus-bg);
-}
-.label-2wRs_g {
-  color: var(--darkplus-sec);
-}
-.quickswitcher_f4e139 {
-  background-color: var(--darkplus-bg);
-}
-.input_f4e139 {
-  background-color: var(--darkplus-bg2);
-}
-.input_f4e139::placeholder {
-  color: var(--darkplus-sec);
-}
-.header_f14193 {
-  color: var(--darkplus-sec);
-}
-.match_f14193 {
-  color: var(--darkplus-sec);
-}
-.note_f14193 {
-  color: var(--darkplus-links);
-}
-.miscContainer_f4e139 {
-  color: var(--darkplus-links);
-}
-.theme-dark .wrapper_d4fa29 {
-  background-color: var(--darkplus-sec);
-  color: var(--darkplus-bg);
-}
-.container-36u7Lw {
-  background-color: var(--darkplus-bg);
-  border-color: var(--darkplus-bg);
-}
-.container-x8Y1ix {
-  background-color: var(--darkplus-sec);
-}
-.container-x8Y1ix:hover {
-  background-color: var(--darkplus-links);
-}
-.colorStandard-21JIj7 {
-  color: var(--darkplus-bg);
-}
-.title-1_TkpU {
-  color: var(--darkplus-sec);
-}
-.subtitle-3m-md1 {
-  color: var(--darkplus-links);
-}
-.footerTitle-3Bslxi {
-  color: var(--darkplus-sec);
-}
-.title-1LqMUp {
-  color: var(--darkplus-sec);
-}
-.colorHeaderSecondary-g5teka {
-  color: var(--darkplus-links);
-}
-.formTitle-2YQyhj {
-  color: var(--darkplus-sec);
-}
-.sampleLink-5BWNy9 {
-  color: var(--darkplus-links);
-}
-.input-2g-os5 {
-  background-color: var(--darkplus-bg2);
-}
-.input-2g-os5::placeholder {
-  color: var(--darkplus-sec);
-}
-.thin_eed6a8.scrollerBase-_bVAAt {
-  background-color: var(--darkplus-bg);
-}
-.avatar_e9f61e {
-  color: var(--darkplus-sec);
-}
-.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
-  background-color: var(--darkplus-bg2);
-}
-.base-21yXnu {
-  color: var(--darkplus-sec);
-}
-.scroller-3j5xK2 {
-  background-color: var(--darkplus-bg);
-}
-.guildName_eb1ca6 {
-  color: var(--darkplus-sec);
-}
-.searchTitle-1qceKb {
-  color: var(--darkplus-bg);
-}
-.searchBox__56feb.searchBox-31Zv9h {
-  background-color: var(--darkplus-sec);
-}
-.search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL {
-  color: var(--darkplus-bg);
-}
-.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz::placeholder {
-  color: var(--darkplus-bg);
-}
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-  background-color: var(--darkplus-links);
-}
-.theme-dark .uploadModal_f82cc7 {
-  background-color: var(--darkplus-bg);
-}
-.theme-dark .footer_f82cc7 {
-  background-color: var(--darkplus-bg);
-}
-.size14-3fJ-ot {
-  color: var(--darkplus-sec);
-}
-.filename_f82cc7 {
-  color: var(--darkplus-sec);
-}
-.scrollableContainer_d0696b {
-  background-color: var(--darkplus-bg2);
-}
-.label_f82cc7 {
-  color: var(--darkplus-sec);
-}
-.optional_f82cc7 {
-  color: var(--darkplus-links);
-}
-button[aria-label="Send a gift"] {
-  display: none;
-}
-
-.members_cbd271 {
-  background-color: var(--darkplus-bg);
-}
-
-.typeWindows_a934d8 {
-  position: relative;
-}
-.wordmark_a934d8 {
-  display: flex;
-  align-items: center;
-  padding: 0 6px;
-  height: calc(100% + 4px);
-  top: -4px;
-  font-size: 14px;
-  font-weight: 600;
-  font-family: "Lato";
-  color: var(--darkplus-sec);
-}
-.wordmark_a934d8 > svg {
-  display: none;
-}
-.wordmark_a934d8:after {
-  filter: invert(var(--watermark-filter-invert)) sepia(var(--watermark-filter-sepia)) saturate(var(--watermark-filter-saturate)) hue-rotate(var(--watermark-filter-hue-rotate)) brightness(var(--watermark-filter-brightness)) contrast(var(--watermark-filter-contrast));
-  content: url("data:image/svg+xml,%3Csvg id='svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='200' height='25.008358408559012' viewBox='0, 0, 400,25.008358408559012'%3E%3Cg id='svgg'%3E%3Cpath id='path0' d='M333.083 0.187 C 332.717 0.271,332.154 0.464,331.833 0.615 C 331.512 0.765,331.212 0.884,331.167 0.879 C 331.121 0.874,330.884 1.012,330.641 1.185 C 330.398 1.358,330.158 1.500,330.109 1.500 C 329.946 1.500,328.502 2.994,328.459 3.207 C 328.436 3.322,328.353 3.463,328.275 3.520 C 326.913 4.515,327.196 9.579,328.696 11.043 C 329.266 11.600,329.276 11.722,328.784 12.113 C 328.235 12.549,327.000 14.154,327.000 14.432 C 327.000 14.561,326.913 14.667,326.806 14.667 C 326.699 14.667,326.658 14.714,326.716 14.771 C 326.773 14.829,326.703 15.101,326.561 15.377 C 326.257 15.964,326.201 19.223,326.489 19.570 C 326.585 19.686,326.614 19.830,326.554 19.890 C 326.494 19.951,326.540 20.000,326.657 20.000 C 326.773 20.000,326.828 20.108,326.777 20.239 C 326.727 20.371,326.848 20.686,327.048 20.940 C 327.247 21.193,327.299 21.334,327.164 21.252 C 326.845 21.060,327.111 21.405,328.145 22.524 C 328.781 23.213,330.005 23.947,330.375 23.862 C 330.444 23.846,330.500 23.939,330.500 24.068 C 330.500 24.220,330.617 24.272,330.833 24.215 C 331.039 24.161,331.167 24.210,331.167 24.342 C 331.167 24.459,331.214 24.508,331.272 24.450 C 331.330 24.392,331.514 24.419,331.682 24.508 C 332.361 24.872,336.963 25.060,338.250 24.778 C 338.617 24.697,339.029 24.616,339.167 24.596 C 339.728 24.517,340.432 24.276,340.667 24.082 C 340.804 23.968,341.123 23.770,341.376 23.641 C 342.000 23.322,343.518 21.831,343.405 21.648 C 343.355 21.566,343.393 21.500,343.490 21.500 C 343.587 21.500,343.667 21.387,343.667 21.250 C 343.667 21.112,343.734 21.000,343.815 21.000 C 343.950 21.000,344.155 20.478,344.274 19.833 C 344.299 19.696,344.427 19.109,344.558 18.530 C 344.946 16.816,344.460 13.667,343.808 13.667 C 343.730 13.667,343.667 13.592,343.667 13.500 C 343.667 13.329,342.405 12.000,342.243 12.000 C 341.773 12.000,341.791 11.567,342.282 11.061 C 342.852 10.474,343.431 9.502,343.213 9.497 C 343.142 9.496,343.182 9.432,343.302 9.356 C 343.422 9.280,343.528 8.981,343.536 8.692 C 343.544 8.403,343.596 8.167,343.650 8.167 C 343.705 8.167,343.736 7.666,343.719 7.054 C 343.688 5.950,342.930 3.500,342.618 3.500 C 342.542 3.500,342.523 3.431,342.575 3.347 C 342.798 2.986,341.052 1.336,340.000 0.913 C 339.862 0.857,339.525 0.712,339.250 0.589 C 338.975 0.466,338.600 0.313,338.417 0.249 C 337.889 0.064,333.820 0.016,333.083 0.187 M0.044 12.417 L 0.083 24.583 5.442 24.614 C 9.727 24.639,10.980 24.596,11.692 24.399 C 12.182 24.264,12.700 24.126,12.842 24.092 C 12.985 24.059,13.397 23.905,13.759 23.751 C 14.121 23.596,14.492 23.454,14.583 23.435 C 15.920 23.162,17.810 20.770,18.282 18.755 C 18.680 17.051,18.601 6.000,18.190 6.000 C 18.131 6.000,18.073 5.822,18.061 5.605 C 17.976 4.135,14.657 1.000,13.185 1.000 C 12.992 1.000,12.833 0.938,12.833 0.861 C 12.833 0.785,12.740 0.718,12.625 0.714 C 12.510 0.709,12.192 0.647,11.917 0.576 C 11.642 0.505,9.429 0.421,7.000 0.389 C 4.571 0.358,2.003 0.313,1.294 0.291 L 0.005 0.250 0.044 12.417 M27.354 0.583 C 27.268 0.767,27.105 1.275,26.993 1.713 C 26.880 2.150,26.723 2.549,26.644 2.597 C 26.565 2.646,26.500 2.822,26.500 2.988 C 26.500 3.153,26.358 3.655,26.184 4.103 C 25.279 6.437,24.843 7.645,24.775 8.011 C 24.734 8.234,24.544 8.809,24.354 9.288 C 24.164 9.767,23.973 10.350,23.931 10.583 C 23.889 10.816,23.730 11.249,23.579 11.545 C 23.223 12.240,22.765 13.668,22.778 14.038 C 22.784 14.196,22.724 14.286,22.645 14.236 C 22.565 14.187,22.490 14.208,22.479 14.282 C 22.467 14.356,22.437 14.567,22.413 14.750 C 22.388 14.933,22.251 15.355,22.107 15.687 C 21.964 16.019,21.894 16.338,21.951 16.395 C 22.009 16.453,21.968 16.500,21.861 16.500 C 21.754 16.500,21.667 16.653,21.667 16.840 C 21.667 17.027,21.517 17.474,21.333 17.833 C 21.150 18.193,21.000 18.603,21.000 18.746 C 21.000 19.155,20.599 20.333,20.459 20.333 C 20.390 20.333,20.333 20.504,20.333 20.713 C 20.333 20.922,20.223 21.249,20.089 21.441 C 19.955 21.633,19.884 21.829,19.932 21.877 C 19.980 21.925,19.837 22.403,19.613 22.940 C 19.390 23.477,19.155 24.085,19.092 24.292 L 18.978 24.667 22.295 24.667 L 25.613 24.667 25.848 23.958 C 25.977 23.569,26.064 23.194,26.041 23.125 C 26.018 23.056,26.075 23.000,26.167 23.000 C 26.258 23.000,26.334 22.831,26.334 22.625 C 26.335 22.419,26.443 22.044,26.574 21.792 C 26.706 21.540,26.851 21.128,26.898 20.875 C 27.141 19.561,26.840 19.667,30.357 19.667 L 33.508 19.667 33.676 20.125 C 33.768 20.377,33.890 20.696,33.948 20.833 C 34.006 20.971,34.040 21.142,34.025 21.213 C 34.009 21.285,34.111 21.564,34.250 21.833 C 34.389 22.103,34.489 22.382,34.471 22.453 C 34.453 22.525,34.575 23.054,34.742 23.628 L 35.046 24.673 38.398 24.628 C 42.210 24.577,42.031 24.670,41.247 23.144 C 41.029 22.719,40.886 22.336,40.930 22.292 C 40.974 22.249,40.927 21.996,40.826 21.731 C 40.726 21.467,40.655 21.221,40.669 21.185 C 40.683 21.150,40.621 21.075,40.531 21.019 C 40.440 20.963,40.329 20.680,40.284 20.392 C 40.238 20.103,40.018 19.503,39.795 19.058 C 39.572 18.614,39.419 18.161,39.455 18.052 C 39.491 17.943,39.408 17.680,39.270 17.468 C 39.131 17.257,38.974 16.829,38.919 16.519 C 38.865 16.209,38.711 15.798,38.577 15.607 C 38.443 15.416,38.333 15.051,38.333 14.796 C 38.333 14.542,38.267 14.333,38.186 14.333 C 38.106 14.333,37.950 13.977,37.841 13.542 C 37.731 13.106,37.533 12.521,37.401 12.242 C 37.269 11.962,37.129 11.571,37.091 11.373 C 37.053 11.175,36.903 10.762,36.758 10.456 C 36.612 10.150,36.459 9.721,36.417 9.502 C 36.375 9.283,36.189 8.781,36.003 8.387 C 35.818 7.993,35.667 7.567,35.667 7.440 C 35.667 7.313,35.502 6.843,35.301 6.396 C 35.100 5.949,34.912 5.471,34.884 5.333 C 34.855 5.196,34.439 3.996,33.958 2.667 L 33.083 0.250 30.297 0.250 C 27.675 0.250,27.502 0.270,27.354 0.583 M65.500 12.458 L 65.500 24.667 68.583 24.667 L 71.667 24.667 71.667 20.417 C 71.667 16.008,71.686 15.895,72.333 16.583 C 72.549 16.813,72.675 17.000,72.614 17.000 C 72.553 17.000,72.612 17.131,72.745 17.292 C 72.877 17.452,73.213 17.883,73.491 18.250 C 73.769 18.617,74.072 19.007,74.165 19.118 C 74.257 19.229,74.333 19.390,74.333 19.475 C 74.333 19.561,74.520 19.808,74.747 20.024 C 74.975 20.240,75.162 20.508,75.164 20.619 C 75.165 20.731,75.384 21.044,75.650 21.316 C 75.916 21.588,76.091 21.853,76.039 21.905 C 75.987 21.957,76.020 22.000,76.112 22.000 C 76.204 22.000,76.367 22.190,76.473 22.423 C 76.677 22.871,76.705 22.911,77.490 23.851 C 77.767 24.182,77.944 24.500,77.885 24.559 C 77.826 24.618,79.590 24.667,81.806 24.667 C 85.870 24.667,86.104 24.630,85.500 24.083 C 85.317 23.917,85.167 23.713,85.167 23.630 C 85.167 23.464,84.452 22.541,83.437 21.396 C 83.082 20.995,82.857 20.666,82.937 20.664 C 83.018 20.663,82.996 20.606,82.889 20.538 C 82.668 20.397,80.500 17.523,80.379 17.209 C 80.334 17.095,80.246 17.034,80.182 17.074 C 80.117 17.114,79.926 16.888,79.756 16.573 C 79.586 16.258,79.384 16.000,79.307 16.000 C 79.230 16.000,79.167 15.901,79.167 15.779 C 79.167 15.658,78.979 15.382,78.750 15.167 C 78.521 14.951,78.333 14.694,78.333 14.594 C 78.333 14.495,78.183 14.320,78.000 14.205 C 77.817 14.091,77.667 13.891,77.667 13.761 C 77.667 13.631,77.479 13.377,77.250 13.196 C 77.021 13.016,76.833 12.818,76.833 12.756 C 76.833 12.694,76.720 12.530,76.582 12.392 C 76.358 12.168,76.412 12.047,77.082 11.281 C 77.495 10.809,77.833 10.365,77.833 10.295 C 77.833 10.224,77.965 10.029,78.125 9.861 C 78.497 9.471,79.526 8.233,80.018 7.583 C 80.227 7.308,80.664 6.776,80.990 6.401 C 81.316 6.025,81.795 5.463,82.055 5.151 C 82.314 4.839,82.819 4.246,83.177 3.833 C 83.536 3.421,83.830 3.024,83.831 2.951 C 83.833 2.839,84.512 2.043,85.292 1.239 C 85.406 1.121,85.500 0.943,85.500 0.845 C 85.500 0.747,85.567 0.667,85.649 0.667 C 85.731 0.667,85.834 0.573,85.878 0.458 C 85.941 0.294,85.122 0.260,82.042 0.298 C 77.919 0.348,77.536 0.428,77.505 1.250 C 77.501 1.342,77.236 1.702,76.916 2.051 C 76.595 2.400,76.333 2.744,76.333 2.817 C 76.333 2.889,76.146 3.166,75.917 3.432 C 75.688 3.699,75.500 3.963,75.500 4.019 C 75.500 4.122,74.698 5.206,74.281 5.667 C 74.157 5.804,73.805 6.292,73.498 6.750 C 73.192 7.208,72.767 7.762,72.554 7.981 C 72.341 8.200,72.167 8.449,72.167 8.535 C 72.167 8.620,72.054 8.803,71.917 8.940 C 71.694 9.163,71.667 8.699,71.667 4.769 L 71.667 0.348 68.583 0.299 L 65.500 0.250 65.500 12.458 M134.292 0.295 C 132.390 0.320,130.833 0.395,130.833 0.462 C 130.832 0.611,131.547 2.052,131.679 2.167 C 131.731 2.212,131.823 2.362,131.883 2.500 C 131.943 2.637,132.222 3.125,132.502 3.583 C 132.783 4.042,133.118 4.648,133.246 4.930 C 133.375 5.212,133.598 5.540,133.740 5.659 C 133.883 5.777,134.000 5.933,134.000 6.005 C 134.000 6.217,135.366 8.578,135.524 8.639 C 135.604 8.670,135.630 8.758,135.583 8.834 C 135.536 8.911,135.613 9.089,135.755 9.231 C 135.896 9.372,136.118 9.741,136.246 10.049 C 136.375 10.358,136.598 10.707,136.740 10.825 C 136.883 10.944,137.000 11.182,137.000 11.354 C 137.000 11.526,137.075 11.667,137.167 11.667 C 137.258 11.667,137.333 11.779,137.333 11.917 C 137.333 12.054,137.408 12.167,137.500 12.167 C 137.592 12.167,137.658 12.223,137.647 12.292 C 137.599 12.592,137.689 12.808,138.017 13.183 C 139.119 14.445,139.167 14.723,139.167 19.915 L 139.167 24.674 142.208 24.629 L 145.250 24.583 145.343 19.833 C 145.452 14.334,145.349 14.957,146.428 13.250 C 147.013 12.325,147.165 11.966,147.056 11.774 C 146.996 11.669,147.005 11.636,147.077 11.701 C 147.205 11.817,147.881 10.940,148.187 10.261 C 148.272 10.072,148.557 9.542,148.821 9.083 C 149.084 8.625,149.437 7.987,149.605 7.667 C 149.772 7.346,150.024 6.950,150.163 6.786 C 150.303 6.623,150.417 6.435,150.417 6.370 C 150.417 6.304,150.591 6.006,150.803 5.708 C 151.016 5.410,151.128 5.166,151.053 5.164 C 150.978 5.163,151.007 5.104,151.117 5.034 C 151.227 4.965,151.469 4.572,151.655 4.162 C 151.841 3.752,151.995 3.492,151.997 3.583 C 152.000 3.675,152.271 3.225,152.599 2.583 C 152.928 1.942,153.281 1.316,153.383 1.192 C 154.058 0.373,153.909 0.333,150.191 0.333 C 146.410 0.333,146.497 0.312,146.055 1.333 C 145.653 2.263,145.495 2.595,145.342 2.833 C 145.101 3.209,144.167 5.227,144.167 5.371 C 144.167 5.440,144.041 5.643,143.886 5.823 C 143.732 6.003,143.581 6.323,143.550 6.534 C 143.519 6.744,143.401 6.992,143.289 7.084 C 143.176 7.176,143.060 7.363,143.031 7.501 C 142.898 8.141,142.105 9.094,141.992 8.750 C 141.682 7.806,141.616 7.667,141.481 7.667 C 141.400 7.667,141.333 7.579,141.333 7.473 C 141.333 7.162,140.782 6.000,140.635 6.000 C 140.561 6.000,140.500 5.919,140.500 5.820 C 140.500 5.720,140.206 5.045,139.846 4.320 C 139.487 3.594,139.228 3.000,139.271 3.000 C 139.314 3.000,139.109 2.651,138.816 2.224 C 138.522 1.798,138.387 1.511,138.516 1.586 C 138.677 1.681,138.665 1.623,138.479 1.404 C 138.330 1.227,138.105 0.896,137.979 0.667 L 137.750 0.250 134.292 0.295 M165.000 6.813 L 165.000 13.460 165.480 13.658 C 165.743 13.767,166.100 13.883,166.271 13.916 C 166.443 13.948,166.583 13.986,166.583 14.000 C 166.583 14.014,166.720 14.051,166.888 14.083 C 167.055 14.115,167.468 14.272,167.804 14.431 C 168.141 14.591,168.566 14.741,168.750 14.764 C 168.933 14.787,169.402 14.921,169.792 15.062 L 170.500 15.319 170.500 10.563 L 170.500 5.808 172.708 5.876 C 177.203 6.017,177.381 6.247,177.465 12.000 L 177.525 16.084 177.110 16.695 C 176.882 17.031,176.745 17.362,176.806 17.430 C 176.867 17.498,176.831 17.505,176.727 17.445 C 176.623 17.386,176.445 17.449,176.332 17.585 C 176.219 17.722,176.020 17.833,175.890 17.833 C 175.761 17.833,175.489 17.942,175.286 18.074 C 175.083 18.207,174.654 18.364,174.333 18.423 C 174.012 18.482,173.637 18.556,173.500 18.586 C 173.362 18.616,171.394 18.647,169.125 18.654 L 165.000 18.667 165.000 21.590 L 165.000 24.512 170.792 24.442 C 177.844 24.356,177.116 24.408,178.143 23.913 C 178.613 23.686,179.114 23.500,179.256 23.500 C 179.398 23.500,179.675 23.350,179.872 23.167 C 180.069 22.983,180.328 22.833,180.448 22.833 C 180.568 22.833,180.667 22.758,180.667 22.667 C 180.667 22.575,180.779 22.500,180.917 22.500 C 181.054 22.500,181.167 22.444,181.168 22.375 C 181.169 22.306,181.448 21.956,181.788 21.597 C 182.493 20.854,183.212 19.541,183.054 19.286 C 182.996 19.192,183.025 19.162,183.118 19.220 C 183.449 19.425,183.757 7.384,183.434 6.861 C 183.383 6.780,183.309 6.459,183.268 6.148 C 183.173 5.425,182.619 4.189,182.177 3.715 C 181.988 3.513,181.833 3.280,181.833 3.197 C 181.833 3.114,181.639 2.905,181.402 2.732 C 181.164 2.558,180.735 2.216,180.448 1.970 C 179.442 1.108,175.700 -0.035,175.203 0.367 C 175.002 0.530,174.967 0.531,175.061 0.375 C 175.160 0.210,174.123 0.167,170.093 0.167 L 165.000 0.167 165.000 6.813 M186.794 12.458 L 186.838 24.667 195.252 24.667 C 199.880 24.667,203.667 24.606,203.667 24.532 C 203.667 24.459,203.479 24.144,203.250 23.833 C 203.021 23.523,202.833 23.216,202.833 23.151 C 202.833 23.086,202.562 22.632,202.230 22.142 C 201.898 21.651,201.553 21.044,201.463 20.792 C 201.374 20.540,201.233 20.376,201.150 20.427 C 201.068 20.478,201.000 20.365,201.000 20.177 C 201.000 19.988,200.925 19.833,200.833 19.833 C 200.742 19.833,200.683 19.777,200.702 19.708 C 200.918 18.946,200.395 18.833,196.627 18.833 L 193.000 18.833 193.000 17.083 L 193.000 15.333 197.917 15.333 C 203.212 15.333,203.108 15.354,202.459 14.442 C 202.253 14.153,202.094 13.879,202.104 13.833 C 202.139 13.690,201.947 13.254,201.808 13.159 C 201.735 13.110,201.651 12.922,201.623 12.743 C 201.594 12.563,201.436 12.214,201.272 11.967 C 201.107 11.720,200.958 11.420,200.940 11.300 C 200.922 11.181,200.834 10.971,200.745 10.833 C 200.656 10.696,200.506 10.433,200.412 10.250 C 200.250 9.934,200.048 9.914,196.620 9.872 L 193.000 9.827 193.000 7.997 L 193.000 6.167 198.333 6.167 C 201.267 6.167,203.667 6.103,203.667 6.026 C 203.667 5.948,203.517 5.711,203.333 5.500 C 203.150 5.289,203.000 5.056,203.000 4.983 C 203.000 4.910,202.785 4.528,202.523 4.133 C 202.260 3.739,201.841 3.042,201.590 2.583 C 201.340 2.125,200.937 1.433,200.694 1.045 L 200.253 0.340 193.501 0.295 L 186.750 0.250 186.794 12.458 M241.167 0.293 L 234.417 0.337 234.460 12.502 L 234.504 24.667 242.919 24.667 C 248.140 24.667,251.333 24.606,251.333 24.508 C 251.333 24.205,250.946 23.500,250.779 23.500 C 250.687 23.500,250.657 23.455,250.712 23.399 C 250.768 23.343,250.742 23.212,250.654 23.107 C 250.435 22.845,248.391 19.391,248.273 19.082 C 248.192 18.872,247.609 18.833,244.505 18.833 L 240.833 18.833 240.833 17.083 L 240.833 15.333 245.639 15.333 C 248.282 15.333,250.483 15.295,250.530 15.248 C 250.577 15.201,250.252 14.413,249.808 13.498 C 249.364 12.582,248.997 11.777,248.992 11.708 C 248.988 11.640,248.865 11.402,248.720 11.181 C 248.575 10.960,248.405 10.585,248.341 10.348 L 248.226 9.917 244.572 9.833 L 240.917 9.750 240.869 7.958 L 240.822 6.167 246.000 6.167 C 250.707 6.167,251.187 6.141,251.285 5.885 C 251.346 5.728,251.306 5.574,251.197 5.538 C 251.088 5.502,251.000 5.366,251.000 5.236 C 251.000 5.106,250.938 5.000,250.863 5.000 C 250.787 5.000,250.558 4.681,250.354 4.292 C 250.149 3.902,249.837 3.358,249.659 3.083 C 249.482 2.808,249.286 2.471,249.224 2.333 C 249.162 2.196,248.901 1.774,248.645 1.396 C 248.389 1.018,248.207 0.681,248.240 0.646 C 248.553 0.318,247.275 0.254,241.167 0.293 M384.002 6.333 C 384.005 11.874,384.067 12.897,384.397 12.844 C 384.457 12.834,384.599 12.902,384.712 12.995 C 384.824 13.088,385.254 13.427,385.667 13.749 C 386.079 14.071,386.492 14.399,386.583 14.479 C 386.685 14.568,386.985 14.389,387.352 14.021 C 388.101 13.269,388.669 12.840,388.951 12.812 C 389.318 12.777,389.409 12.750,389.635 12.607 C 389.997 12.377,392.036 12.665,392.628 13.029 C 394.216 14.006,394.328 16.869,392.821 17.982 C 391.834 18.713,389.678 18.866,389.160 18.242 C 389.050 18.109,388.893 18.000,388.811 18.000 C 388.730 18.000,388.432 17.794,388.149 17.542 C 387.523 16.984,387.351 16.972,386.898 17.457 C 386.704 17.664,386.475 17.833,386.390 17.833 C 386.304 17.833,385.975 18.093,385.659 18.411 C 385.342 18.729,385.028 18.992,384.960 18.995 C 384.827 19.000,384.175 19.520,383.547 20.121 C 383.207 20.447,383.185 20.539,383.371 20.871 C 383.601 21.280,384.333 22.235,384.333 22.125 C 384.333 22.088,384.676 22.386,385.095 22.787 C 385.514 23.189,386.021 23.590,386.220 23.678 C 386.420 23.766,386.808 23.982,387.083 24.157 C 387.358 24.332,387.794 24.481,388.052 24.488 C 388.309 24.495,388.483 24.560,388.437 24.633 C 388.345 24.783,388.430 24.792,390.750 24.881 C 391.827 24.921,392.460 24.880,392.539 24.764 C 392.621 24.643,392.662 24.656,392.664 24.802 C 392.666 24.934,392.748 24.969,392.875 24.890 C 392.990 24.818,393.219 24.739,393.384 24.713 C 393.549 24.687,393.896 24.557,394.154 24.423 C 394.413 24.289,394.666 24.221,394.716 24.271 C 394.766 24.322,395.093 24.169,395.442 23.931 C 395.792 23.694,396.140 23.500,396.216 23.500 C 396.732 23.500,399.139 20.527,398.916 20.166 C 398.860 20.075,398.937 20.000,399.087 20.000 C 399.238 20.000,399.328 19.906,399.287 19.792 C 399.246 19.677,399.316 19.378,399.443 19.127 C 399.570 18.876,399.672 18.632,399.670 18.585 C 399.668 18.538,399.672 18.481,399.678 18.458 C 400.095 16.946,399.916 14.029,399.324 12.691 C 399.146 12.287,399.000 11.889,399.000 11.805 C 399.000 11.721,398.924 11.562,398.832 11.451 C 398.739 11.341,398.359 10.858,397.987 10.379 C 397.615 9.900,397.258 9.525,397.194 9.545 C 397.130 9.566,396.915 9.433,396.717 9.250 C 396.367 8.926,394.705 8.192,394.129 8.107 C 393.972 8.084,393.791 8.013,393.727 7.949 C 393.555 7.777,391.174 7.811,390.500 7.994 C 390.179 8.082,389.673 8.195,389.375 8.246 L 388.833 8.338 388.833 7.044 L 388.833 5.750 393.583 5.797 C 398.787 5.848,398.762 5.853,398.080 4.880 C 397.941 4.681,397.841 4.458,397.858 4.384 C 397.874 4.310,397.728 3.893,397.532 3.456 C 397.337 3.020,397.174 2.626,397.170 2.582 C 397.166 2.538,396.980 2.087,396.756 1.581 C 396.532 1.074,396.364 0.605,396.383 0.538 C 396.401 0.471,393.623 0.379,390.208 0.333 L 384.000 0.250 384.002 6.333 M43.500 12.500 L 43.500 24.667 46.589 24.667 L 49.678 24.667 49.631 20.750 L 49.583 16.833 50.116 16.833 C 50.530 16.833,50.713 16.944,50.943 17.333 C 51.106 17.608,51.297 17.833,51.369 17.833 C 51.441 17.833,51.500 17.946,51.500 18.083 C 51.500 18.221,51.650 18.483,51.833 18.667 C 52.017 18.850,52.168 19.056,52.170 19.125 C 52.171 19.194,52.359 19.427,52.586 19.642 C 52.814 19.858,53.000 20.132,53.000 20.250 C 53.000 20.368,53.112 20.508,53.250 20.560 C 53.387 20.613,53.500 20.775,53.500 20.921 C 53.500 21.067,53.575 21.140,53.667 21.083 C 53.758 21.027,53.833 21.065,53.833 21.169 C 53.833 21.272,53.927 21.459,54.042 21.584 C 54.156 21.708,54.512 22.199,54.833 22.674 C 55.154 23.149,55.548 23.679,55.708 23.852 C 55.869 24.025,55.957 24.167,55.905 24.167 C 55.852 24.167,55.922 24.279,56.060 24.417 C 56.267 24.624,56.959 24.667,60.159 24.667 L 64.008 24.667 63.712 24.211 C 63.350 23.653,63.054 23.302,62.458 22.723 C 62.206 22.478,62.000 22.209,62.000 22.125 C 62.000 22.041,61.737 21.717,61.417 21.406 C 61.096 21.094,60.833 20.753,60.833 20.647 C 60.833 20.541,60.646 20.281,60.417 20.069 C 60.188 19.856,60.000 19.608,60.000 19.517 C 60.000 19.427,59.833 19.235,59.630 19.093 C 59.426 18.950,59.325 18.833,59.406 18.833 C 59.486 18.833,59.240 18.519,58.859 18.134 C 58.478 17.749,58.167 17.371,58.167 17.293 C 58.167 17.216,57.979 16.950,57.750 16.703 L 57.334 16.254 57.901 16.058 C 58.867 15.724,60.650 14.305,60.540 13.958 C 60.518 13.890,60.563 13.833,60.640 13.833 C 60.764 13.833,61.199 13.050,61.196 12.833 C 61.196 12.787,61.250 12.675,61.317 12.583 C 61.385 12.492,61.536 12.079,61.654 11.667 C 61.772 11.254,61.923 10.767,61.990 10.583 C 62.207 9.989,62.108 6.503,61.869 6.356 C 61.752 6.283,61.701 6.104,61.757 5.958 C 61.813 5.812,61.763 5.518,61.646 5.305 C 61.529 5.091,61.419 4.835,61.402 4.734 C 61.202 3.568,58.243 1.000,57.098 1.000 C 56.952 1.000,56.833 0.921,56.833 0.823 C 56.833 0.726,56.776 0.682,56.706 0.726 C 56.636 0.769,56.169 0.699,55.669 0.569 C 54.973 0.388,53.444 0.333,49.130 0.333 L 43.500 0.333 43.500 12.500 M113.000 12.509 L 113.000 24.685 118.870 24.656 C 123.013 24.635,124.912 24.566,125.328 24.421 C 125.652 24.309,126.010 24.249,126.125 24.289 C 126.240 24.329,126.333 24.282,126.333 24.186 C 126.333 24.089,126.444 24.053,126.580 24.105 C 126.715 24.157,127.167 24.009,127.583 23.776 C 128.000 23.543,128.289 23.442,128.225 23.551 C 128.125 23.722,128.764 23.258,129.000 22.988 C 129.046 22.935,129.225 22.840,129.399 22.776 C 129.572 22.711,129.674 22.619,129.625 22.570 C 129.576 22.521,129.783 22.241,130.084 21.949 C 130.385 21.656,130.651 21.342,130.675 21.250 C 130.699 21.158,130.833 20.821,130.972 20.500 C 131.112 20.179,131.242 19.842,131.261 19.750 C 131.280 19.658,131.406 19.166,131.541 18.656 C 131.796 17.688,131.775 17.081,131.429 15.456 C 131.356 15.112,131.228 14.788,131.145 14.737 C 131.062 14.685,131.038 14.573,131.091 14.487 C 131.144 14.401,131.071 14.286,130.927 14.231 C 130.784 14.176,130.667 14.027,130.667 13.899 C 130.667 13.771,130.592 13.667,130.500 13.667 C 130.408 13.667,130.333 13.596,130.333 13.509 C 130.333 13.297,129.728 12.684,128.946 12.104 C 128.317 11.637,128.314 11.629,128.661 11.385 C 129.548 10.764,130.274 9.751,130.393 8.971 C 130.411 8.850,130.472 8.675,130.528 8.583 C 130.685 8.325,130.643 5.838,130.479 5.737 C 130.399 5.687,130.333 5.464,130.333 5.240 C 130.333 5.016,130.258 4.833,130.167 4.833 C 130.075 4.833,130.000 4.680,130.000 4.493 C 130.000 3.466,126.999 0.736,126.125 0.967 C 126.056 0.985,126.000 0.921,126.000 0.823 C 126.000 0.726,125.938 0.685,125.862 0.732 C 125.786 0.779,125.361 0.709,124.919 0.576 C 124.284 0.385,122.937 0.333,118.557 0.333 L 113.000 0.333 113.000 12.509 M204.583 0.500 C 204.527 0.592,204.560 0.667,204.657 0.667 C 204.754 0.667,204.833 0.812,204.833 0.990 C 204.833 1.168,204.903 1.356,204.987 1.409 C 205.072 1.461,205.190 1.728,205.250 2.002 C 205.311 2.276,205.413 2.500,205.478 2.500 C 205.543 2.500,205.608 2.662,205.623 2.860 C 205.638 3.058,205.738 3.275,205.846 3.341 C 205.954 3.408,205.993 3.543,205.932 3.642 C 205.871 3.740,206.007 4.115,206.235 4.475 C 206.462 4.835,206.608 5.169,206.560 5.217 C 206.512 5.265,206.559 5.466,206.665 5.663 C 206.770 5.860,206.882 6.148,206.914 6.302 C 206.945 6.457,207.043 6.771,207.132 7.000 C 207.221 7.229,207.284 7.465,207.272 7.524 C 207.260 7.583,207.400 7.797,207.583 8.000 C 207.767 8.203,207.887 8.379,207.851 8.392 C 207.667 8.460,208.442 10.345,208.733 10.539 C 208.864 10.627,208.861 10.662,208.723 10.664 C 208.601 10.666,208.658 10.926,208.880 11.375 C 209.073 11.765,209.247 12.183,209.269 12.305 C 209.290 12.426,209.363 12.651,209.431 12.805 C 209.499 12.958,209.567 13.121,209.583 13.167 C 209.660 13.388,209.884 13.974,210.095 14.500 C 210.562 15.669,210.722 16.085,210.739 16.167 C 210.748 16.212,210.806 16.330,210.868 16.428 C 210.931 16.525,211.141 17.050,211.336 17.594 C 211.531 18.138,211.755 18.733,211.833 18.917 C 211.912 19.100,212.171 19.775,212.410 20.417 C 212.649 21.058,212.923 21.723,213.019 21.894 C 213.115 22.065,213.219 22.337,213.250 22.498 C 213.281 22.660,213.462 23.135,213.653 23.554 C 213.844 23.972,214.000 24.394,214.000 24.491 C 214.000 24.831,218.159 24.719,218.278 24.375 C 218.801 22.860,219.335 21.557,220.225 19.621 C 220.468 19.092,220.667 18.529,220.667 18.369 C 220.667 18.209,220.817 17.799,221.000 17.456 C 221.183 17.114,221.333 16.719,221.333 16.578 C 221.333 16.437,221.448 16.146,221.589 15.932 C 221.729 15.717,221.873 15.401,221.909 15.229 C 221.971 14.925,222.214 14.313,222.777 13.042 C 222.929 12.698,223.069 12.360,223.089 12.292 C 223.109 12.223,223.140 12.148,223.158 12.125 C 223.176 12.102,223.223 11.912,223.262 11.703 C 223.301 11.493,223.454 11.137,223.602 10.911 C 223.750 10.685,223.821 10.500,223.760 10.500 C 223.698 10.500,223.756 10.294,223.888 10.042 C 224.287 9.282,224.560 8.592,224.523 8.439 C 224.503 8.360,224.602 8.118,224.744 7.903 C 224.885 7.688,225.000 7.397,225.000 7.256 C 225.000 7.115,225.079 7.000,225.177 7.000 C 225.274 7.000,225.316 6.941,225.272 6.868 C 225.227 6.796,225.289 6.515,225.409 6.243 C 225.994 4.927,226.140 4.542,226.246 4.042 C 226.308 3.744,226.437 3.500,226.531 3.500 C 226.625 3.500,226.663 3.397,226.614 3.270 C 226.566 3.144,226.592 2.975,226.672 2.895 C 226.854 2.712,227.701 0.479,227.619 0.397 C 227.569 0.347,224.262 1.698,222.225 2.601 C 221.936 2.729,221.585 2.833,221.446 2.833 C 221.216 2.833,220.300 5.164,220.283 5.792 C 220.280 5.906,220.215 6.000,220.139 6.000 C 220.063 6.000,220.000 6.183,220.000 6.407 C 220.000 6.631,219.934 6.854,219.854 6.904 C 219.773 6.954,219.620 7.352,219.513 7.789 C 219.406 8.226,219.178 8.958,219.007 9.417 C 218.835 9.875,218.600 10.587,218.484 11.000 C 218.368 11.412,218.205 11.840,218.122 11.951 C 218.039 12.062,218.013 12.219,218.064 12.301 C 218.114 12.384,218.048 12.593,217.917 12.767 C 217.785 12.941,217.675 13.252,217.672 13.458 C 217.669 13.665,217.587 13.833,217.490 13.833 C 217.393 13.833,217.361 13.909,217.418 14.002 C 217.475 14.095,217.405 14.406,217.261 14.694 C 217.118 14.982,217.000 15.352,217.000 15.516 C 217.000 15.680,216.920 15.863,216.822 15.924 C 216.724 15.984,216.683 16.136,216.731 16.262 C 216.780 16.387,216.710 16.698,216.577 16.953 C 216.444 17.208,216.335 17.515,216.334 17.635 C 216.331 18.256,215.664 16.870,215.627 16.167 C 215.625 16.121,215.483 15.822,215.311 15.502 C 215.140 15.183,215.000 14.794,215.000 14.637 C 215.000 14.481,214.935 14.313,214.855 14.264 C 214.776 14.214,214.664 13.884,214.607 13.529 C 214.551 13.175,214.328 12.479,214.113 11.984 C 213.898 11.489,213.546 10.521,213.331 9.833 C 213.116 9.146,212.890 8.546,212.829 8.500 C 212.767 8.454,212.716 8.304,212.715 8.167 C 212.713 7.930,211.965 5.538,211.344 3.780 C 211.188 3.339,211.010 2.982,210.948 2.986 C 210.886 2.991,210.502 2.809,210.094 2.581 C 209.686 2.353,209.253 2.167,209.132 2.167 C 209.011 2.167,208.640 2.021,208.307 1.843 C 207.975 1.665,207.658 1.565,207.602 1.621 C 207.546 1.676,207.500 1.635,207.500 1.528 C 207.500 1.421,207.394 1.333,207.266 1.333 C 207.137 1.333,206.530 1.108,205.917 0.833 C 204.643 0.262,204.719 0.281,204.583 0.500 M252.500 0.732 C 252.500 0.952,252.611 1.174,252.747 1.226 C 252.883 1.278,252.953 1.428,252.902 1.560 C 252.852 1.692,252.891 1.849,252.989 1.910 C 253.087 1.970,253.167 2.146,253.168 2.302 C 253.168 2.457,253.287 2.808,253.431 3.083 C 253.748 3.687,254.185 4.838,254.207 5.125 C 254.215 5.240,254.285 5.333,254.361 5.333 C 254.438 5.333,254.500 5.483,254.500 5.667 C 254.500 5.850,254.579 6.000,254.677 6.000 C 254.774 6.000,254.814 6.063,254.767 6.140 C 254.719 6.217,254.812 6.536,254.974 6.848 C 255.135 7.161,255.258 7.529,255.247 7.667 C 255.236 7.804,255.323 8.104,255.439 8.333 C 255.849 9.137,256.636 11.090,256.809 11.728 C 256.905 12.083,257.119 12.527,257.284 12.715 C 257.448 12.903,257.496 13.007,257.390 12.945 C 257.283 12.883,257.340 13.129,257.515 13.491 C 257.690 13.854,257.833 14.254,257.833 14.381 C 257.833 14.507,257.890 14.667,257.958 14.736 C 258.027 14.805,258.086 14.911,258.090 14.972 C 258.094 15.033,258.225 15.323,258.382 15.617 C 258.539 15.910,258.667 16.299,258.667 16.482 C 258.667 16.664,258.742 16.860,258.833 16.917 C 258.925 16.973,259.000 17.165,259.000 17.343 C 259.000 17.521,259.075 17.667,259.167 17.667 C 259.258 17.667,259.321 17.723,259.306 17.792 C 259.257 18.017,259.545 18.909,259.775 19.245 C 259.899 19.426,260.000 19.745,260.000 19.954 C 260.000 20.163,260.075 20.333,260.167 20.333 C 260.258 20.333,260.333 20.447,260.333 20.586 C 260.333 20.724,260.399 20.968,260.480 21.127 C 260.834 21.827,261.167 22.698,261.167 22.922 C 261.167 23.057,261.246 23.167,261.343 23.167 C 261.440 23.167,261.477 23.236,261.424 23.322 C 261.371 23.407,261.461 23.742,261.622 24.067 L 261.917 24.658 263.918 24.663 L 265.919 24.667 266.163 24.125 C 266.298 23.827,266.411 23.546,266.415 23.500 C 266.419 23.454,266.488 23.311,266.570 23.183 C 266.679 23.011,266.656 22.981,266.484 23.070 C 266.355 23.137,266.396 23.073,266.574 22.929 C 266.751 22.785,266.845 22.667,266.782 22.667 C 266.718 22.667,266.816 22.387,267.000 22.044 C 267.183 21.702,267.333 21.336,267.333 21.231 C 267.333 21.126,267.460 20.750,267.615 20.395 C 267.770 20.040,267.907 19.712,267.920 19.667 C 267.933 19.621,268.002 19.377,268.073 19.125 C 268.145 18.873,268.261 18.667,268.333 18.667 C 268.404 18.667,268.515 18.385,268.579 18.042 C 268.643 17.698,268.813 17.285,268.957 17.125 C 269.170 16.887,269.175 16.833,268.984 16.831 C 268.795 16.829,268.792 16.802,268.969 16.689 C 269.090 16.613,269.207 16.445,269.229 16.317 C 269.251 16.188,269.423 15.783,269.611 15.417 C 269.924 14.806,270.233 13.841,270.166 13.685 C 270.151 13.650,270.233 13.562,270.349 13.490 C 270.547 13.368,270.634 13.136,270.729 12.472 C 270.751 12.319,270.858 12.088,270.967 11.957 C 271.075 11.826,271.114 11.670,271.054 11.610 C 270.994 11.549,271.032 11.500,271.139 11.500 C 271.246 11.500,271.334 11.369,271.334 11.208 C 271.335 11.048,271.454 10.692,271.598 10.417 C 271.915 9.813,272.352 8.662,272.373 8.375 C 272.382 8.260,272.435 8.167,272.491 8.167 C 272.548 8.167,272.610 7.972,272.630 7.735 C 272.649 7.497,272.816 7.092,272.999 6.834 C 273.183 6.576,273.333 6.256,273.333 6.122 C 273.333 5.989,273.558 5.383,273.833 4.777 C 274.108 4.170,274.334 3.579,274.335 3.462 C 274.336 3.345,274.536 2.837,274.780 2.333 C 275.023 1.829,275.230 1.304,275.239 1.167 C 275.248 1.029,275.318 0.818,275.394 0.697 C 275.638 0.313,275.386 0.300,274.683 0.658 C 274.307 0.850,274.000 0.966,274.000 0.916 C 274.000 0.866,273.756 0.954,273.458 1.112 C 273.160 1.269,272.817 1.416,272.695 1.436 C 272.574 1.457,272.199 1.600,271.862 1.754 C 270.827 2.226,269.942 2.618,269.375 2.855 C 269.077 2.980,268.833 3.204,268.833 3.354 C 268.833 3.580,268.298 5.165,267.884 6.167 C 267.827 6.304,267.795 6.505,267.811 6.612 C 267.828 6.720,267.765 6.856,267.671 6.914 C 267.577 6.972,267.500 7.240,267.500 7.510 C 267.500 7.779,267.433 8.000,267.351 8.000 C 267.222 8.000,266.985 8.582,266.909 9.083 C 266.884 9.253,266.810 9.467,266.416 10.500 C 266.294 10.821,265.914 11.983,265.572 13.083 C 264.732 15.786,263.987 17.679,263.809 17.568 C 263.728 17.518,263.706 17.404,263.762 17.315 C 263.817 17.225,263.782 17.055,263.683 16.937 C 263.499 16.715,263.058 15.557,262.920 14.934 C 262.774 14.276,262.116 12.417,262.000 12.333 C 261.936 12.287,261.879 12.137,261.874 12.000 C 261.869 11.862,261.771 11.487,261.657 11.167 C 261.339 10.274,261.288 10.109,261.222 9.768 C 261.189 9.595,261.013 9.117,260.831 8.706 C 260.649 8.294,260.500 7.857,260.500 7.734 C 260.500 7.610,260.312 7.083,260.081 6.562 C 259.851 6.042,259.692 5.586,259.729 5.549 C 259.765 5.513,259.584 4.983,259.326 4.372 C 259.069 3.761,258.888 3.212,258.926 3.152 C 258.990 3.049,257.182 2.167,256.774 2.102 C 256.669 2.085,256.328 1.943,256.016 1.786 C 255.704 1.629,255.319 1.500,255.161 1.500 C 255.003 1.500,254.779 1.386,254.664 1.247 C 254.548 1.107,254.125 0.910,253.724 0.809 C 253.323 0.708,252.954 0.560,252.904 0.480 C 252.728 0.196,252.500 0.338,252.500 0.732 M277.041 12.447 L 277.083 24.583 280.208 24.629 L 283.333 24.674 283.333 13.833 L 283.333 2.993 282.875 2.810 C 282.623 2.709,281.949 2.411,281.379 2.147 C 280.808 1.883,280.307 1.667,280.266 1.667 C 280.225 1.667,279.642 1.414,278.971 1.105 C 278.299 0.797,277.581 0.492,277.374 0.427 L 276.998 0.310 277.041 12.447 M287.097 0.607 C 287.044 0.747,287.000 6.217,287.000 12.764 L 287.000 24.667 295.068 24.667 C 303.785 24.667,303.758 24.670,302.732 23.818 C 302.604 23.712,302.500 23.540,302.500 23.435 C 302.500 23.330,302.316 22.973,302.091 22.642 C 301.866 22.311,301.729 21.994,301.785 21.937 C 301.842 21.880,301.813 21.833,301.721 21.833 C 301.570 21.833,301.277 21.347,301.170 20.917 C 301.147 20.825,300.893 20.453,300.606 20.090 C 300.319 19.726,300.190 19.495,300.320 19.575 C 300.463 19.663,300.430 19.547,300.237 19.283 L 299.917 18.844 296.645 18.839 L 293.373 18.833 293.286 16.958 C 293.238 15.927,293.202 14.858,293.206 14.583 C 293.210 14.308,293.156 12.133,293.087 9.750 C 293.018 7.367,292.952 4.857,292.939 4.174 L 292.917 2.930 292.250 2.681 C 291.883 2.543,291.558 2.371,291.527 2.298 C 291.497 2.225,291.403 2.207,291.319 2.259 C 291.235 2.311,291.167 2.269,291.167 2.167 C 291.167 2.064,291.091 2.027,290.999 2.084 C 290.907 2.141,290.625 2.043,290.374 1.866 C 290.122 1.689,289.729 1.487,289.500 1.417 C 289.271 1.348,288.783 1.132,288.417 0.939 C 287.328 0.365,287.202 0.333,287.097 0.607 M348.750 0.500 C 348.693 0.592,348.690 0.667,348.744 0.667 C 348.797 0.667,348.673 0.985,348.469 1.375 C 348.265 1.765,348.094 2.121,348.088 2.167 C 348.053 2.460,346.984 5.017,346.834 5.167 C 346.788 5.212,346.670 5.475,346.572 5.750 L 346.394 6.250 351.008 6.203 L 355.622 6.157 355.541 6.581 C 355.497 6.814,355.394 7.046,355.313 7.096 C 355.233 7.146,355.167 7.332,355.167 7.510 C 355.167 7.688,355.092 7.833,355.000 7.833 C 354.908 7.833,354.833 7.969,354.833 8.135 C 354.833 8.301,354.723 8.582,354.589 8.760 C 354.454 8.938,354.342 9.215,354.339 9.375 C 354.336 9.535,354.255 9.667,354.159 9.667 C 354.064 9.667,354.004 9.760,354.026 9.875 C 354.048 9.990,353.900 10.402,353.697 10.792 C 353.493 11.181,353.374 11.500,353.432 11.500 C 353.491 11.500,353.428 11.669,353.293 11.875 C 352.996 12.327,352.145 14.333,352.125 14.625 C 352.117 14.740,352.049 14.833,351.972 14.833 C 351.896 14.833,351.833 14.899,351.833 14.980 C 351.833 15.060,351.707 15.416,351.552 15.771 C 351.397 16.126,351.265 16.454,351.259 16.500 C 351.253 16.546,351.124 16.846,350.974 17.167 C 350.823 17.487,350.392 18.500,350.015 19.417 C 349.638 20.333,349.186 21.383,349.011 21.750 C 348.835 22.117,348.640 22.604,348.576 22.833 C 348.513 23.063,348.367 23.363,348.252 23.500 C 348.137 23.637,348.006 23.958,347.961 24.212 L 347.878 24.673 351.189 24.628 C 353.010 24.604,354.482 24.546,354.459 24.500 C 354.437 24.454,354.584 24.183,354.787 23.898 C 354.991 23.613,355.109 23.331,355.051 23.273 C 354.992 23.214,355.032 23.167,355.139 23.167 C 355.246 23.167,355.321 23.110,355.306 23.042 C 355.276 22.898,355.423 22.534,356.148 20.954 C 356.433 20.333,356.667 19.724,356.667 19.600 C 356.667 19.476,356.779 19.281,356.917 19.167 C 357.054 19.053,357.167 18.847,357.167 18.711 C 357.167 18.574,357.310 18.189,357.485 17.856 C 357.661 17.523,357.967 16.875,358.165 16.417 C 358.364 15.958,358.689 15.246,358.887 14.833 C 359.085 14.421,359.257 13.946,359.268 13.779 C 359.280 13.612,359.449 13.259,359.645 12.994 C 359.840 12.730,360.000 12.417,360.001 12.298 C 360.002 12.180,360.151 11.858,360.333 11.583 C 360.515 11.308,360.665 10.970,360.666 10.831 C 360.666 10.692,360.817 10.298,361.000 9.956 C 361.184 9.613,361.291 9.333,361.239 9.333 C 361.187 9.333,361.298 9.117,361.487 8.852 C 361.675 8.587,361.852 8.223,361.880 8.043 C 361.907 7.863,362.045 7.536,362.186 7.316 C 362.450 6.903,362.727 6.250,362.637 6.250 C 362.609 6.250,362.795 5.894,363.050 5.458 C 363.305 5.023,363.464 4.667,363.403 4.667 C 363.342 4.667,363.382 4.559,363.490 4.428 C 363.756 4.109,363.770 3.167,363.512 3.007 C 363.398 2.937,363.319 2.828,363.336 2.766 C 363.392 2.565,362.965 1.667,362.813 1.667 C 362.733 1.667,362.667 1.491,362.667 1.276 C 362.667 0.336,362.648 0.333,355.455 0.333 C 351.233 0.333,348.816 0.393,348.750 0.500 M373.408 0.950 C 373.145 1.299,372.871 1.608,372.799 1.639 C 372.726 1.669,372.667 1.764,372.667 1.849 C 372.667 1.933,372.460 2.234,372.208 2.517 C 371.956 2.800,371.750 3.106,371.750 3.196 C 371.750 3.286,371.635 3.448,371.493 3.555 C 371.352 3.662,370.977 4.121,370.660 4.574 C 370.343 5.027,369.984 5.515,369.863 5.657 C 369.646 5.913,368.222 7.887,367.470 8.975 C 367.257 9.282,366.952 9.676,366.792 9.850 C 366.631 10.024,366.500 10.224,366.500 10.293 C 366.500 10.363,366.313 10.622,366.083 10.869 C 365.854 11.117,365.667 11.384,365.667 11.464 C 365.667 11.543,365.472 11.790,365.234 12.013 C 364.996 12.235,364.609 12.744,364.373 13.145 C 364.138 13.546,363.789 14.046,363.597 14.257 C 362.472 15.501,362.295 16.304,363.080 16.605 C 363.218 16.658,363.293 16.763,363.247 16.838 C 363.153 16.990,363.496 17.832,363.652 17.835 C 363.706 17.836,363.898 18.173,364.079 18.585 L 364.408 19.333 368.700 19.333 L 372.992 19.333 373.037 21.958 L 373.083 24.583 376.042 24.629 L 379.000 24.674 379.000 21.991 L 379.000 19.308 379.458 19.338 C 379.710 19.355,380.341 19.361,380.861 19.351 L 381.805 19.333 381.724 18.635 C 381.680 18.250,381.577 17.810,381.494 17.656 C 381.340 17.367,381.029 16.131,380.890 15.250 C 380.785 14.587,380.412 14.328,379.649 14.388 C 379.303 14.415,379.025 14.396,379.030 14.344 C 379.035 14.292,379.031 11.462,379.020 8.055 L 379.000 1.859 378.407 1.663 C 378.080 1.556,377.724 1.454,377.615 1.437 C 377.506 1.421,377.323 1.349,377.208 1.277 C 377.094 1.206,377.000 1.191,377.000 1.244 C 377.000 1.298,376.785 1.230,376.521 1.094 C 376.258 0.958,375.997 0.892,375.942 0.947 C 375.887 1.002,375.746 0.972,375.629 0.881 C 375.512 0.789,375.192 0.671,374.917 0.618 C 374.642 0.566,374.297 0.477,374.151 0.420 C 373.969 0.350,373.734 0.518,373.408 0.950 M311.146 2.083 C 311.134 2.129,311.106 2.242,311.083 2.333 C 311.060 2.425,311.021 2.556,310.995 2.625 C 310.970 2.694,310.935 2.825,310.918 2.917 C 310.807 3.504,310.625 4.124,310.490 4.373 C 310.404 4.532,310.333 4.851,310.333 5.081 C 310.333 5.311,310.268 5.500,310.188 5.500 C 310.107 5.500,310.041 5.669,310.041 5.875 C 310.041 6.081,309.923 6.531,309.779 6.875 L 309.517 7.500 308.265 7.500 L 307.013 7.500 306.836 8.208 C 306.738 8.598,306.517 9.367,306.344 9.917 C 306.172 10.467,305.977 11.199,305.913 11.544 C 305.848 11.888,305.729 12.211,305.648 12.262 C 305.101 12.600,305.567 12.806,306.817 12.779 L 308.134 12.750 307.930 13.250 C 307.732 13.737,307.693 13.751,306.463 13.798 C 305.187 13.847,304.701 14.215,305.088 14.841 C 305.142 14.928,305.112 15.000,305.021 15.000 C 304.872 15.000,304.686 15.395,304.598 15.896 C 304.580 15.999,304.445 16.458,304.298 16.917 C 304.150 17.375,303.984 17.956,303.928 18.208 L 303.827 18.667 305.038 18.697 L 306.250 18.727 305.000 18.833 L 303.750 18.940 304.962 18.970 L 306.173 19.000 306.064 19.458 C 306.005 19.710,305.702 20.742,305.391 21.750 C 305.080 22.758,304.788 23.771,304.741 24.000 C 304.695 24.229,304.631 24.492,304.599 24.583 C 304.512 24.838,310.095 24.708,310.293 24.451 C 310.440 24.259,311.019 22.144,311.044 21.708 C 311.050 21.594,311.111 21.500,311.180 21.500 C 311.248 21.500,311.287 21.386,311.267 21.246 C 311.160 20.519,311.951 18.750,312.407 18.696 C 313.127 18.610,313.422 18.776,313.144 19.111 C 313.019 19.261,312.939 19.411,312.966 19.444 C 313.052 19.548,312.795 20.744,312.645 20.934 C 312.566 21.034,312.484 21.316,312.464 21.559 C 312.444 21.801,312.364 22.000,312.287 22.000 C 312.210 22.000,312.186 22.063,312.233 22.140 C 312.281 22.217,312.137 22.798,311.913 23.432 C 311.690 24.065,311.505 24.595,311.504 24.610 C 311.502 24.625,312.712 24.647,314.194 24.658 C 315.675 24.670,316.950 24.719,317.027 24.767 C 317.155 24.846,317.198 24.707,317.227 24.125 C 317.233 24.010,317.365 23.575,317.520 23.157 C 317.676 22.739,317.842 22.177,317.890 21.907 C 317.937 21.637,318.132 20.986,318.322 20.460 C 318.512 19.935,318.694 19.335,318.725 19.127 C 318.777 18.783,318.875 18.748,319.849 18.733 L 320.917 18.715 319.833 18.829 L 318.750 18.942 319.880 18.971 C 321.019 19.000,321.104 18.959,321.238 18.305 C 321.263 18.183,321.325 17.971,321.377 17.833 C 321.728 16.903,321.980 15.936,321.904 15.813 C 321.854 15.732,321.906 15.667,322.018 15.667 C 322.130 15.667,322.175 15.620,322.118 15.562 C 322.060 15.505,322.123 15.196,322.257 14.875 C 322.698 13.818,322.638 13.743,321.393 13.807 C 320.372 13.859,320.296 13.840,320.413 13.557 C 320.483 13.388,320.543 13.156,320.548 13.042 C 320.553 12.895,320.915 12.833,321.778 12.833 C 322.450 12.833,322.988 12.777,322.974 12.708 C 322.959 12.640,322.991 12.471,323.044 12.333 C 323.312 11.645,323.524 10.802,323.448 10.726 C 323.402 10.679,323.519 10.291,323.709 9.862 C 323.898 9.434,324.072 8.933,324.094 8.750 C 324.116 8.567,324.187 8.210,324.252 7.958 L 324.369 7.500 323.276 7.500 L 322.183 7.500 322.441 6.708 C 322.583 6.273,322.734 5.692,322.778 5.417 C 322.821 5.142,322.923 4.767,323.004 4.583 C 323.208 4.123,323.667 2.487,323.667 2.220 C 323.667 2.047,323.070 2.000,320.846 2.000 L 318.026 2.000 317.864 2.542 C 317.774 2.840,317.607 3.458,317.491 3.917 C 317.376 4.375,317.225 4.825,317.156 4.917 C 317.086 5.008,316.981 5.346,316.922 5.667 C 316.597 7.422,316.550 7.500,315.814 7.500 C 315.030 7.500,315.013 7.384,315.568 5.843 C 315.789 5.231,316.008 4.509,316.054 4.240 C 316.100 3.970,316.257 3.422,316.402 3.021 C 316.548 2.620,316.667 2.226,316.667 2.146 C 316.667 1.996,311.183 1.934,311.146 2.083 M92.333 7.746 L 92.333 10.659 89.375 10.704 L 86.417 10.750 86.371 13.571 C 86.316 16.966,86.003 16.661,89.542 16.664 L 92.333 16.667 92.333 19.493 L 92.333 22.319 95.292 22.368 L 98.250 22.417 98.201 19.542 L 98.152 16.667 101.080 16.667 L 104.008 16.667 103.962 13.708 L 103.917 10.750 101.042 10.704 L 98.167 10.659 98.167 7.746 L 98.167 4.833 95.250 4.833 L 92.333 4.833 92.333 7.746 M337.407 5.800 C 337.738 6.102,337.965 6.421,337.912 6.508 C 337.858 6.595,337.893 6.667,337.990 6.667 C 338.216 6.667,338.223 8.112,337.997 8.252 C 337.904 8.309,337.862 8.412,337.904 8.480 C 338.013 8.657,337.022 9.554,336.690 9.579 C 336.536 9.590,336.336 9.645,336.246 9.701 C 336.155 9.757,335.744 9.742,335.333 9.667 C 334.922 9.592,334.538 9.560,334.479 9.597 C 334.420 9.633,334.279 9.552,334.167 9.417 C 334.054 9.281,333.898 9.210,333.819 9.259 C 333.602 9.393,332.973 7.904,332.979 7.270 C 333.000 5.301,335.831 4.361,337.407 5.800 M123.517 5.691 C 125.308 6.297,125.404 9.340,123.639 9.569 C 123.578 9.577,123.472 9.640,123.403 9.708 C 123.334 9.777,122.390 9.833,121.306 9.833 L 119.333 9.833 119.333 7.667 L 119.333 5.500 121.142 5.500 C 122.136 5.500,123.205 5.586,123.517 5.691 M10.892 6.479 C 11.063 6.628,11.231 6.731,11.267 6.708 C 11.445 6.596,11.674 6.687,11.583 6.833 C 11.527 6.925,11.564 7.000,11.665 7.000 C 12.213 7.000,12.354 8.144,12.339 12.453 C 12.317 18.574,12.143 18.833,8.062 18.833 L 6.167 18.833 6.167 12.506 L 6.167 6.178 7.875 6.131 C 9.980 6.072,10.498 6.132,10.892 6.479 M54.083 6.337 C 55.411 6.627,56.353 8.285,55.914 9.561 C 55.330 11.259,54.568 11.617,51.708 11.537 L 49.667 11.480 49.667 8.829 L 49.667 6.178 51.542 6.130 C 52.573 6.105,53.529 6.132,53.667 6.192 C 53.804 6.252,53.992 6.317,54.083 6.337 M30.550 8.220 C 30.494 8.311,30.524 8.338,30.616 8.281 C 30.710 8.223,30.793 8.375,30.806 8.631 C 30.829 9.084,30.855 9.223,31.056 10.000 C 31.115 10.229,31.199 10.604,31.243 10.833 C 31.385 11.576,31.620 12.457,31.719 12.617 C 31.772 12.703,31.863 13.124,31.922 13.553 L 32.027 14.333 30.264 14.333 C 28.679 14.333,28.192 14.210,28.652 13.926 C 28.736 13.874,28.857 13.513,28.922 13.124 C 29.152 11.746,29.184 11.611,29.369 11.266 C 29.472 11.074,29.537 10.917,29.513 10.917 C 29.436 10.917,29.689 9.601,29.882 9.000 C 29.985 8.679,30.082 8.285,30.097 8.125 C 30.112 7.965,30.144 7.796,30.167 7.750 C 30.190 7.704,30.227 7.592,30.250 7.500 C 30.273 7.408,30.307 7.277,30.327 7.208 C 30.346 7.140,30.427 7.302,30.507 7.569 C 30.587 7.836,30.607 8.129,30.550 8.220 M373.483 11.583 L 373.478 14.500 371.499 14.500 C 369.412 14.500,369.062 14.376,369.607 13.833 C 369.777 13.663,370.104 13.249,370.333 12.912 C 370.563 12.575,370.881 12.157,371.042 11.983 C 371.202 11.809,371.333 11.632,371.333 11.589 C 371.333 11.547,371.561 11.190,371.839 10.798 C 372.117 10.405,372.468 9.896,372.620 9.667 C 372.940 9.183,373.362 8.667,373.437 8.667 C 373.465 8.667,373.486 9.979,373.483 11.583 M315.424 12.375 C 315.467 12.490,315.406 12.921,315.287 13.333 L 315.070 14.083 314.098 14.134 L 313.126 14.185 313.240 13.577 C 313.471 12.348,313.637 12.167,314.532 12.167 C 315.028 12.167,315.375 12.248,315.424 12.375 M337.333 14.302 C 338.891 15.270,339.083 17.128,337.762 18.449 L 337.055 19.155 335.653 19.105 C 333.690 19.034,332.716 18.462,332.639 17.333 C 332.636 17.287,332.571 17.132,332.494 16.988 C 332.334 16.690,332.629 15.333,332.854 15.333 C 332.934 15.333,333.000 15.253,333.000 15.155 C 333.000 14.947,333.499 14.409,333.503 14.613 C 333.504 14.688,333.569 14.649,333.648 14.525 C 333.976 14.007,336.603 13.848,337.333 14.302 M123.566 14.380 C 123.981 14.475,124.281 14.616,124.234 14.693 C 124.186 14.770,124.226 14.833,124.323 14.833 C 124.421 14.833,124.650 14.983,124.833 15.167 C 125.017 15.350,125.120 15.500,125.063 15.500 C 125.006 15.500,125.050 15.609,125.160 15.742 C 125.457 16.100,125.404 17.412,125.071 17.977 C 124.522 18.906,123.833 19.131,121.458 19.159 L 119.333 19.183 119.333 16.666 L 119.333 14.148 121.072 14.178 C 122.029 14.194,123.151 14.286,123.566 14.380 M312.294 18.951 C 312.501 18.991,312.801 18.990,312.960 18.948 C 313.120 18.906,312.950 18.874,312.583 18.875 C 312.217 18.877,312.086 18.911,312.294 18.951 ' stroke='none' fill='%23bcbcbc' fill-rule='evenodd'%3E%3C/path%3E%3Cpath id='path1' d='M0.109 0.292 C 0.066 0.360,1.543 0.398,3.391 0.374 C 9.658 0.295,10.265 0.238,5.218 0.202 C 2.451 0.183,0.151 0.223,0.109 0.292 M28.958 0.291 C 29.715 0.322,30.952 0.322,31.708 0.291 C 32.465 0.260,31.846 0.235,30.333 0.235 C 28.821 0.235,28.202 0.260,28.958 0.291 M43.374 12.458 L 43.414 24.750 43.458 12.544 L 43.502 0.338 48.876 0.292 L 54.250 0.245 48.792 0.206 L 43.333 0.167 43.374 12.458 M67.125 0.291 C 67.973 0.321,69.360 0.321,70.208 0.291 C 71.056 0.261,70.362 0.236,68.667 0.236 C 66.971 0.236,66.277 0.261,67.125 0.291 M79.417 0.283 C 82.704 0.401,85.962 0.406,85.891 0.292 C 85.849 0.223,84.074 0.182,81.948 0.201 C 79.823 0.219,78.683 0.256,79.417 0.283 M115.625 0.291 C 117.115 0.319,119.552 0.319,121.042 0.291 C 122.531 0.264,121.313 0.241,118.333 0.241 C 115.354 0.241,114.135 0.264,115.625 0.291 M130.667 0.480 C 130.667 0.652,130.798 0.892,130.958 1.013 C 131.206 1.201,131.219 1.199,131.042 1.000 C 130.499 0.391,130.727 0.342,134.292 0.291 L 137.750 0.243 134.208 0.205 C 130.841 0.169,130.667 0.182,130.667 0.480 M146.350 0.542 C 146.126 0.907,146.128 0.909,146.448 0.625 C 146.919 0.206,153.763 0.175,153.603 0.592 C 153.546 0.740,153.574 0.807,153.669 0.749 C 153.759 0.693,153.833 0.539,153.833 0.407 C 153.833 -0.065,146.643 0.065,146.350 0.542 M186.743 0.375 C 186.700 0.490,186.684 6.021,186.708 12.667 L 186.752 24.750 186.793 12.544 L 186.833 0.337 193.625 0.292 L 200.417 0.246 193.620 0.206 C 188.306 0.175,186.806 0.212,186.743 0.375 M227.558 0.609 C 227.539 0.925,227.574 0.985,227.680 0.817 C 227.862 0.530,227.878 0.167,227.708 0.167 C 227.640 0.167,227.572 0.366,227.558 0.609 M237.792 0.291 C 239.648 0.318,242.685 0.318,244.542 0.291 C 246.398 0.265,244.879 0.243,241.167 0.243 C 237.454 0.243,235.935 0.265,237.792 0.291 M348.776 0.292 C 348.733 0.360,351.759 0.417,355.500 0.417 C 359.241 0.417,362.267 0.360,362.224 0.292 C 362.182 0.223,359.156 0.167,355.500 0.167 C 351.844 0.167,348.818 0.223,348.776 0.292 M383.868 6.365 C 383.849 9.820,383.890 12.682,383.958 12.724 C 384.072 12.795,384.067 5.865,383.951 1.750 C 383.925 0.833,383.888 2.910,383.868 6.365 M386.250 0.286 C 391.734 0.403,396.462 0.405,396.391 0.292 C 396.349 0.223,393.562 0.183,390.198 0.203 C 386.835 0.223,385.058 0.260,386.250 0.286 M65.412 12.500 C 65.412 19.237,65.433 21.994,65.458 18.625 C 65.483 15.256,65.483 9.744,65.458 6.375 C 65.433 3.006,65.412 5.763,65.412 12.500 M234.412 12.583 C 234.412 19.275,234.433 21.988,234.458 18.613 C 234.483 15.237,234.483 9.762,234.458 6.446 C 234.433 3.130,234.412 5.892,234.412 12.583 M56.833 0.830 C 56.833 0.902,57.019 0.997,57.245 1.040 C 57.471 1.083,57.623 1.063,57.581 0.996 C 57.470 0.817,56.833 0.675,56.833 0.830 M205.833 0.786 C 205.971 0.837,206.233 0.947,206.417 1.032 C 206.745 1.183,206.745 1.181,206.426 0.926 C 206.249 0.783,205.986 0.673,205.843 0.680 C 205.619 0.691,205.617 0.706,205.833 0.786 M225.792 0.929 C 225.540 1.065,225.333 1.214,225.333 1.260 C 225.333 1.305,225.540 1.238,225.792 1.110 C 226.044 0.983,226.362 0.837,226.500 0.786 C 226.722 0.703,226.722 0.692,226.500 0.686 C 226.362 0.683,226.044 0.792,225.792 0.929 M248.516 1.167 C 248.998 1.915,249.000 1.917,248.999 1.736 C 248.999 1.652,248.805 1.358,248.569 1.083 L 248.139 0.583 248.516 1.167 M373.125 1.089 C 372.709 1.646,372.763 1.801,373.186 1.264 C 373.379 1.017,373.511 0.790,373.477 0.758 C 373.444 0.726,373.285 0.875,373.125 1.089 M58.167 1.428 C 58.167 1.463,58.410 1.617,58.708 1.771 C 59.166 2.008,59.217 2.012,59.036 1.794 C 58.842 1.560,58.167 1.276,58.167 1.428 M84.585 1.998 C 84.322 2.272,84.142 2.531,84.185 2.574 C 84.228 2.616,84.469 2.392,84.722 2.076 C 85.286 1.368,85.223 1.332,84.585 1.998 M26.695 2.158 C 26.597 2.438,26.553 2.667,26.596 2.667 C 26.709 2.667,27.023 1.801,26.941 1.718 C 26.903 1.681,26.792 1.878,26.695 2.158 M145.431 2.375 L 145.170 2.917 145.502 2.523 C 145.684 2.307,145.833 2.063,145.833 1.982 C 145.833 1.697,145.689 1.838,145.431 2.375 M311.109 1.958 C 311.067 2.027,312.337 2.083,313.933 2.083 C 315.528 2.083,316.833 2.027,316.833 1.958 C 316.833 1.890,315.563 1.833,314.010 1.833 C 312.457 1.833,311.152 1.890,311.109 1.958 M320.780 1.958 C 323.327 2.002,323.652 2.040,323.719 2.296 C 323.775 2.507,323.800 2.484,323.814 2.208 L 323.833 1.833 320.875 1.871 L 317.917 1.908 320.780 1.958 M274.519 2.852 C 274.276 3.547,274.392 3.663,274.667 3.000 C 274.783 2.719,274.839 2.450,274.792 2.403 C 274.744 2.355,274.621 2.557,274.519 2.852 M16.848 3.375 C 17.146 3.810,17.417 4.167,17.451 4.167 C 17.564 4.167,17.186 3.587,16.745 3.083 C 16.413 2.705,16.438 2.776,16.848 3.375 M129.140 2.917 C 129.393 3.415,129.823 3.940,129.822 3.750 C 129.822 3.658,129.630 3.358,129.396 3.083 C 129.162 2.808,129.047 2.733,129.140 2.917 M342.625 3.444 C 342.740 3.490,342.833 3.634,342.833 3.764 C 342.833 3.894,342.911 4.000,343.006 4.000 C 343.123 4.000,343.121 3.893,343.000 3.667 C 342.902 3.483,342.730 3.339,342.619 3.346 C 342.467 3.356,342.468 3.380,342.625 3.444 M226.276 3.868 C 226.141 4.386,226.244 4.412,226.469 3.917 C 226.574 3.688,226.595 3.500,226.516 3.500 C 226.437 3.500,226.329 3.665,226.276 3.868 M74.958 4.574 C 74.706 4.890,74.500 5.201,74.500 5.264 C 74.500 5.327,74.725 5.096,75.000 4.750 C 75.463 4.167,75.565 4.000,75.458 4.000 C 75.435 4.000,75.210 4.259,74.958 4.574 M347.042 4.455 C 346.745 5.088,346.785 5.347,347.089 4.764 C 347.228 4.496,347.322 4.218,347.296 4.144 C 347.271 4.071,347.156 4.211,347.042 4.455 M98.236 7.750 C 98.236 9.400,98.261 10.052,98.291 9.200 C 98.321 8.347,98.321 6.997,98.291 6.200 C 98.260 5.402,98.235 6.100,98.236 7.750 M120.298 5.624 C 120.875 5.656,121.775 5.656,122.298 5.623 C 122.822 5.590,122.350 5.563,121.250 5.564 C 120.150 5.564,119.722 5.591,120.298 5.624 M388.858 6.958 C 388.845 7.715,388.890 8.333,388.958 8.334 C 389.027 8.334,389.062 7.902,389.036 7.375 C 388.954 5.703,388.884 5.539,388.858 6.958 M171.549 5.957 C 172.171 5.989,173.146 5.989,173.715 5.957 C 174.284 5.924,173.775 5.898,172.583 5.898 C 171.392 5.898,170.926 5.925,171.549 5.957 M6.242 12.500 C 6.242 16.029,6.264 17.473,6.291 15.708 C 6.318 13.944,6.318 11.056,6.291 9.292 C 6.264 7.527,6.242 8.971,6.242 12.500 M348.802 6.291 C 350.114 6.320,352.214 6.319,353.468 6.291 C 354.723 6.263,353.650 6.240,351.083 6.240 C 348.517 6.240,347.490 6.263,348.802 6.291 M80.733 6.708 C 80.003 7.550,79.786 7.833,79.871 7.833 C 79.920 7.833,80.236 7.496,80.574 7.083 C 81.200 6.319,81.324 6.026,80.733 6.708 M134.004 6.458 C 134.006 6.527,134.160 6.771,134.347 7.000 L 134.687 7.417 134.422 6.875 C 134.171 6.360,133.996 6.185,134.004 6.458 M315.271 6.590 C 315.213 6.739,315.174 7.023,315.184 7.222 C 315.195 7.450,315.251 7.369,315.338 7.001 C 315.483 6.382,315.444 6.139,315.271 6.590 M391.960 7.785 C 392.168 7.824,392.468 7.823,392.627 7.781 C 392.786 7.739,392.617 7.707,392.250 7.709 C 391.883 7.711,391.753 7.745,391.960 7.785 M12.167 12.167 C 12.167 14.489,12.202 16.354,12.245 16.311 C 12.358 16.198,12.374 8.151,12.261 8.039 C 12.209 7.987,12.167 9.844,12.167 12.167 M183.573 12.500 C 183.573 15.021,183.596 16.052,183.625 14.792 C 183.653 13.531,183.653 11.469,183.625 10.208 C 183.596 8.948,183.573 9.979,183.573 12.500 M24.427 8.603 C 24.273 9.215,24.395 9.252,24.618 8.660 C 24.721 8.389,24.744 8.167,24.670 8.167 C 24.596 8.167,24.487 8.363,24.427 8.603 M212.667 8.333 C 212.667 8.425,212.742 8.500,212.833 8.500 C 212.925 8.500,213.000 8.662,213.000 8.861 C 213.000 9.060,213.047 9.176,213.103 9.119 C 213.253 8.969,213.023 8.167,212.830 8.167 C 212.740 8.167,212.667 8.242,212.667 8.333 M394.833 8.286 C 394.971 8.337,395.290 8.483,395.542 8.610 C 395.794 8.738,396.000 8.804,396.000 8.759 C 396.000 8.628,395.041 8.165,394.800 8.180 C 394.654 8.189,394.665 8.224,394.833 8.286 M18.572 12.500 C 18.572 14.838,18.596 15.794,18.625 14.625 C 18.653 13.456,18.653 11.544,18.625 10.375 C 18.596 9.206,18.572 10.162,18.572 12.500 M177.405 12.333 C 177.405 14.488,177.429 15.369,177.458 14.292 C 177.487 13.215,177.487 11.452,177.458 10.375 C 177.429 9.298,177.405 10.179,177.405 12.333 M78.761 9.089 C 78.605 9.327,78.333 9.667,78.156 9.844 C 77.978 10.022,77.896 10.167,77.972 10.167 C 78.154 10.167,79.223 8.835,79.123 8.734 C 79.080 8.691,78.917 8.851,78.761 9.089 M121.333 9.667 L 119.250 9.766 121.282 9.800 C 122.495 9.820,123.355 9.766,123.417 9.667 C 123.473 9.575,123.496 9.515,123.468 9.534 C 123.440 9.552,122.479 9.612,121.333 9.667 M361.024 9.857 C 360.906 10.045,360.847 10.236,360.892 10.281 C 360.936 10.325,361.060 10.199,361.167 10.000 C 361.419 9.529,361.302 9.412,361.024 9.857 M194.167 9.782 C 197.242 9.901,200.334 9.906,200.334 9.792 C 200.333 9.723,198.665 9.682,196.625 9.700 C 194.585 9.719,193.479 9.756,194.167 9.782 M242.699 9.791 C 243.679 9.820,245.329 9.820,246.366 9.791 C 247.402 9.762,246.600 9.738,244.583 9.738 C 242.567 9.738,241.719 9.762,242.699 9.791 M256.012 9.917 C 256.012 10.008,256.119 10.271,256.250 10.500 C 256.381 10.729,256.488 10.842,256.488 10.750 C 256.488 10.658,256.381 10.396,256.250 10.167 C 256.119 9.938,256.012 9.825,256.012 9.917 M372.213 10.208 C 371.887 10.630,371.776 10.888,371.973 10.766 C 372.171 10.644,372.566 10.000,372.443 10.000 C 372.405 10.000,372.302 10.094,372.213 10.208 M23.768 10.430 C 23.642 10.758,23.635 11.254,23.757 11.132 C 23.872 11.017,24.031 10.167,23.938 10.167 C 23.900 10.167,23.823 10.285,23.768 10.430 M213.514 10.333 C 213.519 10.471,213.588 10.733,213.667 10.917 L 213.810 11.250 213.819 10.917 C 213.824 10.733,213.756 10.471,213.667 10.333 C 213.523 10.111,213.506 10.111,213.514 10.333 M293.045 10.833 C 293.045 11.246,293.078 11.415,293.118 11.208 C 293.157 11.002,293.157 10.665,293.118 10.458 C 293.078 10.252,293.045 10.421,293.045 10.833 M398.181 10.603 C 398.402 10.889,398.617 11.093,398.658 11.056 C 398.699 11.020,398.518 10.786,398.255 10.537 L 397.779 10.083 398.181 10.603 M136.520 10.750 C 136.668 10.933,136.831 11.196,136.882 11.333 C 136.960 11.546,136.976 11.543,136.987 11.317 C 136.994 11.171,136.831 10.909,136.625 10.734 C 136.253 10.419,136.252 10.420,136.520 10.750 M103.960 12.708 C 104.039 16.429,104.102 16.788,104.135 13.708 C 104.152 12.035,104.110 10.667,104.042 10.666 C 103.973 10.666,103.936 11.585,103.960 12.708 M129.024 11.086 C 128.808 11.314,128.701 11.500,128.786 11.500 C 128.871 11.500,129.103 11.313,129.302 11.083 C 129.772 10.543,129.537 10.546,129.024 11.086 M373.375 11.917 C 373.377 12.283,373.411 12.414,373.451 12.206 C 373.491 11.999,373.490 11.699,373.448 11.540 C 373.406 11.380,373.374 11.550,373.375 11.917 M61.500 12.106 C 61.500 12.286,61.410 12.523,61.300 12.633 C 61.148 12.785,61.147 12.833,61.297 12.833 C 61.514 12.833,61.768 12.045,61.603 11.881 C 61.547 11.824,61.500 11.925,61.500 12.106 M314.448 12.284 C 315.079 12.332,315.335 12.426,315.396 12.633 C 315.458 12.841,315.472 12.827,315.447 12.583 C 315.418 12.297,315.285 12.248,314.498 12.234 L 313.583 12.218 314.448 12.284 M389.589 12.657 C 389.532 12.750,389.746 12.774,390.121 12.717 C 390.958 12.587,391.025 12.500,390.288 12.500 C 389.957 12.500,389.643 12.571,389.589 12.657 M373.333 13.500 L 373.333 14.333 371.422 14.333 C 369.673 14.333,369.519 14.308,369.613 14.042 C 369.693 13.814,369.670 13.792,369.506 13.944 C 369.048 14.366,369.532 14.500,371.510 14.500 L 373.500 14.500 373.500 13.583 C 373.500 13.079,373.462 12.667,373.417 12.667 C 373.371 12.667,373.333 13.042,373.333 13.500 M359.417 13.333 C 359.274 13.608,359.196 13.833,359.241 13.833 C 359.287 13.833,359.441 13.608,359.583 13.333 C 359.726 13.058,359.804 12.833,359.759 12.833 C 359.713 12.833,359.559 13.058,359.417 13.333 M392.333 12.878 C 392.333 12.915,392.558 13.145,392.833 13.390 C 393.108 13.635,393.333 13.765,393.333 13.679 C 393.333 13.593,393.108 13.362,392.833 13.167 C 392.558 12.971,392.333 12.841,392.333 12.878 M315.036 13.609 C 314.933 13.944,314.915 14.150,314.996 14.067 C 315.159 13.900,315.412 13.000,315.296 13.000 C 315.256 13.000,315.138 13.274,315.036 13.609 M138.003 13.273 C 138.001 13.378,138.154 13.640,138.343 13.857 C 138.612 14.166,138.649 14.179,138.515 13.917 C 138.226 13.351,138.005 13.074,138.003 13.273 M306.417 13.667 L 305.083 13.772 306.365 13.803 C 307.075 13.820,307.693 13.759,307.750 13.667 C 307.807 13.575,307.830 13.514,307.802 13.531 C 307.773 13.547,307.150 13.609,306.417 13.667 M320.333 13.707 C 320.333 13.777,320.802 13.825,321.375 13.814 C 322.501 13.793,322.391 13.714,321.125 13.632 C 320.690 13.604,320.333 13.638,320.333 13.707 M214.673 13.865 C 214.670 14.020,214.742 14.193,214.833 14.250 C 214.925 14.307,215.009 14.517,215.019 14.718 C 215.033 14.985,215.059 15.007,215.113 14.801 C 215.154 14.646,215.073 14.309,214.934 14.051 C 214.764 13.738,214.678 13.677,214.673 13.865 M335.127 14.118 C 335.334 14.158,335.634 14.156,335.794 14.115 C 335.953 14.073,335.783 14.040,335.417 14.042 C 335.050 14.044,334.920 14.078,335.127 14.118 M120.125 14.290 C 120.606 14.323,121.394 14.323,121.875 14.290 C 122.356 14.256,121.962 14.228,121.000 14.228 C 120.037 14.228,119.644 14.256,120.125 14.290 M250.167 14.292 C 250.167 14.371,250.275 14.582,250.408 14.760 C 250.642 15.072,250.647 15.070,250.555 14.706 C 250.460 14.330,250.167 14.017,250.167 14.292 M59.833 14.780 C 59.464 15.171,59.457 15.199,59.772 15.032 C 59.968 14.928,60.171 14.728,60.225 14.588 C 60.356 14.248,60.320 14.265,59.833 14.780 M304.780 14.854 C 304.659 15.316,304.691 15.364,304.942 15.091 C 305.047 14.977,305.076 14.790,305.007 14.677 C 304.920 14.537,304.848 14.592,304.780 14.854 M263.027 15.333 C 263.262 16.057,263.333 16.149,263.333 15.726 C 263.333 15.545,263.222 15.251,263.086 15.074 C 262.861 14.780,262.855 14.803,263.027 15.333 M293.220 15.833 C 293.220 16.429,293.250 16.673,293.287 16.375 C 293.324 16.077,293.324 15.590,293.287 15.292 C 293.250 14.994,293.220 15.237,293.220 15.833 M139.074 19.833 C 139.074 22.537,139.097 23.644,139.125 22.292 C 139.153 20.940,139.153 18.727,139.125 17.375 C 139.097 16.023,139.074 17.129,139.074 19.833 M145.297 19.917 C 145.271 22.529,145.306 24.667,145.375 24.667 C 145.444 24.667,145.500 22.529,145.500 19.917 C 145.500 17.304,145.465 15.167,145.422 15.167 C 145.379 15.167,145.322 17.304,145.297 19.917 M393.875 15.750 C 393.877 16.117,393.911 16.247,393.951 16.040 C 393.991 15.832,393.990 15.532,393.948 15.373 C 393.906 15.214,393.874 15.383,393.875 15.750 M58.333 15.853 C 58.012 16.025,57.873 16.166,58.023 16.166 C 58.173 16.167,58.473 16.019,58.690 15.839 C 59.167 15.442,59.096 15.445,58.333 15.853 M338.539 16.500 C 338.539 16.821,338.573 16.952,338.615 16.792 C 338.657 16.631,338.657 16.369,338.615 16.208 C 338.573 16.048,338.539 16.179,338.539 16.500 M381.190 16.667 C 381.190 16.804,381.255 17.067,381.333 17.250 C 381.424 17.460,381.477 17.491,381.477 17.333 C 381.477 17.196,381.412 16.933,381.333 16.750 C 381.243 16.540,381.190 16.509,381.190 16.667 M98.204 19.454 L 98.167 22.326 95.208 22.375 L 92.250 22.425 95.214 22.462 C 97.505 22.491,98.196 22.451,98.260 22.285 C 98.305 22.167,98.319 20.836,98.292 19.327 L 98.241 16.583 98.204 19.454 M326.214 17.417 C 326.216 17.875,326.248 18.043,326.286 17.789 C 326.325 17.536,326.324 17.161,326.284 16.956 C 326.244 16.751,326.213 16.958,326.214 17.417 M49.500 16.899 C 49.500 16.935,49.794 16.993,50.153 17.027 C 50.512 17.061,50.770 17.032,50.726 16.961 C 50.647 16.833,49.500 16.775,49.500 16.899 M216.205 17.333 C 216.096 17.508,216.072 17.691,216.151 17.740 C 216.230 17.789,216.338 17.665,216.391 17.464 C 216.516 16.985,216.451 16.939,216.205 17.333 M399.853 17.445 C 399.842 17.552,399.785 17.777,399.725 17.945 C 399.642 18.182,399.664 18.207,399.824 18.059 C 399.938 17.955,399.995 17.730,399.952 17.559 C 399.908 17.389,399.863 17.338,399.853 17.445 M73.679 18.718 C 73.967 19.159,74.240 19.482,74.285 19.437 C 74.369 19.353,74.319 19.281,73.582 18.417 C 73.250 18.028,73.272 18.095,73.679 18.718 M183.372 18.500 C 183.372 18.821,183.406 18.952,183.448 18.792 C 183.490 18.631,183.490 18.369,183.448 18.208 C 183.406 18.048,183.372 18.179,183.372 18.500 M39.508 18.514 C 39.610 18.705,39.727 18.829,39.767 18.788 C 39.884 18.671,39.648 18.167,39.476 18.167 C 39.391 18.167,39.405 18.323,39.508 18.514 M194.792 18.791 C 195.823 18.820,197.510 18.820,198.542 18.791 C 199.573 18.762,198.729 18.738,196.667 18.738 C 194.604 18.738,193.760 18.762,194.792 18.791 M242.000 18.782 C 245.062 18.901,248.296 18.906,248.225 18.792 C 248.182 18.723,246.483 18.682,244.448 18.700 C 242.414 18.719,241.313 18.756,242.000 18.782 M294.967 18.791 C 295.912 18.821,297.412 18.821,298.301 18.791 C 299.189 18.761,298.417 18.737,296.583 18.737 C 294.750 18.737,294.023 18.761,294.967 18.791 M303.667 18.792 C 303.667 18.860,304.060 18.895,304.542 18.869 C 306.117 18.783,306.273 18.717,304.958 18.692 C 304.248 18.678,303.667 18.723,303.667 18.792 M311.824 19.109 C 311.731 19.352,311.684 19.633,311.720 19.734 C 311.755 19.834,311.840 19.666,311.908 19.359 C 312.027 18.831,312.067 18.805,312.669 18.862 C 313.019 18.896,313.270 18.865,313.226 18.795 C 313.009 18.444,311.990 18.672,311.824 19.109 M318.776 18.792 C 318.733 18.860,319.048 18.895,319.474 18.868 C 320.797 18.785,320.962 18.713,319.885 18.689 C 319.317 18.677,318.818 18.723,318.776 18.792 M364.146 19.033 L 364.288 19.417 368.602 19.421 L 372.917 19.425 368.625 19.376 C 365.045 19.336,364.333 19.288,364.333 19.090 C 364.333 18.960,364.259 18.807,364.169 18.751 C 364.064 18.687,364.056 18.789,364.146 19.033 M20.833 19.035 C 20.833 19.085,20.720 19.398,20.581 19.730 C 20.442 20.062,20.387 20.333,20.457 20.333 C 20.603 20.333,21.013 19.124,20.904 19.015 C 20.865 18.976,20.833 18.985,20.833 19.035 M120.292 19.123 C 120.865 19.156,121.802 19.156,122.375 19.123 C 122.948 19.091,122.479 19.064,121.333 19.064 C 120.188 19.064,119.719 19.091,120.292 19.123 M335.208 19.119 C 335.460 19.158,335.873 19.158,336.125 19.119 C 336.377 19.081,336.171 19.050,335.667 19.050 C 335.162 19.050,334.956 19.081,335.208 19.119 M344.342 19.417 C 344.223 19.960,344.238 20.328,344.375 20.192 C 344.459 20.107,344.495 19.861,344.453 19.644 C 344.412 19.427,344.362 19.325,344.342 19.417 M380.208 19.448 C 380.369 19.490,380.631 19.490,380.792 19.448 C 380.952 19.406,380.821 19.372,380.500 19.372 C 380.179 19.372,380.048 19.406,380.208 19.448 M28.167 19.781 C 30.805 19.901,33.629 19.906,33.558 19.792 C 33.515 19.723,32.041 19.681,30.282 19.699 C 28.523 19.717,27.571 19.754,28.167 19.781 M60.833 20.721 C 60.833 20.882,61.514 21.541,61.597 21.459 C 61.634 21.421,61.478 21.214,61.249 20.999 C 61.021 20.784,60.833 20.659,60.833 20.721 M83.167 21.083 C 83.382 21.313,83.586 21.500,83.620 21.500 C 83.759 21.500,83.072 20.677,82.929 20.672 C 82.845 20.669,82.951 20.854,83.167 21.083 M181.595 21.818 L 181.108 22.417 181.670 21.880 C 181.980 21.585,182.199 21.316,182.158 21.281 C 182.117 21.247,181.864 21.488,181.595 21.818 M75.835 21.837 C 75.932 22.018,76.103 22.161,76.214 22.154 C 76.366 22.144,76.364 22.119,76.207 22.056 C 76.092 22.010,76.035 21.911,76.081 21.837 C 76.127 21.762,76.051 21.658,75.912 21.605 C 75.706 21.525,75.692 21.569,75.835 21.837 M19.778 21.944 C 19.717 22.006,19.671 22.212,19.677 22.403 C 19.687 22.722,19.701 22.718,19.847 22.351 C 20.011 21.943,19.977 21.745,19.778 21.944 M384.333 22.108 C 384.333 22.198,384.577 22.491,384.875 22.760 L 385.417 23.250 384.917 22.667 C 384.642 22.347,384.398 22.053,384.375 22.015 C 384.352 21.976,384.333 22.018,384.333 22.108 M397.406 22.542 L 396.917 23.083 397.458 22.594 C 397.963 22.138,398.077 22.000,397.948 22.000 C 397.919 22.000,397.675 22.244,397.406 22.542 M41.024 22.727 C 41.141 22.990,41.268 23.114,41.305 23.003 C 41.342 22.891,41.245 22.677,41.091 22.525 C 40.828 22.268,40.823 22.280,41.024 22.727 M218.860 22.757 C 218.581 23.370,218.634 23.501,218.936 22.944 C 219.077 22.683,219.162 22.439,219.123 22.401 C 219.085 22.363,218.967 22.523,218.860 22.757 M342.127 23.088 C 341.785 23.406,341.560 23.664,341.627 23.660 C 341.811 23.649,343.080 22.499,342.903 22.505 C 342.819 22.507,342.470 22.769,342.127 23.088 M179.926 23.089 C 179.510 23.403,179.665 23.401,180.273 23.084 C 180.535 22.947,180.637 22.837,180.500 22.840 C 180.362 22.842,180.104 22.954,179.926 23.089 M13.667 23.781 C 13.346 23.921,12.942 24.062,12.769 24.096 C 12.327 24.181,12.215 24.334,12.597 24.330 C 12.949 24.326,14.333 23.737,14.333 23.591 C 14.333 23.483,14.388 23.467,13.667 23.781 M178.500 23.750 C 177.956 24.061,178.146 24.065,178.856 23.757 C 179.164 23.623,179.304 23.513,179.167 23.512 C 179.029 23.512,178.729 23.619,178.500 23.750 M395.583 23.833 C 395.308 24.015,395.158 24.164,395.250 24.164 C 395.342 24.164,395.642 24.015,395.917 23.833 C 396.192 23.651,396.342 23.502,396.250 23.502 C 396.158 23.502,395.858 23.651,395.583 23.833 M329.667 23.731 C 329.667 23.766,329.854 23.918,330.083 24.068 C 330.459 24.314,330.500 24.315,330.500 24.077 C 330.500 23.932,330.430 23.857,330.345 23.910 C 330.260 23.962,330.143 23.929,330.085 23.836 C 329.986 23.675,329.667 23.595,329.667 23.731 M310.225 24.508 C 310.113 24.620,309.059 24.665,307.291 24.633 C 305.773 24.606,304.566 24.640,304.609 24.708 C 304.773 24.973,310.290 24.854,310.394 24.583 C 310.507 24.289,310.464 24.269,310.225 24.508 M167.552 24.625 C 169.002 24.653,171.327 24.652,172.719 24.625 C 174.111 24.597,172.925 24.574,170.083 24.574 C 167.242 24.574,166.103 24.597,167.552 24.625 M311.557 24.708 C 311.515 24.777,312.741 24.819,314.282 24.802 C 317.097 24.770,316.802 24.709,313.442 24.627 C 312.448 24.603,311.599 24.640,311.557 24.708 M335.042 24.953 C 335.294 24.991,335.706 24.991,335.958 24.953 C 336.210 24.915,336.004 24.883,335.500 24.883 C 334.996 24.883,334.790 24.915,335.042 24.953 M390.544 24.953 C 390.797 24.991,391.172 24.990,391.377 24.951 C 391.582 24.911,391.375 24.880,390.917 24.881 C 390.458 24.882,390.291 24.915,390.544 24.953 ' stroke='none' fill='%23b4bcbc' fill-rule='evenodd'%3E%3C/path%3E%3Cpath id='path2' d='M283.412 13.750 C 283.412 19.708,283.433 22.122,283.458 19.113 C 283.484 16.104,283.484 11.229,283.458 8.280 C 283.433 5.330,283.412 7.792,283.412 13.750 M93.867 4.791 C 94.664 4.821,96.014 4.821,96.867 4.791 C 97.719 4.761,97.067 4.736,95.417 4.736 C 93.767 4.735,93.069 4.760,93.867 4.791 M240.896 7.917 C 240.896 8.925,240.924 9.316,240.957 8.786 C 240.990 8.255,240.990 7.430,240.956 6.952 C 240.922 6.474,240.895 6.908,240.896 7.917 M29.458 14.290 C 29.940 14.323,30.727 14.323,31.208 14.290 C 31.690 14.256,31.296 14.228,30.333 14.228 C 29.371 14.228,28.977 14.256,29.458 14.290 M240.895 17.000 C 240.895 17.962,240.923 18.356,240.956 17.875 C 240.990 17.394,240.990 16.606,240.956 16.125 C 240.923 15.644,240.895 16.037,240.895 17.000 ' stroke='none' fill='%23c0bcbc' fill-rule='evenodd'%3E%3C/path%3E%3Cpath id='path3' d='M283.412 13.750 C 283.412 19.708,283.433 22.122,283.458 19.113 C 283.484 16.104,283.484 11.229,283.458 8.280 C 283.433 5.330,283.412 7.792,283.412 13.750 M93.867 4.791 C 94.664 4.821,96.014 4.821,96.867 4.791 C 97.719 4.761,97.067 4.736,95.417 4.736 C 93.767 4.735,93.069 4.760,93.867 4.791 M240.896 7.917 C 240.896 8.925,240.924 9.316,240.957 8.786 C 240.990 8.255,240.990 7.430,240.956 6.952 C 240.922 6.474,240.895 6.908,240.896 7.917 M29.458 14.290 C 29.940 14.323,30.727 14.323,31.208 14.290 C 31.690 14.256,31.296 14.228,30.333 14.228 C 29.371 14.228,28.977 14.256,29.458 14.290 M240.895 17.000 C 240.895 17.962,240.923 18.356,240.956 17.875 C 240.990 17.394,240.990 16.606,240.956 16.125 C 240.923 15.644,240.895 16.037,240.895 17.000 ' stroke='none' fill='%23c0bcbc' fill-rule='evenodd'%3E%3C/path%3E%3Cpath id='path4' d='M283.412 13.750 C 283.412 19.708,283.433 22.122,283.458 19.113 C 283.484 16.104,283.484 11.229,283.458 8.280 C 283.433 5.330,283.412 7.792,283.412 13.750 M93.867 4.791 C 94.664 4.821,96.014 4.821,96.867 4.791 C 97.719 4.761,97.067 4.736,95.417 4.736 C 93.767 4.735,93.069 4.760,93.867 4.791 M240.896 7.917 C 240.896 8.925,240.924 9.316,240.957 8.786 C 240.990 8.255,240.990 7.430,240.956 6.952 C 240.922 6.474,240.895 6.908,240.896 7.917 M29.458 14.290 C 29.940 14.323,30.727 14.323,31.208 14.290 C 31.690 14.256,31.296 14.228,30.333 14.228 C 29.371 14.228,28.977 14.256,29.458 14.290 M240.895 17.000 C 240.895 17.962,240.923 18.356,240.956 17.875 C 240.990 17.394,240.990 16.606,240.956 16.125 C 240.923 15.644,240.895 16.037,240.895 17.000 ' stroke='none' fill='%23c0bcbc' fill-rule='evenodd'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
-}
-
-.channelName-3KPsGw,
-.subtitle_d8bfb3 {
-  color: var(--darkplus-sec);
-}
-
-.navButtonActive_af5dbb {
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-sec);
-}
-.navButton_af5dbb {
-  color: var(--darkplus-sec);
-}
-.navButton_af5dbb:hover {
-  color: var(--darkplus-links);
-}
-.colorStandard-21JIj7 {
-  color: var(--darkplus-sec);
-}
-.unicodeShortcut_dfa278 {
-  color: var(--darkplus-sec);
-}
-.unicodeShortcut_dfa278:hover {
-  color: var(--darkplus-links);
-}
-.categoryIcon_dfa278 {
-  color: var(--darkplus-sec);
-}
-.header_e06857 {
-  color: var(--darkplus-sec);
-}
-.iconBadge-3qSJIw.participating-1NvRVd {
-  background-color: var(--darkplus-sec);
-}
-.botTagRegular_c89c9a {
-  color: var(--darkplus-sec);
-  background-color: var(--darkplus-bg2);
+.username_be84f0, .discriminator_b69b77, .overflowMenuIcon_b69b77 {
+  color: var(--azurite-sec);
 }
 
 .field_b69b77 > div > div > div {
@@ -1011,535 +721,632 @@ button[aria-label="Send a gift"] {
   filter: blur(0);
 }
 
-.messageGroupWrapper_ac90a2 .messageGroupCozy_ac90a2 {
-  background-color: var(--darkplus-bg2);
+.closeButton_df5532, .keybind_df5532 {
+  color: var(--azurite-sec);
+  border-color: var(--azurite-sec);
 }
 
-.premiumContainer__11813 {
-  background-color: var(--darkplus-bg);
-}
-.scroller__244e5 {
-  background-color: var(--darkplus-bg);
-}
-.sectionDescription-3uMpPK {
-  color: var(--darkplus-sec);
+.bd-sidebar-header .bd-icon:hover, .bd-sidebar-header .bd-icon {
+  fill: var(--azurite-sec);
 }
 
-.lookInverted-2mDUMi.colorBrand-I6CyqQ {
-  background-color: var(--darkplus-bg2);
-}
-.marketingRefreshTier1Logo-38ksW_ {
-  color: var(--darkplus-sec);
-}
-.marketingRefreshDescription-2_tCTt {
-  color: var(--darkplus-sec);
-}
-.perksModalContentWrapper-2HU6uL {
-  background-color: var(--darkplus-bg);
+.header-2Kx1US, .line_c5a741, .colorMuted-20987_ {
+  color: var(--azurite-links);
 }
 
-.resultsGroup-1BPR25 {
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-sec);
+.colorDefault-CDqZdO, .label-2gNW3x, .item-3XjbnG .themed-2-lozF {
+  color: var(--azurite-bg);
 }
 
-.tab-2j5AEF.selected-2LAck8 {
-  color: var(--darkplus-sec);
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+  background-color: var(--azurite-links);
+  color: var(--azurite-bg);
 }
-.queryContainer-EKFJW- {
-  background-color: var(--darkplus-bg);
+
+.accountProfileCard_b69b77 {
+  border-radius: 5px;
+  background-color: var(--azurite-bg);
 }
 
 
-.icon_d8bfb3 {
-  color: var(--darkplus-sec);
+.message_d5deea.mentioned_d5deea.selected_d5deea, .mouse-mode.full-motion .mentioned_d5deea:hover, .mentioned_d5deea {
+  background-color: var(--azurite-bg2);
 }
 
-.modeUnreadImportant_d8bfb3 .icon_d8bfb3, .modeUnreadImportant_d8bfb3 .name_d8bfb3, .modeSelected_d8bfb3 .icon_d8bfb3, .modeSelected_d8bfb3:hover .icon_d8bfb3, .modeUnreadImportant_d8bfb3 .icon_d8bfb3, .modeUnreadImportant_d8bfb3:hover .icon_d8bfb3, .modeConnected_d8bfb3 .name_d8bfb3, .modeConnected_d8bfb3:hover .name_d8bfb3, .modeSelected_d8bfb3 .name_d8bfb3, .modeSelected_d8bfb3:hover .name_d8bfb3, .modeUnreadImportant_d8bfb3 .name_d8bfb3, .modeUnreadImportant_d8bfb3:hover .name_d8bfb3 {
-  color: var(--darkplus-links);
+.upload_df1eaf, .attachment_a4623d {
+  border-color: var(--azurite-bg2);
+  background-color: var(--azurite-bg2);
 }
 
-.name_d8bfb3 {
-  color: var(--darkplus-sec);
+.automodMessage_d5deea:before, .ephemeral_d5deea:before, .mentioned_d5deea:before, .replying_d5deea:before {
+  background-color: var(--azurite-links);
 }
 
-.hasBanner_fd6364 .header_fd6364,
-.hasBanner_fd6364 .header_fd6364:hover {
-  color: var(--header-primary);
-  box-shadow: var(--elevation-low);
+.isUnread_fc5f50 {
+  border-color: var(--azurite-sec);
 }
-.iconTierOne-s_oiRb,
-.iconTierTwo-1JOWNK {
-  color: var(--darkplus-bg);
+
+.base-21yXnu.muted-eZM05q, .activityText_c91bad, .embedAuthorName_ad0b71, .embedFieldName_ad0b71, .embedTitle_ad0b71, .embedDescription_ad0b71, .embedFieldValue_ad0b71, .embedFooterText_ad0b71 {
+  color: var(--azurite-sec);
 }
-.iconCaret-SHvQdG {
-  color: var(--darkplus-sec);
+
+.wrapper_ba0ffb, .attachmentContainer_b211c6, .cozy_b211c6.wrapper_b211c6 {
+  background-color: var(--azurite-bg);
 }
-.pageButton-1GMGeJ {
-  color: var(--darkplus-sec);
+
+.wrapper_ba0ffb {
+  display: none;
+}
+
+.theme-dark .container_b2ca13, .layout_e9f61e {
+  background-color: var(--azurite-bg);
+}
+
+.theme-dark .scroller_fea3ef {
+  background-color: var(--azurite-bg);
+}
+
+.jumpButton_aab0bc {
+  background-color: var(--azurite-sec);
+}
+
+.iconBadge_e44302 {
+  background-color: var(--azurite-links);
+}
+
+.jumpButton_ac3dc2:hover .text_ac3dc2, .jumpButton_ac3dc2 .text_ac3dc2 {
+  color: var(--azurite-bg);
+}
+
+.closeButton_ddb5b4:hover {
+  background-color: var(--azurite-bg);
+}
+
+.button_a79c58 {
+  color: var(--azurite-bg);
+}
+
+.categoryIcon_dfa278m, .categoryItemDefaultCategorySelected_dfa278 .categoryIcon_dfa278, .categoryItemDefaultCategorySelected_dfa278:hover .categoryIcon_dfa278, .categoryItemDefaultCategorySelected_dfa278, .categoryItemDefaultCategorySelected_dfa278:hover, .categoryIcon_dfa278 {
+  color: var(--azurite-bg);
+  background-color: var(--azurite-sec);
+}
+
+.text_f7ebfd {
+  color: var(--azurite-links);
+}
+
+.navButton_af5dbb, .unicodeShortcut_dfa278 {
+  color: var(--azurite-bg);
+}
+
+.navButtonActive_af5dbb {
+  background-color: var(--azurite-bg);
+  color: var(--azurite-sec);
+}
+
+.scroller_ad8f79, .header_f1629a {
+  background-color: var(--azurite-bg);
+}
+
+.input__48d49::placeholder {
+  color: var(--azurite-bg);
+}
+
+.customStatus-3XAoF9, .UserDetails-connections-header{
+  color: var(--azurite-sec);
+}
+
+
+
+.scroller_c100ff {
+  background-color: var(--azurite-bg);
+}
+
+.discriminator_f3939d, .subtext_f3939d, .nameCellText_f1629a,.textCell_f1629a {
+  color: var(--azurite-sec);
+}
+
+.actionButton_e01b91, .actionButton_e01b91:hover, .actionButton_e01b91.highlight_e01b91 {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
+}
+
+.header_f0cd33, .messageContainer_ddb5b4 {
+  background-color: var(--azurite-bg);
+}
+
+.scroller_ddb5b4, .channelHeader_f3978e {
+  background-color: var(--azurite-sec);
+}
+
+.subtext_e06aad, .title_d1da5f, .textScroller-dc9_kz, .colorStandard-21JIj7, .icon_cdc675, .username_cdc675, .name_d8bfb3, .name_fd6364, .colorInteractiveActive-30E9n8, .colorInteractiveNormal-36ZhyZ,.count_c75f85, .activityText_a31c43, .activity-icon {
+  color: var(--azurite-links);
+}
+
+#bd-pub-button, #bd-pub-button:hover, .button-Jt-tIg {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
+}
+
+.childWrapper_a6ce15, .wrapper__8436d:hover .childWrapper_a6ce15 {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
+}
+
+.clickable_e9f61e:hover .layout_e9f61e {
+  background-color: var(--azurite-sec);
+}
+
+.role_f9575e {
+	background-color: var(--azurite-bg2);
+}
+
+.textarea_dde0a8:focus {
+	background-color: var(--azurite-sec);
+}
+
+.roleName_e4010c {
+	color: var(--azurite-sec);
+}
+
+.iconBadge_c96c45.participating-2Z81oO {
+  color: var(--azurite-bg);
+  background-color: var(--azurite-sec);
+}
+
+.button_adcaac.buttonColor_adcaac, .button_adcaac .buttonColor_adcaac, .button_adcaac.buttonColor_adcaac:hover, .button_adcaac .buttonColor_adcaac:hover, .clickable_fd6364 .header_fd6364:hover, .selected_fd6364 .header_fd6364 {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
+}
+
+.theme-dark .searchAnswer_b0fa94,
+.theme-dark .searchFilter_b0fa94 {
+  background-color: var(--azurite-bg);
+  color: var(--azurite-sec);
+}
+
+.searchHeader_b7c924 {
+  background-color: var(--azurite-bg);
+}
+
+.scroller_c2b47d,
+.channelName-3w2Y3c {
+  background-color: var(--azurite-sec);
+}
+
+.message_ddc613 {
+  background-color: var(--azurite-bg);
+}
+
+.colorHeaderPrimary-jN_yGr {
+  color: var(--azurite-sec);
+}
+
+.channelName-3w2Y3c {
+  color: var(--azurite-bg);
 }
 
 .theme-dark .activeButton-LRWFC_,
 .theme-dark .activeButton-LRWFC_:hover,
 .theme-light .activeButton-LRWFC_,
 .theme-light .activeButton-LRWFC_:hover {
-  color: var(--darkplus-bg);
-  background-color: var(--darkplus-sec);
+  color: var(--azurite-sec);
+  background-color: var(--azurite-bg);
 }
 
-.hasBanner_fd6364 .header_fd6364,
-.hasBanner_fd6364 .header_fd6364:hover {
-  background-color: var(--darkplus-bg);
+.pageButton-1GMGeJ,
+.clear_effbe2 .icon_effbe2,
+.clear_effbe2.iconLayout_effbe2:hover .icon_effbe2 {
+  color: var(--azurite-bg);
+}
+
+.pageButton-1GMGeJ:hover {
+  background-color: var(--azurite-bg);
+  color: var(--azurite-sec);
+}
+
+.brand-3g5E0C.item-3XjbnG {
+  color: var(--azurite-bg);
+}
+
+.side-2ur1Qk .item-3XjbnG {
+  color: var(--azurite-sec);
+}
+
+.subtitle-3m-md1, .title-1_TkpU, .header_c2668b, .description_c2668b {
+  color: var(--azurite-sec);
+}
+
+.container-x8Y1ix {
+  background-color: var(--azurite-bg2);
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM, .theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
+  color: var(--azurite-sec);
+}
+
+.bioTextArea_ccf27d {
+  background-color: var(--azurite-sec);
+}
+
+.editor_a552a6, .subEnabledTitle-2YpsZq, .connectionHeader_e2a436 .connectionAccountValue_e2a436, .connectionDelete_e2a436, .marketingRefreshDescription-2_tCTt, .marketingRefreshTier1Logo-38ksW_, .marketingRefreshSubtitle-17I8Dd, .marketingRefreshTitle-UaHKpk, .descriptionStandalone__8542d, .marketingLogoIcon__3b418, .sectionDescription_a206c7, .cardText_a206c7, .cardText_e70817, .accountCreditDescription_e70817, .theme-dark .subText_edf4d6, .theme-light .subText_edf4d6 {
+  color: var(--azurite-sec);
+}
+
+.theme-dark .feature-2IUcBI, .card__11580, .card__11580:hover, .noItemsCard_a206c7, .noItemsCard_e70817, .form-2CaJzg, .theme-dark .addGamePopout_fd966d {
+  background-color: var(--azurite-bg2);
+}
+
+.theme-dark .notDetected_fd966d, .theme-light .notDetected_fd966d {
+  background-color: var(--azurite-bg2);
+}
+
+.gameName_fd966d, .lastPlayed_fd966d, .sendIcon_a06035 {
+  color: var(--azurite-sec);
+}
+
+.wrapper_faf5ab {
+  background-color: var(--azurite-links);
+}
+
+.preview_a614a7 {
+  background-color: var(--azurite-bg2);
+  border-color: var(--azurite-sec);
+}
+
+.lookFilled-1GseHa.select-1Ia3hD, .popout-1KHNAq {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg)
+};
+
+.deviceOptionLabel-iFH7Qi {
+  color: var(--azurite-bg);
+}
+
+.theme-dark .keybindShortcut-3zF1P9 .key-N5VmHN {
+  color: var(--azurite-bg);
+  background-color: var(--azurite-sec);
+  -webkit-box-shadow: inset 0 -4px 0 var(--azurite-sec);
+}
+
+.jumpToPresentBar_cf58b5 {
+  background-color: var(--azurite-sec);
+}
+
+
+.theme-dark .codeRedemptionRedirect_cb70f4 {
+  color: var(--azurite-sec);
+  background-color: var(--azurite-bg);
+  border-color: var(--azurite-sec);
+}
+
+.radioBar-3w9XY- {
+  background-color: var(--azurite-bg2);
+}
+
+.text-sm-normal-3Zj3Iv, .sectionTitle-3j2YI1,.name_b11c5e, .closeIcon_b11c5e, .mentionButton_b11c5e {
+  color: var(--azurite-sec);
+}
+
+.accountBtn-3pgcgr .accountBtnInner-3ttD-i {
+  background-color: var(--azurite-sec);
+}
+
+.accountList-Wii_T5, .connectionHeader_e2a436, .connectionOptionsWrapper_e2a436 {
+  background-color: var(--azurite-bg2);
+}
+
+.title-1yyp9V, .item-2idW98[aria-checked=true], .item-2idW98[aria-checked=false] {
+  color: var(--azurite-bg);
+}
+
+.fakeLink_cdb578 {
+  color: var(--azurite-bg2);
+}
+
+.akaBadge__27cd4 {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
+}
+
+.header_fd6364 {
+	border-right: 1px solid var(--azurite-sec);
+	border-left: 1px solid var(--azurite-sec);
+}
+
+.modeMuted_d8bfb3 .icon_d8bfb3, .modeMuted_d8bfb3 .name_d8bfb3 {
+	color: var(--azurite-links);
+}
+
+.childWrapper_a6ce15 path {
+  fill: transparent;
+}
+.childWrapper_a6ce15 {
+  background: var(--azurite-home-icon) center/cover no-repeat;
+  min-width: 75px;
+  min-height: 75px;
+}
+
+.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
+  color: var(--azurite-links);
+}
+.grid_ad0b71 {
+  background-color: var(--azurite-bg2);
+}
+
+.sidebarRegionScroller_c25c6d {
+  background-color: var(--azurite-bg);
+}
+
+
+.wrapper-1VLyxH foreignObject,
+.callAvatarMask_a5cd29 foreignObject,
+.avatarContainer_c47562 foreignObject {
+mask: none;
+}
+
+.wrapper-1VLyxH,
+.avatar_ec86aa,
+.profile_d6fbe8 .avatarUploaderInner-yEhTv5,
+.voiceAvatar_a5cd29,
+.avatar_cdc675,
+.border_a5cd29,
+.avatar_c47562,
+.clickableAvatar_c47562,
+.emptyUser_c47562,
+.avatar-b5OQ1N,
+.wrapper_a5cd29.ringingIncoming_a5cd29::after,
+.wrapper_a5cd29.ringingOutgoing_a5cd29::after,
+.replyAvatar_ec86aa,
+.avatarSpeaking-33RRJU,
+.avatar-2EVtgZ,
+.avatarContainer-3tBLDx,
+.appAvatar-2_lufo, .icon__11cf1 {
+border-radius: var(--avatar-radius);
+}
+.svg-2zuE5p > mask {
+display: none;
+}
+.icon__11cf1,
+.circleIconButton-jET_ig,
+.folder_bc7085, .folderIconWrapper_bc7085, .childWrapper_a6ce15, .circleIconButton_db6521, .homeIcon__560eb{
+border-radius: var(--server-radius);
+}
+
+.attachButton_f298d4:hover .attachButtonPlus_f298d4 {
+	fill: var(--azurite-links);
+}
+
+.button_cecf00:hover {
+	color: var(--azurite-links);
+}
+
+.channelTextArea_d0696b.slateTextArea_e52116 span {
+	color: var(--azurite-bg);
+}
+
+.scroller-3j5xK2, .sidebar_a4d4d9 {
+  background-color: var(--azurite-sec);
+}
+
+.textContent_cd82a7 {
+  color: var(--azurite-bg);
+}
+
+.theme-dark .card_eb1ca6, .theme-dark .iconMask_eb1ca6, .theme-dark .card_eb1ca6:hover {
+  background-color: var(--azurite-bg2);
 }
 
 .replyBar_b11c5e {
-  background-color: var(--darkplus-bg);
-}
-.closeIcon_b11c5e {
-  color: var(--darkplus-sec);
-}
-.colorHeaderSecondary-g5teka {
-  color: var(--darkplus-bg);
+  background-color: var(--azurite-bg);
 }
 
-.theme-dark .header_f0cd33 .tabBar_f0cd33 .tab_f0cd33.active_f0cd33 {
-  background-color: var(--darkplus-bg2);
-}
-.theme-dark .header_f0cd33 .tabBar_f0cd33 .tab_f0cd33.active_f0cd33 {
-  color: var(--darkplus-sec);
-}
-.messages_c06487 {
-  background-color: var(--darkplus-bg2);
-}
-.channelHeader_f3978e {
-  background-color: var(--darkplus-bg2);
-}
-.tertiary_ad6d80 {
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-sec);
-}
-.tertiary_ad6d80:hover:not(.disabled__4d064) {
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-sec);
-}
-.tutorialIcon_f1c3d9 {
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-sec);
-}
-.secondary__45d4f {
-  background-color: var(--darkplus-bg2);
-  color: var(--darkplus-sec);
-}
-.secondary__45d4f:hover:not(.disabled__4d064) {
-  background-color: var(--darkplus-bg2);
-  color: var(--darkplus-sec);
-}
-.messageContainer_ddb5b4 {
-  background-color: var(--darkplus-bg2);
-}
-.wrapper-22ayhK {
-  background-color: var(--darkplus-bg);
-}
-.scroller_fea3ef {
-  background-color: var(--darkplus-bg) !important;
-}
-.tab-2j5AEF {
-  color: var(--darkplus-sec);
-}
-.theme-dark .tab-2j5AEF.selected-2LAck8 {
-  background-color: var(--darkplus-bg2);
-}
-.message_ddc613 {
-  background-color: var(--darkplus-bg2);
-}
-.section_cd82a7 {
-  color: var(--darkplus-links);
-}
-.colorStandard-21JIj7 {
-  color: var(--darkplus-bg);
-}
-.backButton-2Ps-B8 {
-  color: var(--darkplus-sec);
+.categoryItem_c72b37.selectedCategoryItem_c72b37 .itemInner_c72b37 {
+  background-color: var(--azurite-links);
 }
 
-.skip-2hTIXL {
-  color: var(--darkplus-sec);
-}
-.grow-2sR_-F,
-.sizeIcon-1kBo12 {
-  color: var(--darkplus-sec);
-}
-.input-2g-os5 {
-  color: var(--darkplus-sec);
-}
-.subtitle-bIoUVX {
-  color: var(--darkplus-sec);
-}
-.size14-3fJ-ot {
-  color: var(--darkplus-sec);
-}
-.activity-1gTu-L {
-  background-color: var(--darkplus-bg);
-}
-.rolesList-3uZoaa {
-  background-color: var(--darkplus-bg);
-}
-.base-21yXnu.muted-eZM05q {
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-sec);
-}
-.body-2wLx-E {
-  background-color: var(--darkplus-bg);
-}
-.theme-dark .root_f9a4c9 {
-  background-color: var(--darkplus-bg);
-}
-.size12-oc4dx4 {
-  color: var(--darkplus-sec);
-}
-.customStatus_b2ca13 {
-  color: var(--darkplus-sec);
-  width: 120px;
-}
-.icons-2dXYop {
-  color: var(--darkplus-sec);
-}
-.selectedIcon-19TbzU {
-  color: var(--darkplus-sec);
-}
-.card-1SdQ2- {
-  background-color: var(--darkplus-bg2);
-}
-.radioBar-3w9XY- {
-  background-color: var(--darkplus-bg2);
-}
-.channelInfo-2wVmf0 {
-  color: var(--darkplus-sec);
-}
-.channelIcon-1su68_ {
-  color: var(--darkplus-sec);
-}
-.radioIconForeground-2BMavi {
-  color: var(--darkplus-sec);
-}
-.selectedIcon-1JOfpo {
-  color: var(--darkplus-sec);
-}
-.ellipsisText-jQS2Ek {
-  color: var(--darkplus-sec);
-}
-.selectorButtonSelected-3Z0WNU {
-  background-color: var(--darkplus-bg);
-}
-.selectorButton-3sW6Qm:not(.selectorButtonPremiumRequired-2pGGEj):hover {
-  background-color: var(--darkplus-bg);
+.guildName_eb1ca6 {
+  color: var(--azurite-sec);
 }
 
-.textContent_cd82a7 {
-  color: var(--darkplus-bg);
-}
-.cozy_b211c6.wrapper_b211c6 {
-  background-color: var(--darkplus-bg);
-}
-.content_fc5f50 {
-  background-color: transparent;
-  color: var(--darkplus-sec);
+.wrappedName_e9f61e, .layout_e9f61e {
+  color: var(--azurite-bg);
 }
 
-.acronym_fb7739 {
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-sec);
-}
-.expandedFolderBackground-1cujaW {
-  background-color: var(--darkplus-bg2);
-}
-.contentWrapper_af5dbb {
-  background-color: var(--darkplus-bg);
-}
-.header_a3bc57 {
-  background-color: var(--darkplus-bg);
-}
-.titlePrimary_c3120f,
-.titleSecondary_c3120f {
-  color: var(--darkplus-sec);
-}
-.inspector_c6ee36 {
-  background-color: var(--darkplus-bg);
-}
-.icon-3jQD8H {
-  color: var(--darkplus-sec);
-}
-.bodyInnerWrapper-2bQs1k {
-  background-color: var(--darkplus-bg);
-}
-.footer_edf4d6 {
-  background-color: var(--darkplus-bg);
-}
-.headerTopWithCustomStatus-1aNSNd {
-  background-color: var(--darkplus-bg);
-}
-.headerTop-3GPUSF {
-  background-color: var(--darkplus-bg);
-}
-.memberCountContainer-30IqIo {
-  color: var(--darkplus-sec);
-}
-.icon_fb52f0 {
-  color: var(--darkplus-sec);
-}
-.input__48d49::placeholder {
-  color: var(--darkplus-sec);
-}
-.emptyRoles-35rHsg {
-  color: var(--darkplus-sec);
-}
-.emptyRolesText-30nyzO {
-  color: var(--darkplus-sec);
-}
-.icon_cc7b67 {
-  color: var(--darkplus-sec);
-}
-.label_cc7b67 {
-  color: var(--darkplus-sec);
-}
-.arrow_cc7b67 {
-  color: var(--darkplus-sec);
-}
-.icon_d864ab, .name_f9647d {
-  color: var(--darkplus-sec);
+
+.folder_bc7085, .folder_bc7085:hover {
+	background-color: var(--azurite-bg);
 }
 
-.tierLock_da77bd {
-  color: var(--darkplus-sec);
-}
-.tierRequirement_da77bd {
-  color: var(--darkplus-sec);
-}
-.size16-rrJ6ag {
-  color: var(--darkplus-sec);
-}
-.theme-dark .tierBody_da77bd {
-  background-color: var(--darkplus-bg2);
-}
-.wrapper_d864ab {
-  background-color: var(--darkplus-bg2);
+.expandedFolderBackground_bc7085 {
+	background-color: var(--azurite-bg2);
 }
 
-.emptyTierImage_f8c5e7 {
-  color: var(--darkplus-sec);
+.sprite_af14ca {
+	filter: hue-rotate(var(--azurite-emoji-picker-color)) !important;
+}
+.typeWindows_a934d8 {
+  position: relative;
+  background-color: var(--azurite-bg);
+  border-top: 1px solid var(--azurite-sec);
+  border-right: 1px solid var(--azurite-sec);
+  border-left: 1px solid var(--azurite-sec);
+}
+.wordmark_a934d8 {
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+  height: calc(100% + 4px);
+  top: -1px;
+  width: fit-content;
+}
+.wordmark_a934d8 > svg {
+  display: none;
+}
+.wordmark_a934d8:after {
+  filter: invert(var(--watermark-filter-invert)) sepia(var(--watermark-filter-sepia)) saturate(var(--watermark-filter-saturate)) hue-rotate(var(--watermark-filter-hue-rotate)) brightness(var(--watermark-filter-brightness)) contrast(var(--watermark-filter-contrast));
+  content: url("data:image/svg+xml,%3Csvg id='svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='200' height='26.31743062051762' viewBox='0, 0, 400,26.31743062051762'%3E%3Cg id='svgg'%3E%3Cpath id='path0' d='M337.417 0.214 C 337.142 0.305,336.804 0.418,336.667 0.467 C 336.529 0.515,336.358 0.561,336.286 0.569 C 336.213 0.577,336.093 0.683,336.017 0.806 C 335.941 0.928,335.829 1.018,335.768 1.005 C 335.537 0.956,334.184 1.726,334.266 1.860 C 334.314 1.937,334.289 2.000,334.211 2.000 C 334.009 2.000,332.832 3.576,332.759 3.944 C 332.725 4.112,332.591 4.557,332.460 4.933 C 332.267 5.491,332.171 7.948,332.336 8.125 C 332.357 8.148,332.384 8.235,332.396 8.319 C 332.407 8.403,332.473 8.528,332.542 8.597 C 332.610 8.666,332.667 8.864,332.667 9.038 C 332.667 9.211,332.741 9.307,332.831 9.251 C 332.926 9.193,332.954 9.260,332.897 9.408 C 332.842 9.550,332.876 9.667,332.971 9.667 C 333.066 9.667,333.188 9.805,333.242 9.973 C 333.295 10.142,333.532 10.383,333.768 10.510 L 334.197 10.739 333.848 11.021 C 333.657 11.176,333.500 11.390,333.500 11.495 C 333.500 11.600,333.438 11.648,333.363 11.602 C 333.168 11.481,331.939 13.070,331.861 13.543 C 331.849 13.613,331.713 13.913,331.558 14.210 C 331.229 14.842,331.086 17.538,331.356 18.042 C 331.450 18.219,331.563 18.561,331.607 18.803 C 331.651 19.045,331.739 19.282,331.802 19.330 C 331.865 19.378,332.024 19.623,332.153 19.875 C 332.283 20.127,332.452 20.333,332.528 20.333 C 332.604 20.333,332.667 20.427,332.667 20.542 C 332.667 20.656,332.892 20.900,333.167 21.083 C 333.441 21.267,333.666 21.473,333.666 21.542 C 333.666 21.610,333.779 21.667,333.917 21.667 C 334.054 21.667,334.167 21.736,334.167 21.820 C 334.167 21.904,334.392 22.023,334.667 22.083 C 334.942 22.144,335.167 22.256,335.167 22.333 C 335.167 22.461,336.101 22.747,336.206 22.651 C 336.230 22.629,336.438 22.711,336.667 22.835 C 337.437 23.250,342.885 23.141,343.581 22.696 C 343.674 22.637,343.863 22.584,344.000 22.580 C 344.825 22.550,346.974 20.842,347.454 19.833 C 349.122 16.324,348.535 12.562,346.086 11.076 L 345.525 10.736 345.983 10.428 C 346.361 10.174,347.015 9.084,346.994 8.744 C 346.991 8.695,347.096 8.546,347.229 8.414 C 347.436 8.207,347.521 5.561,347.333 5.167 C 347.312 5.121,347.301 5.031,347.311 4.967 C 347.398 4.363,345.488 1.500,344.998 1.500 C 344.907 1.500,344.833 1.437,344.833 1.360 C 344.833 1.204,344.378 0.973,342.955 0.406 C 342.427 0.195,342.047 0.111,342.112 0.220 C 342.201 0.367,342.170 0.370,341.990 0.232 C 341.688 0.001,338.106 -0.014,337.417 0.214 M180.833 6.307 L 180.833 12.446 181.262 12.642 C 181.499 12.750,181.761 12.795,181.846 12.742 C 181.931 12.690,182.000 12.726,182.000 12.823 C 182.000 12.921,182.135 13.000,182.300 13.000 C 182.465 13.000,182.690 13.090,182.800 13.200 C 182.910 13.310,183.000 13.348,183.000 13.285 C 183.000 13.183,183.741 13.417,184.750 13.836 C 184.933 13.913,185.290 14.008,185.542 14.048 L 186.000 14.120 186.000 9.883 L 186.000 5.645 188.574 5.686 C 189.990 5.709,191.116 5.780,191.076 5.845 C 191.037 5.909,191.227 6.054,191.500 6.167 C 191.773 6.280,191.962 6.427,191.920 6.495 C 191.878 6.562,191.949 6.760,192.077 6.934 C 192.438 7.424,192.448 15.197,192.088 15.496 C 191.948 15.612,191.833 15.795,191.833 15.901 C 191.833 16.143,190.180 16.909,189.135 17.152 C 188.693 17.254,186.717 17.333,184.593 17.333 L 180.833 17.333 180.833 20.000 L 180.833 22.667 185.375 22.691 C 191.148 22.722,191.359 22.714,192.196 22.425 C 192.580 22.293,192.956 22.223,193.030 22.269 C 193.105 22.315,193.167 22.269,193.167 22.167 C 193.167 22.064,193.233 22.021,193.313 22.071 C 193.478 22.173,194.468 21.717,194.804 21.385 C 194.925 21.265,195.131 21.167,195.262 21.167 C 195.393 21.167,195.500 21.092,195.500 21.000 C 195.500 20.908,195.612 20.833,195.750 20.833 C 195.887 20.833,196.000 20.772,196.000 20.697 C 196.000 20.622,196.263 20.266,196.584 19.905 C 197.146 19.274,197.741 18.262,197.753 17.917 C 197.756 17.825,197.832 17.637,197.921 17.500 C 198.118 17.197,198.232 6.167,198.039 6.167 C 197.965 6.167,197.895 6.035,197.883 5.875 C 197.851 5.451,197.759 5.112,197.610 4.875 C 197.539 4.760,197.535 4.667,197.603 4.667 C 197.670 4.667,197.561 4.492,197.361 4.279 C 197.161 4.066,197.039 3.850,197.090 3.799 C 197.263 3.626,195.088 1.577,194.500 1.358 C 194.179 1.239,193.692 1.040,193.417 0.914 C 192.144 0.334,190.384 0.167,185.566 0.167 L 180.833 0.167 180.833 6.307 M201.167 11.500 L 201.167 22.833 209.014 22.833 C 213.330 22.833,216.834 22.777,216.801 22.708 C 216.372 21.812,216.079 21.333,215.959 21.333 C 215.879 21.333,215.860 21.258,215.917 21.167 C 215.973 21.075,215.940 21.000,215.843 21.000 C 215.746 21.000,215.667 20.922,215.667 20.827 C 215.667 20.731,215.526 20.450,215.355 20.202 C 214.975 19.652,214.103 18.116,214.105 18.000 C 214.114 17.579,213.522 17.500,210.345 17.500 L 207.000 17.500 207.000 15.833 L 207.000 14.167 211.500 14.167 C 213.975 14.167,216.000 14.124,216.000 14.073 C 216.000 14.021,215.813 13.569,215.583 13.068 C 215.354 12.567,215.167 12.084,215.167 11.995 C 215.167 11.906,215.092 11.833,215.000 11.833 C 214.908 11.833,214.848 11.777,214.866 11.708 C 214.884 11.640,214.647 11.040,214.339 10.375 L 213.779 9.167 210.400 9.167 L 207.021 9.167 206.969 7.412 L 206.917 5.657 211.875 5.703 C 216.687 5.749,217.370 5.684,216.671 5.253 C 216.582 5.198,216.386 4.893,216.235 4.576 C 216.085 4.259,215.896 4.000,215.814 4.000 C 215.733 4.000,215.667 3.850,215.667 3.667 C 215.667 3.483,215.592 3.333,215.500 3.333 C 215.408 3.333,215.333 3.226,215.333 3.095 C 215.333 2.964,215.236 2.758,215.118 2.637 C 215.000 2.516,214.803 2.173,214.681 1.875 C 214.559 1.577,214.394 1.333,214.313 1.333 C 214.233 1.333,214.167 1.221,214.167 1.083 C 214.167 0.946,214.079 0.833,213.972 0.833 C 213.865 0.833,213.827 0.784,213.887 0.724 C 214.375 0.236,213.565 0.167,207.396 0.167 L 201.167 0.167 201.167 11.500 M245.667 11.500 L 245.667 22.833 253.587 22.833 L 261.508 22.833 261.223 22.375 C 261.066 22.123,260.820 21.778,260.677 21.608 C 260.534 21.437,260.444 21.287,260.477 21.274 C 260.511 21.261,260.361 20.953,260.144 20.591 C 259.927 20.228,259.448 19.403,259.078 18.758 L 258.407 17.583 254.995 17.500 L 251.583 17.417 251.536 15.792 L 251.488 14.167 255.984 14.167 C 258.457 14.167,260.519 14.103,260.567 14.026 C 260.615 13.949,260.134 12.843,259.498 11.568 L 258.343 9.250 254.963 9.167 L 251.583 9.083 251.583 7.417 L 251.583 5.750 256.519 5.750 L 261.455 5.750 261.284 5.375 C 261.190 5.169,261.046 5.000,260.963 5.000 C 260.881 5.000,260.857 4.930,260.910 4.845 C 260.962 4.760,260.929 4.642,260.836 4.585 C 260.742 4.527,260.515 4.166,260.330 3.782 C 259.968 3.029,259.641 2.467,259.488 2.333 C 259.435 2.287,259.212 1.913,258.993 1.500 C 258.218 0.042,258.879 0.167,251.891 0.167 L 245.667 0.167 245.667 11.500 M262.333 0.265 C 262.333 0.321,262.437 0.603,262.564 0.891 C 262.855 1.556,263.239 2.545,263.269 2.708 C 263.281 2.777,263.310 2.890,263.332 2.958 C 263.355 3.027,263.364 3.140,263.353 3.208 C 263.342 3.277,263.408 3.333,263.500 3.333 C 263.592 3.333,263.667 3.471,263.667 3.639 C 263.667 3.807,263.723 4.001,263.792 4.069 C 263.860 4.138,263.923 4.244,263.931 4.306 C 263.938 4.367,264.045 4.642,264.167 4.917 C 264.289 5.192,264.396 5.454,264.405 5.500 C 264.414 5.546,264.481 5.677,264.554 5.792 C 264.627 5.906,264.635 6.000,264.573 6.000 C 264.510 6.000,264.553 6.112,264.667 6.250 C 264.781 6.388,264.823 6.500,264.761 6.500 C 264.699 6.500,264.755 6.706,264.886 6.958 C 265.359 7.868,265.726 8.758,265.787 9.143 C 265.822 9.360,265.967 9.716,266.111 9.935 C 266.254 10.154,266.317 10.333,266.250 10.333 C 266.183 10.333,266.251 10.521,266.401 10.750 C 266.551 10.979,266.623 11.167,266.561 11.167 C 266.499 11.167,266.591 11.330,266.766 11.529 C 266.940 11.728,266.982 11.831,266.858 11.758 C 266.701 11.666,266.715 11.752,266.905 12.042 C 267.055 12.271,267.209 12.622,267.248 12.823 C 267.286 13.023,267.509 13.604,267.742 14.113 C 267.976 14.623,268.167 15.177,268.167 15.345 C 268.167 15.513,268.297 15.723,268.457 15.813 C 268.617 15.902,268.695 16.028,268.630 16.092 C 268.566 16.156,268.630 16.434,268.772 16.709 C 268.914 16.984,269.139 17.575,269.272 18.021 C 269.404 18.468,269.589 18.833,269.683 18.833 C 269.776 18.833,269.810 18.903,269.757 18.988 C 269.704 19.074,269.739 19.191,269.833 19.250 C 269.928 19.309,269.969 19.416,269.924 19.489 C 269.879 19.562,269.990 19.928,270.171 20.303 C 270.352 20.677,270.500 21.100,270.500 21.242 C 270.500 21.384,270.583 21.500,270.684 21.500 C 270.786 21.500,270.826 21.613,270.773 21.750 C 270.720 21.887,270.745 22.000,270.827 22.000 C 270.909 22.000,271.001 22.169,271.030 22.375 C 271.073 22.676,275.000 23.045,275.000 22.747 C 275.000 22.742,275.264 22.103,275.586 21.327 C 275.908 20.551,276.178 19.879,276.184 19.833 C 276.191 19.787,276.303 19.497,276.432 19.188 C 276.561 18.879,276.667 18.523,276.667 18.396 C 276.667 18.270,276.754 18.167,276.861 18.167 C 276.968 18.167,277.012 18.123,276.959 18.071 C 276.907 18.018,277.035 17.587,277.244 17.112 C 277.709 16.059,277.870 15.650,277.928 15.366 C 277.953 15.247,278.082 14.983,278.215 14.781 C 278.348 14.578,278.512 14.150,278.581 13.831 C 278.649 13.511,278.761 13.175,278.829 13.083 C 278.897 12.992,279.089 12.542,279.255 12.083 C 279.421 11.625,279.615 11.173,279.685 11.078 C 279.756 10.984,279.853 10.690,279.901 10.425 C 279.949 10.160,280.060 9.899,280.148 9.845 C 280.235 9.791,280.362 9.522,280.428 9.248 C 280.495 8.974,280.764 8.279,281.025 7.704 C 281.286 7.129,281.500 6.564,281.500 6.450 C 281.500 6.335,281.625 6.062,281.779 5.843 C 281.932 5.624,281.974 5.496,281.872 5.559 C 281.770 5.622,281.906 5.241,282.175 4.712 C 282.443 4.183,282.663 3.703,282.665 3.645 C 282.666 3.588,282.792 3.250,282.946 2.895 C 283.100 2.540,283.244 2.154,283.266 2.036 C 283.287 1.918,283.462 1.522,283.653 1.156 C 284.193 0.120,284.030 0.107,282.036 1.024 C 281.420 1.307,280.842 1.554,280.750 1.573 C 280.658 1.591,280.080 1.839,279.464 2.124 C 278.848 2.408,278.197 2.687,278.017 2.745 C 277.824 2.806,277.642 3.065,277.574 3.377 C 277.510 3.668,277.400 4.021,277.330 4.161 C 277.260 4.302,277.077 4.867,276.923 5.417 C 276.769 5.967,276.455 6.921,276.226 7.537 C 275.996 8.153,275.814 8.697,275.823 8.746 C 275.831 8.795,275.718 9.116,275.572 9.459 C 275.426 9.802,275.280 10.196,275.249 10.333 C 275.217 10.471,274.992 11.108,274.748 11.750 C 274.504 12.392,274.248 13.143,274.179 13.421 C 274.109 13.698,273.975 14.073,273.881 14.254 C 273.787 14.435,273.662 14.852,273.603 15.179 C 273.467 15.936,273.017 16.610,273.000 16.083 C 272.994 15.900,272.882 15.608,272.750 15.434 C 272.618 15.260,272.550 15.054,272.599 14.975 C 272.647 14.897,272.623 14.833,272.545 14.833 C 272.468 14.833,272.392 14.671,272.377 14.473 C 272.362 14.275,272.290 14.069,272.217 14.015 C 272.143 13.961,272.070 13.804,272.054 13.667 C 272.037 13.529,271.825 12.854,271.582 12.167 C 271.339 11.479,271.112 10.804,271.077 10.667 C 271.043 10.529,270.707 9.554,270.330 8.500 C 269.953 7.446,269.618 6.471,269.585 6.333 C 269.490 5.933,268.968 4.468,268.695 3.833 C 268.557 3.512,268.445 3.160,268.445 3.050 C 268.444 2.941,268.213 2.766,267.931 2.662 C 267.648 2.558,267.304 2.403,267.167 2.319 C 267.029 2.234,266.804 2.121,266.667 2.067 C 266.130 1.858,265.725 1.690,265.128 1.427 C 264.786 1.277,264.486 1.172,264.461 1.194 C 264.437 1.217,264.079 1.060,263.667 0.846 C 262.393 0.187,262.333 0.161,262.333 0.265 M352.241 0.456 C 352.086 0.810,352.089 0.801,351.927 1.375 C 351.855 1.627,351.718 1.833,351.621 1.833 C 351.524 1.833,351.491 1.880,351.548 1.937 C 351.606 1.994,351.503 2.335,351.320 2.693 C 351.137 3.051,351.039 3.429,351.103 3.531 C 351.173 3.645,351.143 3.672,351.026 3.599 C 350.905 3.524,350.833 3.604,350.833 3.814 C 350.833 3.997,350.757 4.194,350.664 4.252 C 350.571 4.309,350.529 4.412,350.571 4.480 C 350.613 4.548,350.502 4.824,350.325 5.094 C 350.147 5.363,350.002 5.640,350.001 5.708 C 350.000 5.777,351.912 5.833,354.250 5.833 C 358.785 5.833,358.769 5.830,358.347 6.627 C 357.981 7.318,356.802 9.951,356.763 10.167 C 356.754 10.212,356.609 10.541,356.439 10.896 C 356.270 11.252,356.117 11.627,356.101 11.729 C 356.084 11.832,355.853 12.367,355.587 12.917 C 355.321 13.467,355.085 14.017,355.064 14.140 C 355.043 14.263,354.821 14.788,354.571 15.307 C 354.321 15.826,354.023 16.475,353.908 16.750 C 353.793 17.025,353.549 17.587,353.366 18.000 C 353.183 18.412,352.908 19.050,352.754 19.417 C 352.325 20.443,351.980 21.218,351.795 21.572 C 351.702 21.749,351.565 22.107,351.490 22.367 L 351.355 22.841 354.461 22.795 L 357.568 22.750 357.979 21.917 C 358.657 20.541,359.071 19.504,359.026 19.292 C 359.012 19.223,359.070 19.167,359.155 19.167 C 359.241 19.167,359.364 18.998,359.429 18.792 C 359.542 18.431,359.888 17.633,360.784 15.667 C 361.013 15.162,361.337 14.450,361.502 14.083 C 361.667 13.717,362.010 12.967,362.264 12.417 C 362.519 11.867,362.710 11.323,362.689 11.208 C 362.669 11.094,362.730 11.000,362.826 11.000 C 362.922 11.000,363.000 10.850,363.000 10.667 C 363.000 10.483,363.087 10.333,363.194 10.333 C 363.301 10.333,363.342 10.286,363.284 10.229 C 363.227 10.171,363.305 9.890,363.458 9.604 C 363.611 9.318,363.743 9.046,363.751 9.000 C 363.759 8.954,363.968 8.485,364.214 7.957 C 364.461 7.430,364.658 6.957,364.651 6.907 C 364.645 6.857,364.760 6.632,364.907 6.408 C 365.054 6.184,365.130 6.000,365.076 6.000 C 365.022 6.000,365.119 5.794,365.292 5.542 C 366.076 4.398,366.330 3.416,365.986 2.851 C 365.813 2.566,365.705 2.333,365.745 2.333 C 365.785 2.333,365.578 1.865,365.284 1.292 L 364.750 0.250 358.560 0.206 C 352.785 0.166,352.362 0.182,352.241 0.456 M385.163 0.292 C 385.045 3.816,385.217 11.765,385.413 11.874 C 385.543 11.948,385.766 12.124,385.908 12.266 C 386.050 12.408,386.167 12.468,386.167 12.400 C 386.167 12.331,386.354 12.451,386.583 12.667 C 386.813 12.882,387.002 12.989,387.004 12.904 C 387.006 12.819,387.149 12.934,387.322 13.159 L 387.636 13.568 388.115 13.076 C 388.614 12.562,389.262 12.085,389.465 12.081 C 389.530 12.079,389.696 12.006,389.833 11.919 C 390.228 11.667,391.578 11.559,392.274 11.723 C 395.533 12.492,394.532 17.731,391.215 17.266 C 390.776 17.205,390.326 17.145,390.216 17.133 C 390.105 17.121,389.632 16.821,389.163 16.467 L 388.312 15.822 387.114 16.688 C 386.456 17.164,385.857 17.654,385.783 17.777 C 385.710 17.900,385.583 18.000,385.501 18.000 C 385.079 18.000,384.124 19.126,384.410 19.286 C 384.568 19.374,384.700 19.515,384.705 19.598 C 384.716 19.803,386.544 21.664,386.734 21.666 C 386.817 21.666,387.141 21.861,387.453 22.100 C 387.765 22.338,388.110 22.546,388.219 22.563 C 388.327 22.579,388.510 22.651,388.625 22.723 C 388.740 22.794,388.833 22.808,388.833 22.754 C 388.833 22.700,388.990 22.739,389.182 22.842 C 389.625 23.079,392.562 23.187,393.333 22.994 C 393.654 22.914,394.104 22.816,394.333 22.776 C 396.714 22.357,398.981 19.895,399.727 16.917 C 399.993 15.855,400.042 13.333,399.798 13.333 C 399.718 13.333,399.668 13.240,399.687 13.125 C 399.754 12.729,399.462 11.667,399.287 11.667 C 399.190 11.667,399.158 11.619,399.216 11.561 C 399.274 11.504,399.233 11.297,399.125 11.103 C 399.017 10.909,398.925 10.713,398.920 10.667 C 398.886 10.343,396.995 8.464,396.441 8.202 C 394.805 7.432,394.738 7.416,392.833 7.382 C 391.488 7.358,390.730 7.420,390.292 7.589 L 389.667 7.831 389.667 6.582 L 389.667 5.333 394.101 5.333 C 398.259 5.333,398.528 5.315,398.417 5.042 C 398.352 4.881,398.182 4.412,398.039 4.000 C 397.897 3.587,397.719 3.209,397.644 3.159 C 397.570 3.110,397.483 2.902,397.452 2.699 C 397.421 2.495,397.306 2.240,397.198 2.131 C 397.089 2.022,397.000 1.796,397.000 1.628 C 397.000 1.460,396.891 1.063,396.759 0.745 L 396.517 0.167 390.842 0.167 C 387.720 0.167,385.165 0.223,385.163 0.292 M217.833 0.428 C 217.833 0.479,217.922 0.686,218.030 0.886 C 218.139 1.086,218.247 1.430,218.272 1.650 C 218.296 1.869,218.395 2.128,218.491 2.225 C 218.588 2.321,218.667 2.577,218.667 2.793 C 218.667 3.029,218.738 3.142,218.844 3.076 C 218.942 3.016,219.005 3.068,218.985 3.192 C 218.944 3.438,219.103 3.942,219.346 4.333 C 219.628 4.789,219.884 5.412,219.927 5.750 C 219.984 6.202,220.385 7.227,220.553 7.350 C 220.628 7.405,220.716 7.593,220.748 7.767 C 220.781 7.941,220.823 8.102,220.841 8.125 C 220.860 8.148,220.891 8.223,220.910 8.292 C 220.973 8.514,221.185 9.061,221.636 10.167 C 221.879 10.762,222.080 11.290,222.081 11.339 C 222.082 11.388,222.206 11.725,222.356 12.089 C 222.506 12.452,222.758 13.088,222.915 13.500 C 223.072 13.912,223.268 14.380,223.350 14.539 C 223.433 14.699,223.500 14.942,223.500 15.081 C 223.500 15.220,223.573 15.333,223.661 15.333 C 223.750 15.333,223.780 15.446,223.727 15.583 C 223.674 15.721,223.714 15.833,223.816 15.833 C 223.917 15.833,224.000 15.983,224.000 16.167 C 224.000 16.350,224.073 16.500,224.161 16.500 C 224.250 16.500,224.283 16.605,224.233 16.733 C 224.184 16.861,224.225 17.017,224.325 17.078 C 224.424 17.139,224.462 17.260,224.410 17.345 C 224.357 17.430,224.385 17.500,224.471 17.500 C 224.558 17.500,224.666 17.706,224.711 17.958 C 224.791 18.404,225.299 19.739,225.773 20.750 C 225.902 21.025,226.014 21.325,226.022 21.417 C 226.029 21.508,226.184 21.873,226.364 22.227 L 226.693 22.871 228.552 22.811 L 230.410 22.750 230.700 22.184 C 230.859 21.872,230.950 21.553,230.901 21.475 C 230.853 21.397,230.898 21.333,231.000 21.333 C 231.102 21.333,231.144 21.265,231.092 21.181 C 231.040 21.097,231.069 21.003,231.157 20.973 C 231.244 20.942,231.357 20.692,231.407 20.417 C 231.457 20.142,231.680 19.543,231.902 19.087 C 232.124 18.631,232.270 18.200,232.227 18.129 C 232.183 18.058,232.239 18.000,232.351 18.000 C 232.464 18.000,232.508 17.953,232.450 17.895 C 232.392 17.837,232.433 17.631,232.540 17.436 C 232.646 17.242,232.750 17.008,232.769 16.917 C 232.853 16.522,234.545 12.402,234.682 12.258 C 234.765 12.171,234.833 11.943,234.833 11.750 C 234.833 11.557,234.923 11.310,235.033 11.200 C 235.143 11.090,235.162 10.999,235.075 10.997 C 234.988 10.996,235.012 10.934,235.129 10.860 C 235.246 10.786,235.370 10.581,235.406 10.404 C 235.441 10.228,235.565 9.858,235.680 9.583 C 235.795 9.308,235.896 9.046,235.905 9.000 C 235.941 8.812,236.373 7.728,236.527 7.439 C 236.618 7.269,236.721 7.006,236.755 6.856 C 236.809 6.616,237.484 4.879,238.091 3.417 C 238.205 3.142,238.370 2.729,238.459 2.500 C 238.547 2.271,238.780 1.757,238.976 1.359 C 239.410 0.480,239.425 0.261,239.042 0.413 C 238.881 0.477,238.624 0.554,238.471 0.586 C 238.317 0.617,237.998 0.769,237.762 0.924 C 237.526 1.078,237.333 1.157,237.333 1.098 C 237.333 1.039,237.109 1.107,236.835 1.249 C 236.561 1.391,236.298 1.504,236.250 1.500 C 236.202 1.496,235.920 1.623,235.623 1.781 C 235.326 1.940,235.046 2.075,235.000 2.081 C 234.566 2.142,233.203 2.757,233.268 2.863 C 233.315 2.938,233.274 3.000,233.177 3.000 C 233.079 3.000,233.000 3.154,233.000 3.342 C 233.000 3.529,232.886 3.904,232.746 4.175 C 232.606 4.445,232.528 4.667,232.573 4.667 C 232.618 4.667,232.510 5.004,232.333 5.417 C 232.157 5.829,232.048 6.167,232.093 6.167 C 232.137 6.167,232.033 6.448,231.860 6.792 C 231.589 7.333,231.346 8.066,231.349 8.333 C 231.349 8.379,231.169 8.904,230.947 9.500 C 230.726 10.096,230.579 10.677,230.620 10.792 C 230.661 10.906,230.605 11.000,230.496 11.000 C 230.387 11.000,230.341 11.112,230.394 11.250 C 230.446 11.387,230.417 11.500,230.328 11.500 C 230.239 11.500,230.167 11.683,230.167 11.907 C 230.167 12.131,230.094 12.359,230.005 12.414 C 229.868 12.498,229.422 13.828,229.486 13.960 C 229.497 13.984,229.392 14.225,229.252 14.497 C 229.111 14.768,229.008 15.048,229.022 15.120 C 229.080 15.416,228.614 16.343,228.439 16.278 C 228.335 16.240,228.270 16.122,228.293 16.016 C 228.317 15.910,228.222 15.601,228.081 15.328 C 227.940 15.056,227.866 14.833,227.917 14.833 C 227.967 14.833,227.897 14.617,227.760 14.353 C 227.623 14.089,227.467 13.622,227.414 13.315 C 227.360 13.009,227.256 12.719,227.183 12.671 C 227.109 12.623,227.010 12.396,226.961 12.167 C 226.912 11.938,226.668 11.225,226.419 10.583 C 226.171 9.942,225.951 9.304,225.932 9.167 C 225.902 8.953,225.763 8.538,225.206 7.000 C 225.156 6.862,225.088 6.586,225.053 6.386 C 225.019 6.186,224.881 5.811,224.747 5.553 C 224.612 5.294,224.502 4.964,224.501 4.817 C 224.500 4.565,224.229 3.890,223.784 3.028 C 223.602 2.675,222.610 2.165,221.083 1.639 C 220.808 1.544,220.246 1.309,219.833 1.117 C 219.187 0.816,218.003 0.344,217.875 0.336 C 217.852 0.334,217.833 0.376,217.833 0.428 M285.500 11.583 L 285.500 22.833 288.417 22.833 L 291.333 22.833 291.333 12.865 L 291.333 2.896 290.458 2.502 C 289.977 2.285,289.500 2.122,289.397 2.139 C 289.295 2.157,289.117 2.058,289.002 1.919 C 288.887 1.780,288.708 1.666,288.605 1.665 C 288.501 1.664,287.795 1.364,287.034 0.999 C 286.274 0.633,285.618 0.333,285.576 0.333 C 285.534 0.333,285.500 5.396,285.500 11.583 M294.667 11.593 L 294.667 22.833 302.167 22.833 C 306.292 22.833,309.667 22.794,309.667 22.747 C 309.667 22.665,309.166 21.794,308.707 21.077 C 308.592 20.897,308.367 20.487,308.207 20.167 C 308.047 19.846,307.878 19.546,307.832 19.500 C 307.785 19.454,307.598 19.119,307.415 18.755 C 306.770 17.467,306.908 17.513,303.491 17.462 L 300.417 17.417 300.393 15.083 C 300.358 11.473,300.168 3.452,300.111 3.110 C 300.071 2.874,297.417 1.300,297.417 1.513 C 297.417 1.534,296.929 1.307,296.333 1.010 C 295.737 0.713,295.119 0.443,294.958 0.411 C 294.683 0.356,294.667 0.977,294.667 11.593 M375.333 0.570 C 375.333 0.721,375.221 0.887,375.083 0.940 C 374.946 0.992,374.833 1.121,374.832 1.226 C 374.830 1.383,374.233 2.237,373.524 3.094 C 373.443 3.192,372.805 4.055,372.107 5.011 C 371.408 5.968,370.685 6.916,370.501 7.119 C 370.317 7.322,370.167 7.560,370.167 7.647 C 370.167 7.734,370.109 7.831,370.039 7.861 C 369.968 7.892,369.614 8.329,369.250 8.833 C 368.886 9.337,368.532 9.775,368.461 9.806 C 368.391 9.836,368.333 9.967,368.333 10.097 C 368.333 10.227,368.275 10.333,368.203 10.333 C 368.131 10.333,367.950 10.540,367.801 10.792 C 367.356 11.543,365.821 13.579,365.655 13.639 C 365.570 13.669,365.500 13.776,365.500 13.876 C 365.500 13.975,365.369 14.205,365.208 14.386 C 364.993 14.629,364.972 14.735,365.126 14.789 C 365.241 14.829,365.293 14.930,365.241 15.014 C 365.189 15.098,365.231 15.167,365.333 15.167 C 365.436 15.167,365.479 15.233,365.428 15.314 C 365.378 15.396,365.449 15.555,365.585 15.668 C 365.722 15.781,365.833 16.015,365.833 16.187 C 365.833 16.359,365.908 16.500,366.000 16.500 C 366.092 16.500,366.167 16.612,366.167 16.750 C 366.167 16.887,366.246 17.000,366.343 17.000 C 366.440 17.000,366.473 17.075,366.417 17.167 C 366.360 17.258,366.406 17.333,366.518 17.333 C 366.630 17.333,366.676 17.380,366.619 17.437 C 366.175 17.880,367.084 18.000,370.905 18.000 L 374.833 18.000 374.833 20.417 L 374.833 22.833 377.667 22.833 L 380.500 22.833 380.500 20.375 L 380.500 17.917 381.625 17.926 C 382.857 17.936,383.210 17.871,383.079 17.659 C 382.996 17.525,382.158 14.302,382.094 13.873 C 382.039 13.500,381.739 13.326,381.113 13.302 L 380.500 13.279 380.500 7.473 C 380.500 4.280,380.444 1.684,380.375 1.706 C 380.306 1.728,379.800 1.592,379.250 1.403 C 376.140 0.337,375.333 0.165,375.333 0.570 M7.826 0.848 C 7.723 1.039,7.603 1.396,7.560 1.640 C 7.516 1.884,7.410 2.155,7.323 2.242 C 7.237 2.329,7.166 2.516,7.166 2.658 C 7.165 2.800,7.050 3.136,6.910 3.405 C 6.770 3.673,6.626 4.048,6.590 4.238 C 6.554 4.428,6.510 4.602,6.492 4.625 C 6.473 4.648,6.444 4.723,6.426 4.792 C 6.180 5.741,5.961 6.338,5.829 6.419 C 5.740 6.475,5.667 6.698,5.667 6.917 C 5.667 7.135,5.601 7.354,5.522 7.403 C 5.400 7.478,5.291 7.841,5.153 8.626 C 5.141 8.694,4.992 9.022,4.823 9.354 C 4.653 9.687,4.559 10.004,4.614 10.059 C 4.669 10.114,4.639 10.254,4.547 10.371 C 4.455 10.488,4.244 10.958,4.078 11.417 C 3.912 11.875,3.709 12.338,3.628 12.446 C 3.546 12.554,3.496 12.741,3.517 12.863 C 3.537 12.984,3.459 13.308,3.344 13.583 C 3.228 13.858,3.120 14.158,3.104 14.250 C 3.087 14.342,3.015 14.512,2.942 14.628 C 2.870 14.744,2.777 15.023,2.736 15.249 C 2.695 15.474,2.436 16.242,2.161 16.954 C 1.886 17.667,1.627 18.400,1.586 18.583 C 1.415 19.338,0.929 20.592,0.762 20.706 C 0.664 20.773,0.634 20.829,0.696 20.831 C 0.758 20.832,0.628 21.293,0.408 21.855 C 0.188 22.417,0.048 22.942,0.097 23.022 C 0.272 23.305,6.382 23.201,6.273 22.917 C 6.220 22.779,6.250 22.667,6.339 22.667 C 6.427 22.667,6.482 22.610,6.459 22.542 C 6.412 22.399,6.780 21.121,7.047 20.500 C 7.146 20.271,7.235 20.046,7.246 20.000 C 7.256 19.954,7.321 19.635,7.390 19.292 L 7.515 18.667 10.591 18.667 C 13.646 18.667,13.769 18.688,13.686 19.208 C 13.676 19.277,13.732 19.333,13.813 19.333 C 13.893 19.333,14.006 19.577,14.064 19.875 C 14.122 20.173,14.370 21.035,14.614 21.792 L 15.059 23.167 18.168 23.167 C 20.821 23.167,21.278 23.130,21.278 22.917 C 21.278 22.779,21.215 22.667,21.139 22.667 C 21.063 22.667,21.000 22.553,21.000 22.414 C 21.000 22.276,20.930 22.032,20.845 21.873 C 20.656 21.518,20.469 21.001,20.409 20.667 C 20.300 20.068,19.290 17.411,19.151 17.361 C 19.067 17.330,19.042 17.234,19.096 17.147 C 19.149 17.060,19.037 16.724,18.846 16.401 C 18.656 16.078,18.565 15.854,18.644 15.903 C 18.826 16.015,18.301 14.454,18.111 14.315 C 18.034 14.259,17.984 14.184,17.999 14.148 C 18.060 14.007,17.770 13.051,17.499 12.500 C 17.342 12.179,17.246 11.823,17.287 11.708 C 17.328 11.594,17.288 11.500,17.199 11.500 C 17.048 11.500,16.866 11.030,16.721 10.263 C 16.687 10.087,16.581 9.847,16.484 9.730 C 16.386 9.613,16.270 9.270,16.224 8.967 C 16.178 8.664,16.032 8.248,15.900 8.042 C 15.767 7.835,15.707 7.667,15.765 7.667 C 15.824 7.667,15.760 7.497,15.624 7.289 C 15.488 7.082,15.321 6.650,15.253 6.331 C 15.184 6.011,15.052 5.655,14.958 5.539 C 14.864 5.422,14.774 5.197,14.757 5.039 C 14.740 4.880,14.669 4.600,14.600 4.417 C 14.530 4.233,14.216 3.408,13.902 2.583 C 13.588 1.758,13.331 0.952,13.332 0.792 C 13.334 0.299,8.091 0.353,7.826 0.848 M22.111 0.611 C 22.050 0.672,22.000 1.872,22.000 3.278 L 22.000 5.833 26.595 5.833 C 30.557 5.833,31.158 5.866,30.955 6.069 C 30.825 6.199,30.623 6.536,30.506 6.819 C 30.389 7.102,30.236 7.333,30.167 7.333 C 30.097 7.333,29.941 7.577,29.820 7.875 C 29.699 8.173,29.465 8.515,29.300 8.634 C 29.135 8.754,29.000 8.923,29.000 9.010 C 29.000 9.144,27.450 11.576,27.041 12.083 C 26.968 12.175,26.689 12.625,26.423 13.083 C 26.156 13.542,25.586 14.411,25.156 15.014 C 24.725 15.618,24.322 16.274,24.259 16.473 C 24.196 16.671,24.074 16.833,23.989 16.833 C 23.903 16.833,23.833 16.946,23.833 17.083 C 23.833 17.221,23.758 17.333,23.667 17.333 C 23.575 17.333,23.500 17.440,23.500 17.571 C 23.500 17.702,23.404 17.909,23.286 18.030 C 23.168 18.151,22.760 18.737,22.378 19.333 C 21.996 19.929,21.599 20.514,21.496 20.632 C 21.353 20.795,21.391 21.008,21.651 21.507 C 21.840 21.870,21.940 22.168,21.872 22.169 C 21.805 22.171,21.825 22.227,21.917 22.294 C 22.008 22.362,22.166 22.567,22.268 22.750 C 22.449 23.076,22.649 23.084,30.802 23.127 L 39.151 23.170 39.201 20.460 L 39.250 17.750 34.700 17.800 L 30.150 17.849 30.413 17.383 C 30.558 17.126,30.824 16.692,31.003 16.417 C 31.183 16.142,31.380 15.804,31.443 15.667 C 31.505 15.529,31.773 15.137,32.039 14.795 C 32.310 14.446,32.470 14.087,32.403 13.977 C 32.327 13.855,32.354 13.826,32.474 13.901 C 32.588 13.971,32.667 13.914,32.667 13.760 C 32.667 13.617,32.743 13.500,32.837 13.500 C 32.931 13.500,33.098 13.294,33.208 13.042 C 33.319 12.790,33.719 12.133,34.098 11.583 C 34.476 11.033,34.839 10.415,34.904 10.208 C 34.969 10.002,35.092 9.833,35.178 9.833 C 35.263 9.833,35.333 9.753,35.333 9.656 C 35.333 9.558,35.502 9.239,35.709 8.947 C 36.238 8.199,36.476 7.807,36.663 7.375 C 36.752 7.169,36.906 7.000,37.006 7.000 C 37.105 7.000,37.145 6.933,37.094 6.851 C 37.043 6.769,37.119 6.657,37.262 6.602 C 37.404 6.547,37.483 6.441,37.437 6.366 C 37.390 6.291,37.543 6.009,37.776 5.740 C 38.008 5.470,38.338 4.987,38.507 4.667 C 38.677 4.346,39.040 3.752,39.314 3.347 C 39.869 2.527,39.825 2.293,38.889 1.042 L 38.483 0.500 30.353 0.500 C 25.881 0.500,22.172 0.550,22.111 0.611 M41.944 0.612 C 41.759 0.797,41.833 15.799,42.023 16.750 C 42.245 17.856,42.236 17.819,42.491 18.583 C 43.010 20.140,44.952 22.056,46.473 22.512 C 46.855 22.626,47.167 22.770,47.167 22.832 C 47.167 22.894,47.260 22.952,47.375 22.961 C 47.490 22.969,48.023 23.087,48.560 23.221 C 49.216 23.385,50.120 23.445,51.310 23.404 C 53.741 23.321,53.667 23.328,53.667 23.188 C 53.667 23.119,54.060 22.962,54.542 22.839 C 55.379 22.625,55.988 22.366,56.167 22.148 C 56.212 22.092,56.475 21.928,56.750 21.784 C 57.025 21.640,57.438 21.340,57.667 21.119 C 58.325 20.483,59.013 19.667,58.892 19.667 C 58.831 19.667,58.898 19.535,59.041 19.375 C 59.401 18.969,59.861 17.812,59.763 17.556 C 59.718 17.439,59.749 17.302,59.832 17.251 C 59.918 17.198,59.988 13.591,59.995 8.825 L 60.008 0.492 57.129 0.538 L 54.250 0.583 54.213 8.268 C 54.191 12.835,54.110 16.115,54.012 16.351 C 53.354 17.952,51.224 18.631,49.366 17.832 C 47.844 17.177,47.928 17.685,47.833 8.583 L 47.750 0.583 44.907 0.538 C 43.343 0.513,42.009 0.546,41.944 0.612 M63.411 0.705 C 63.367 0.821,63.350 5.904,63.373 12.000 L 63.417 23.083 66.292 23.129 L 69.167 23.175 69.167 19.606 L 69.167 16.038 69.681 15.962 C 70.104 15.900,70.222 15.957,70.345 16.281 C 70.428 16.498,70.609 16.719,70.747 16.772 C 70.886 16.825,71.000 16.973,71.000 17.101 C 71.000 17.229,71.056 17.335,71.125 17.338 C 71.194 17.340,71.434 17.640,71.659 18.004 C 71.883 18.369,72.127 18.667,72.200 18.667 C 72.273 18.667,72.333 18.773,72.333 18.903 C 72.333 19.033,72.390 19.164,72.458 19.194 C 72.614 19.264,73.500 20.441,73.500 20.579 C 73.500 20.687,73.657 20.882,74.348 21.637 C 74.585 21.895,74.920 22.345,75.092 22.637 L 75.405 23.167 78.953 23.167 C 80.904 23.167,82.500 23.108,82.500 23.036 C 82.500 22.871,81.866 22.047,81.375 21.573 C 81.169 21.375,81.000 21.164,81.000 21.106 C 81.000 21.048,80.869 20.863,80.708 20.695 C 80.110 20.070,79.667 19.492,79.667 19.338 C 79.667 19.250,79.510 19.095,79.319 18.992 C 79.128 18.890,79.006 18.772,79.048 18.730 C 79.118 18.660,78.642 18.034,77.987 17.338 C 77.843 17.184,77.676 16.932,77.617 16.779 C 77.559 16.626,77.433 16.500,77.339 16.500 C 77.244 16.500,77.167 16.396,77.167 16.268 C 77.167 16.140,77.054 15.992,76.917 15.940 C 76.539 15.795,76.616 15.405,77.083 15.099 C 77.313 14.949,77.500 14.871,77.500 14.927 C 77.500 15.021,78.673 14.154,79.117 13.730 C 79.691 13.184,80.800 10.517,80.593 10.182 C 80.539 10.095,80.559 9.983,80.637 9.935 C 80.715 9.887,80.780 9.022,80.780 8.014 C 80.780 7.005,80.721 6.216,80.650 6.260 C 80.579 6.304,80.530 6.208,80.542 6.045 C 80.636 4.780,78.404 1.770,77.245 1.600 C 77.129 1.583,76.932 1.488,76.808 1.390 C 76.685 1.292,76.396 1.173,76.167 1.126 C 75.938 1.079,75.317 0.922,74.788 0.778 C 73.502 0.428,63.542 0.364,63.411 0.705 M84.042 0.610 C 83.878 0.676,83.833 3.098,83.833 11.931 L 83.833 23.167 86.792 23.167 L 89.750 23.167 89.706 11.833 L 89.662 0.500 86.956 0.513 C 85.468 0.520,84.156 0.564,84.042 0.610 M91.966 3.248 L 92.016 6.000 95.008 6.000 L 98.000 6.000 98.000 14.583 L 98.000 23.167 100.917 23.167 L 103.833 23.167 103.833 14.583 L 103.833 6.000 106.837 6.000 L 109.842 6.000 109.796 3.292 L 109.750 0.583 100.833 0.540 L 91.917 0.497 91.966 3.248 M112.000 11.833 L 112.000 23.167 119.833 23.167 L 127.667 23.167 127.667 20.503 L 127.667 17.838 122.792 17.794 L 117.917 17.750 117.870 16.083 L 117.822 14.417 122.370 14.417 L 126.917 14.417 126.917 11.917 L 126.917 9.417 122.375 9.372 L 117.833 9.328 117.833 7.622 L 117.833 5.917 122.792 5.963 L 127.750 6.009 127.750 3.255 L 127.750 0.500 119.875 0.500 L 112.000 0.500 112.000 11.833 M136.500 11.829 L 136.500 23.175 142.012 23.162 C 145.399 23.154,147.696 23.083,147.970 22.976 C 148.216 22.881,148.604 22.767,148.833 22.724 C 149.063 22.681,149.569 22.504,149.958 22.332 C 150.348 22.160,150.667 22.065,150.667 22.122 C 150.667 22.178,150.854 22.049,151.083 21.833 C 151.313 21.618,151.500 21.500,151.500 21.572 C 151.500 21.643,151.725 21.450,152.001 21.143 C 152.769 20.284,152.856 20.167,152.725 20.167 C 152.658 20.167,152.725 20.073,152.874 19.958 C 153.530 19.455,154.302 15.793,153.817 15.486 C 153.647 15.379,153.641 15.338,153.794 15.336 C 153.957 15.334,153.950 15.203,153.761 14.750 C 153.627 14.429,153.553 14.167,153.596 14.167 C 153.721 14.167,153.234 13.293,152.853 12.833 C 152.445 12.340,152.457 12.352,151.500 11.506 C 151.087 11.141,150.844 10.840,150.960 10.838 C 151.256 10.831,152.167 9.990,152.167 9.722 C 152.167 9.600,152.244 9.500,152.337 9.500 C 152.876 9.500,153.204 6.419,152.779 5.357 C 152.635 4.998,152.564 4.658,152.620 4.602 C 152.676 4.546,152.643 4.500,152.547 4.500 C 152.451 4.500,152.328 4.331,152.274 4.125 C 152.220 3.919,152.165 3.712,152.152 3.667 C 152.071 3.381,151.100 2.333,150.917 2.333 C 150.794 2.333,150.669 2.267,150.639 2.187 C 150.529 1.898,149.279 1.167,148.893 1.167 C 148.677 1.167,148.500 1.104,148.500 1.028 C 148.500 0.894,148.388 0.862,147.667 0.794 C 147.483 0.776,147.333 0.712,147.333 0.650 C 147.333 0.589,144.896 0.526,141.917 0.510 L 136.500 0.483 136.500 11.829 M153.167 0.585 C 153.167 0.714,153.885 2.238,153.991 2.333 C 154.132 2.461,154.452 2.997,154.934 3.917 C 155.175 4.375,155.487 4.881,155.628 5.042 C 155.769 5.202,155.830 5.333,155.764 5.333 C 155.697 5.333,155.798 5.531,155.988 5.772 C 156.178 6.014,156.333 6.316,156.333 6.444 C 156.333 6.572,156.446 6.720,156.583 6.773 C 156.721 6.826,156.835 6.955,156.837 7.059 C 156.839 7.164,156.987 7.438,157.167 7.667 C 157.346 7.896,157.494 8.203,157.496 8.349 C 157.498 8.495,157.650 8.751,157.833 8.917 C 158.017 9.083,158.167 9.357,158.167 9.526 C 158.167 9.695,158.242 9.833,158.333 9.833 C 158.425 9.833,158.500 9.940,158.500 10.071 C 158.500 10.201,158.678 10.520,158.896 10.779 C 159.114 11.038,159.310 11.325,159.330 11.417 C 159.387 11.666,160.187 13.041,160.471 13.375 C 160.607 13.535,160.667 13.667,160.605 13.667 C 160.543 13.667,160.609 13.845,160.752 14.062 C 160.973 14.400,161.004 15.098,160.964 18.813 L 160.917 23.167 163.792 23.167 L 166.667 23.167 166.667 18.739 C 166.667 14.535,166.735 13.815,167.163 13.500 C 167.265 13.425,167.522 12.962,168.063 11.876 C 168.166 11.671,168.311 11.502,168.385 11.501 C 168.459 11.501,168.473 11.425,168.417 11.333 C 168.360 11.242,168.393 11.167,168.490 11.167 C 168.587 11.167,168.667 11.054,168.667 10.917 C 168.667 10.779,168.742 10.667,168.833 10.667 C 168.925 10.667,169.000 10.517,169.000 10.333 C 169.000 10.150,169.075 10.000,169.167 10.000 C 169.258 10.000,169.333 9.899,169.333 9.776 C 169.333 9.652,169.483 9.378,169.667 9.167 C 169.850 8.955,170.000 8.723,170.000 8.650 C 170.000 8.576,170.216 8.194,170.479 7.800 C 170.743 7.406,171.010 6.915,171.074 6.708 C 171.137 6.502,171.259 6.333,171.345 6.333 C 171.430 6.333,171.500 6.251,171.500 6.151 C 171.500 6.050,171.655 5.750,171.845 5.484 C 172.034 5.218,172.150 5.000,172.101 5.000 C 172.012 5.000,173.527 2.406,173.819 2.059 C 173.908 1.955,173.947 1.835,173.906 1.795 C 173.865 1.754,173.982 1.584,174.166 1.418 C 175.071 0.598,174.762 0.500,171.292 0.503 C 169.527 0.504,167.994 0.562,167.885 0.631 C 167.703 0.747,167.276 1.666,167.336 1.815 C 167.350 1.850,167.299 1.925,167.223 1.981 C 167.146 2.037,166.708 2.833,166.250 3.750 C 165.792 4.667,165.342 5.472,165.250 5.539 C 165.158 5.606,165.140 5.663,165.209 5.664 C 165.278 5.666,165.184 5.947,165.000 6.289 C 164.817 6.632,164.667 7.007,164.667 7.123 C 164.667 7.238,164.600 7.333,164.518 7.333 C 164.436 7.333,164.318 7.539,164.255 7.791 C 163.969 8.930,163.807 8.791,162.662 6.432 C 162.056 5.183,161.517 4.205,161.464 4.258 C 161.410 4.312,161.378 4.254,161.392 4.129 C 161.405 4.004,161.042 3.141,160.583 2.211 L 159.750 0.520 156.458 0.510 C 154.648 0.504,153.167 0.538,153.167 0.585 M317.161 2.090 C 317.044 2.231,316.937 2.513,316.924 2.715 C 316.912 2.918,316.779 3.421,316.631 3.833 C 316.203 5.019,315.833 6.289,315.833 6.573 C 315.833 6.785,315.607 6.833,314.603 6.833 C 313.332 6.833,313.273 6.868,313.106 7.694 C 313.093 7.756,313.027 7.862,312.958 7.931 C 312.890 7.999,312.833 8.306,312.833 8.611 C 312.833 8.917,312.774 9.167,312.702 9.167 C 312.630 9.167,312.556 9.298,312.538 9.458 C 312.490 9.884,312.406 10.197,312.215 10.667 C 311.719 11.880,311.687 11.833,313.008 11.833 C 314.169 11.833,314.202 11.845,314.105 12.208 C 314.050 12.415,314.004 12.646,314.002 12.722 C 314.001 12.797,313.444 12.835,312.765 12.805 C 312.086 12.775,311.563 12.801,311.601 12.863 C 311.640 12.926,311.595 13.024,311.501 13.082 C 311.407 13.141,311.364 13.371,311.404 13.594 C 311.445 13.817,311.418 14.000,311.344 14.000 C 311.270 14.000,311.120 14.356,311.009 14.792 C 310.899 15.227,310.744 15.705,310.665 15.854 C 310.587 16.004,310.472 16.397,310.410 16.729 L 310.296 17.333 311.398 17.333 C 312.212 17.333,312.500 17.392,312.500 17.558 C 312.500 17.804,312.225 18.721,311.993 19.250 C 311.912 19.433,311.811 19.808,311.768 20.083 C 311.673 20.690,311.193 22.490,311.075 22.680 C 311.028 22.756,312.184 22.840,313.644 22.867 L 316.297 22.917 316.482 22.405 C 316.583 22.123,316.667 21.742,316.667 21.558 C 316.667 21.373,316.720 21.169,316.786 21.103 C 316.851 21.038,316.916 20.819,316.930 20.617 C 316.944 20.415,317.106 19.800,317.291 19.250 C 317.475 18.700,317.675 18.039,317.735 17.782 C 317.834 17.359,317.905 17.319,318.464 17.365 C 318.914 17.403,319.067 17.485,319.024 17.667 C 318.992 17.804,318.955 18.078,318.941 18.276 C 318.928 18.473,318.860 18.600,318.792 18.558 C 318.723 18.515,318.667 18.697,318.667 18.962 C 318.667 19.228,318.610 19.501,318.542 19.569 C 318.473 19.638,318.408 19.744,318.398 19.806 C 318.301 20.395,318.096 21.024,317.978 21.097 C 317.899 21.146,317.833 21.412,317.833 21.687 C 317.833 21.963,317.758 22.330,317.665 22.503 C 317.504 22.803,317.608 22.819,320.073 22.867 L 322.649 22.917 322.895 22.290 C 323.061 21.867,323.078 21.698,322.946 21.772 C 322.816 21.845,322.820 21.806,322.958 21.658 C 323.073 21.534,323.167 21.341,323.167 21.228 C 323.167 21.114,323.253 20.811,323.359 20.553 C 323.465 20.294,323.572 19.971,323.598 19.833 C 323.624 19.696,323.773 19.171,323.930 18.667 C 324.086 18.162,324.241 17.651,324.273 17.530 C 324.315 17.373,324.613 17.321,325.304 17.349 C 326.338 17.392,326.739 17.262,326.610 16.926 C 326.566 16.812,326.670 16.405,326.842 16.023 C 327.013 15.640,327.150 15.290,327.146 15.245 C 327.117 14.925,327.388 13.833,327.496 13.833 C 327.570 13.833,327.659 13.590,327.694 13.292 L 327.758 12.750 326.712 12.806 C 325.571 12.867,325.580 12.873,325.860 12.258 C 326.038 11.868,326.140 11.833,327.110 11.833 C 328.190 11.833,328.250 11.789,328.152 11.060 C 328.145 11.002,328.203 10.908,328.282 10.852 C 328.430 10.747,328.970 9.123,329.106 8.372 C 329.148 8.139,329.254 7.815,329.341 7.652 C 329.703 6.977,329.555 6.833,328.497 6.833 C 327.396 6.833,327.358 6.758,327.810 5.502 C 327.893 5.272,328.091 4.633,328.251 4.083 C 328.410 3.533,328.639 2.847,328.759 2.559 C 329.064 1.829,329.081 1.833,326.160 1.833 L 323.542 1.833 323.442 2.334 C 323.386 2.610,323.348 2.853,323.357 2.876 C 323.366 2.898,323.258 3.192,323.117 3.528 C 322.977 3.864,322.905 4.183,322.959 4.236 C 323.012 4.290,322.956 4.333,322.833 4.333 C 322.711 4.333,322.655 4.377,322.708 4.431 C 322.762 4.484,322.672 4.915,322.510 5.389 C 322.193 6.308,322.167 6.407,322.167 6.667 C 322.167 6.758,321.862 6.833,321.490 6.833 C 321.074 6.833,320.854 6.768,320.918 6.664 C 320.976 6.571,321.059 6.289,321.103 6.039 C 321.146 5.788,321.370 5.021,321.600 4.333 C 321.830 3.646,322.058 2.802,322.107 2.458 L 322.196 1.833 319.785 1.833 C 317.817 1.833,317.335 1.880,317.161 2.090 M341.314 5.098 C 342.225 5.637,342.559 7.123,341.966 8.000 C 340.895 9.582,338.571 9.399,337.728 7.666 C 336.754 5.664,339.248 3.878,341.314 5.098 M147.068 6.033 C 147.397 6.373,147.675 6.766,147.685 6.908 C 147.737 7.630,147.710 7.789,147.456 8.269 C 147.013 9.106,146.184 9.405,144.125 9.472 L 142.333 9.529 142.333 7.418 L 142.333 5.306 144.401 5.361 L 146.470 5.417 147.068 6.033 M73.221 6.081 C 75.226 6.689,75.793 9.149,74.215 10.390 C 73.634 10.848,73.591 10.856,71.208 10.952 L 69.167 11.034 69.167 8.434 L 69.167 5.833 70.792 5.835 C 71.736 5.836,72.754 5.939,73.221 6.081 M10.992 8.261 C 10.999 8.583,11.393 10.101,11.616 10.667 C 11.670 10.804,11.725 11.029,11.737 11.167 C 11.806 11.936,12.059 13.017,12.189 13.097 C 12.603 13.353,11.983 13.500,10.484 13.500 C 8.846 13.500,8.824 13.495,9.009 13.150 C 9.112 12.957,9.159 12.657,9.114 12.483 C 9.068 12.309,9.099 12.208,9.182 12.260 C 9.265 12.311,9.339 12.255,9.346 12.135 C 9.353 12.015,9.390 11.748,9.429 11.542 C 9.468 11.335,9.523 11.019,9.551 10.838 C 9.579 10.657,9.654 10.457,9.718 10.393 C 9.781 10.330,9.833 10.108,9.833 9.900 C 9.833 9.692,9.920 9.311,10.026 9.053 C 10.132 8.794,10.245 8.396,10.278 8.167 C 10.311 7.938,10.383 7.563,10.440 7.333 L 10.542 6.917 10.764 7.417 C 10.885 7.692,10.988 8.072,10.992 8.261 M375.261 11.083 L 375.250 13.250 373.361 13.297 L 371.472 13.345 371.861 12.651 C 372.075 12.270,372.344 11.922,372.458 11.878 C 372.573 11.834,372.667 11.693,372.667 11.566 C 372.667 11.438,372.723 11.333,372.792 11.333 C 372.860 11.333,373.117 10.977,373.363 10.541 C 373.608 10.106,373.950 9.600,374.121 9.417 C 374.293 9.233,374.580 8.835,374.758 8.532 L 375.083 7.981 375.177 8.449 C 375.229 8.706,375.266 9.892,375.261 11.083 M321.062 11.958 C 320.782 13.115,320.730 13.167,319.847 13.167 C 319.067 13.167,318.644 12.970,318.978 12.763 C 319.061 12.712,319.178 12.407,319.239 12.085 C 319.348 11.501,319.350 11.500,320.261 11.500 C 321.172 11.500,321.173 11.501,321.062 11.958 M341.560 13.250 C 341.697 13.387,341.880 13.500,341.966 13.500 C 342.285 13.500,342.835 15.179,342.731 15.832 C 342.476 17.427,340.922 18.086,338.593 17.587 C 336.940 17.233,336.436 14.629,337.835 13.667 C 338.035 13.529,338.323 13.325,338.474 13.214 C 338.888 12.909,341.246 12.936,341.560 13.250 M146.125 13.539 C 146.240 13.631,146.333 13.659,146.333 13.600 C 146.333 13.541,146.521 13.615,146.750 13.765 C 146.979 13.915,147.167 13.973,147.167 13.894 C 147.168 13.815,147.392 14.088,147.667 14.500 C 148.229 15.346,148.291 15.943,147.895 16.708 C 147.270 17.918,146.889 18.050,144.125 18.020 L 142.333 18.000 142.333 15.659 L 142.333 13.317 144.125 13.344 C 145.110 13.358,146.010 13.446,146.125 13.539 ' stroke='none' fill='%23bcbcbc' fill-rule='evenodd'%3E%3C/path%3E%3Cpath id='path1' d='M201.079 11.500 C 201.079 17.779,201.100 20.348,201.125 17.208 C 201.150 14.069,201.150 8.931,201.125 5.792 C 201.100 2.652,201.079 5.221,201.079 11.500 M217.667 0.325 C 217.667 0.607,218.049 1.333,218.197 1.333 C 218.276 1.333,218.220 1.149,218.073 0.924 C 217.925 0.699,217.853 0.436,217.912 0.341 C 217.971 0.245,217.940 0.167,217.843 0.167 C 217.746 0.167,217.667 0.238,217.667 0.325 M245.579 11.583 C 245.579 17.817,245.600 20.342,245.625 17.196 C 245.650 14.050,245.650 8.950,245.625 5.863 C 245.600 2.776,245.579 5.350,245.579 11.583 M285.412 11.583 C 285.412 17.817,285.433 20.342,285.458 17.196 C 285.484 14.050,285.484 8.950,285.458 5.863 C 285.433 2.776,285.412 5.350,285.412 11.583 M294.579 11.583 C 294.579 17.817,294.600 20.342,294.625 17.196 C 294.650 14.050,294.650 8.950,294.625 5.863 C 294.600 2.776,294.579 5.350,294.579 11.583 M54.111 0.611 C 54.050 0.672,54.000 4.210,54.000 8.472 C 54.000 12.735,54.039 16.183,54.087 16.136 C 54.153 16.070,54.301 0.500,54.236 0.500 C 54.228 0.500,54.172 0.550,54.111 0.611 M89.745 11.750 C 89.745 17.983,89.766 20.509,89.792 17.363 C 89.817 14.217,89.817 9.117,89.792 6.029 C 89.766 2.942,89.745 5.517,89.745 11.750 M136.412 11.833 C 136.412 18.112,136.433 20.681,136.458 17.542 C 136.484 14.402,136.484 9.265,136.458 6.125 C 136.433 2.985,136.412 5.554,136.412 11.833 M153.012 0.583 C 153.012 0.675,153.119 0.938,153.250 1.167 C 153.381 1.396,153.488 1.508,153.488 1.417 C 153.488 1.325,153.381 1.063,153.250 0.833 C 153.119 0.604,153.012 0.492,153.012 0.583 M385.075 6.083 C 385.075 9.200,385.097 10.451,385.125 8.864 C 385.152 7.277,385.152 4.727,385.125 3.198 C 385.097 1.668,385.075 2.967,385.075 6.083 M91.901 3.333 C 91.901 4.846,91.926 5.465,91.957 4.708 C 91.988 3.952,91.988 2.715,91.957 1.958 C 91.926 1.202,91.901 1.821,91.901 3.333 M111.912 11.917 C 111.912 18.150,111.933 20.676,111.958 17.529 C 111.984 14.383,111.984 9.283,111.958 6.196 C 111.933 3.109,111.912 5.683,111.912 11.917 M127.734 3.250 C 127.734 4.717,127.760 5.294,127.791 4.534 C 127.822 3.773,127.822 2.573,127.790 1.867 C 127.759 1.161,127.734 1.783,127.734 3.250 M193.407 0.907 C 193.585 1.050,193.847 1.161,193.990 1.154 C 194.215 1.142,194.216 1.128,194.000 1.048 C 193.862 0.997,193.600 0.886,193.417 0.802 C 193.089 0.651,193.089 0.652,193.407 0.907 M374.494 1.548 C 374.041 2.228,373.983 2.333,374.064 2.333 C 374.189 2.333,374.878 1.322,374.804 1.248 C 374.767 1.212,374.628 1.347,374.494 1.548 M397.000 1.702 C 397.000 1.843,397.125 2.062,397.277 2.188 C 397.531 2.397,397.536 2.381,397.338 2.000 C 397.048 1.441,397.000 1.399,397.000 1.702 M317.091 1.958 C 317.002 2.192,317.022 2.209,317.190 2.042 C 317.557 1.677,322.121 1.753,322.218 2.125 C 322.276 2.344,322.299 2.324,322.314 2.042 C 322.341 1.522,317.288 1.441,317.091 1.958 M324.333 1.779 C 326.552 1.900,329.001 1.906,329.000 1.792 C 329.000 1.723,327.744 1.681,326.208 1.698 C 324.673 1.716,323.829 1.752,324.333 1.779 M333.499 2.542 C 333.254 2.877,333.214 2.993,333.394 2.847 C 333.667 2.625,334.080 2.000,333.954 2.000 C 333.922 2.000,333.718 2.244,333.499 2.542 M78.784 2.745 C 78.949 2.971,79.153 3.159,79.237 3.161 C 79.322 3.164,79.215 2.979,79.000 2.750 C 78.500 2.218,78.399 2.216,78.784 2.745 M278.083 2.589 C 277.667 2.790,277.653 2.813,278.000 2.728 C 278.472 2.613,279.003 2.342,278.750 2.346 C 278.658 2.347,278.358 2.457,278.083 2.589 M300.132 3.792 C 300.214 5.058,300.293 5.167,300.314 4.042 C 300.325 3.469,300.277 3.000,300.207 3.000 C 300.138 3.000,300.104 3.356,300.132 3.792 M172.456 4.258 C 172.210 4.666,172.043 5.000,172.085 5.000 C 172.199 5.000,173.035 3.646,172.964 3.575 C 172.932 3.543,172.703 3.850,172.456 4.258 M237.956 3.614 C 237.914 3.689,237.835 3.975,237.780 4.250 C 237.681 4.747,237.682 4.747,237.932 4.189 C 238.150 3.702,238.170 3.237,237.956 3.614 M152.224 4.082 C 152.330 4.310,152.476 4.498,152.548 4.499 C 152.701 4.500,152.401 3.895,152.181 3.759 C 152.099 3.708,152.118 3.853,152.224 4.082 M219.333 4.563 C 219.333 4.701,219.842 5.833,219.904 5.833 C 219.997 5.833,219.917 5.496,219.696 4.958 C 219.537 4.569,219.333 4.348,219.333 4.563 M321.352 5.019 C 321.249 5.313,321.194 5.583,321.230 5.619 C 321.266 5.655,321.379 5.443,321.481 5.148 C 321.584 4.854,321.639 4.583,321.603 4.548 C 321.568 4.512,321.455 4.724,321.352 5.019 M339.542 4.782 C 339.702 4.823,339.965 4.823,340.125 4.782 C 340.285 4.740,340.154 4.705,339.833 4.705 C 339.512 4.705,339.381 4.740,339.542 4.782 M6.162 5.175 C 6.061 5.364,6.002 5.631,6.031 5.769 C 6.060 5.908,6.166 5.754,6.267 5.427 C 6.473 4.760,6.434 4.667,6.162 5.175 M261.258 5.375 C 261.362 5.648,261.058 5.669,256.476 5.706 L 251.583 5.745 256.406 5.792 C 261.213 5.838,261.843 5.775,261.357 5.292 C 261.189 5.125,261.169 5.141,261.258 5.375 M300.217 6.000 C 300.217 6.504,300.248 6.710,300.286 6.458 C 300.324 6.206,300.324 5.794,300.286 5.542 C 300.248 5.290,300.217 5.496,300.217 6.000 M144.250 5.490 C 145.350 5.541,146.344 5.644,146.458 5.718 C 146.573 5.792,146.667 5.782,146.667 5.696 C 146.667 5.425,145.977 5.337,144.083 5.367 L 142.250 5.396 144.250 5.490 M281.750 5.500 C 281.693 5.592,281.692 5.667,281.746 5.667 C 281.800 5.667,281.758 5.835,281.652 6.042 C 281.509 6.319,281.509 6.370,281.650 6.238 C 281.755 6.139,281.873 5.896,281.911 5.696 C 281.986 5.309,281.918 5.227,281.750 5.500 M209.302 5.791 C 210.706 5.819,212.956 5.819,214.302 5.791 C 215.648 5.763,214.500 5.740,211.750 5.741 C 209.000 5.741,207.898 5.763,209.302 5.791 M24.302 5.958 C 25.614 5.986,27.714 5.986,28.968 5.958 C 30.223 5.930,29.150 5.907,26.583 5.907 C 24.017 5.907,22.990 5.930,24.302 5.958 M69.204 8.458 L 69.241 11.083 69.291 8.547 L 69.342 6.012 71.046 5.958 L 72.750 5.904 70.958 5.868 L 69.167 5.833 69.204 8.458 M117.868 7.537 L 117.833 9.323 122.417 9.370 C 124.938 9.396,127.000 9.360,127.000 9.292 C 127.000 9.223,124.978 9.167,122.506 9.167 L 118.012 9.167 117.958 7.458 L 117.904 5.750 117.868 7.537 M97.911 14.583 C 97.911 19.350,97.932 21.276,97.958 18.863 C 97.984 16.451,97.984 12.551,97.958 10.197 C 97.932 7.843,97.911 9.817,97.911 14.583 M152.973 7.098 C 152.939 7.518,152.969 7.898,153.039 7.941 C 153.109 7.984,153.167 7.640,153.167 7.177 C 153.167 6.125,153.054 6.079,152.973 7.098 M392.460 7.285 C 392.668 7.324,392.968 7.323,393.127 7.281 C 393.286 7.239,393.117 7.207,392.750 7.209 C 392.383 7.211,392.253 7.245,392.460 7.285 M198.130 11.750 C 198.104 14.179,198.140 16.167,198.208 16.167 C 198.277 16.167,198.333 14.179,198.333 11.750 C 198.333 9.321,198.298 7.333,198.255 7.333 C 198.212 7.333,198.156 9.321,198.130 11.750 M236.398 7.625 C 236.347 7.785,236.232 8.104,236.140 8.333 C 236.020 8.635,236.025 8.701,236.157 8.572 C 236.350 8.384,236.697 7.333,236.566 7.333 C 236.524 7.333,236.448 7.465,236.398 7.625 M341.000 8.689 C 340.567 8.927,340.524 8.982,340.833 8.903 C 341.063 8.845,341.360 8.693,341.494 8.565 C 341.802 8.273,341.725 8.292,341.000 8.689 M346.767 9.350 C 346.572 9.741,346.564 9.821,346.736 9.678 C 346.941 9.508,347.216 8.833,347.080 8.833 C 347.049 8.833,346.908 9.066,346.767 9.350 M375.212 9.500 C 375.212 9.912,375.245 10.081,375.284 9.875 C 375.324 9.669,375.324 9.331,375.284 9.125 C 375.245 8.919,375.212 9.087,375.212 9.500 M208.625 9.124 C 209.565 9.154,211.102 9.154,212.042 9.124 C 212.981 9.095,212.213 9.070,210.333 9.070 C 208.454 9.070,207.685 9.095,208.625 9.124 M252.750 9.115 C 255.612 9.234,258.462 9.239,258.391 9.125 C 258.349 9.056,256.799 9.015,254.948 9.033 C 253.098 9.051,252.108 9.088,252.750 9.115 M142.333 9.333 C 142.333 9.538,145.440 9.538,145.917 9.333 C 146.129 9.242,145.541 9.186,144.292 9.178 C 143.089 9.171,142.333 9.231,142.333 9.333 M366.740 12.112 C 366.483 12.448,366.358 12.671,366.462 12.607 C 366.675 12.475,367.397 11.500,367.281 11.500 C 367.240 11.500,366.996 11.775,366.740 12.112 M375.214 12.417 C 375.216 12.875,375.248 13.043,375.286 12.789 C 375.325 12.536,375.324 12.161,375.284 11.956 C 375.244 11.751,375.213 11.958,375.214 12.417 M393.415 12.518 C 393.597 12.737,393.766 12.948,393.790 12.986 C 393.814 13.024,393.833 12.949,393.833 12.818 C 393.833 12.687,393.665 12.477,393.458 12.350 L 393.083 12.119 393.415 12.518 M181.167 12.733 C 181.623 13.012,182.000 13.074,182.000 12.869 C 182.000 12.797,181.869 12.733,181.708 12.726 C 181.548 12.720,181.267 12.661,181.083 12.596 C 180.867 12.519,180.897 12.567,181.167 12.733 M325.667 12.708 C 325.667 12.777,326.110 12.833,326.653 12.833 C 327.195 12.833,327.677 12.910,327.724 13.004 C 327.770 13.098,327.789 13.079,327.766 12.963 C 327.721 12.734,325.667 12.485,325.667 12.708 M311.609 12.792 C 311.566 12.860,311.918 12.895,312.391 12.869 C 313.923 12.784,314.110 12.717,312.885 12.692 C 312.226 12.678,311.651 12.723,311.609 12.792 M341.167 13.224 C 341.396 13.345,341.619 13.415,341.662 13.380 C 341.779 13.283,341.287 13.005,341.000 13.005 C 340.862 13.005,340.937 13.103,341.167 13.224 M143.131 13.456 C 143.615 13.490,144.365 13.490,144.797 13.456 C 145.230 13.421,144.833 13.394,143.917 13.394 C 143.000 13.395,142.646 13.423,143.131 13.456 M327.284 14.292 C 327.162 14.926,327.259 14.952,327.472 14.342 C 327.570 14.062,327.587 13.833,327.511 13.833 C 327.435 13.833,327.333 14.040,327.284 14.292 M166.740 18.667 C 166.740 21.188,166.763 22.219,166.791 20.958 C 166.820 19.698,166.820 17.635,166.791 16.375 C 166.763 15.115,166.740 16.146,166.740 18.667 M117.907 16.000 L 117.917 17.750 122.788 17.794 L 127.658 17.838 127.709 20.544 L 127.759 23.250 127.796 20.375 L 127.833 17.500 122.923 17.500 L 118.012 17.500 117.954 15.875 L 117.897 14.250 117.907 16.000 M160.906 18.667 C 160.906 21.096,160.929 22.090,160.958 20.875 C 160.986 19.660,160.986 17.673,160.958 16.458 C 160.929 15.244,160.906 16.237,160.906 18.667 M31.792 15.089 C 31.375 15.646,31.429 15.801,31.852 15.264 C 32.046 15.017,32.177 14.790,32.144 14.758 C 32.111 14.726,31.952 14.875,31.792 15.089 M300.375 15.750 C 300.377 16.117,300.411 16.247,300.451 16.040 C 300.491 15.832,300.490 15.532,300.448 15.373 C 300.406 15.214,300.374 15.383,300.375 15.750 M387.926 15.922 C 387.749 16.057,387.688 16.167,387.792 16.167 C 387.895 16.167,388.030 16.087,388.090 15.989 C 388.151 15.891,388.309 15.852,388.442 15.903 C 388.577 15.955,388.639 15.923,388.582 15.831 C 388.446 15.612,388.312 15.630,387.926 15.922 M69.238 19.583 C 69.238 21.600,69.262 22.402,69.291 21.366 C 69.320 20.329,69.320 18.679,69.291 17.699 C 69.262 16.719,69.238 17.567,69.238 19.583 M268.678 16.750 C 268.678 16.842,268.786 17.104,268.917 17.333 C 269.048 17.563,269.155 17.675,269.155 17.583 C 269.155 17.492,269.048 17.229,268.917 17.000 C 268.786 16.771,268.678 16.658,268.678 16.750 M300.401 17.204 C 300.433 17.364,301.233 17.437,303.623 17.500 C 305.372 17.546,306.767 17.527,306.725 17.458 C 306.682 17.390,305.270 17.333,303.587 17.333 C 301.664 17.333,300.496 17.270,300.443 17.162 C 300.396 17.069,300.378 17.087,300.401 17.204 M208.625 17.458 C 209.565 17.487,211.102 17.487,212.042 17.458 C 212.981 17.428,212.213 17.404,210.333 17.404 C 208.454 17.404,207.685 17.428,208.625 17.458 M254.904 17.458 C 257.209 17.492,258.305 17.570,258.487 17.712 C 258.719 17.893,258.723 17.882,258.521 17.625 C 258.315 17.362,257.962 17.337,254.938 17.371 L 251.583 17.409 254.904 17.458 M310.708 17.455 C 311.052 17.491,311.615 17.491,311.958 17.455 C 312.302 17.419,312.021 17.389,311.333 17.389 C 310.646 17.389,310.365 17.419,310.708 17.455 M317.833 17.399 C 317.833 17.435,318.127 17.493,318.486 17.527 C 318.845 17.561,319.103 17.532,319.059 17.461 C 318.980 17.333,317.833 17.275,317.833 17.399 M324.276 17.458 C 324.233 17.527,324.548 17.561,324.974 17.534 C 326.191 17.455,326.339 17.374,325.302 17.353 C 324.780 17.342,324.318 17.390,324.276 17.458 M36.455 17.787 C 36.750 17.824,37.275 17.824,37.621 17.788 C 37.967 17.752,37.725 17.722,37.083 17.721 C 36.442 17.721,36.159 17.750,36.455 17.787 M38.788 17.786 C 39.150 17.853,39.160 17.916,39.211 20.511 L 39.263 23.167 39.256 20.459 L 39.250 17.750 38.833 17.734 C 38.479 17.720,38.472 17.728,38.788 17.786 M339.711 17.786 C 339.964 17.825,340.339 17.824,340.544 17.784 C 340.749 17.744,340.542 17.713,340.083 17.714 C 339.625 17.716,339.457 17.748,339.711 17.786 M71.765 18.417 C 71.915 18.646,72.104 18.833,72.185 18.833 C 72.265 18.833,72.168 18.646,71.969 18.417 C 71.770 18.188,71.581 18.000,71.549 18.000 C 71.518 18.000,71.615 18.188,71.765 18.417 M317.352 19.019 C 317.249 19.313,317.194 19.583,317.230 19.619 C 317.266 19.655,317.379 19.443,317.481 19.148 C 317.584 18.854,317.639 18.583,317.603 18.548 C 317.568 18.512,317.455 18.724,317.352 19.019 M225.091 19.375 C 225.153 19.581,225.273 19.823,225.357 19.913 C 225.440 20.002,225.425 19.834,225.322 19.538 C 225.110 18.932,224.916 18.795,225.091 19.375 M13.836 19.597 C 13.837 19.773,13.915 20.029,14.008 20.167 C 14.131 20.349,14.147 20.282,14.065 19.917 C 13.928 19.304,13.832 19.171,13.836 19.597 M215.078 19.823 C 215.217 20.092,215.407 20.359,215.499 20.416 C 215.592 20.473,215.510 20.253,215.317 19.927 C 214.895 19.211,214.723 19.137,215.078 19.823 M72.667 19.509 C 72.667 19.560,72.854 19.856,73.083 20.167 C 73.313 20.477,73.497 20.661,73.494 20.574 C 73.488 20.407,72.669 19.352,72.667 19.509 M80.358 20.331 C 80.561 20.605,80.758 20.798,80.796 20.759 C 80.889 20.666,80.286 19.845,80.120 19.839 C 80.049 19.836,80.156 20.057,80.358 20.331 M308.245 20.323 C 308.384 20.592,308.573 20.859,308.666 20.916 C 308.758 20.973,308.676 20.753,308.484 20.427 C 308.062 19.711,307.890 19.637,308.245 20.323 M385.464 20.585 C 385.559 20.770,385.811 21.069,386.026 21.251 C 386.403 21.569,386.402 21.563,386.002 21.082 C 385.339 20.283,385.283 20.231,385.464 20.585 M20.467 21.033 C 20.577 21.143,20.667 21.364,20.667 21.523 C 20.667 21.683,20.737 21.857,20.823 21.910 C 20.919 21.970,20.919 21.800,20.823 21.463 C 20.737 21.164,20.667 20.900,20.667 20.876 C 20.667 20.853,20.577 20.833,20.467 20.833 C 20.311 20.833,20.311 20.878,20.467 21.033 M74.351 21.865 C 74.458 22.067,74.733 22.423,74.961 22.657 C 75.299 23.004,75.278 22.937,74.846 22.292 C 74.300 21.474,74.006 21.221,74.351 21.865 M386.833 21.841 C 387.411 22.234,387.741 22.348,387.333 22.015 C 387.104 21.827,386.842 21.674,386.750 21.673 C 386.658 21.672,386.696 21.748,386.833 21.841 M149.667 22.430 C 149.162 22.646,148.825 22.826,148.917 22.829 C 149.227 22.840,150.667 22.268,150.667 22.134 C 150.667 22.060,150.648 22.008,150.625 22.019 C 150.602 22.029,150.171 22.214,149.667 22.430 M183.042 22.791 C 184.302 22.820,186.365 22.820,187.625 22.791 C 188.885 22.763,187.854 22.740,185.333 22.740 C 182.813 22.740,181.781 22.763,183.042 22.791 M54.042 22.951 C 53.835 22.991,53.667 23.089,53.667 23.170 C 53.667 23.250,53.892 23.238,54.167 23.142 C 54.615 22.985,54.861 22.798,54.542 22.856 C 54.473 22.869,54.248 22.911,54.042 22.951 M312.125 22.957 C 312.881 22.988,314.119 22.988,314.875 22.957 C 315.631 22.926,315.012 22.901,313.500 22.901 C 311.987 22.901,311.369 22.926,312.125 22.957 M318.708 22.957 C 319.419 22.988,320.581 22.988,321.292 22.957 C 322.002 22.926,321.421 22.900,320.000 22.900 C 318.579 22.900,317.998 22.926,318.708 22.957 M338.750 23.172 C 338.522 23.273,338.825 23.315,339.703 23.303 C 340.411 23.293,340.950 23.221,340.902 23.142 C 340.787 22.958,339.182 22.979,338.750 23.172 M391.000 23.167 C 391.000 23.259,391.392 23.326,391.875 23.317 C 392.563 23.304,392.661 23.272,392.333 23.167 C 391.729 22.973,391.000 22.973,391.000 23.167 ' stroke='none' fill='%23b4bcbc' fill-rule='evenodd'%3E%3C/path%3E%3Cpath id='path2' d='M251.561 7.417 C 251.561 8.333,251.589 8.687,251.623 8.203 C 251.657 7.718,251.656 6.968,251.622 6.536 C 251.588 6.104,251.560 6.500,251.561 7.417 M251.561 15.750 C 251.561 16.667,251.589 17.020,251.623 16.536 C 251.657 16.052,251.656 15.302,251.622 14.869 C 251.588 14.437,251.560 14.833,251.561 15.750 M374.733 20.417 C 374.734 21.792,374.759 22.332,374.791 21.617 C 374.822 20.903,374.822 19.778,374.790 19.117 C 374.759 18.457,374.733 19.042,374.733 20.417 ' stroke='none' fill='%23c0bcbc' fill-rule='evenodd'%3E%3C/path%3E%3Cpath id='path3' d='M251.561 7.417 C 251.561 8.333,251.589 8.687,251.623 8.203 C 251.657 7.718,251.656 6.968,251.622 6.536 C 251.588 6.104,251.560 6.500,251.561 7.417 M251.561 15.750 C 251.561 16.667,251.589 17.020,251.623 16.536 C 251.657 16.052,251.656 15.302,251.622 14.869 C 251.588 14.437,251.560 14.833,251.561 15.750 M374.733 20.417 C 374.734 21.792,374.759 22.332,374.791 21.617 C 374.822 20.903,374.822 19.778,374.790 19.117 C 374.759 18.457,374.733 19.042,374.733 20.417 ' stroke='none' fill='%23c0bcbc' fill-rule='evenodd'%3E%3C/path%3E%3Cpath id='path4' d='M251.561 7.417 C 251.561 8.333,251.589 8.687,251.623 8.203 C 251.657 7.718,251.656 6.968,251.622 6.536 C 251.588 6.104,251.560 6.500,251.561 7.417 M251.561 15.750 C 251.561 16.667,251.589 17.020,251.623 16.536 C 251.657 16.052,251.656 15.302,251.622 14.869 C 251.588 14.437,251.560 14.833,251.561 15.750 M374.733 20.417 C 374.734 21.792,374.759 22.332,374.791 21.617 C 374.822 20.903,374.822 19.778,374.790 19.117 C 374.759 18.457,374.733 19.042,374.733 20.417 ' stroke='none' fill='%23c0bcbc' fill-rule='evenodd'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
 
-.emptyTierImage_f8c5e7,
-.unlockTierCtaHeading_f8c5e7 {
-  color: var(--darkplus-sec);
+.brand-3g5E0C.item-3XjbnG, .themed-2-lozF.item-3XjbnG, .brand-3g5E0C.item-3XjbnG, .themed-2-lozF.item-3XjbnG, .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, .top-K_jibn .themed-2-lozF.item-3XjbnG:active {
+	color: var(--azurite-sec);
+	border-bottom-color: #24CC89;
 }
 
-.css-19bqh2r {
-  color: var(--darkplus-sec);
-}
-.theme-dark .option-2KkUJO:after {
-  background: transparent;
+button[aria-label="Send a gift"] {
+  display: none;
 }
 
-.textContent_cd82a7 {
-  color: var(--darkplus-bg);
-}
-
-.categoryItemDefaultCategorySelected_dfa278 .categoryIcon_dfa278,
-.categoryItemDefaultCategorySelected_dfa278:hover .categoryIcon_dfa278,
-.categoryItemDefaultCategory_dfa278:hover .categoryIcon_dfa278 {
-  color: var(--darkplus-sec);
-}
-
-.theme-dark .lookOutlined-3yKVGo.colorPrimary-2AuQVo {
-  border-color: var(--darkplus-sec);
-  color: var(--darkplus-sec);
-  border-radius: 25px;
-}
-
-.css-4h5swf-singleValue {
-  color: var(--darkplus-sec);
-}
-
-.theme-dark .message_ddcc45 {
-  background-color: var(--darkplus-bg2);
-}
-
-.keybindShortcut-3zF1P9 span {
-  background-color: var(--darkplus-sec);
-  border: var(--darkplus-sec);
-}
-
-.bottomInformationTextContainer_ccd3df,
-.stickerResults_ccd3df {
-  background-color: var(--darkplus-bg2);
-}
-
-.discriminator-1bqsd3 {
-  color: var(--darkplus-sec);
-}
-
-.theme-dark .searchOption-351dTI .filter-5YbOzJ,
-.theme-dark .searchOption-351dTI .answer-2fBfuP,
-.resultsGroup-1BPR25 .header-3A13BX {
-  color: var(--darkplus-sec);
-}
-
-.text-PdAsFQ {
-  color: var(--darkplus-bg);
-}
-
-.overflowMenuIcon_b69b77 {
-  color: var(--darkplus-sec);
-}
-
-.username_be84f0,
-.discriminator_b69b77,
-.headerTagDiscriminatorNoNickname-dfcvHa {
-  color: var(--darkplus-sec);
-}
-
-.peopleList_e0840f,
-.container_e44302.themed_e44302,
-.peopleColumn_c2739c,
-.scroller_c47fa9,
-.searchBar_f0963d,
-.activityPanel_a4d4d9,
-.container_b2ca13,
-.scroller_e2e187 {
-  background-color: var(--darkplus-bg);
-}
-
-.theme-dark .children_e44302:after {
-  background: var(--darkplus-bg);
-}
-
-.icon_e44302,
+.channelName-3KPsGw,
+.icon_d8bfb3,
+.modeSelected_d8bfb3 .icon_d8bfb3,
+.modeSelected_d8bfb3:hover .icon_d8bfb3,
+.modeUnreadImportant_d8bfb3 .icon_d8bfb3,
+.modeUnreadImportant_d8bfb3:hover .icon_d8bfb3,
+.actionIcon_f6f816,
+.actionIcon_f6f816:hover,
+.addButtonIcon_a08117,
+.addButtonIcon_a08117:hover,
+.icon_a08117,
+.wrapper_a08117.muted_a08117:hover .icon_a08117,
+.wrapper_a08117.muted_a08117:hover .name_a08117,
+.wrapper_a08117:hover .icon_a08117,
+.wrapper_a08117:hover .name_a08117,
 .title_e44302,
-.tabBar_c2739c .item_c2739c,
-.brand-3g5E0C.item-3XjbnG:hover,
-.themed-2-lozF.item-3XjbnG:hover,
-.clickable_e44302 .icon_e44302,
-.clickable_e44302:hover .icon_e44302:hover,
-.title_a1cafe,
-.linkButtonIcon_c91bad,
-.name_e9f61e,
-.username_f3939d,
-.text_f7ebfd,
-.discriminator_f3939d,
-.button_f67531,
+.icon_e44302, .button_f67531,
 .button_f67531.enabled_f67531:hover,
-.title_d1da5f,
-.hovered_c0d6c6,
-.customStatus_b2ca13 {
-  color: var(--darkplus-sec);
+.clickable_e44302 .icon_e44302,
+.clickable_e44302:hover .icon_e44302
+{
+	color: var(--azurite-sec);
 }
 
-.input__48d49,
-.medium__5b9a9.iconLayout__67261 {
-  background-color: var(--darkplus-sec);
-  border-radius: 10px;
+.overflow_c74e70, .friendsOnline-2JkivW, .label-2wRs_g, .overflow_c74e70:hover, .friendsOnline-2JkivW:hover, .label-2wRs_g:hover {
+  color: var(--azurite-links);
 }
 
-.input__48d49::placeholder {
-  color: var(--darkplus-bg);
+.circleIconButton_db6521 {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
 }
 
-.icon_fb52f0.visible_c5d475 {
-  color: var(--darkplus-bg);
-}
-
-.actionButton_e01b91 {
-  color: var(--darkplus-sec);
-  background-color: var(--darkplus-bg);
-}
-
-.actionButton_e01b91:hover {
-  color: var(--darkplus-bg);
-  background-color: var(--darkplus-sec);
-}
-
-.selected_e9f61e .layout_e9f61e {
-  background-color: var(--darkplus-bg2);
-}
-
-.searchBar_f0963d .searchBarComponent_f0963d {
-  background-color: var(--darkplus-sec);
-  color: var(--darkplus-bg);
-  border-radius: 10px;
-}
-
-.members_cbd271,
-.members_cbd271 > div {
-  background-color: var(--darkplus-bg);
-}
-
-.button_cecf00 {
-  color: var(--darkplus-sec);
-}
-
-.container_cbd271 {
-  background-color: var(--darkplus-bg);
-}
-
-.attachButtonPlus_f298d4 {
-  fill: var(--darkplus-sec);
-}
-
-.menu_d90b3d, .colorDefault-CDqZdO { 
-  border-radius: 15px; 
-}
-
-.item-1OdjEX, .icon_ad923e, .userTagDiscriminatorNoNickname-2HLaIE {
-  color: var(--darkplus-sec);
-}
-
-.usernameContainer__22048, .activityText_a31c43, .activity-icon {
-  color: var(--darkplus-sec);
-}
-
-.member_cbd271, .members_cbd271 {
-  background-color: var(--darkplus-bg);
-}
-
-.scroller-1jBQYo, .infoScroller-3MqKC5, .listScroller-XCVa1H {
-  background-color: transparent !important;
-}
-
-.theme-dark .container_b2ca13 {
-  background-color: var(--darkplus-bg);
-}
-
-.container_ee69e0 {
-  background-color: var(--darkplus-bg) !important;
-}
-
-.container_b385c8 {
-  background-color: var(--darkplus-bg);
-}
-
-.divider_af45f8 {
-  background-color: var(--darkplus-bg2);
-}
-
-.headerText_a0, .sidebar_c25c6d .side_a0 .item_a0, .bd-sidebar-header h2 {
-  color: var(--darkplus-sec);
+.circleIconButton_db6521.selected_db6521 {
+  background-color: var(--azurite-bg);
+  color: var(--azurite-sec);
 }
 
 
-.modeUnreadImportant_d8bfb3 .name_d8bfb3, .modeUnreadImportant_d8bfb3 .icon_d8bfb3 {
-  color: var(--darkplus-links);
+.privateChannels_f0963d [href="/store"]  {
+display: none;
 }
 
-.theme-dark .scroller_c47fa9 {
-  background: var(--darkplus-bg) !important;
+
+@media (max-width:700px) {
+	.guilds_a4d4d9 {
+		width: 56px;
+		margin-bottom: 55px;
+	}
+
+	.guilds_a4d4d9 .wrapper_fd07a3 {
+		height: calc(56px * 0.625);
+	}
+
+	.guilds_a4d4d9 .wrapper_fd07a3 span {
+		max-height: calc(56px * 0.375);
+	}
+
+	.guilds_a4d4d9 div[style*='height: 56px'],
+	.guilds_a4d4d9 [role='group'] {
+		height: auto !important;
+	}
+
+	.guilds_a4d4d9 .listItem-GuPuDH,
+	.guilds_a4d4d9 [class*='unreadMentionsIndicator'],
+	.guilds_a4d4d9 .wrapper-3Njo_c {
+		width: 100%;
+	}
+
+	.guilds_a4d4d9 .wrapper-28eC3z,
+	.guilds_a4d4d9 [class*='guildsError-'],
+	.guilds_a4d4d9 svg[width='48'] {
+		width: calc(56px * 0.625);
+		height: calc(56px * 0.625);
+	}
+
+	.guilds_a4d4d9 .wrapper-3Njo_c>span {
+		left: calc(56px * 0.175);
+		width: calc(56px * 0.625);
+	}
+
+	.guilds_a4d4d9 #bd-pub-button {
+		height: calc(56px * 0.375);
+		line-height: calc(56px * 0.375);
+		font-size: 10px;
+	}
+
+	.listItem_c96c45 {
+		width: 56px;
+	}
+
+	.expandedFolderBackground_bc7085 {
+		left: calc(56px * 0.2);
+		width: calc(56px * 0.625);
+	}
 }
 
+.defaultColor-24IHKz, .text-md-normal-304U3g, .sampleLink-5BWNy9 {
+  color: var(--azurite-sec) !important;
+}
+
+.rowContainer-3t7486 {
+  background-color: var(--azurite-bg);
+}
+
+.scroller_c47fa9 {
+	border-right: 1px solid var(--azurite-sec);
+	border-left: 1px solid var(--azurite-sec);
+}
+
+.searchBar_f0963d {
+  border-right: 1px solid var(--azurite-sec);
+	border-left: 1px solid var(--azurite-sec);
+}
+
+::-webkit-scrollbar {
+  width: 4px !important;
+  height: 8px !important;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  border-color: transparent !important;
+  background: transparent !important;
+}
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--darkplus-sec) !important;
+  border-radius: 10px !important;
+  border: none !important;
+  background-clip: content-box !important;
+  background: var(--azurite-sec) !important;
 }
+
+::-webkit-scrollbar-corner {
+  visibility: hidden !important;
+}
+
+.scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar,
+.scrollerThemed-2oenus.themeHidden-2yP93k
+  .scroller-2FKFPG::-webkit-scrollbar-corner,
+.scrollerThemed-2oenus.themeHidden-2yP93k
+  .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scrollerThemed-2oenus.themeHidden-2yP93k
+  .scroller-2FKFPG::-webkit-scrollbar-track {
+  display: none !important;
+}
+
 ::selection {
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-links);
+	background-color: var(--azurite-links);
+	color: var(--azurite-bg);
 }
+
