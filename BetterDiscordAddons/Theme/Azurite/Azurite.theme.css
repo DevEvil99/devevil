@@ -1,3 +1,15 @@
+/**
+  * @name Azurite-test
+  * @author DevEvil#8745
+  * @version 1.0
+  * @description Bring a new look to your Discord with Azurite, A dark and customizable theme
+  * @authorId 468132563714703390
+  * @authorLink https://devevil.com
+  * @source https://github.com/DevEvil99/Azurite-Discord-Theme
+  * @website https://devevil.com
+  * @invite jsQ9UP7kCA
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 
@@ -1397,3 +1409,4 @@ display: none;
 	background-color: var(--azurite-links);
 	color: var(--azurite-bg);
 }
+
