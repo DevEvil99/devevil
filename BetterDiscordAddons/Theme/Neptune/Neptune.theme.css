@@ -314,7 +314,7 @@
   filter: hue-rotate(var(--neptune-emoji-picker-color)) !important;
 }
 
-.cozy_ec86aa .messageContent_ec86aa,
+.cozy_f9f2ca .messageContent_f9f2ca,
 .username_ec86aa,
 .subtext_e06aad,
 .embedAuthorName_ad0b71,
@@ -327,7 +327,7 @@
 .reactionBtn-3_qQdk:hover .icon-uXAV0f,
 .name_fd6364,
 .headerChildren_fd6364 {
-  color: var(--neptune-sec-color);
+  color: var(--neptune-sec-color) !important;
 }
 
 .container_adcaac,
@@ -1254,7 +1254,7 @@ button[aria-label="Send a gift"] {
 .thin_eed6a8,
 .thin_eed6a8.fade-1R6FHN:hover,
 .thin_eed6a8.scrolling-20Of9p {
-  background-color: var(--neptune-main-bg);
+  background-color: var(--neptune-main-bg) !important;
 }
 
 .circleIconButton_db6521 {
