@@ -149,7 +149,7 @@ body,
   color: var(--ocean-color1);
 }
 
-.cozyMessage_d5deea .contents_ec86aa > .markup_d6076c:not(:empty) {
+.cozy_f9f2ca .contents_f9f2ca .messageContent_f9f2ca {
   background-color: var(--ocean-color1);
   color: var(--ocean-color2);
   display: inline-block;
