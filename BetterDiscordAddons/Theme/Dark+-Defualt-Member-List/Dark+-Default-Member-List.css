@@ -377,7 +377,7 @@
   background-color: var(--darkplus-bg2);
 }
 
-.cozyMessage_d5deea .contents_ec86aa > .markup_d6076c:not(:empty, code) {
+.cozy_f9f2ca .contents_f9f2ca .messageContent_f9f2ca {
   background-color: var(--darkplus-bg2);
   display: inline-block;
   max-width: 650px;
