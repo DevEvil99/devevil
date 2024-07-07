@@ -149,7 +149,7 @@ body,
   color: var(--ocean-color1);
 }
 
-.cozy_f9f2ca .contents_f9f2ca .messageContent_f9f2ca {
+.contents_f9f2ca .messageContent_f9f2ca, .container_b558d0 {
   background-color: var(--ocean-color1);
   color: var(--ocean-color2);
   display: inline-block;
@@ -160,6 +160,10 @@ body,
   margin: 0;
   padding: 8px;
   border-radius: 15px;
+}
+
+.messageContent_f9f2ca:empty {
+  display: none !important;
 }
 
 .markup_d6076c blockquote, .markup_d6076c pre {
