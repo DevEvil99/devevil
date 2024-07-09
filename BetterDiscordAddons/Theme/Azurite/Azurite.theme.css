@@ -16,7 +16,7 @@
 	--azurite-emoji-picker-color: 100deg;
 	--avatar-radius: 5px;
 	--server-radius: 5px;
-  --msg-bg-radius: 5px;
+        --msg-bg-radius: 5px;
 	--font: 'Righteous', cursive;
 }
 
@@ -1106,13 +1106,14 @@ margin-left: 3px;
 	color: var(--azurite-links);
 }
 
-.childWrapper_a6ce15 path {
-  fill: transparent;
-}
-.childWrapper_a6ce15 {
+.wrapper_f90abb[data-list-item-id="guildsnav___home"] .childWrapper_f90abb {
   background: var(--azurite-home-icon) center/cover no-repeat;
-  min-width: 75px;
-  min-height: 75px;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.wrapper_f90abb[data-list-item-id="guildsnav___home"] .childWrapper_f90abb svg {
+  display: none;
 }
 
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
