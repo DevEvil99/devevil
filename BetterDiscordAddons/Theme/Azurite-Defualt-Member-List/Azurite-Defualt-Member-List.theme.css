@@ -230,7 +230,7 @@ body {
   transform: scale(1.1);
 }
 
-.cozyMessage_d5deea .contents_ec86aa > .markup_d6076c:not(:empty) {
+.contents_f9f2ca .messageContent_f9f2ca, .container_b558d0 {
   background-color: var(--azurite-bg2);
   display: inline-block;
   max-width: 650px;
@@ -242,10 +242,13 @@ body {
   border-radius: var(--msg-bg-radius);
 }
 
+.messageContent_f9f2ca:empty {
+  display: none !important;
+}
+
 .markup_d6076c blockquote, .markup_d6076c pre {
   max-width: 100%;
 }
-
 
 .newMessagesBar_cf58b5 {
   background-color: var(--azurite-sec);
