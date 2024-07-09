@@ -481,13 +481,14 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-main-bg);
   border-radius: 15px;
 }
-.childWrapper_a6ce15 path {
-  fill: transparent;
-}
-.childWrapper_a6ce15 {
+.wrapper_f90abb[data-list-item-id="guildsnav___home"] .childWrapper_f90abb {
   background: var(--neptune-home-icon) center/cover no-repeat;
-  min-width: 55px;
-  min-height: 55px;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.wrapper_f90abb[data-list-item-id="guildsnav___home"] .childWrapper_f90abb svg {
+  display: none;
 }
 
 .contentColumnDefault_c25c6d,
