@@ -401,15 +401,23 @@
   max-width: 100%;
 }
 
-.avatar_ec86aa.clickable_ec86aa {
+.avatar_f9f2ca.clickable_f9f2ca {
   filter: drop-shadow(0 0 5px);
   color: var(--darkplus-sec);
 }
-.avatar_ec86aa:hover.clickable_ec86aa:hover {
+.avatar_f9f2ca:hover.clickable_f9f2ca:hover {
   filter: drop-shadow(0 0 8px);
   color: var(--darkplus-sec);
   transform: scale(1.2) rotate(360deg); 
   transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+}
+
+.title_a7d72e.container_fc4f04.themed_fc4f04, .theme-dark .children_fc4f04:after {
+  background: var(--darkplus-bg);
+}
+
+.clickable_fc4f04 .icon_fc4f04 {
+  color: var(--darkplus-sec);
 }
 
 .membersGroup_cbd271 {
