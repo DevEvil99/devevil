@@ -170,9 +170,7 @@
 .container_b2ca13 .button_f67531:nth-child(4) .contents-3ca1mk path {
   fill: var(--darkplus-sec);
 }
-.sprite_af14ca {
-  filter: hue-rotate(var(--darkplus-emoji-picker-color)) !important;
-}
+
 .attachButton_f298d4 .contents-3ca1mk path {
   fill: var(--darkplus-sec);
 }
@@ -1255,9 +1253,6 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkplus-bg);
 }
 
-.textContent_cd82a7 {
-  color: var(--darkplus-bg);
-}
 .cozy_b211c6.wrapper_b211c6 {
   background-color: var(--darkplus-bg);
 }
@@ -1562,6 +1557,30 @@ button[aria-label="Send a gift"] {
 .numberBadge_df8943, .mentionsBar_eba0ba {
   background-color: var(--darkplus-sec) !important;
   color: var(--darkplus-bg) !important;
+}
+
+.theme-dark .themed_fc4f04 {
+  background: var(--darkplus-bg);
+}
+
+.icon_fc4f04, .title_fc4f04, .icon_c18ec9 {
+  color: var(--darkplus-sec);
+}
+
+.textContent_cd82a7 {
+  color: var(--darkplus-bg) !important;
+}
+
+.container_a6d69a {
+  background: var(--darkplus-bg);
+}
+
+.full-motion .container_d331f1, .selected_f5eb4b {
+  background-color: var(--darkplus-bg2);
+}
+
+.sprite_d91a75.spriteGreyscale_d91a75.active_d91a75 {
+  background: var(--darkplus-sec);
 }
 
 ::-webkit-scrollbar-thumb {
