@@ -136,9 +136,7 @@ body,
 .container_b2ca13 .button_f67531:nth-child(4) .contents-18-Yxp path {
   fill: var(--ocean-color1);
 }
-.sprite_af14ca {
-  filter: hue-rotate(var(--ocean-emoji-picker-color)) !important;
-}
+
 .attachButton_f298d4 .contents-18-Yxp path {
   fill: var(--ocean-color2);
 }
@@ -996,6 +994,20 @@ button[aria-label="Send a gift"] {
 
 .headerText_a0, .sidebar_c25c6d .side_a0 .item_a0, .bd-sidebar-header h2 {
   color: var(--ocean-color1);
+}
+
+.icon_fc4f04, .title_fc4f04, .icon_c18ec9, .buttonWrapper_f9af59 svg  {
+  color: var(--ocean-color2) !important;
+}
+
+.sprite_d91a75.spriteGreyscale_d91a75.active_d91a75 {
+  background-color: var(--ocean-color2);
+}
+
+.theme-dark .themed_fc4f04 {background: transparent;}
+
+.children_fc4f04::after {
+    background: transparent !important;
 }
 
 ::-webkit-scrollbar {
