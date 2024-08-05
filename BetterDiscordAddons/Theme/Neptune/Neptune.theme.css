@@ -310,10 +310,6 @@
   color: var(--neptune-main-bg);
 }
 
-.sprite_af14ca {
-  filter: hue-rotate(var(--neptune-emoji-picker-color)) !important;
-}
-
 .cozy_f9f2ca .messageContent_f9f2ca,
 .username_ec86aa,
 .subtext_e06aad,
@@ -1484,6 +1480,23 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-main-color);
 }
 
+.buttonWrapper_f9af59 svg  {
+  color: var(--neptune-main-bg) !important;
+}
+
+.icon_fc4f04, .title_fc4f04, .icon_c18ec9 {
+  color: var(--neptune-main-color) !important;
+}
+
+.sprite_d91a75.spriteGreyscale_d91a75.active_d91a75 {
+  background-color: var(--neptune-main-bg);
+}
+
+.theme-dark .themed_fc4f04 {background: var(--neptune-main-bg);}
+
+.children_fc4f04::after {
+    background: var(--neptune-main-bg) !important;
+}
 
 
 ::-webkit-scrollbar {
