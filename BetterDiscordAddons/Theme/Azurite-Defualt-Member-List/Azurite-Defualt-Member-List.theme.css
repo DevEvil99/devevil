@@ -1158,9 +1158,6 @@ border-radius: var(--server-radius);
 	background-color: var(--azurite-bg2);
 }
 
-.sprite_af14ca {
-	filter: hue-rotate(var(--azurite-emoji-picker-color)) !important;
-}
 .typeWindows_a934d8 {
   position: relative;
   background-color: var(--azurite-bg);
@@ -1306,6 +1303,20 @@ display: none;
 .searchBar_f0963d {
   border-right: 1px solid var(--azurite-sec);
 	border-left: 1px solid var(--azurite-sec);
+}
+
+.icon_fc4f04, .title_fc4f04, .icon_c18ec9, .buttonWrapper_f9af59 svg  {
+  color: var(--azurite-sec) !important;
+}
+
+.sprite_d91a75.spriteGreyscale_d91a75.active_d91a75 {
+  background-color: var(--azurite-sec);
+}
+
+.theme-dark .themed_fc4f04 {background: var(--azurite-bg);}
+
+.children_fc4f04::after {
+    background: var(--azurite-bg) !important;
 }
 
 ::-webkit-scrollbar {
