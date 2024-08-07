@@ -50,7 +50,7 @@ body,
 #app-mount .app_bd26cc,
 #app-mount .app_a01fb1,
 #app-mount .container_e40c16.fixClipping-3GOd_d,
-#app-mount .wrapper_b06619,
+#app-mount .wrapper_a2a7b5,
 #app-mount .bg_d4b6c5,
 #app-mount .layer_d4b6c5 ,
 #app-mount .container_ee69e0,
@@ -70,13 +70,13 @@ body,
 #app-mount .contentRegion_c25c6d {
 	background-color: transparent;
 }
-#app-mount .children_e44302:after {
+#app-mount .children_fc4f04:after {
 	display: none;
 }
 #app-mount .wrapper_fea3ef {
 	background-color: transparent;
 }
-#app-mount .container_e44302.themed_e44302,
+#app-mount .container_fc4f04.themed_fc4f04,
 #app-mount .sidebarRegion_c25c6d,
 #app-mount .sidebar_a4d4d9,
 #app-mount .panels_a4d4d9,
@@ -121,19 +121,19 @@ body,
   background: linear-gradient(-45deg, var(--ocean-color3), var(--ocean-color1));
 }
 
-.container_b2ca13 .button_f67531:nth-child(1) .contents-18-Yxp path {
+.container_b2ca13 .button_adca65:nth-child(1) .contents-18-Yxp path {
   fill: var(--ocean-color1);
 }
 
-.container_b2ca13 .button_f67531:nth-child(2) .contents-18-Yxp path {
+.container_b2ca13 .button_adca65:nth-child(2) .contents-18-Yxp path {
   fill: var(--ocean-color1);
 }
 
-.container_b2ca13 .button_f67531:nth-child(3) .contents-18-Yxp path {
+.container_b2ca13 .button_adca65:nth-child(3) .contents-18-Yxp path {
   fill: var(--ocean-color1);
 }
 
-.container_b2ca13 .button_f67531:nth-child(4) .contents-18-Yxp path {
+.container_b2ca13 .button_adca65:nth-child(4) .contents-18-Yxp path {
   fill: var(--ocean-color1);
 }
 
@@ -168,7 +168,7 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
   width: 432px;
 }
 
-.markup_d6076c blockquote, .markup_d6076c pre {
+.markup_f8f345 blockquote, .markup_f8f345 pre {
   max-width: 100%;
 }
 
@@ -184,22 +184,22 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
   display: none;
 }
 
-.name_e9f61e {
+.name_d808b0 {
   color: var(--ocean-color1);
 }
-.title_e44302 {
+.title_fc4f04 {
   color: var(--ocean-color1);
 }
-.children_e9f61e {
+.children_d808b0 {
   color: var(--ocean-color1);
 }
 .headerText_c47fa9 {
   color: var(--ocean-color1);
 }
-.clickable_e44302 .icon_e44302 {
+.clickable_fc4f04 .icon_fc4f04 {
   color: var(--ocean-color1);
 }
-.clickable_e44302:hover .icon_e44302 {
+.clickable_fc4f04:hover .icon_fc4f04 {
   color: var(--darkplus-links);
 }
 
@@ -229,13 +229,13 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 .input_f4e139::placeholder {
   color: var(--ocean-color2);
 }
-.header_f14193 {
+.header_e3c1c6 {
   color: var(--ocean-color2);
 }
-.match_f14193 {
+.match_e3c1c6 {
   color: var(--ocean-color2);
 }
-.note_f14193 {
+.note_e3c1c6 {
   color: var(--ocean-color2);
 }
 .miscContainer_f4e139 {
@@ -247,10 +247,10 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 .anchor-1MIwyf {
   color: var(--ocean-color2);
 }
-.username_f14193 {
+.username_e3c1c6 {
   color: var(--ocean-color2);
 }
-.icon_e44302 {
+.icon_fc4f04 {
   color: var(--ocean-color1);
 }
 .actionButton_e01b91 {
@@ -275,10 +275,10 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
   border: none;
 }
 .wrapper_cd82a7:hover,
-.wrapper_cd82a7.active_c0f6a6 {
+.wrapper_cd82a7.active_ac5d22 {
   background-color: transparent !important;
 }
-.wrapper_cd82a7 .inset_c0f6a6 {
+.wrapper_cd82a7 .inset_ac5d22 {
   background-color: transparent;
 }
 .wrapper_cd82a7 .section_cd82a7 {
@@ -294,7 +294,7 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 .expandedFolderIconWrapper-Huv7rA {
   background-color: #96e6e3;
 }
-.item_fd07a3 {
+.item_c4cd66 {
   background-color: var(--ocean-color1);
 }
 .acronym_fb7739 {
@@ -309,7 +309,7 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
   color: var(--ocean-color1);
   background-color: var(--ocean-color2);
 }
-.mention_c10249 {
+.mention_edf32f {
   background-color: var(--ocean-color1);
 }
 .mentioned_d5deea {
@@ -418,7 +418,7 @@ button[aria-label="Send a gift"] {
   color: var(--ocean-color2);
 }
 
-.iconBadge_e44302 {
+.iconBadge_fc4f04 {
   background-color: var(--ocean-color2);
 }
 
@@ -443,7 +443,7 @@ button[aria-label="Send a gift"] {
 #app-mount .container_eedf95 .option-2KkUJO.selected-rZcOL- {
   background: var(--ocean-color2);
 }
-.overflow_c74e70 {
+.overflow_a82120 {
   color: var(--ocean-color1);
 }
 
@@ -492,7 +492,7 @@ button[aria-label="Send a gift"] {
   color: var(--ocean-color1);
 }
 
-.username_be84f0,
+.username_cd0810,
 .discriminator_b69b77,
 .overflowMenuIcon_b69b77 {
   color: var(--ocean-color2);
@@ -628,7 +628,7 @@ button[aria-label="Send a gift"] {
   background-image: var(--ocean-bg);
 }
 
-.grid_ad0b71 {
+.grid_b0068a {
   background-color: var(--ocean-color3);
 }
 
@@ -671,7 +671,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--ocean-color1);
 }
 
-.attachment_a4623d {
+.attachment_b52bef {
   background-color: var(--ocean-color1);
   border-color: var(--ocean-color1);
   border-radius: 20px;
@@ -681,13 +681,13 @@ button[aria-label="Send a gift"] {
 }
 
 .cozy_f9f2ca .timestamp_f9f2ca,
-.content_fc5f50,
+.content_c2654d,
 .label_cc7b67 {
   color: var(--ocean-color2);
 }
-.button_ef319f,
-.button_ef319f:hover,
-.button_ef319f.selected_ef319f {
+.button_f7e168,
+.button_f7e168:hover,
+.button_f7e168.selected_f7e168 {
   color: var(--ocean-color2);
   background-color: var(--ocean-color1);
 }
@@ -822,7 +822,7 @@ button[aria-label="Send a gift"] {
 .subtitle-3m-md1,
 .title-1_TkpU,
 .footerTitle-3Bslxi,
-.avatar_e9f61e,
+.avatar_d808b0,
 .clear_effbe2 .icon_effbe2,
 .tab-2j5AEF,
 .roundButton-2_R5PN {
@@ -861,11 +861,11 @@ button[aria-label="Send a gift"] {
   background-color: var(--ocean-color2);
 }
 
-.title_e44302,
+.title_fc4f04,
 .header_b0914a,
 .addButtonIcon_a08117,
-.username_cdc675,
-.icon_cdc675,
+.username_d80634,
+.icon_d80634,
 .activityText_a31c43,
 .status_e0f739,
 .description_e0f739,
@@ -894,21 +894,21 @@ button[aria-label="Send a gift"] {
   background-color: var(--ocean-color2);
 }
 
-.unread_c10249 {
+.unread_edf32f {
   background-color: var(--ocean-color1);
   color: var(--ocean-color2);
 }
 
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
   background-color: var(--ocean-color1);
 }
 
-.unreadPillCapStroke_fc5f50 {
+.unreadPillCapStroke_c2654d {
   color: var(--ocean-color1);
   fill: var(--ocean-color1);
 }
 
-.divider_fc5f50 {
+.divider_c2654d {
   border-color: var(--ocean-color1);
 }
 #permissions-modal-wrapper .header, #permissions-modal-wrapper .perm-side, #permissions-modal-wrapper .role-side {
@@ -930,7 +930,7 @@ button[aria-label="Send a gift"] {
   background-color: transparent !important;
 }
 
-.button_cecf00, .button_f67531 {
+.button_f9af59, .button_adca65 {
   color: var(--ocean-color1);
 }
 
@@ -952,11 +952,11 @@ button[aria-label="Send a gift"] {
   color: var(--ocean-color1);
 }
 
-.fontSize16Padding_d0696b, .name_f9647d {
+.fontSize16Padding_d0696b, .name_ec8679 {
   color: var(--ocean-color2);
 }
 
-.clickable_e9f61e:hover .layout_e9f61e, .member_cbd271, .members_cbd271 {
+.clickable_d808b0:hover .layout_d808b0, .member_cbd271, .members_cbd271 {
   background-color: transparent;
 }
 
@@ -980,7 +980,7 @@ button[aria-label="Send a gift"] {
   background-color: transparent !important;
 }
 
-.content_fc5f50 {
+.content_c2654d {
   background-color: var(--ocean-color1);
 }
 
@@ -1008,6 +1008,14 @@ button[aria-label="Send a gift"] {
 
 .children_fc4f04::after {
     background: transparent !important;
+}
+
+.button_dd4f85 .contents_dd4f85{
+  color: var(--ocean-color1);
+}
+
+.container_a6d69a {
+  background: transparent;
 }
 
 ::-webkit-scrollbar {
