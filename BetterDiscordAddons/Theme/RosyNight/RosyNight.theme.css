@@ -292,8 +292,12 @@ body {
 }
 
 .appMount_ea7e65,
-.bg_d4b6c5 {
-  background-color: var(--rosynight-app-bg);
+.bg_d4b6c5, .directoryContainer_da3f59 {
+  background-color: var(--rosynight-app-bg) !important;
+}
+
+.textContainer_e90143 {
+  background-color: var(--rosynight-main2) !important;
 }
 
 .markup_f8f345 blockquote,
