@@ -1,5 +1,3 @@
-# DevEvil99.github.io
-**[DevEvil99.github.io](https://devevil99.github.io/devevil/)**
 # Main Website
 **[DevEvil.com](https://devevil.com)**
 # Discord Themes
