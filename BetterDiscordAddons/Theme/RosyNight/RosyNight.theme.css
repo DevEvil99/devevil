@@ -427,10 +427,12 @@ body {
   margin-top: 65px;
 }
 
-.scroller_fea3ef .tutorialContainer_c96c45~.listItem_c96c45 {
-  position: fixed;
-  z-index: 1;
-  top: 50px;
+.footer_aa1bff {
+  position: fixed !important;
+  z-index: 1 !important;
+  top: 50px !important;
+  background: transparent;
+  margin: -5px 0;
 }
 
 .withTagAsButton_b2ca13:hover,
