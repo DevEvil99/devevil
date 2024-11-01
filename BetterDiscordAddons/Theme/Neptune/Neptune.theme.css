@@ -35,10 +35,10 @@
 .colorLink-2apWfY,
 .roleName_e4010c,
 .addButtonIcon_e4010c,
-.theme-dark .newPopoutActivityStyles .headerText_d5089b,
-.theme-dark .newProfileActivityStyles .headerText_d5089b,
-.theme-light .newPopoutActivityStyles .headerText_d5089b,
-.theme-light .newProfileActivityStyles .headerText_d5089b,
+.theme-dark .newPopoutActivityStyles .headerText_c1d9fd,
+.theme-dark .newProfileActivityStyles .headerText_c1d9fd,
+.theme-light .newPopoutActivityStyles .headerText_c1d9fd,
+.theme-light .newProfileActivityStyles .headerText_c1d9fd,
 .username-1g6Iq1,
 .discriminator-1bqsd3,
 .additionalActionsIcon-3Cy8UU,
@@ -66,31 +66,31 @@
   border-radius: 5px;
 }
 
-.theme-dark .newPopoutActivityStyles .activityName_d5089b,
-.theme-dark .newPopoutActivityStyles .content_d5089b,
-.theme-dark .newPopoutActivityStyles .details_d5089b,
-.theme-dark .newPopoutActivityStyles .name_d5089b,
-.theme-dark .newPopoutActivityStyles .nameNormal_d5089b,
-.theme-dark .newPopoutActivityStyles .nameWrap_d5089b,
-.theme-dark .newProfileActivityStyles .activityName_d5089b,
-.theme-dark .newProfileActivityStyles .content_d5089b,
-.theme-dark .newProfileActivityStyles .details_d5089b,
-.theme-dark .newProfileActivityStyles .name_d5089b,
-.theme-dark .newProfileActivityStyles .nameNormal_d5089b,
-.theme-dark .newProfileActivityStyles .nameWrap_d5089b,
-.theme-light .newPopoutActivityStyles .activityName_d5089b,
-.theme-light .newPopoutActivityStyles .content_d5089b,
-.theme-light .newPopoutActivityStyles .details_d5089b,
-.theme-light .newPopoutActivityStyles .name_d5089b,
-.theme-light .newPopoutActivityStyles .nameNormal_d5089b,
-.theme-light .newPopoutActivityStyles .nameWrap_d5089b,
-.theme-light .newProfileActivityStyles .activityName_d5089b,
-.theme-light .newProfileActivityStyles .content_d5089b,
-.theme-light .newProfileActivityStyles .details_d5089b,
-.theme-light .newProfileActivityStyles .name_d5089b,
-.theme-light .newProfileActivityStyles .nameNormal_d5089b,
-.theme-light .newProfileActivityStyles .nameWrap_d5089b,
-.text_aa267a,
+.theme-dark .newPopoutActivityStyles .activityName_c1d9fd,
+.theme-dark .newPopoutActivityStyles .content_c1d9fd,
+.theme-dark .newPopoutActivityStyles .details_c1d9fd,
+.theme-dark .newPopoutActivityStyles .name_c1d9fd,
+.theme-dark .newPopoutActivityStyles .nameNormal_c1d9fd,
+.theme-dark .newPopoutActivityStyles .nameWrap_c1d9fd,
+.theme-dark .newProfileActivityStyles .activityName_c1d9fd,
+.theme-dark .newProfileActivityStyles .content_c1d9fd,
+.theme-dark .newProfileActivityStyles .details_c1d9fd,
+.theme-dark .newProfileActivityStyles .name_c1d9fd,
+.theme-dark .newProfileActivityStyles .nameNormal_c1d9fd,
+.theme-dark .newProfileActivityStyles .nameWrap_c1d9fd,
+.theme-light .newPopoutActivityStyles .activityName_c1d9fd,
+.theme-light .newPopoutActivityStyles .content_c1d9fd,
+.theme-light .newPopoutActivityStyles .details_c1d9fd,
+.theme-light .newPopoutActivityStyles .name_c1d9fd,
+.theme-light .newPopoutActivityStyles .nameNormal_c1d9fd,
+.theme-light .newPopoutActivityStyles .nameWrap_c1d9fd,
+.theme-light .newProfileActivityStyles .activityName_c1d9fd,
+.theme-light .newProfileActivityStyles .content_c1d9fd,
+.theme-light .newProfileActivityStyles .details_c1d9fd,
+.theme-light .newProfileActivityStyles .name_c1d9fd,
+.theme-light .newProfileActivityStyles .nameNormal_c1d9fd,
+.theme-light .newProfileActivityStyles .nameWrap_c1d9fd,
+.text_ec2fa7,
 .customStatus-kFfkj5 {
   color: var(--neptune-main-bg);
   font-weight: bold;
@@ -132,12 +132,12 @@
   color: var(--neptune-main-bg);
 }
 
-.icon_cdc675,
+.icon_d80634,
 .username_f9f2ca {
   color: var(--neptune-main-color);
 }
 
-.barInner_aa267a {
+.barInner_ec2fa7 {
   background-color: var(--neptune-main-bg);
 }
 
@@ -178,7 +178,7 @@
   background-color: var(--neptune-main-bg);
 }
 
-.attachment_a4623d {
+.attachment_b52bef {
   background-color: var(--neptune-main-color);
   border-color: var(--neptune-main-color);
   border-radius: 20px;
@@ -202,7 +202,7 @@
 .scrollerInner_e2e187 {
   background-color: var(--neptune-main-bg);
 }
-.container_e44302.themed_e44302 {
+.container_fc4f04.themed_fc4f04 {
   background: var(--neptune-main-bg);
 }
 .content-2a4AW9 {
@@ -228,10 +228,10 @@
 .form_a7d72e {
   background-color: var(--neptune-main-bg);
 }
-.form_a7d72e .channelTextArea_a7d72e .textArea_d0696b .placeholder__443e5 {
+.form_a7d72e .channelTextArea_a7d72e .textArea_bdf0de .placeholder__443e5 {
   color: var(--neptune-main-bg);
 }
-.form_a7d72e .channelTextArea_a7d72e .scrollableContainer_d0696b {
+.form_a7d72e .channelTextArea_a7d72e .scrollableContainer_bdf0de {
   max-height: 45vh;
   background-color: var(--neptune-main-color);
   border-radius: 22px;
@@ -267,15 +267,15 @@
   color: var(--neptune-main-bg);
 }
 
-.button_f67531,
-.button_f67531.enabled_f67531:hover,
-.clickable_e44302 .icon_e44302,
-.clickable_e44302:hover .icon_e44302 {
+.button_adca65,
+.button_adca65.enabled_adca65:hover,
+.clickable_fc4f04 .icon_fc4f04,
+.clickable_fc4f04:hover .icon_fc4f04 {
   color: var(--neptune-main-color);
 }
 
-.button_f67531:hover,
-.clickable_e44302 .icon_e44302:hover,
+.button_adca65:hover,
+.clickable_fc4f04 .icon_fc4f04:hover,
 .addButtonIcon_a08117:hover,
 .winButton_a934d8:hover {
   animation-name: spin;
@@ -292,31 +292,31 @@
     transform: rotate(360deg);
   }
 }
-.attachButton_f298d4 .button_d0696b path,
+.attachButton_f298d4 .button_bdf0de path,
 .attachButtonPlus_f298d4 {
   fill: var(--neptune-main-bg);
 }
 .attachButton_f298d4:hover .attachButtonPlus_f298d4 {
   fill: var(--neptune-main-bg);
 }
-.button-38aScr .button_d0696b path,
+.button-38aScr .button_bdf0de path,
 .connectedAccountName-j0meX4,
 .connectedAccountOpenIcon-1yfBsb,
 .connectedAccountOpenIcon-1yfBsb:hover,
-.guildName_b9fe76,
-.count_b9fe76,
-.header_b9fe76 {
+.guildName_a71a1c,
+.count_a71a1c,
+.header_a71a1c {
   color: var(--neptune-main-bg);
 }
 
 .cozy_f9f2ca .messageContent_f9f2ca,
-.username_ec86aa,
-.subtext_e06aad,
-.embedAuthorName_ad0b71,
-.embedFieldName_ad0b71,
-.embedTitle_ad0b71,
-.embedDescription_ad0b71,
-.embedFieldValue_ad0b71,
+.username_f9f2ca,
+.subtext_be40e6,
+.embedAuthorName_b0068a,
+.embedFieldName_b0068a,
+.embedTitle_b0068a,
+.embedDescription_b0068a,
+.embedFieldValue_b0068a,
 .icon-uXAV0f,
 .reactionBtn-3_qQdk,
 .reactionBtn-3_qQdk:hover .icon-uXAV0f,
@@ -326,7 +326,7 @@
 }
 
 .container_adcaac,
-.grid_ad0b71 {
+.grid_b0068a {
   background-color: var(--neptune-main-bg);
 }
 
@@ -361,7 +361,7 @@
 .cursorDefault__92b08 {
   background-color: var(--neptune-main-color);
 }
-.markup_d6076c a {
+.markup_f8f345 a {
   color: var(--neptune-sec-color);
 }
 
@@ -393,9 +393,9 @@ button[aria-label="Send a gift"] {
 }
 .reaction_f61c73,
 .reaction_f61c73:hover,
-.wrapper_ef319f,
+.wrapper_f7e168,
 .scroller-1bVxF5,
-.scroller_dcade6 {
+.scroller_d53d65 {
   background-color: var(--neptune-main-color);
 }
 
@@ -432,7 +432,7 @@ button[aria-label="Send a gift"] {
 .modeUnreadImportant_d8bfb3:hover .icon_d8bfb3,
 .actionIcon_f6f816,
 .actionIcon_f6f816:hover,
-.overflow_c74e70,
+.overflow_a82120,
 .addButtonIcon_a08117,
 .addButtonIcon_a08117:hover,
 .icon_a08117,
@@ -440,8 +440,8 @@ button[aria-label="Send a gift"] {
 .wrapper_a08117.muted_a08117:hover .name_a08117,
 .wrapper_a08117:hover .icon_a08117,
 .wrapper_a08117:hover .name_a08117,
-.title_e44302,
-.icon_e44302 {
+.title_fc4f04,
+.icon_fc4f04 {
   color: var(--neptune-main-color);
 }
 
@@ -463,15 +463,15 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-sec-color);
 }
 
-.theme-dark .children_e44302:after {
+.theme-dark .children_fc4f04:after {
   background: transparent;
 }
 
-.divider_fc5f50 {
+.divider_c2654d {
   border-color: var(--neptune-main-color);
 }
 
-.content_fc5f50 {
+.content_c2654d {
   background-color: var(--neptune-main-color);
   color: var(--neptune-main-bg);
   border-radius: 15px;
@@ -836,18 +836,18 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-main-bg);
 }
 
-.name_e9f61e,
+.name_d808b0,
 .linkButtonIcon_c91bad,
 .headerText_c47fa9 {
   color: var(--neptune-main-color);
 }
 
-.clickable_e9f61e:hover .layout_e9f61e,
-.selected_e9f61e .layout_e9f61e {
+.clickable_d808b0:hover .layout_d808b0,
+.selected_d808b0 .layout_d808b0 {
   background-color: transparent;
 }
 
-.children_e9f61e {
+.children_d808b0 {
   color: var(--neptune-main-bg);
 }
 
@@ -863,7 +863,7 @@ button[aria-label="Send a gift"] {
 }
 
 .wrapper-22ayhK,
-.wrapper_b211c6,
+.wrapper_b75bb9,
 .modalContent-33IoUE,
 .theme-dark .root_f9a4c9 {
   background-color: var(--neptune-main-bg);
@@ -907,11 +907,11 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-main-color);
 }
 
-.wrappedName_e9f61e {
+.wrappedName_d808b0 {
   color: var(--neptune-main-bg);
 }
 
-.avatar_e9f61e,
+.avatar_d808b0,
 .discoverHeader-Ijkm_M {
   color: var(--neptune-main-bg);
 }
@@ -924,13 +924,13 @@ button[aria-label="Send a gift"] {
   background-color: var(--neptune-main-bg);
 }
 
-.guildInfo_eb1ca6,
-.theme-dark .card_eb1ca6,
-.theme-dark .iconMask_eb1ca6,
-.theme-dark .card_eb1ca6:hover,
-.theme-dark .card_eb1ca6:hover .iconMask_eb1ca6,
-.theme-dark .iconMask_eb1ca6:hover,
-.theme-dark .iconMask_eb1ca6:hover .iconMask_eb1ca6 {
+.guildInfo_e90879,
+.theme-dark .card_e90879,
+.theme-dark .iconMask_e90879,
+.theme-dark .card_e90879:hover,
+.theme-dark .card_e90879:hover .iconMask_e90879,
+.theme-dark .iconMask_e90879:hover,
+.theme-dark .iconMask_e90879:hover .iconMask_e90879 {
   background-color: var(--neptune-main-color);
 }
 
@@ -950,8 +950,8 @@ button[aria-label="Send a gift"] {
 
 .peopleList_e0840f,
 .wrapper_cd82a7,
-.theme-dark .outer_c0f6a6.active_c0f6a6,
-.theme-dark .outer_c0f6a6.interactive_c0f6a6:hover,
+.theme-dark .outer_ac5d22.active_ac5d22,
+.theme-dark .outer_ac5d22.interactive_ac5d22:hover,
 .peopleColumn_c2739c {
   background-color: var(--neptune-main-bg);
 }
@@ -1000,9 +1000,9 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-main-color);
 }
 
-.textAreaWithoutAttachmentButton_d0696b,
-.inner_d0696b,
-.scrollableContainer_d0696b {
+.textAreaWithoutAttachmentButton_bdf0de,
+.inner_bdf0de,
+.scrollableContainer_bdf0de {
   background-color: var(--neptune-main-color);
 }
 
@@ -1025,7 +1025,7 @@ button[aria-label="Send a gift"] {
 
 .text_f7ebfd,
 .activityText_a31c43,
-.repliedTextPreview_ec86aa.clickable_ec86aa,
+.repliedTextPreview_f9f2ca.clickable_f9f2ca,
 .repliedTextContentIcon_da8b30,
 .threadMessageAccessoryContentIcon_af7460 {
   color: var(--neptune-sec-color);
@@ -1120,7 +1120,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--neptune-main-bg);
 }
 
-.headerCellContent_b4bea4,
+.headerCellContent_a6e298,
 .nameCellText_f1629a,
 .item-1BCeuB,
 .perm-details-button {
@@ -1134,20 +1134,20 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-main-bg);
 }
 
-.unreadPill_fc5f50,
+.unreadPill_c2654d,
 .replyBar_b11c5e {
   background-color: var(--neptune-main-color);
 }
-#app-mount .divider_fc5f50.isUnread_fc5f50 {
+#app-mount .divider_c2654d.isUnread_c2654d {
   border-top: 1px solid var(--neptune-main-color);
 }
-.unreadPillCapStroke_fc5f50 {
+.unreadPillCapStroke_c2654d {
   color: var(--neptune-main-color);
   fill: var(--neptune-main-color);
 }
 
-.isUnread_fc5f50 .content_fc5f50,
-.closeIcon_b11c5e,
+.isUnread_c2654d .content_c2654d,
+.closeIcon_cb4d21,
 .channelName_f3978e,
 .guildName_f3978e {
   color: var(--neptune-main-bg);
@@ -1158,13 +1158,13 @@ button[aria-label="Send a gift"] {
 }
 
 .numberBadge__40d6f,
-.mention_c10249,
+.mention_edf32f,
 .theme-dark .elevationHigh__08882 {
   background-color: var(--neptune-main-color) !important;
   color: var(--neptune-main-bg);
 }
 
-.item_fd07a3 {
+.item_c4cd66 {
   background: var(--neptune-main-color);
 }
 
@@ -1298,12 +1298,12 @@ button[aria-label="Send a gift"] {
 }
 
 .replyLabel_b11c5e,
-.button_cecf00 {
+.button_f9af59 {
   color: var(--neptune-main-bg);
 }
 
 .group-spacing-16 .groupStart_d5deea,
-.cozy_ec86aa.wrapper_ec86aa,
+.cozy_f9f2ca.wrapper_f9f2ca,
 .message_d5deea.mentioned_d5deea.selected_d5deea,
 .mouse-mode.full-motion .mentioned_d5deea:hover {
   background-color: var(--neptune-main-bg);
@@ -1335,7 +1335,7 @@ button[aria-label="Send a gift"] {
 .accountCreditDescription_e70817,
 .cardText_e70817,
 .sectionDescription_a206c7,
-.disabledIcon_d2da9c {
+.disabledIcon_b877fa {
   color: var(--neptune-sec-color);
 }
 
@@ -1346,7 +1346,7 @@ button[aria-label="Send a gift"] {
 .theme-dark .noItemsIcon_a206c7,
 .theme-dark .noItemsIcon_e70817,
 .theme-dark .feature-2IUcBI,
-.option_d2da9c {
+.option_b877fa {
   background-color: var(--neptune-main-color);
 }
 
@@ -1497,6 +1497,9 @@ button[aria-label="Send a gift"] {
     background: var(--neptune-main-bg) !important;
 }
 
+.footer_aa1bff, .button_df39bd {
+  background: var(--neptune-main-bg) !important;
+}
 
 ::-webkit-scrollbar {
   width: 4px !important;
