@@ -52,7 +52,7 @@ body {
   background-color: var(--azurite-bg);
 }
 
-.titleBlurb_f1f3b4, .theme-dark .subscriberCount_da77bd, .theme-dark .subscriberCount_da77bd strong,.perkTitle_da77bd,.perkDescription_da77bd, .defaultColor-HXu-5n, .text-md-medium-2avxhQ, .text-md-normal-304U3g, .text_bc1f7a, .person_a930f1, .itemLabel-27pirQ, .colorDescription_da1bd9, .description_bdfce3, .description-30xx7u, .labelDescriptor-34wZ-z {
+.titleBlurb_f1f3b4, .theme-dark .subscriberCount_da77bd, .theme-dark .subscriberCount_da77bd strong,.perkTitle_da77bd,.perkDescription_da77bd, .defaultColor-HXu-5n, .text-md-medium-2avxhQ, .text-md-normal-304U3g, .text_be45f6, .person_a930f1, .itemLabel-27pirQ, .colorDescription_da1bd9, .description_bdfce3, .description-30xx7u, .labelDescriptor-34wZ-z {
   color: var(--azurite-sec);
 }
 
@@ -106,11 +106,11 @@ body {
   background-color: var(--azurite-sec);
 }
 
-.scrollableContainer_d0696b {
+.scrollableContainer_bdf0de {
   background-color: var(--azurite-bg2);
 }
 
-.textArea_d0696b .fakeLink_cdb578 {
+.textArea_bdf0de .fakeLink_cdb578 {
   color: var(--azurite-sec);
 }
 
@@ -139,7 +139,7 @@ body {
   color: var(--azurite-sec);
 }
 
-.profileBioInput_d0696b span{
+.profileBioInput_bdf0de span{
 	color: var(--azurite-bg2);
 }
 
@@ -431,10 +431,10 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 .form_a7d72e {
   background-color: var(--azurite-bg);
 }
-.form_a7d72e .channelTextArea_a7d72e .textArea_d0696b .placeholder__443e5 {
+.form_a7d72e .channelTextArea_a7d72e .textArea_bdf0de .placeholder__443e5 {
   color: var(--azurite-sec);
 }
-.form_a7d72e .channelTextArea_a7d72e .scrollableContainer_d0696b {
+.form_a7d72e .channelTextArea_a7d72e .scrollableContainer_bdf0de {
   background-color: var(--azurite-bg);
   border-radius: 5px;
   border-top: 3px solid var(--azurite-sec);
@@ -541,7 +541,7 @@ padding-right: 8px;
   background-color: var(--azurite-sec);
 }
 
-.infoScroller-1QMpon, .listScroller_e4be58 {
+.infoScroller-1QMpon, .listScroller_d2d6cb {
   background-color: var(--azurite-bg);
 }
 
@@ -1177,7 +1177,7 @@ border-radius: var(--server-radius);
 	color: var(--azurite-links);
 }
 
-.channelTextArea_d0696b.slateTextArea_e52116 span {
+.channelTextArea_bdf0de.slateTextArea_e52116 span {
 	color: var(--azurite-bg);
 }
 
@@ -1395,6 +1395,10 @@ button.button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f8
 
 .lottieIcon_f73ef7 {
     color: var(--azurite-sec) !important;
+}
+
+.footer_aa1bff {
+  background: var(--azurite-bg);
 }
 
 ::-webkit-scrollbar {
