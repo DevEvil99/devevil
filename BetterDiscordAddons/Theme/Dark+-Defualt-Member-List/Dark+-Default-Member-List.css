@@ -67,10 +67,10 @@
 .form_a7d72e {
   background-color: var(--darkplus-bg);
 }
-.form_a7d72e .channelTextArea_a7d72e .textArea_d0696b .placeholder__443e5 {
+.form_a7d72e .channelTextArea_a7d72e .textArea_bdf0de .placeholder__443e5 {
   color: var(--darkplus-sec);
 }
-.form_a7d72e .channelTextArea_a7d72e .scrollableContainer_d0696b {
+.form_a7d72e .channelTextArea_a7d72e .scrollableContainer_bdf0de {
   max-height: 45vh;
   background-color: var(--darkplus-bg2);
   border-radius: 22px;
@@ -948,7 +948,7 @@ button.button_adca65 {
 .filename_f82cc7 {
   color: var(--darkplus-sec);
 }
-.scrollableContainer_d0696b {
+.scrollableContainer_bdf0de {
   background-color: var(--darkplus-bg2);
 }
 .label_f82cc7 {
@@ -1116,7 +1116,7 @@ button[aria-label="Send a gift"] {
 .replyBar_b11c5e {
   background-color: var(--darkplus-bg);
 }
-.closeIcon_b11c5e {
+.closeIcon_cb4d21 {
   color: var(--darkplus-sec);
 }
 .colorHeaderSecondary-g5teka {
@@ -1588,6 +1588,14 @@ button[aria-label="Send a gift"] {
 
 .button_dd4f85 .contents_dd4f85, .icon_a08117, .name_a08117 {
   color: var(--darkplus-sec);
+}
+
+.button_df39bd {
+  background: var(--darkplus-bg2);
+}
+
+.footer_aa1bff {
+  background: var(--darkplus-bg);
 }
 
 ::-webkit-scrollbar-thumb {
