@@ -427,7 +427,7 @@ body {
   margin-top: 65px;
 }
 
-.footer_aa1bff {
+.footer_f8ec41 {
   position: fixed !important;
   z-index: 1 !important;
   top: 50px !important;
@@ -1441,6 +1441,29 @@ button.button_adca65, span.button_adca65 {
 .icon_ad923e {
   color: var(--rosynight-main);
 }
+
+.mentioned_d5deea {
+  background-color: color-mix(in srgb, var(--rosynight-main) 40%, transparent) !important;
+}
+.mentioned_d5deea:before {
+  background-color: var(--rosynight-main);
+}
+
+.mention, .channelMention  {
+  background: var(--rosynight-main) !important;
+  color: var(--rosynight-bg) !important;
+}
+
+.contents_dd4f85.buttonContents_adcaac .lottieIcon_f73ef7.buttonIcon_adcaac {
+  --__lottieIconColor: var(--rosynight-main) !important;
+}
+
+.reminder-button {
+  background-color: var(--rosynight-main) !important;
+  color: var(--rosynight-bg) !important;
+}
+
+
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--rosynight-main) !important;
