@@ -1427,6 +1427,11 @@ button.button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f8
   background-color: color-mix(in srgb, var(--azurite-sec) 40%, transparent) !important;
 }
 
+.popoverReactionHoverBar_e986d9 {
+  background: var(--azurite-sec) !important;
+}
+
+
 ::-webkit-scrollbar {
   width: 4px !important;
   height: 8px !important;
