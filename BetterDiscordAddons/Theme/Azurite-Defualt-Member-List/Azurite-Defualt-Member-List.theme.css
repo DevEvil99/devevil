@@ -1335,8 +1335,35 @@ button.button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f8
   color: var(--azurite-sec) !important;
 }
 
-.footer_aa1bff {
+
+.footer_f8ec41 {
   background: var(--azurite-bg);
+}
+
+.contents_dd4f85.buttonContents_adcaac .lottieIcon_f73ef7.buttonIcon_adcaac {
+  --__lottieIconColor: var(--azurite-sec) !important;
+}
+
+.panels_a4d4d9, .activityPanel_a4d4d9 {
+  background: var(--azurite-bg) !important;
+}
+
+.reminder-button {
+  background-color: var(--azurite-sec) !important;
+  color: var(--azurite-bg) !important;
+}
+
+.headerContent_fd6364 .name_fd6364 {
+  color: var(--azurite-sec);
+}
+
+.mention, .channelMention  {
+  background: var(--azurite-sec) !important;
+  color: var(--azurite-bg) !important;
+}
+
+.mentioned_d5deea {
+  background-color: color-mix(in srgb, var(--azurite-sec) 40%, transparent) !important;
 }
 
 ::-webkit-scrollbar {
