@@ -311,15 +311,7 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 .mention_edf32f {
   background-color: var(--ocean-color1);
 }
-.mentioned_d5deea {
-  background-color: rgba(var(--ocean-color1), 0.1) !important;
-}
-.mentioned_d5deea:before {
-  background-color: var(--ocean-color1);
-}
-.mentioned_d5deea:hover {
-  background-color: rgba(var(--ocean-color1), 0.2) !important;
-}
+
 .discriminator_f3939d {
   color: var(--ocean-color2);
 }
@@ -1017,12 +1009,45 @@ button[aria-label="Send a gift"] {
   background: transparent;
 }
 
-.footer_aa1bff {
+.footer_f8ec41 {
   background-color: var(--ocean-color2);
 }
 
 .button_df39bd {
   background-color: transparent;
+}
+
+.mentioned_d5deea {
+  background-color: color-mix(in srgb, var(--ocean-color1) 40%, transparent) !important;
+}
+.mentioned_d5deea:before {
+  background-color: var(--ocean-color1);
+}
+
+.mention, .channelMention  {
+  background: var(--ocean-color2) !important;
+  color: var(--ocean-color1) !important;
+}
+
+.contents_dd4f85.buttonContents_adcaac .lottieIcon_f73ef7.buttonIcon_adcaac {
+  --__lottieIconColor: var(--ocean-color1) !important;
+}
+
+.reminder-button {
+  background-color: var(--ocean-color1) !important;
+  color: var(--ocean-color2) !important;
+}
+
+.headerContent_fd6364 .name_fd6364 {
+  color: var(--ocean-color2);
+}
+
+.popoverReactionHoverBar_e986d9 {
+  background-color: var(--ocean-color1) !important;
+}
+
+.repliedTextPreview_f9f2ca {
+  color: var(--ocean-color2);
 }
 
 ::-webkit-scrollbar {
