@@ -1612,7 +1612,10 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-sec);
 }
 
-
+.mention, .channelMention  {
+  background: var(--darkplus-sec) !important;
+  color: var(--darkplus-bg) !important;
+}
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
