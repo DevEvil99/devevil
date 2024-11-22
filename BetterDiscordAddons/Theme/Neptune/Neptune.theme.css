@@ -1497,9 +1497,35 @@ button[aria-label="Send a gift"] {
     background: var(--neptune-main-bg) !important;
 }
 
-.footer_aa1bff, .button_df39bd {
+.footer_f8ec41, .button_df39bd {
   background: var(--neptune-main-bg) !important;
 }
+
+.mentioned_d5deea {
+  background-color: color-mix(in srgb, var(--neptune-main-color) 40%, transparent) !important;
+}
+.mentioned_d5deea:before {
+  background-color: var(--neptune-main-color);
+}
+
+.mention, .channelMention  {
+  background: var(--neptune-main-color) !important;
+  color: var(--neptune-main-bg) !important;
+}
+
+.contents_dd4f85.buttonContents_adcaac .lottieIcon_f73ef7.buttonIcon_adcaac {
+  --__lottieIconColor: var(--neptune-main-color) !important;
+}
+
+.panels_a4d4d9 {
+  background: var(--neptune-main-bg) !important;
+}
+
+.reminder-button {
+  background-color: var(--neptune-main-color) !important;
+  color: var(--neptune-main-bg) !important;
+}
+
 
 ::-webkit-scrollbar {
   width: 4px !important;
