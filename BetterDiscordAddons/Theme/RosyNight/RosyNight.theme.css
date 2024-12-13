@@ -346,6 +346,10 @@ body {
   transform: scale(1.1);
 }
 
+.container_b2ca13 {
+  container-type: normal;
+}
+
 #app-mount .guilds_a4d4d9 .tree_fea3ef {
   outline: none !important;
 }
@@ -424,7 +428,7 @@ body {
 
 .scroller_fea3ef {
   contain: none;
-  margin-top: 65px;
+  margin-top: 70px;
 }
 
 .footer_d71945 {
@@ -1331,7 +1335,7 @@ order: -1;
   background-color: var(--rosynight-bg);
 }
 
-.attachment_b52bef.newMosaicStyle_b52bef {
+.fileWrapper_f46c86.newMosaicStyle_b52bef {
   background-color: var(--rosynight-bg2);
 }
 
