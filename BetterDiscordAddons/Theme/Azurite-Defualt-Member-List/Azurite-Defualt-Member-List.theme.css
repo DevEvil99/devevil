@@ -306,6 +306,10 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
   color: var(--azurite-sec);
 }
 
+.container_b2ca13 {
+  container-type: normal;
+}
+
 .panels_a4d4d9>.container_b2ca13>.flex_dc333f {
 	position: fixed;
 	bottom: 0px;
@@ -1369,6 +1373,20 @@ button.button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f8
 .popoverReactionHoverBar_e986d9 {
   background: var(--azurite-sec) !important;
 }
+
+
+.header_bc6acb, .membersGroup_cbd271  {
+  color: var(--azurite-sec) !important;
+}
+
+.member_a31c43 {
+  background-color: var(--azurite-bg) !important;
+}
+
+.container_c64476.openOnHover_c64476 {
+  background: var(--azurite-bg2);
+}
+
 
 
 ::-webkit-scrollbar {
