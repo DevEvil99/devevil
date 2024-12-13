@@ -1,3 +1,16 @@
+/**
+  * @name Azurite-test
+  * @author DevEvil
+  * @version 3
+  * @description Bring a new look to your Discord with Azurite, A dark and customizable theme
+  * @authorId 468132563714703390
+  * @authorLink https://devevil.com
+  * @source https://github.com/DevEvil99/Azurite-Discord-Theme
+  * @website https://devevil.com
+  * @donate https://devevil.com/dnt 
+  * @invite jsQ9UP7kCA
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 
@@ -305,6 +318,10 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 
 .themed-2-lozF .item-3XjbnG {
   color: var(--azurite-sec);
+}
+
+.container_b2ca13 {
+  container-type: normal;
 }
 
 .panels_a4d4d9>.container_b2ca13>.flex_dc333f {
@@ -711,7 +728,7 @@ margin-left: 3px;
 .messageGroupWrapper_ac90a2 .messageGroupCozy_ac90a2 {
   background-color: var(--azurite-bg);
 }
-.messageGroupWrapper_ac90a2 .messageContent_f9f2ca, .filename_b52bef, .size_b52bef, .cancelButton_b52bef, .downloadButton__3fb6d {
+.messageGroupWrapper_ac90a2 .messageContent_f9f2ca, .filename_f46c86, .size_f46c86, .cancelButton_f46c86, .downloadButton__3fb6d {
   color: var(--azurite-sec);
 }
 
@@ -808,7 +825,7 @@ margin-left: 3px;
   background-color: var(--azurite-bg2);
 }
 
-.upload_df1eaf, .attachment_b52bef {
+.upload_df1eaf, .fileWrapper_f46c86 {
   border-color: var(--azurite-bg2);
   background-color: var(--azurite-bg2);
 }
@@ -1186,7 +1203,7 @@ border-radius: var(--server-radius);
 }
 
 .textContent_cd82a7 {
-  color: var(--azurite-bg);
+  color: var(--azurite-bg) !important;
 }
 
 .theme-dark .card_e90879, .theme-dark .iconMask_e90879, .theme-dark .card_e90879:hover {
@@ -1397,7 +1414,7 @@ button.button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f8
     color: var(--azurite-sec) !important;
 }
 
-.footer_f8ec41 {
+.footer_d71945 {
   background: var(--azurite-bg);
 }
 
@@ -1431,6 +1448,17 @@ button.button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f8
   background: var(--azurite-sec) !important;
 }
 
+.header_bc6acb, .membersGroup_cbd271  {
+  color: var(--azurite-sec) !important;
+}
+
+.member_a31c43 {
+  background-color: var(--azurite-bg) !important;
+}
+
+.container_c64476.openOnHover_c64476 {
+  background: var(--azurite-bg2);
+}
 
 ::-webkit-scrollbar {
   width: 4px !important;
