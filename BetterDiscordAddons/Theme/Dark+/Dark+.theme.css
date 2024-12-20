@@ -148,7 +148,6 @@
 .mentioned_d5deea {
   background-color: color-mix(in srgb, var(--darkplus-sec) 40%, transparent) !important;
 }
-
 .mentioned_d5deea:before {
   background-color: var(--darkplus-sec);
 }
@@ -1591,7 +1590,7 @@ button[aria-label="Send a gift"] {
   background: var(--darkplus-bg2);
 }
 
-.footer_f8ec41 {
+.footer_d71945 {
   background: var(--darkplus-bg);
 }
 
