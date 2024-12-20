@@ -1467,7 +1467,23 @@ button.button_adca65, span.button_adca65 {
   color: var(--rosynight-bg) !important;
 }
 
+.buttonInner_b385c8, .addReactButton_b385c8 {
+  color: var(--rosynight-main);
+  background: var(--rosynight-bg2);
+}
 
+.buttonInner_b385c8, .addReactButton_b385c8 {
+  color: var(--rosynight-main);
+  background: var(--rosynight-bg2);
+}
+
+.divider_d5deea .content_c2654d {
+  color: var(--rosynight-main);
+}
+
+.button_dd4f85[aria-label="Send a gift"] {
+  display: none;
+}
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--rosynight-main) !important;
