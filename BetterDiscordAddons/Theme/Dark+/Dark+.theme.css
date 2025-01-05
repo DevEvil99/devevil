@@ -1617,7 +1617,7 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-bg) !important;
 }
 
-.chat_fe669e .chatContent_a7d72e {
+.chat_fe669e .chatContent_a7d72e, .chat_f57fdc .chatContent_a7d72e {
   max-width: 100%;
 }
 
