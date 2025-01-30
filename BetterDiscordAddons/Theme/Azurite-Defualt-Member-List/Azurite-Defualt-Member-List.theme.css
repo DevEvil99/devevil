@@ -1387,7 +1387,9 @@ button.button_e6e74f.button__201d5.lookBlank__201d5.colorBrand__201d5.grow__201d
   background: var(--azurite-bg2);
 }
 
-
+button.button__67645 .lottieIcon__5eb9b svg path {
+  fill: var(--azurite-sec) !important;
+}
 
 ::-webkit-scrollbar {
   width: 4px !important;
