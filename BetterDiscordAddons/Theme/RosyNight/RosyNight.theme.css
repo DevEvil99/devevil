@@ -1485,6 +1485,10 @@ button.button__67645, span.button__67645 {
   display: none;
 }
 
+button.button__67645 .lottieIcon__5eb9b svg path {
+  fill: var(--rosynight-main) !important;
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--rosynight-main) !important;
 }
