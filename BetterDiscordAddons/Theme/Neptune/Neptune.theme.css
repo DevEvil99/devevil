@@ -1526,6 +1526,11 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-main-bg) !important;
 }
 
+button.button__67645 .lottieIcon__5eb9b svg path {
+  fill: var(--neptune-main-color) !important;
+}
+
+
 
 ::-webkit-scrollbar {
   width: 4px !important;
