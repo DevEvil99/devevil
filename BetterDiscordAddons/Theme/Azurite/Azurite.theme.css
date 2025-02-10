@@ -1386,7 +1386,7 @@ display: none;
     background: var(--azurite-bg);
 }
 
-.lottieIcon__5eb9b.buttonIcon_e131a9 {
+.lookFilled__201d5 .contents__201d5 .lottieIcon__5eb9b.buttonIcon_e131a9 {
     --__lottieIconColor: var(--azurite-bg) !important;
 }
 
@@ -1395,7 +1395,7 @@ button.button_e6e74f.button__201d5.lookBlank__201d5.colorBrand__201d5.grow__201d
     border: 3px solid var(--azurite-sec);
 }
 
-.lottieIcon__5eb9b {
+.button__201d5 .contents__201d5 .lottieIcon__5eb9b {
     color: var(--azurite-sec) !important;
 }
 
@@ -1403,9 +1403,6 @@ button.button_e6e74f.button__201d5.lookBlank__201d5.colorBrand__201d5.grow__201d
   background: var(--azurite-bg);
 }
 
-.contents__201d5.buttonContents_e131a9 .lottieIcon__5eb9b.buttonIcon_e131a9 {
-  --__lottieIconColor: var(--azurite-sec) !important;
-}
 
 .panels_c48ade, .activityPanel_c48ade {
   background: var(--azurite-bg) !important;
