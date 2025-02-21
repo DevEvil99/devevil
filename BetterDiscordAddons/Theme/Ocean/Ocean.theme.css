@@ -1010,7 +1010,7 @@ button[aria-label="Send a gift"] {
 }
 
 .footer__214dc {
-  background-color: var(--ocean-color2);
+  background-color: transparent;
 }
 
 .button_e6e74f {
@@ -1052,6 +1052,14 @@ button[aria-label="Send a gift"] {
 
 button.button__67645 .lottieIcon__5eb9b svg path {
   fill: var(--ocean-color1) !important;
+}
+
+.itemsContainer_ef3116 {
+  background: transparent;
+}
+
+.content__37e49 {
+  background: transparent !important;
 }
 
 ::-webkit-scrollbar {
