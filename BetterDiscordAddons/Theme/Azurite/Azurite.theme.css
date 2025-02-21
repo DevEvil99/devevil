@@ -1446,6 +1446,14 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   fill: var(--azurite-sec) !important;
 }
 
+.container_c48ade {
+  background: var(--azurite-bg) !important;
+}
+
+.content__37e49 {
+  background: var(--azurite-bg) !important;
+}
+
 ::-webkit-scrollbar {
   width: 4px !important;
   height: 8px !important;
