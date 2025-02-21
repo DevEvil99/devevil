@@ -1530,6 +1530,14 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   fill: var(--neptune-main-color) !important;
 }
 
+.itemsContainer_ef3116 {
+  background: var(--neptune-main-bg);
+}
+
+.content__37e49 {
+  background: var(--neptune-main-bg) !important;
+}
+
 
 
 ::-webkit-scrollbar {
