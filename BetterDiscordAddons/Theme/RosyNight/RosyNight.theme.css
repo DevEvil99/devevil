@@ -445,12 +445,12 @@ body {
 }
 
 
-.container__37e49>.noWrap_abf706 {
+.noWrap_abf706 {
   width: 224px;
   position: absolute;
 }
 
-.container__37e49>.noWrap_abf706 button {
+.noWrap_abf706 button, .noWrap_abf706 .micButtonParent__37e49 {
   width: 100%;
   justify-content: space-evenly;
 }
@@ -1487,6 +1487,14 @@ button.button__67645, span.button__67645 {
 
 button.button__67645 .lottieIcon__5eb9b svg path {
   fill: var(--rosynight-main) !important;
+}
+
+.itemsContainer_ef3116 {
+  background: var(--rosynight-bg);
+}
+
+.content__37e49 {
+  background: var(--rosynight-bg) !important;
 }
 
 ::-webkit-scrollbar-thumb {
