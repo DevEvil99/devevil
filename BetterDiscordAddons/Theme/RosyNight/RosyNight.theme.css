@@ -963,6 +963,7 @@ order: -1;
 .pill_a2c9e8,
 .pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
   background-color: var(--rosynight-main);
+  color: var(--rosynight-bg);
 }
 
 .lineClamp1-1iDPU7 {
@@ -1224,7 +1225,7 @@ order: -1;
 
 .activityText__5d473,
 .icon_f8896c,
-.reactionBtn_f8896c {
+.reactionBtn__23977 {
   color: var(--rosynight-main);
 }
 
@@ -1495,6 +1496,54 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 
 .content__37e49 {
   background: var(--rosynight-bg) !important;
+}
+
+.container__34c2c, .divider_ee23ac {
+  background-color: var(--rosynight-bg);
+}
+
+.container__34c2c {
+  border-color: var(--rosynight-main);
+}
+
+.card_f369db .mainCard_f369db{
+  background-color: var(--rosynight-main2);
+}
+
+
+.headerText_faa96b .lineClamp2Plus__4bd52 {
+  color: var(--rosynight-bg) !important;
+}
+
+.card_f369db .messageContent_faa96b, .card_f369db .username__703b9, .footer_faa96b .messageCountIcon_faa96b, .footer_faa96b .messageCountText_faa96b, .footer_faa96b .text-sm\/normal_cf4812 {
+  color: var(--rosynight-bg) !important;
+}
+
+.container_faa96b.isOpen_faa96b {
+  background-color: var(--rosynight-main) !important;
+}
+
+.container__01ae2, .scrollerBase__99f8c, .resizeHandle__01ae2 {
+  background-color: var(--rosynight-bg);
+}
+
+.pinIcon__08166 {
+  background-color: var(--rosynight-bg);
+}
+
+.searchIcon_d9be46 , .forumPostFormButton_d9be46{
+  color: var(--rosynight-bg);
+}
+
+.matchingPostsRow_f369db {
+  background-color: var(--rosynight-main2);
+}
+
+.container__37e49 .buttons__37e49  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 
 ::-webkit-scrollbar-thumb {
