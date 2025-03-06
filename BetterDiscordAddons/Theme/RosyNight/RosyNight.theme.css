@@ -445,15 +445,6 @@ body {
 }
 
 
-.noWrap_abf706 {
-  width: 224px;
-  position: absolute;
-}
-
-.noWrap_abf706 button, .noWrap_abf706 .micButtonParent__37e49 {
-  width: 100%;
-  justify-content: space-evenly;
-}
 
 .icon__9293f {
   color: var(--rosynight-main) !important;
@@ -1544,6 +1535,19 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   align-items: center;
   justify-content: center;
   gap: 50px;
+}
+
+.layer_bc663c .root__49fc1.small__49fc1.fullscreenOnMobile__49fc1.rootWithShadow__49fc1, .layer_bc663c .footer__49fc1{
+  background-color: var(--rosynight-main);
+}
+
+.layer_bc663c .message__89466 {
+  background-color: var(--rosynight-bg);
+}
+
+.layer_bc663c .tip__30cbe {
+  color: var(--rosynight-bg);
+  font-weight: 600;
 }
 
 ::-webkit-scrollbar-thumb {
