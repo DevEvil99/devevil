@@ -1642,6 +1642,11 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   background: var(--darkplus-bg) !important;
 }
 
+.interactive_bf202d .highlighted__20a53 {
+  background-color: color-mix(in srgb, var(--darkplus-sec) 40%, transparent);
+  width: 100%;
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
