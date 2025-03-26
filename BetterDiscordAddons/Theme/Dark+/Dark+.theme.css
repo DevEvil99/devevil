@@ -49,7 +49,7 @@
 }
 
 .sidebarRegion__23e6b {
-  background-color: var(--darkplus-bg) !important;!im;!;
+  background-color: var(--darkplus-bg) !important;
 }
 
 .searchBar__35e86 {
@@ -359,7 +359,7 @@
   fill: transparent;
 }
 .childWrapper__6e9f8 {
-  background: var(--darkplus-home-icon) center/cover no-repeat !important;!im;!;
+  background: var(--darkplus-home-icon) center/cover no-repeat !important;
   min-width: 50px;
   min-height: 50px;
   background-color: red;
@@ -1536,7 +1536,7 @@ button[aria-label="Send a gift"] {
 }
 
 .wrapper_f7ecac {
-  background-color: var(--darkplus-bg2);
+  background-color: var(--darkplus-bg2) !important;
 }
 
 .numberBadge__2b1f5, .mentionsBar__7aaec {
@@ -1557,7 +1557,7 @@ button[aria-label="Send a gift"] {
 }
 
 .container_f369db {
-  background: var(--darkplus-bg);
+  background: var(--darkplus-bg) !important;
 }
 
 .full-motion .container_faa96b, .selected_bf202d {
@@ -1584,7 +1584,7 @@ button[aria-label="Send a gift"] {
   --__lottieIconColor: var(--darkplus-sec) !important;
 }
 
-.panels_c48ade {border: none;!im;!;}
+.panels_c48ade {border: none;}
 
 .reminder-button {
   background-color: var(--darkplus-sec) !important;
@@ -1631,8 +1631,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 }
 
 .container_c48ade, .visual-refresh .sidebar_c48ade:after {
-    background: var(--darkplus-bg) !important;!i;!;
-    !i;!;
+    background: var(--darkplus-bg) !important;
 }
 
 
@@ -1663,6 +1662,27 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 
 .visual-refresh .themed_b3f026.item_b3f026 {
     color: var(--darkplus-sec);
+}
+
+.circleIconButton__5bc7e:hover {
+  background: var(--darkplus-sec) !important;
+  color: var(--darkplus-bg);
+}
+
+.nameTag__37e49  .title_b6c092, .nameTag__37e49 .subtext__339d0 {
+  color: var(--darkplus-sec);
+}
+
+.menu_c1e9c4 {
+  background-color: var(--darkplus-bg2);
+}
+
+.menu_c1e9c4 .label_c1e9c4, .menu_c1e9c4 .iconContainer_c1e9c4 svg {
+  color: var(--darkplus-sec);
+}
+
+.modeMuted__2ea32 .icon__2ea32, .modeMuted__2ea32 .name__2ea32 {
+  color: var(--darkplus-links) !important;
 }
 
 ::-webkit-scrollbar-thumb {
