@@ -1588,6 +1588,10 @@ color: var(--neptune-sec-color) !important;
   color: var(--neptune-main-bg) !important;
 }
 
+.title__85643 svg path {
+  fill: var(--neptune-main-color) !important;
+}
+
 ::-webkit-scrollbar {
   width: 4px !important;
   height: 8px !important;
