@@ -1594,6 +1594,11 @@ color: var(--rosynight-main2) !important;
   background-color: var(--rosynight-main) !important;
 }
 
+.title__85643 svg path {
+  fill: var(--rosynight-main) !important;
+}
+
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--rosynight-main) !important;
 }
