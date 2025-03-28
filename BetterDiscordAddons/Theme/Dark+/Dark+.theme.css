@@ -358,7 +358,7 @@
 .childWrapper_a6ce15 path {
   fill: transparent;
 }
-.childWrapper__6e9f8 {
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 {
   background: var(--darkplus-home-icon) center/cover no-repeat !important;
   min-width: 50px;
   min-height: 50px;
@@ -1683,6 +1683,14 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 
 .modeMuted__2ea32 .icon__2ea32, .modeMuted__2ea32 .name__2ea32 {
   color: var(--darkplus-links) !important;
+}
+
+.winButtons_c38106 {
+  color: var(--darkplus-sec);
+}
+
+.title__85643 svg path {
+  fill: var(--darkplus-sec) !important;
 }
 
 ::-webkit-scrollbar-thumb {
