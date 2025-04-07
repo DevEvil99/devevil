@@ -354,10 +354,6 @@ body {
   outline: none !important;
 }
 
-#app-mount .guilds_c48ade .scroller_ef3116 {
-  margin-bottom: 25px;
-}
-
 #app-mount .panels_c48ade>.container__37e49 .avatarWrapper__37e49 {
   position: fixed;
   display: flex;
@@ -524,7 +520,7 @@ order: -1;
 
 .cozyMessage__5126c .contents_c19a55>.markup__75297:not(:empty, code) {
   background-color: var(--rosynight-bg2);
-  color: var(--rosynight-message-color);
+  color: var(--rosynight-message-color) !important;
   display: inline-block;
   max-width: 650px;
   width: -webkit-fit-content;
@@ -533,6 +529,10 @@ order: -1;
   margin: 0;
   padding: 8px;
   border-radius: 15px;
+}
+
+.markup__75297 h1, .markup__75297 h2, .markup__75297 h3, .markup__75297 h4, .markup__75297 h5, .markup__75297 h6 {
+    color: var(--rosynight-message-color);
 }
 
 .childWrapper_a6ce15,
@@ -555,12 +555,12 @@ order: -1;
   color: var(--rosynight-main2);
 }
 
-.attachButtonPlus__0923f {
-  fill: var(--rosynight-main);
+.visual-refresh .attachButton__0923f .attachButtonPlus__0923f {
+  fill: var(--rosynight-main) !important;
 }
 
-.attachButton__0923f:hover .attachButtonPlus__0923f {
-  fill: var(--rosynight-main2);
+.visual-refresh .attachButton__0923f .attachButtonPlus__0923f:hover {
+  fill: var(--rosynight-main2) !important;
 }
 
 .standardSidebarView__23e6b {
@@ -838,7 +838,7 @@ order: -1;
 }
 
 .cozy_c19a55 .timestamp_c19a55 {
-  color: var(--rosynight-main2);
+  color: var(--rosynight-main2) !important;
 }
 
 .searchBar__97492 {
@@ -1169,7 +1169,7 @@ order: -1;
 }
 
 .wrapper_f7ecac {
-  background-color: var(--rosynight-main);
+  background-color: var(--rosynight-main) !important;
 }
 
 .sendIcon_aa63ab,
@@ -1463,7 +1463,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 }
 
 .container__34c2c, .divider_ee23ac {
-  background-color: var(--rosynight-bg);
+  background-color: var(--rosynight-bg) !important;
 }
 
 .container__34c2c {
@@ -1503,11 +1503,11 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   background-color: var(--rosynight-main2);
 }
 
-.container__37e49 .buttons__37e49  {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
+.container__37e49 .buttons__37e49 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .layer_bc663c .root__49fc1.small__49fc1.fullscreenOnMobile__49fc1.rootWithShadow__49fc1, .layer_bc663c .footer__49fc1{
@@ -1598,6 +1598,75 @@ color: var(--rosynight-main2) !important;
   fill: var(--rosynight-main) !important;
 }
 
+.activityPanel_c48ade {
+    background: var(--rosynight-bg);
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+.visual-refresh .container__2637a {
+	background: var(--rosynight-bg);
+}
+
+.avatars_ef4a91 .text__530ce {
+	color: var(--rosynight-main) !important;
+}
+
+.container__00de6 .defaultColor__5345c, .container__00de6 .description__00de6, .mutualGuilds_b50d96 {
+	color: var(--rosynight-main) !important;
+}
+
+.container_b50d96 .text-sm\/normal_cf4812 {
+	color: var(--rosynight-main) !important;
+}
+
+.emptyChannelIcon__00de6 {
+    background-color: var(--rosynight-bg2);
+}
+
+.emptyChannelIcon__00de6 svg path{
+	fill: var(--rosynight-main) !important;
+}
+
+.container__00de6 .buttonContainer_ffab0d .button__6e3f1 {
+    background-color: var(--rosynight-main);
+}
+
+.container__00de6 .buttonContainer_ffab0d .button__6e3f1 .buttonIcon__6e3f1 svg path {
+    fill: var(--rosynight-bg) !important;
+}
+
+.gameWrapper__8c6c2 .gameName__8c6c2 {
+    color: var(--rosynight-main) !important;
+}
+
+.visual-refresh .topic__6ec1a {
+	color: var(--rosynight-main2);
+}
+
+.card_f369db .mainCard_f369db:hover {
+    background-color: var(--rosynight-main);
+}
+
+.tags__08166 .lineClamp1__4bd52 {
+	color: var(--rosynight-bg) !important;
+}
+
+.container__9293f.themed__9293f {
+	background-color: var(--rosynight-bg);
+}
+
+.cozy__235ca .iconContainer__235ca svg path {
+	fill: var(--rosynight-main) !important;
+}
+
+.cozy__235ca .content__235ca {
+	color: var(--rosynight-message-color);
+}
+
+.visual-refresh .modal_ac72c6 {
+	background-color: var(--rosynight-main);
+}
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--rosynight-main) !important;
