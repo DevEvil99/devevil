@@ -1430,6 +1430,8 @@ button.button__67645, span.button__67645 {
 .reminder-button {
   background-color: var(--rosynight-main) !important;
   color: var(--rosynight-bg) !important;
+  width: 77% !important;
+  margin: 0 0 0 90px !important;
 }
 
 .buttonInner__34c2c, .addReactButton__34c2c {
@@ -1666,6 +1668,10 @@ color: var(--rosynight-main2) !important;
 
 .visual-refresh .modal_ac72c6 {
 	background-color: var(--rosynight-main);
+}
+
+.container_d9be46[aria-label="Create Post"] .slateContainer_ec4baf .slateTextArea_ec4baf {
+  color: var(--rosynight-bg);
 }
 
 ::-webkit-scrollbar-thumb {
