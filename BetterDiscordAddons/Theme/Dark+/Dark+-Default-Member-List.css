@@ -1552,7 +1552,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
     border: none;
 }
 
-.title_c38106 .defaultColor__4bd52 {
+.title_c38106 .defaultColor_b717a1 {
 	color: var(--darkplus-sec);
 }
 
@@ -1595,7 +1595,12 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 }
 
 .modeMuted__2ea32 .icon__2ea32, .modeMuted__2ea32 .name__2ea32 {
-  color: var(--darkplus-links) !important;
+  color: var(--darkplus-links);
+}
+
+.panels_c48ade {
+  background-color: var(--darkplus-bg) !important;
+  border: 2px solid var(--darkplus-sec) !important;
 }
 
 .winButtons_c38106 {
