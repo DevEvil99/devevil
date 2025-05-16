@@ -1,3 +1,15 @@
+/**
+  *	@name Dark+-test
+  *	@author DevEvil#8745
+  *	@version Dark+1
+  *	@description Highly customized dark and purple theme for Discord
+  * @authorId 468132563714703390
+  * @authorLink https://dsc.bio/devevil
+  * @source https://github.com/DevEvil99/DarkPlus-Discord-Theme
+  * @website https://devevil.xyz
+  * @invite jsQ9UP7kCA
+*/
+
 /*
  ________  ________  ________  ___  __    ________  ___       ___  ___  ________                         
 |\   ___ \|\   __  \|\   __  \|\  \|\  \ |\   __  \|\  \     |\  \|\  \|\   ____\                        
@@ -1683,6 +1695,11 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 
 .modeMuted__2ea32 .icon__2ea32, .modeMuted__2ea32 .name__2ea32 {
   color: var(--darkplus-links);
+}
+
+.panels_c48ade {
+  background-color: var(--darkplus-bg) !important;
+  border: 2px solid var(--darkplus-sec) !important;
 }
 
 .winButtons_c38106 {
