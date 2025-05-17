@@ -1702,6 +1702,6 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   background-color: var(--darkplus-sec) !important;
 }
 ::selection {
-  background-color: var(--darkplus-bg);
+  background-color: var(--darkplus-bg); 
   color: var(--darkplus-links);
 }
