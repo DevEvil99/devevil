@@ -1596,6 +1596,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 
 .modeMuted__2ea32 .icon__2ea32, .modeMuted__2ea32 .name__2ea32 {
   color: var(--darkplus-links);
+  opacity: .7;
 }
 
 .panels_c48ade {
@@ -1611,6 +1612,42 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   fill: var(--darkplus-sec) !important;
 }
 
+.inner_c0bea0 {
+  background-color: var(--darkplus-bg2);
+}
+
+.username_c19a55, .userTagUsername__63ed3 , .pronounsText__63ed3, .unselectable__10651{
+  color: var(--darkplus-sec) !important;
+}
+
+.dotSpacer__63ed3 {
+  background-color: var(--darkplus-sec);
+}
+
+.botTagRegular__82f07 {
+  background-color: var(--darkplus-sec);
+  color: var(--darkplus-bg);
+}
+
+.visual-refresh .cozy_c19a55 .timestamp_c19a55, .user-profile-popout .nickname__63ed3, .user-profile-sidebar .nickname__63ed3, .userTagDiscriminator__63ed3 {
+  color: var(--darkplus-sec);
+}
+
+.user-profile-sidebar .overlay_c0bea0 {
+  background-color: var(--darkplus-bg);
+}
+
+.user-profile-sidebar .overlay_c0bea0 .defaultColor__5345c {
+  color: var(--darkplus-sec) !important;
+}
+
+.user-profile-sidebar .overlay_c0bea0 .defaultColor__4bd52 {
+  color: var(--darkplus-links);
+}
+
+.overlay_c0bea0 .header__1f6ca svg path{
+  fill: var(--darkplus-sec) !important;
+}
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
