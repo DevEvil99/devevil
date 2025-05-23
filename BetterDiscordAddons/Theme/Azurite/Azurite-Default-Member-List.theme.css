@@ -1497,7 +1497,7 @@ nav.guilds_c48ade {
 }
 
 .username_c19a55, .userTagUsername__63ed3 , .pronounsText__63ed3, .unselectable__10651{
-  color: var(--azurite-sec) !important;
+  color: var(--azurite-sec);
 }
 
 .dotSpacer__63ed3 {
