@@ -352,8 +352,8 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
   background-color: var(--azurite-bg) !important;
 }
 
-.guilds_c48ade {
-	margin-bottom: 180px;
+nav.guilds_c48ade {
+	margin-bottom: 180px !important;
 }
 
 .scroller_ef3116 {
@@ -364,9 +364,6 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 	border-left: 3px solid var(--azurite-bg);
 }
 
-.guilds_c48ade {
-	width: 74px;
-}
 
 .iconWrapper__9293f[aria-label="Help"] {
   display: none;
@@ -1397,10 +1394,6 @@ display: none;
     --__lottieIconColor: var(--azurite-bg) !important;
 }
 
-button.button_e6e74f.button__201d5.lookBlank__201d5.colorBrand__201d5.grow__201d5 {
-    background: var(--azurite-bg);
-    border: 3px solid var(--azurite-sec);
-}
 
 .button__201d5 .contents__201d5 .lottieIcon__5eb9b {
     color: var(--azurite-sec) !important;
@@ -1520,9 +1513,6 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   width: calc(100% - var(--space-xs)*2 - var(--custom-guild-list-width)) !important;
 }
 
-nav.guilds_c48ade {
-  margin-bottom: 0 !important;
-}
 
 .visual-refresh .container__2637a, .visual-refresh .scroller__99e7c, .visual-refresh .privateChannels__35e86 {
   background-color: var(--azurite-bg);
@@ -1553,7 +1543,7 @@ nav.guilds_c48ade {
   background-color: var(--azurite-bg2);
 }
 
-.username_c19a55, .userTagUsername__63ed3 , .pronounsText__63ed3, .unselectable__10651{
+.username_c19a55, .userTagUsername__63ed3 , .pronounsText__63ed3, .tagText__10651{
   color: var(--azurite-sec);
 }
 
@@ -1573,7 +1563,7 @@ nav.guilds_c48ade {
   color: var(--azurite-sec) !important;
 }
 
-.user-profile-sidebar .overlay_c0bea0 .defaultColor__4bd52 {
+.user-profile-sidebar .overlay_c0bea0 .defaultColor_b717a1 {
   color: var(--azurite-links);
 }
 
