@@ -1534,7 +1534,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   background-color: var(--rosynight-bg) !important;
 }
 
-.title_c38106 .defaultColor__4bd52 {
+.title_c38106 .defaultColor_b717a1 {
 color: var(--rosynight-main2);
 }
 
@@ -1672,6 +1672,10 @@ color: var(--rosynight-main2) !important;
 
 .container_d9be46[aria-label="Create Post"] .slateContainer_ec4baf .slateTextArea_ec4baf {
   color: var(--rosynight-bg);
+}
+
+.lottieIconColors__5eb9b :not(defs *)[stroke][stroke-opacity] {
+  stroke: var(--rosynight-main) !important;
 }
 
 ::-webkit-scrollbar-thumb {
