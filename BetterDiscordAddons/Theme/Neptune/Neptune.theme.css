@@ -1258,7 +1258,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--neptune-main-color);
 }
 
-.expandedFolderBackground__48112,
+.folderGroupBackground__48112,
 .expandedFolderIconWrapper__48112,
 .unread__2ea32,
 .newMessagesBar__0f481 {
@@ -1540,7 +1540,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   border: none;
 }
 
-.title_c38106 .defaultColor__4bd52 {
+.title_c38106 .defaultColor_b717a1 {
 color: var(--neptune-main-color);
 }
 
@@ -1591,6 +1591,11 @@ color: var(--neptune-sec-color) !important;
 .title__85643 svg path {
   fill: var(--neptune-main-color) !important;
 }
+
+.lottieIconColors__5eb9b :not(defs *)[stroke][stroke-opacity] {
+  stroke: var(--neptune-main-color) !important;
+}
+
 
 ::-webkit-scrollbar {
   width: 4px !important;
