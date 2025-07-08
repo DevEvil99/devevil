@@ -1064,7 +1064,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   border: 2px solid var(--ocean-color3) !important;
 }
 
-.title_c38106 .defaultColor__4bd52 {
+.title_c38106 .defaultColor_b717a1 {
   color: var(--ocean-color2);
 }
 
@@ -1109,6 +1109,10 @@ color: var(--ocean-color2);
 
 .title__85643 svg path {
   fill: var(--ocean-color2) !important;
+}
+
+.lottieIconColors__5eb9b :not(defs *)[stroke][stroke-opacity] {
+  stroke: var(--ocean-color1) !important;
 }
 
 ::-webkit-scrollbar {
