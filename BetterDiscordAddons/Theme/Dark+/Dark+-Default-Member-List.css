@@ -1616,7 +1616,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   background-color: var(--darkplus-bg2);
 }
 
-.username_c19a55, .userTagUsername__63ed3 , .pronounsText__63ed3, .unselectable__10651{
+.username_c19a55, .userTagUsername__63ed3 , .pronounsText__63ed3, .tagText__10651{
   color: var(--darkplus-sec);
 }
 
@@ -1641,13 +1641,18 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   color: var(--darkplus-sec) !important;
 }
 
-.user-profile-sidebar .overlay_c0bea0 .defaultColor__4bd52 {
+.user-profile-sidebar .overlay_c0bea0 .defaultColor_b717a1 {
   color: var(--darkplus-links);
 }
 
 .overlay_c0bea0 .header__1f6ca svg path{
   fill: var(--darkplus-sec) !important;
 }
+
+.lottieIconColors__5eb9b :not(defs *)[stroke][stroke-opacity] {
+  stroke: var(--darkplus-sec) !important;
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
