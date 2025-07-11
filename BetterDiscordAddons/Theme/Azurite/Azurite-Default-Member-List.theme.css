@@ -469,9 +469,8 @@ nav.guilds_c48ade {
 	fill: var(--azurite-sec);
 }
 
-.content__99f8c,
+
 .members_c8ffbb,
-.scroller__629e4,
 .messages__1ccd1, .header_f37cb1, .members_c8ffbb, .members_c8ffbb>div, .membersWrap_c8ffbb {
   background-color: var(--azurite-bg);
 }
