@@ -363,8 +363,8 @@ body {
 
 #app-mount .panels_c48ade>.container__37e49 .avatar__37e49 {
   width: 80px !important;
-  height: 75px !important;
-  margin-left: 50px;
+  height: 35px !important;
+  margin-left: 40px;
 }
 
 #app-mount .nameTag__37e49 {
@@ -896,10 +896,9 @@ order: -1;
 .avatar_c19a55:hover.clickable_c19a55:hover {
   filter: drop-shadow(0 0 8px);
   color: var(--rosynight-main);
-  transform: scale(1.2) rotate(360deg);
-  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+  transform: rotate(360deg);
+  transition: transform 0.5s ease;
 }
-
 
 .list-3FIpnh>div:first-child {
   background-color: var(--rosynight-bg);
@@ -1579,8 +1578,8 @@ color: var(--rosynight-main2) !important;
   position: relative;
   border: none;
   border-radius: 5px;
-  width: 77%;
-  margin: 0 0 0 90px  !important;
+  width: 80%;
+  margin: 0 0 0 70px  !important;
   background-color: var(--rosynight-bg);
 }
 
@@ -1676,6 +1675,10 @@ color: var(--rosynight-main2) !important;
 
 .lottieIconColors__5eb9b :not(defs *)[stroke][stroke-opacity] {
   stroke: var(--rosynight-main) !important;
+}
+
+.trailing_c38106 .clickable_c99c29 {
+  color: var(--rosynight-main);
 }
 
 ::-webkit-scrollbar-thumb {
