@@ -409,20 +409,25 @@ body {
   background-color: var(--rosynight-bg) !important;
 }
 
-.avatarWrapper__37e49 {
-  width: 175px;
-  height: 80px;
-  border-radius: 6px;
-  flex-direction: column;
+.panels__5e434 .avatarWrapper__37e49 {
+    position: absolute;
+    right: 80%;
+    top: 3%;
 }
 
+.panels__5e434 {
+  background-color: var(--rosynight-bg) !important;
+  border: none;
+}
 
 .withTagAsButton_b2ca13:hover,
 .withTagless_b2ca13:hover {
   background-color: var(--rosynight-bg);
 }
 
-
+.sidebar__5e434:after {
+    background: var(--rosynight-bg) !important;
+}
 
 .icon__9293f {
   color: var(--rosynight-main) !important;
