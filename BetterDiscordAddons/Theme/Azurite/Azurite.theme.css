@@ -300,6 +300,7 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
 	border-right: 1px solid var(--azurite-sec);
 	border-left: 1px solid var(--azurite-sec);
 	border-bottom: 1px solid var(--azurite-sec);
+  background-color: var(--azurite-bg);
 }
 
 .inner__999f6, .icon_fb52f0 {
@@ -1574,7 +1575,20 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   stroke: var(--azurite-sec) !important;
 }
 
+.panels__5e434 {
+  margin-left: 70px;
+  background-color: var(--azurite-bg);
+  border: none;
+}
 
+.sidebar__5e434:after, .searchBar_e6b769 {
+    background: var(--azurite-bg);
+    border: none;
+}
+
+.button__67645[aria-label="User Settings"] {
+    margin-right: 15px;
+}
 
 ::-webkit-scrollbar {
   width: 4px !important;
