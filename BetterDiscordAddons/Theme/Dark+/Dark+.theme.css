@@ -1740,6 +1740,14 @@ button._67645e1530f1195d-button ._5eb9b3cc7c2b1ce8-lottieIcon svg path {
   stroke: var(--darkplus-sec) !important;
 }
 
+.c99c29809d200a61-clickable, ._5eb9b3cc7c2b1ce8-lottieIcon {
+  color: var(--darkplus-sec);
+}
+
+._04eede68d145ae81-spriteGreyscale {
+  background-color: var(--darkplus-sec);
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
 }
