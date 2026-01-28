@@ -375,12 +375,7 @@ body {
   background: transparent;
 }
 
-#app-mount .panels__5e434>.container__37e49 .avatarWrapper__37e49 {
-position: fixed;
-    left: -15px;
-    bottom: 55px;
-    border-top: none;
-}
+#app-mount .panels__5e434>.container__37e49 .avatarWrapper__37e49 {position: fixed;left: 20px;bottom: 35px;border-top: none;}
 
 #app-mount .panels__5e434>.container__37e49 .avatar__37e49 {
   display: flex;
@@ -1512,7 +1507,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
     justify-content: space-between;
     width: 100%;
     gap: 50px !important;
-    margin-left: -45px;
+    margin-left: 0;
 }
 
 .layer_bc663c .root__49fc1.small__49fc1.fullscreenOnMobile__49fc1.rootWithShadow__49fc1, .layer_bc663c .footer__49fc1{
@@ -1583,7 +1578,7 @@ color: var(--rosynight-main2) !important;
   border: none;
   border-radius: 5px;
   width: 80%;
-  margin: 0 0 0 70px  !important;
+  margin: 0 0 0 75px  !important;
   background-color: var(--rosynight-bg);
 }
 
@@ -1702,6 +1697,13 @@ color: var(--rosynight-main2) !important;
     background: var(--rosynight-bg) !important;
 }
 
+.chatGradient__36d07{
+  background: none;
+}
+
+.plated__37e49:hover {
+    background-color: transparent;
+}
 
 
 ::-webkit-scrollbar-thumb {
