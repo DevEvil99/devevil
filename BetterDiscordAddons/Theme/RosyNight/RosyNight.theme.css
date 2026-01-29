@@ -372,7 +372,7 @@ body {
 }
 
 #app-mount .avatarWrapper__37e49:hover {
-  background: transparent;
+  background: transparent !important;
 }
 
 #app-mount .panels__5e434>.container__37e49 .avatarWrapper__37e49 {position: fixed;left: 20px;bottom: 35px;border-top: none;}
@@ -1505,9 +1505,8 @@ button.button__67645 .lottieIcon__5eb9b svg path {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    gap: 50px !important;
-    margin-left: 0;
+    gap: 70px !important;
+    margin-left: auto;
 }
 
 .layer_bc663c .root__49fc1.small__49fc1.fullscreenOnMobile__49fc1.rootWithShadow__49fc1, .layer_bc663c .footer__49fc1{
@@ -1577,8 +1576,8 @@ color: var(--rosynight-main2) !important;
   position: relative;
   border: none;
   border-radius: 5px;
-  width: 80%;
-  margin: 0 0 0 75px  !important;
+  width: 81%;
+  margin-left: 70px;
   background-color: var(--rosynight-bg);
 }
 
@@ -1702,7 +1701,7 @@ color: var(--rosynight-main2) !important;
 }
 
 .plated__37e49:hover {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 
