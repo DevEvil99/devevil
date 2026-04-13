@@ -322,7 +322,7 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
   bottom: 0px;
   left: 0px;
   height: 150px;
-  width: 72px;
+  width: 80px;
   z-index: 1;
   padding: 20px 0 10px 0;
   flex-direction: column;
@@ -1462,8 +1462,11 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   background-color: var(--azurite-bg);
 }
 
-.listItem__650eb, .folderGroup__48112 {width: var(--custom-guild-list-width);justify-content: center;margin: 0 0 8px;display: flex;position: relative;}
 
+.listItem__650eb, .folderGroup__48112 {
+    width: 100%;
+    justify-content: center;
+}
 .full-motion .container_faa96b, .selected_bf202d {
   background-color: var(--azurite-bg2);
 }
@@ -1549,9 +1552,7 @@ button.button__67645 .lottieIcon__5eb9b svg path {
     background: var(--azurite-bg) !important;
 }
 
-.container__37e49 {
-	margin-left: 70px !important;
-}
+
 
 ::-webkit-scrollbar {
   width: 4px !important;
