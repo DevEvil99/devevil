@@ -456,19 +456,19 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
   background-color: transparent;
 }
 
-.background__1fed1 {
+.background_a9178b {
   padding: 0;
   background-color: var(--darkplus-bg2);
   border-radius: 30px;
 }
-.background__1fed1 .profile_d6fbe8 {
+.background_a9178b .profile_d6fbe8 {
   padding: 16px;
 }
-.background__1fed1 .fieldList__1fed1 {
+.background_a9178b .fieldList_a9178b {
   padding: 16px;
   background-color: transparent;
 }
-.background__1fed1 .constrainedRow__1fed1 .button__201d5 {
+.background_a9178b .constrainedRow_a9178b .button__201d5 {
   margin-left: 8px;
 }
 .layer__960e4  {
@@ -922,10 +922,10 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkplus-bg2);
 }
 
-.field__1fed1 > div > div > div {
+.field_a9178b > div > div > div {
   filter: blur(5px);
 }
-.field__1fed1 > div > div > div:hover {
+.field_a9178b > div > div > div:hover {
   filter: blur(0);
 }
 
@@ -1067,7 +1067,7 @@ button[aria-label="Send a gift"] {
 .theme-dark .tab-2j5AEF.selected-2LAck8 {
   background-color: var(--darkplus-bg2);
 }
-.message__02a39 {
+.message__80bf8 {
   background-color: var(--darkplus-bg2);
 }
 .section__00943 {
@@ -1303,12 +1303,12 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-bg);
 }
 
-.overflowMenuIcon__1fed1 {
+.overflowMenuIcon_a9178b {
   color: var(--darkplus-sec);
 }
 
 .username__05e81,
-.discriminator__1fed1,
+.discriminator_a9178b,
 .headerTagDiscriminatorNoNickname-dfcvHa {
   color: var(--darkplus-sec);
 }
@@ -1513,7 +1513,7 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-bg) !important;
 }
 
-.chat_a44415 .chatContent_f75fb0, .chat_f02135 .chatContent_f75fb0 {
+.chat_ee72fa .chatContent_f75fb0, .chat_f02135 .chatContent_f75fb0 {
   max-width: 100%;
 }
 
@@ -1661,13 +1661,23 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   background-color: var(--darkplus-sec);
 }
 
-.sidebar_c48ade, .sidebar_c48ade:after, .bar_c38106 {
+.sidebar__5e434, .sidebar__5e434:after, .bar_c38106 {
   background: var(--darkplus-bg) !important;
 }
 
 .embed__98ba8 {
   container-type: normal !important;
 }
+
+.numberBadge__463b7 {
+  background-color: var(--darkplus-sec) !important;
+  color: var(--darkplus-bg) !important;
+}
+
+.clickable__81391 {
+  color: var(--darkplus-sec);
+}
+
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
