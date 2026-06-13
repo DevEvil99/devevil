@@ -510,22 +510,22 @@ button[aria-label="Send a gift"] {
   background-color: var(--neptune-main-bg);
 }
 
-.background__1fed1,
-.fieldList__1fed1 {
+.background_a9178b,
+.fieldList_a9178b {
   border-radius: 40px;
   background-color: var(--neptune-main-color);
 }
 
 .colorHeaderPrimary-jN_yGr,
 .colorHeaderSecondary-g5teka,
-.fieldTitle__1fed1,
+.fieldTitle_a9178b,
 .lookLink-9FtZy-.colorLink-35jkBc,
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
   color: var(--neptune-main-bg);
   font-weight: bold;
 }
 
-.accountProfileCard__1fed1 {
+.accountProfileCard_a9178b {
   background-color: var(--neptune-main-bg);
 }
 
@@ -537,9 +537,9 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-main-bg);
 }
 
-.overflowMenuIcon__1fed1,
-.userTag__1fed1,
-.discriminator__1fed1,
+.overflowMenuIcon_a9178b,
+.userTag_a9178b,
+.discriminator_a9178b,
 .defaultColor-2cKwKo,
 .phoneRevealer-1PfYzd,
 .h5-2RwDNl,
@@ -578,10 +578,10 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-main-bg);
 }
 
-.field__1fed1 > div > div > div {
+.field_a9178b > div > div > div {
   filter: blur(5px);
 }
-.field__1fed1 > div > div > div:hover {
+.field_a9178b > div > div > div:hover {
   filter: blur(0);
 }
 
@@ -792,16 +792,16 @@ button[aria-label="Send a gift"] {
   color: var(--neptune-main-color);
 }
 
-.searchHeader_f3b986 {
+.searchHeader_ae7890 {
   background-color: var(--neptune-main-color);
 }
 
-.scroller_a9e706,
+.scroller_a98f3b,
 .channelName-3w2Y3c {
   background-color: var(--neptune-main-color);
 }
 
-.message__02a39 {
+.message__80bf8 {
   background-color: var(--neptune-main-bg);
 }
 
@@ -1608,8 +1608,17 @@ color: var(--neptune-sec-color) !important;
   background-color: var(--neptune-main-bg);
 }
 
-.sidebar_c48ade, .sidebar_c48ade:after, .bar_c38106, .container__2637a {
+.sidebar__5e434, .sidebar__5e434:after, .bar_c38106, .container__2637a {
   background: var(--neptune-main-bg) !important;
+}
+
+.numberBadge__463b7, .mentionsBar__7aaec {
+  background-color: var(--neptune-main-color) !important;
+  color: var(--neptune-main-bg) !important;
+}
+
+.clickable__81391 {
+  color: var(--neptune-main-color);
 }
 
 
