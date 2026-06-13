@@ -1705,6 +1705,15 @@ color: var(--rosynight-main2) !important;
     background-color: transparent !important;
 }
 
+.numberBadge__463b7, .mentionsBar__7aaec {
+  background-color: var(--rosynight-main) !important;
+  color: var(--rosynight-bg) !important;
+}
+
+.clickable__81391 {
+  color: var(--rosynight-main);
+}
+
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--rosynight-main) !important;
