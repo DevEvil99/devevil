@@ -310,7 +310,6 @@
 }
 
 .cozy_c19a55 .messageContent_c19a55,
-.username_c19a55,
 .subtext__339d0,
 .embedAuthorName__623de,
 .embedFieldName__623de,
@@ -323,6 +322,10 @@
 .name_f37cb1,
 .headerChildren_f37cb1 {
   color: var(--neptune-sec-color) !important;
+}
+
+.content_d125d2, .scroller__99e7c, .privateChannels_e6b769 {
+  background-color: var(--neptune-main-bg);
 }
 
 .container_e131a9,
