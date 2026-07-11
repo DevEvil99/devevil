@@ -1756,13 +1756,17 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   container-type: normal !important;
 }
 
-.numberBadge__463b7 {
+.numberBadge__463b7, .mentionsBar__7aaec {
   background-color: var(--darkplus-sec) !important;
   color: var(--darkplus-bg) !important;
 }
 
 .clickable__81391 {
   color: var(--darkplus-sec);
+}
+
+.scroller__53543 {
+  background-color: var(--darkplus-bg) !important;
 }
 
 ::-webkit-scrollbar-thumb {
