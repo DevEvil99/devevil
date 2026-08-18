@@ -933,10 +933,6 @@ margin-left: 3px;
   color: var(--azurite-bg);
 }
 
-.clickable__91a9d:hover .layout__91a9d {
-  background-color: var(--azurite-sec);
-}
-
 .role_dfa8b6 {
 	background-color: var(--azurite-bg2);
 }
@@ -1215,9 +1211,9 @@ border-radius: var(--server-radius);
 }
 
 .wrappedName__91a9d, .layout__91a9d {
-  color: var(--azurite-bg);
+  color: var(--azurite-sec);
+  background: transparent;
 }
-
 
 .hiddenVisually_b18fe2, .hiddenVisually_b18fe2:hover {
 	background-color: var(--azurite-bg);
