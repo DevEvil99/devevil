@@ -1786,12 +1786,6 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   background-color: var(--azurite-bg);
 }
 
-.listItem__650eb,
-.folderGroup__48112 {
-  width: 100%;
-  justify-content: center;
-}
-
 .full-motion .container_faa96b,
 .selected_bf202d {
   background-color: var(--azurite-bg2);
@@ -1919,6 +1913,31 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 
 .modInfoItemName__96c0b .text-sm\/medium_cf4812, .modInfoItemName__96c0b .text-sm\/semibold_cf4812, .headerTitle__3a5a1, .headerTitle__3a5a1 .heading-md\/semibold_cf4812 {
   color: var(--azurite-sec) !important;
+}
+
+.container__34c2c {
+  background-color: var(--azurite-bg);
+}
+
+.reactionBtn_f8896c, .buttonChildrenWrapper_a22cb0 {
+  background: var(--azurite-sec);
+  color: var(--azurite-bg);
+}
+
+.popover_f84418.popover_f84418 {
+  background: var(--azurite-sec);
+}
+
+.typing_b88801.base_b88801 {
+  background: var(--azurite-bg);
+}
+
+.cooldownText_b21699 {
+  color: var(--azurite-sec) !important;
+}
+
+.container__8a031 {
+  background: var(--azurite-bg);
 }
 
 ::-webkit-scrollbar {
